@@ -36,7 +36,7 @@
   ],
   "caption": "Illustrative scenario, not a client case or testimonial. A trading business pays suppliers before receiving customer collections. Higher sales can still leave cash tied up in invoices. Mapping payments, payroll and collection dates helps explain a working-capital requirement. It does not establish eligibility or a lending outcome.\n\nSave this for your working-capital planning.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #WorkingCapital #BusinessCashFlow #MumbaiBusiness #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Timing is part of the capital plan",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "30-day calendar",
   "cover": "media/D03-feed/cover.jpg",
   "voice_scenes": [
@@ -70,7 +70,8 @@
     "end": 30,
     "text": "Save this before your next working-capital discussion."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya"
  },
  {
   "id": "D03-story",
@@ -170,7 +171,7 @@
   ],
   "caption": "An anchor relationship or purchase order creates a commercial opportunity, but the cash needed to fulfil it still needs planning. Check buyer acceptance, supplier commitments, delivery milestones and payment dates. CredNest can help prepare an anchor or PO-linked funding discussion. Each facility depends on independent lender assessment.\n\nWhatsApp +91 98199 99057 and message \"Hi\".\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #StructuredFinance #BusinessFunding #MumbaiBusiness #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Follow the flow across your channel",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "30-day calendar",
   "cover": "media/D06-feed/cover.jpg",
   "voice_scenes": [
@@ -204,7 +205,8 @@
     "end": 30,
     "text": "WhatsApp +91 98199 99057 and message \"Hi\"."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya"
  },
  {
   "id": "car-2026-10-21",
@@ -309,7 +311,7 @@
   ],
   "caption": "Self-employed and planning to buy a home? Prepare income records, ITRs, business banking and existing obligations so the file tells a consistent story. Property documents and your own contribution need separate attention. CredNest can help you prepare the discussion; the lender assesses the file and decides eligibility and terms.\n\nWhatsApp +91 98199 99057 and message \"Hi\".\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #HomeLoan #HomeLoanPreparation #Mumbai #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Self-employed and planning a home purchase?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "30-day calendar",
   "cover": "media/D12-feed/cover.jpg",
   "voice_scenes": [
@@ -343,7 +345,8 @@
     "end": 30,
     "text": "WhatsApp +91 98199 99057 and message \"Hi\"."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya"
  },
  {
   "id": "D12-story",
@@ -379,7 +382,7 @@
   ],
   "caption": "Myth: a credit score alone decides a personal loan. Fact: lenders also consider income, existing repayment obligations and their own assessment criteria. FOIR is a fixed-obligation-to-income measure: recurring debt commitments compared with eligible income. Ask the lender which commitments and income items it uses. There is no universal approval outcome.\n\nSave this before a personal-loan discussion.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #PersonalLoan #CreditPreparation #Mumbai #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Myth: a credit score alone decides a personal loan.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "30-day calendar",
   "cover": "media/D14-feed/cover.jpg",
   "voice_scenes": [
@@ -413,7 +416,8 @@
     "end": 30,
     "text": "Save this before you apply."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya"
  },
  {
   "id": "D15-feed",
@@ -477,7 +481,7 @@
   ],
   "caption": "A self-employed owner may have business records and personal obligations in the same home-loan file. An adviser can help organise the information and explain gaps before lender engagement. That support does not replace income, property or credit assessment. Prepare a consistent file and let each lender decide.\n\nSave this for your home-loan preparation.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #HomeLoan #HomeLoanPreparation #Mumbai #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Your home-loan file should tell one consistent story.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "30-day calendar",
   "cover": "media/D17-feed/cover.jpg",
   "voice_scenes": [
@@ -511,7 +515,8 @@
     "end": 30,
     "text": "Save this for your home-loan preparation."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya"
  },
  {
   "id": "D18-feed",
@@ -730,7 +735,7 @@
   ],
   "caption": "Independent advice starts with the requirement rather than a single facility. CredNest can help assess the purpose, discuss structures, prepare credit information and coordinate lender engagement. This support helps organise the process while each lender retains its own assessment and decision authority.\n\nSave the process. Start with the business requirement.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #BusinessLoan #MSMEFinance #MumbaiBusiness #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "From requirement to a clearer lender brief.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "30-day calendar",
   "cover": "media/D29-feed/cover.jpg",
   "voice_scenes": [
@@ -764,7 +769,8 @@
     "end": 30,
     "text": "Save the process. Start with the business requirement."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya"
  },
  {
   "id": "D29-story",
