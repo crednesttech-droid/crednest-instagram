@@ -1,0 +1,96 @@
+{
+  "brand": "CredNest",
+  "version": "1.0",
+  "created": "2026-10-04",
+  "colours": {
+    "lime": "#B8FF5A",
+    "ink": "#07150F",
+    "dark": "#0D2119",
+    "forest": "#315746",
+    "paper": "#F8F8F4",
+    "mint": "#9DF3C5",
+    "muted": "#53615A",
+    "lightbody": "#BCCDC4",
+    "line": "#D9E0D9",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "family": "Manrope",
+    "fallback": [
+      "Segoe UI",
+      "Arial",
+      "sans-serif"
+    ],
+    "weights": {
+      "body": 400,
+      "utility": 500,
+      "subhead": 700,
+      "headline": 800
+    },
+    "feed_pixels": {
+      "headline": [
+        84,
+        108
+      ],
+      "subhead": [
+        36,
+        44
+      ],
+      "body": [
+        28,
+        36
+      ],
+      "utility": [
+        18,
+        24
+      ]
+    }
+  },
+  "layout": {
+    "spacing_unit": 8,
+    "feed": {
+      "width": 1080,
+      "height": 1350,
+      "margin": 88
+    },
+    "story": {
+      "width": 1080,
+      "height": 1920,
+      "margin": 88,
+      "key_content_y": [
+        250,
+        1660
+      ]
+    },
+    "card_radius": [
+      16,
+      24
+    ]
+  },
+  "logo": {
+    "source": "04_Logos/CredNest_Icon_Original_640.png",
+    "transparent_source": "04_Logos/CredNest_Icon_Source_Transparent_120.png",
+    "transparent_native_width": 120,
+    "lockup_svg_contains_raster": true,
+    "feed_icon_pixels": [
+      72,
+      96
+    ],
+    "clear_space_icon_fraction": 0.5
+  },
+  "voice": [
+    "clear",
+    "disciplined",
+    "independent",
+    "practical",
+    "approachable",
+    "responsible"
+  ],
+  "source_line": "Independent advice. Lender-led decisions.",
+  "campaign_line": "Capital, with clarity.",
+  "campaign_line_status": "new_v1_creative_choice",
+  "website": "https://www.crednest.io",
+  "contact_email": "contact@crednest.io",
+  "phone": "+91 99870 23845",
+  "financing_condition": "Financing is subject to independent lender assessment, documentation and approval."
+}

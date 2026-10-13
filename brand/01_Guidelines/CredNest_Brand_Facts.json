@@ -1,0 +1,248 @@
+{
+  "schema_version": "1.0",
+  "kit_version": "CredNest Brand Kit v1",
+  "prepared_date": "2026-10-04",
+  "verification_scope": "Verified against the supplied 2026 company profile. Not a claim that contacts or offerings were independently checked online.",
+  "source": {
+    "title": "CredNest Company Profile 2026",
+    "filename": "CredNest_Expanded_Original_Style_2026.pdf",
+    "absolute_path": "C:/Users/amrut/OneDrive/Desktop/02_CredNest_Credit/Brand/CredNest_Expanded_Original_Style_2026.pdf",
+    "pages": 17,
+    "source_type": "Supplied company profile"
+  },
+  "verified_company_facts": {
+    "name": {
+      "value": "CredNest",
+      "source_pages": [
+        1,
+        17
+      ]
+    },
+    "descriptor": {
+      "value": "Debt Advisory & Capital Solutions",
+      "source_pages": [
+        1
+      ]
+    },
+    "source_tagline": {
+      "value": "Independent advice. Lender-led decisions.",
+      "source_pages": [
+        1,
+        3,
+        16
+      ]
+    },
+    "audience": {
+      "value": [
+        "Indian startups",
+        "Indian SMEs"
+      ],
+      "source_pages": [
+        1,
+        2
+      ]
+    },
+    "business_model": {
+      "value": "Advisory-led, AI-assisted debt-capital facilitator",
+      "source_pages": [
+        2
+      ]
+    },
+    "service_summary": {
+      "value": "Helps businesses assess debt-capital requirements, structure facilities, prepare credit materials and coordinate engagement with independent lending partners.",
+      "source_pages": [
+        2,
+        3,
+        13,
+        14
+      ]
+    },
+    "advisory_process": {
+      "value": [
+        "Diagnose the requirement",
+        "Structure the facility",
+        "Prepare the credit pack",
+        "Engage relevant lenders",
+        "Coordinate diligence and documentation"
+      ],
+      "source_pages": [
+        13,
+        14
+      ]
+    },
+    "capital_pillars": {
+      "value": [
+        "Liquidity",
+        "Growth",
+        "Asset-backed",
+        "Trade & cross-border",
+        "Specialised & structured"
+      ],
+      "source_pages": [
+        4,
+        10
+      ]
+    },
+    "solution_examples": {
+      "value": {
+        "Liquidity": [
+          "Working capital / CC-OD",
+          "Invoice discounting & factoring",
+          "Supply chain & channel finance",
+          "Recurring-revenue financing"
+        ],
+        "Growth": [
+          "Term loans",
+          "MSME & SME loans",
+          "Unsecured business loans",
+          "Venture debt"
+        ],
+        "Asset-backed": [
+          "LAP & mortgage",
+          "Equipment & machinery finance",
+          "Commercial vehicle finance",
+          "Lease financing",
+          "Loan against securities"
+        ],
+        "Trade & cross-border": [
+          "Trade finance & export/import credit",
+          "Letters of credit (LC)",
+          "Bank guarantees (BG)"
+        ],
+        "Specialised & structured": [
+          "Project & infrastructure finance",
+          "Real estate & developer finance",
+          "Agri & rural enterprise finance",
+          "Structured debt / special situations"
+        ]
+      },
+      "source_pages": [
+        4,
+        10
+      ]
+    },
+    "sector_coverage": {
+      "value": [
+        "Manufacturing",
+        "Trading & distribution",
+        "Logistics & fleet",
+        "Technology & SaaS",
+        "Healthcare",
+        "Education",
+        "Infrastructure & EPC",
+        "Real estate",
+        "Agri-processing",
+        "Professional services"
+      ],
+      "source_pages": [
+        11
+      ]
+    },
+    "lender_panel_scope": {
+      "value": "A multi-lender panel across institution types. Panel composition is reviewed periodically. Access does not imply sanction or participation by every institution.",
+      "source_pages": [
+        12
+      ]
+    },
+    "location": {
+      "value": "Mumbai, India",
+      "source_pages": [
+        1,
+        17
+      ]
+    },
+    "website": {
+      "value": "https://www.crednest.io",
+      "source_text": "www.crednest.io",
+      "source_pages": [
+        17
+      ]
+    },
+    "email": {
+      "value": "contact@crednest.io",
+      "source_pages": [
+        17
+      ],
+      "data_type": "Public company contact"
+    },
+    "telephone": {
+      "value": "+91 99870 23845",
+      "source_pages": [
+        17
+      ],
+      "data_type": "Public company contact"
+    },
+    "office_address": {
+      "value": "711/E Crystal Plaza, opposite Infinity Mall, Andheri West, Mumbai 400053, Maharashtra, India",
+      "source_pages": [
+        17
+      ],
+      "data_type": "Public company office address"
+    }
+  },
+  "verified_business_boundaries": {
+    "does_lend_directly": false,
+    "is_nbfc": false,
+    "credit_authority": "Each lender independently assesses credit, security, pricing and documentation. CredNest supports the process.",
+    "approval_guarantee": false,
+    "guarantee_scope": "Engagement or lender outreach does not guarantee approval, an amount or particular financing terms.",
+    "information_handling": "Handle business information as confidential; agree permissions and share only within the authorised scope.",
+    "full_disclosure": "CredNest is a debt-capital facilitator. It does not lend directly and is not an NBFC. All financing is subject to independent lender assessment, documentation and approval.",
+    "source_pages": [
+      12,
+      14,
+      16,
+      17
+    ]
+  },
+  "proposed_v1_voice_preferences": {
+    "status": "New creative recommendations for this brand kit, not pre-existing approved brand policy.",
+    "personality": [
+      "Clear",
+      "Disciplined",
+      "Independent",
+      "Practical",
+      "Approachable",
+      "Responsible"
+    ],
+    "default_language": "Plain Indian English",
+    "optional_language": "Occasional Roman-script Hinglish hooks when appropriate to the brief; keep finance terms and disclosures clear in English.",
+    "optional_campaign_line": "Capital, with clarity.",
+    "primary_brand_anchor": "Independent advice. Lender-led decisions.",
+    "writing_rules": [
+      "Lead with the business need",
+      "Explain one idea at a time",
+      "Use short active sentences",
+      "Use one clear CTA",
+      "Be precise about lenders retaining decision authority"
+    ],
+    "proposed_instagram_bio": "Debt advisory for Indian startups & SMEs. Independent advice. Lender-led decisions. Debt-capital facilitator. crednest.io",
+    "proposed_instagram_bio_character_count": 121
+  },
+  "future_content_constraints": {
+    "no_numeric_product_ranges_in_this_file": true,
+    "source_requirements": [
+      "Use this kit together with a verified post brief.",
+      "Confirm contacts and time-sensitive offering details before publication.",
+      "Any numerical facility range, tenor, interest rate, fee or approval time needs a current verified source and product-specific qualifications."
+    ],
+    "prohibited_unsupported_claims": [
+      "Guaranteed loan approval or sanction",
+      "Guaranteed amount, rate or terms",
+      "CredNest directly lends or is an NBFC",
+      "CredNest makes the lender credit decision",
+      "Instant or automatic approval",
+      "RBI approved or similar unsupported regulatory affiliation",
+      "Every panel lender will fund the applicant",
+      "Unverified lender or client affiliations",
+      "Invented disbursal totals, customer counts, approval percentages, awards, testimonials or case outcomes"
+    ],
+    "ai_wording": "AI-assisted is supported by the profile. Do not infer automated sanction, proprietary underwriting, guaranteed accuracy or better approval outcomes.",
+    "social_handle": "No Instagram handle verified from the profile. Do not invent a handle or social profile URL.",
+    "case_studies": "Use verified, consented customer stories only. Clearly label hypothetical scenarios as illustrations.",
+    "disclosure_short_proposed": "Financing is subject to independent lender assessment, documentation and approval.",
+    "disclosure_placement_proposed": "Use the full company disclosure in pinned introductions and service overviews. Include a visible financing qualification in specific financing promotion copy. This is an editorial placement recommendation, not a claim of legal sufficiency.",
+    "enquiry_handling_proposed": "Invite a high-level discussion through official contacts. Do not solicit sensitive identity documents, bank details or financial documents in public comments or social DMs."
+  },
+  "content_generation_prompt": "Create a CredNest Instagram post using the brand kit and a verified post brief. Return the concept, short hook, slide text or reel script, compact caption, one CTA, required financing qualification and design direction. Lead with the business need. Use plain Indian English and the proposed clear, disciplined, independent, practical, approachable and responsible voice; use Hinglish only when requested. Use only source-verified facts and details in the verified brief. CredNest is a debt-capital facilitator, not a direct lender or NBFC; lenders retain independent assessment and approval. Do not invent numerical terms, outcomes, testimonials, affiliations or a social handle. Do not imply guaranteed approval, amount, rate or terms. If a detail is missing, omit it from public copy and list the missing fact separately. Use the source tagline Independent advice. Lender-led decisions.; Capital, with clarity. is an optional new campaign line."
+}
