@@ -1,0 +1,849 @@
+{
+  "schema_version": "2.0",
+  "duration_seconds": 28,
+  "build_order": [
+    "D06-feed",
+    "D12-feed",
+    "D03-feed",
+    "D14-feed",
+    "D17-feed",
+    "D29-feed"
+  ],
+  "production_rules": {
+    "format": "1080 x 1920, 30 fps, H.264; no audio track",
+    "font": "Manrope ExtraBold",
+    "caption_treatment": "Burn in the exact spoken text, revealed word by word. Highlight key_word in Lime #B8FF5A. Keep each spoken line at ten words or fewer. The hook cover may show the whole hook; the video hook reveals it progressively.",
+    "text_safe_zone": {
+      "top": 250,
+      "bottom": 1500,
+      "disclaimer_max_y": 1450
+    },
+    "broll": "Faceless real-world free-for-commercial-use Pexels or Pixabay stock only. Use portrait detail crops that exclude faces and bank/lender logos. Stock locations are unverified and never labelled as Indian.",
+    "broll_overlay": "Deep Green #0D2119 at 55-65% opacity",
+    "motion": "Change clip, crop, zoom or kinetic text at every scene boundary; no static card longer than three seconds.",
+    "cta": "WhatsApp +91 98199 99057 Â· Message Hi",
+    "anchor": "Independent advice. Lender-led decisions.",
+    "full_disclaimer": "CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
+    "end_card": "25-28 seconds. Display the single WhatsApp CTA, supplied CredNest logo, full brand anchor and full disclaimer together within the safe zone. Narrate only the CTA. Allow a subtle moving background or slow zoom; keep all text continuously visible.",
+    "caption_changes": false,
+    "target_status": "needs_voice"
+  },
+  "reels": {
+    "D06-feed": {
+      "cover_hook": "Purchase order received. Cash ready?",
+      "persistent_case_tag": null,
+      "voice_scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Purchase order received. Cash ready?",
+          "key_word": "Cash",
+          "chapter": "Hook",
+          "kicker": null,
+          "broll": {
+            "subject": "Hands holding order paperwork on a working warehouse desk",
+            "crop": "Close on paper, hands and parcels; no faces or readable identifiers",
+            "movement": "Fast gentle push-in with progressive hook words"
+          }
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "Check buyer acceptance and payment dates.",
+          "key_word": "payment",
+          "chapter": "Point 1",
+          "kicker": "BUYER TERMS",
+          "broll": {
+            "subject": "Hands checking a document next to a laptop",
+            "crop": "Top-down desk crop; exclude readable names and logos",
+            "movement": "Slow push-in"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "Know when collections are expected.",
+          "key_word": "collections",
+          "chapter": "Point 1",
+          "kicker": "BUYER TERMS",
+          "broll": {
+            "subject": "Hands marking dates in a planner",
+            "crop": "Tight on pen and calendar; no legible customer information",
+            "movement": "Cut to alternate close crop"
+          }
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "List supplier commitments before delivery.",
+          "key_word": "commitments",
+          "chapter": "Point 2",
+          "kicker": "SUPPLIER COMMITMENTS",
+          "broll": {
+            "subject": "Warehouse packing and order preparation",
+            "crop": "Hands and cartons below shoulder level; no faces or logos",
+            "movement": "Short tracking crop"
+          }
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "text": "Plan cash for each delivery milestone.",
+          "key_word": "milestone",
+          "chapter": "Point 2",
+          "kicker": "SUPPLIER COMMITMENTS",
+          "broll": {
+            "subject": "Hands arranging delivery paperwork beside cartons",
+            "crop": "Portrait detail on paperwork and boxes; unreadable identifiers",
+            "movement": "Cut and gentle push-in"
+          }
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "text": "Match fulfilment costs to payment timing.",
+          "key_word": "timing",
+          "chapter": "Point 3",
+          "kicker": "FUNDING CONTEXT",
+          "broll": {
+            "subject": "Hands using a calculator beside order records",
+            "crop": "Desk detail with no currency advertising, faces or lender logos",
+            "movement": "Slow lateral crop"
+          }
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "text": "Each lender assesses the funding request.",
+          "key_word": "assesses",
+          "chapter": "Point 3",
+          "kicker": "FUNDING CONTEXT",
+          "broll": {
+            "subject": "Hands reviewing a business spreadsheet on a laptop",
+            "crop": "Close on hands and keyboard; blur or omit readable financial data",
+            "movement": "Cut to keyboard and document detail"
+          }
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "Put the order's cash timeline on paper.",
+          "key_word": "timeline",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands writing a simple timeline in a notebook",
+            "crop": "Top-down paper and pen crop; no faces or identifiers",
+            "movement": "Gentle push-in"
+          }
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "Prepare before lender engagement.",
+          "key_word": "Prepare",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands bringing order paperwork together into a folder",
+            "crop": "Tight on folder and hands; no names or logos",
+            "movement": "Cut to filing action"
+          }
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "WhatsApp CredNest. Message Hi.",
+          "key_word": "Hi",
+          "chapter": "End card",
+          "kicker": null,
+          "broll": {
+            "subject": "Uncluttered business desk with notebook and laptop",
+            "crop": "Faceless darkened desk background beneath end-card text",
+            "movement": "Subtle slow zoom; keep CTA, anchor and disclaimer visible"
+          }
+        }
+      ]
+    },
+    "D12-feed": {
+      "cover_hook": "Self-employed? Buying a home?",
+      "persistent_case_tag": null,
+      "voice_scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Self-employed? Buying a home?",
+          "key_word": "home",
+          "chapter": "Hook",
+          "kicker": null,
+          "broll": {
+            "subject": "Hands placing house keys beside a notebook",
+            "crop": "Tight tabletop keys and hands crop; no faces or property-agent branding",
+            "movement": "Fast gentle push-in with progressive hook words"
+          }
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "Keep income records and tax returns consistent.",
+          "key_word": "consistent",
+          "chapter": "Point 1",
+          "kicker": "INCOME RECORDS",
+          "broll": {
+            "subject": "Hands organising business records on a desk",
+            "crop": "Top-down paperwork crop; no readable personal or tax identifiers",
+            "movement": "Slow push-in"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "Add business banking to the same file.",
+          "key_word": "banking",
+          "chapter": "Point 1",
+          "kicker": "INCOME RECORDS",
+          "broll": {
+            "subject": "Hands sorting paper records beside a laptop",
+            "crop": "Hands and document edges; exclude bank logos and account information",
+            "movement": "Cut to alternate close crop"
+          }
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "List your existing repayment obligations.",
+          "key_word": "obligations",
+          "chapter": "Point 2",
+          "kicker": "CURRENT COMMITMENTS",
+          "broll": {
+            "subject": "Hands using a calculator and notebook",
+            "crop": "Tight desk detail; no currency advertising or readable financial figures",
+            "movement": "Slow lateral crop"
+          }
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "text": "Keep the business and personal context clear.",
+          "key_word": "context",
+          "chapter": "Point 2",
+          "kicker": "CURRENT COMMITMENTS",
+          "broll": {
+            "subject": "Hands arranging two sets of records in folders",
+            "crop": "Top-down hands and folders; no personal identifiers",
+            "movement": "Cut and gentle push-in"
+          }
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "text": "Check property documents and your contribution separately.",
+          "key_word": "separately",
+          "chapter": "Point 3",
+          "kicker": "PROPERTY AND CONTRIBUTION",
+          "broll": {
+            "subject": "Hands reviewing home paperwork beside keys",
+            "crop": "Portrait tabletop crop; no signatures, names or agent logos visible",
+            "movement": "Slow push-in"
+          }
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "text": "Each lender decides eligibility and terms.",
+          "key_word": "decides",
+          "chapter": "Point 3",
+          "kicker": "PROPERTY AND CONTRIBUTION",
+          "broll": {
+            "subject": "Hands reading a document and making notes",
+            "crop": "Close on pen, document edges and notebook; text unreadable",
+            "movement": "Cut to writing detail"
+          }
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "Build one consistent home-loan file.",
+          "key_word": "consistent",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands assembling a folder of documents",
+            "crop": "Top-down folder and hands crop; no identifiers",
+            "movement": "Gentle push-in"
+          }
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "Prepare before lender engagement.",
+          "key_word": "Prepare",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands placing the completed folder beside a notebook",
+            "crop": "Desk detail with no faces or logos",
+            "movement": "Cut to settled folder and pen"
+          }
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "WhatsApp CredNest. Message Hi.",
+          "key_word": "Hi",
+          "chapter": "End card",
+          "kicker": null,
+          "broll": {
+            "subject": "Uncluttered home-planning desk with keys and notebook",
+            "crop": "Faceless darkened desk background beneath end-card text",
+            "movement": "Subtle slow zoom; keep CTA, anchor and disclaimer visible"
+          }
+        }
+      ]
+    },
+    "D03-feed": {
+      "cover_hook": "Sales up. Cash still tied up?",
+      "persistent_case_tag": "Illustrative scenario, not a client case or testimonial.",
+      "voice_scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Sales up. Cash still tied up?",
+          "key_word": "Cash",
+          "chapter": "Hook",
+          "kicker": null,
+          "broll": {
+            "subject": "Faceless warehouse order packing, hands and cartons",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Fast gentle push-in with progressive hook words"
+          }
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "Supplier payments come before customer collections.",
+          "key_word": "before",
+          "chapter": "Point 1",
+          "kicker": "THE TIMING GAP",
+          "broll": {
+            "subject": "Hands sorting supplier paperwork at a trading desk",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "Invoices can keep cash tied up.",
+          "key_word": "Invoices",
+          "chapter": "Point 1",
+          "kicker": "THE TIMING GAP",
+          "broll": {
+            "subject": "Hands reviewing invoices beside laptop",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "Map supplier payments and payroll dates.",
+          "key_word": "Map",
+          "chapter": "Point 2",
+          "kicker": "MAP THE DATES",
+          "broll": {
+            "subject": "Hands marking dates in a planner",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "text": "Add expected customer collection dates.",
+          "key_word": "collection",
+          "chapter": "Point 2",
+          "kicker": "MAP THE DATES",
+          "broll": {
+            "subject": "Hands writing expected collection dates in notebook",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "text": "Use timing to explain the capital requirement.",
+          "key_word": "timing",
+          "chapter": "Point 3",
+          "kicker": "EXPLAIN THE REQUIREMENT",
+          "broll": {
+            "subject": "Hands comparing a planner and calculator",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "text": "This does not establish lending eligibility.",
+          "key_word": "eligibility",
+          "chapter": "Point 3",
+          "kicker": "EXPLAIN THE REQUIREMENT",
+          "broll": {
+            "subject": "Hands assembling business paperwork",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "Put payments and collections on one timeline.",
+          "key_word": "timeline",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands drawing a simple payments-and-collections timeline",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "Explain the gap before lender engagement.",
+          "key_word": "Explain",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands bringing notes and records into one folder",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "WhatsApp CredNest. Message Hi.",
+          "key_word": "Hi",
+          "chapter": "End card",
+          "kicker": null,
+          "broll": {
+            "subject": "Uncluttered business desk with notebook and laptop",
+            "crop": "Faceless darkened desk background beneath end-card text",
+            "movement": "Subtle slow zoom; keep CTA, anchor and disclaimer visible"
+          }
+        }
+      ]
+    },
+    "D14-feed": {
+      "cover_hook": "Good score. What about repayments?",
+      "persistent_case_tag": null,
+      "voice_scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Good score. What about repayments?",
+          "key_word": "repayments",
+          "chapter": "Hook",
+          "kicker": null,
+          "broll": {
+            "subject": "Hands checking records and calculator at a clean desk",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Fast gentle push-in with progressive hook words"
+          }
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "Lenders also consider income and repayment obligations.",
+          "key_word": "obligations",
+          "chapter": "Point 1",
+          "kicker": "MORE THAN A SCORE",
+          "broll": {
+            "subject": "Hands organising income records and repayment notes",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "Their own assessment criteria still apply.",
+          "key_word": "assessment",
+          "chapter": "Point 1",
+          "kicker": "MORE THAN A SCORE",
+          "broll": {
+            "subject": "Hands reviewing a document and marking questions",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "FOIR compares recurring commitments with eligible income.",
+          "key_word": "FOIR",
+          "chapter": "Point 2",
+          "kicker": "FIXED OBLIGATION TO INCOME RATIO",
+          "broll": {
+            "subject": "Hands using calculator beside non-readable financial paperwork",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "text": "Ask how your lender calculates it.",
+          "key_word": "calculates",
+          "chapter": "Point 2",
+          "kicker": "UNDERSTAND FOIR",
+          "broll": {
+            "subject": "Hands writing calculation questions in notebook",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "text": "Check which commitments the lender counts.",
+          "key_word": "commitments",
+          "chapter": "Point 3",
+          "kicker": "ASK WHAT COUNTS",
+          "broll": {
+            "subject": "Hands sorting records into labelled folders with no readable data",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "text": "Ask which income items it uses.",
+          "key_word": "income",
+          "chapter": "Point 3",
+          "kicker": "ASK WHAT COUNTS",
+          "broll": {
+            "subject": "Hands making notes next to laptop",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "Bring income and repayment records together.",
+          "key_word": "records",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands bringing income and commitment records together",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "There is no universal approval outcome.",
+          "key_word": "universal",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands closing a document folder beside notebook",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "WhatsApp CredNest. Message Hi.",
+          "key_word": "Hi",
+          "chapter": "End card",
+          "kicker": null,
+          "broll": {
+            "subject": "Uncluttered business desk with notebook and laptop",
+            "crop": "Faceless darkened desk background beneath end-card text",
+            "movement": "Subtle slow zoom; keep CTA, anchor and disclaimer visible"
+          }
+        }
+      ]
+    },
+    "D17-feed": {
+      "cover_hook": "Home-loan file. Conflicting records?",
+      "persistent_case_tag": null,
+      "voice_scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Home-loan file. Conflicting records?",
+          "key_word": "Conflicting",
+          "chapter": "Hook",
+          "kicker": null,
+          "broll": {
+            "subject": "Hands comparing two piles of records beside house keys",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Fast gentle push-in with progressive hook words"
+          }
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "Bring business records and personal obligations together.",
+          "key_word": "together",
+          "chapter": "Point 1",
+          "kicker": "BUSINESS AND PERSONAL",
+          "broll": {
+            "subject": "Hands placing business and personal documents side by side",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "A self-employed owner's file connects both.",
+          "key_word": "both",
+          "chapter": "Point 1",
+          "kicker": "BUSINESS AND PERSONAL",
+          "broll": {
+            "subject": "Hands sorting papers into a folder",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "An adviser can help organise the information.",
+          "key_word": "organise",
+          "chapter": "Point 2",
+          "kicker": "PREPARE THE INFORMATION",
+          "broll": {
+            "subject": "Hands arranging documents on an office desk",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "text": "Explain gaps before lender engagement.",
+          "key_word": "gaps",
+          "chapter": "Point 2",
+          "kicker": "PREPARE THE INFORMATION",
+          "broll": {
+            "subject": "Hands writing questions next to records",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "text": "Advice does not replace income assessment.",
+          "key_word": "assessment",
+          "chapter": "Point 3",
+          "kicker": "LENDER AUTHORITY",
+          "broll": {
+            "subject": "Hands reviewing paperwork beside calculator",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "text": "Property and credit still need lender assessment.",
+          "key_word": "lender",
+          "chapter": "Point 3",
+          "kicker": "LENDER AUTHORITY",
+          "broll": {
+            "subject": "Hands checking property paperwork beside keys",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "Prepare one consistent file for discussion.",
+          "key_word": "consistent",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands assembling one document folder",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "Then let each lender decide.",
+          "key_word": "decide",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands placing the folder next to a notebook",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "WhatsApp CredNest. Message Hi.",
+          "key_word": "Hi",
+          "chapter": "End card",
+          "kicker": null,
+          "broll": {
+            "subject": "Uncluttered business desk with notebook and laptop",
+            "crop": "Faceless darkened desk background beneath end-card text",
+            "movement": "Subtle slow zoom; keep CTA, anchor and disclaimer visible"
+          }
+        }
+      ]
+    },
+    "D29-feed": {
+      "cover_hook": "Capital needed. Clear requirement?",
+      "persistent_case_tag": null,
+      "voice_scenes": [
+        {
+          "start": 0,
+          "end": 2,
+          "text": "Capital needed. Clear requirement?",
+          "key_word": "clear",
+          "chapter": "Hook",
+          "kicker": null,
+          "broll": {
+            "subject": "Hands opening a notebook next to business paperwork",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Fast gentle push-in with progressive hook words"
+          }
+        },
+        {
+          "start": 2,
+          "end": 5,
+          "text": "Start by explaining the business purpose.",
+          "key_word": "purpose",
+          "chapter": "Point 1",
+          "kicker": "ASSESS THE PURPOSE",
+          "broll": {
+            "subject": "Hands writing a high-level business plan",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 5,
+          "end": 8,
+          "text": "CredNest can help assess the requirement.",
+          "key_word": "requirement",
+          "chapter": "Point 1",
+          "kicker": "ASSESS THE PURPOSE",
+          "broll": {
+            "subject": "Hands reviewing business purpose notes",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 8,
+          "end": 11,
+          "text": "Discuss structures that reflect the purpose.",
+          "key_word": "structures",
+          "chapter": "Point 2",
+          "kicker": "DISCUSS AND PREPARE",
+          "broll": {
+            "subject": "Hands comparing non-branded document folders",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 11,
+          "end": 14,
+          "text": "Prepare the credit information before engagement.",
+          "key_word": "Prepare",
+          "chapter": "Point 2",
+          "kicker": "DISCUSS AND PREPARE",
+          "broll": {
+            "subject": "Hands preparing records beside laptop",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 14,
+          "end": 17,
+          "text": "Coordinate questions during lender engagement.",
+          "key_word": "questions",
+          "chapter": "Point 3",
+          "kicker": "ENGAGE AND COORDINATE",
+          "broll": {
+            "subject": "Hands writing coordinated questions on paper",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 17,
+          "end": 20,
+          "text": "Each lender retains its decision authority.",
+          "key_word": "authority",
+          "chapter": "Point 3",
+          "kicker": "ENGAGE AND COORDINATE",
+          "broll": {
+            "subject": "Hands reviewing a document and making notes",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "Write the requirement before choosing a facility.",
+          "key_word": "requirement",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands writing the requirement in a notebook",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to new clip and slow push-in"
+          }
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "Bring the purpose and information together.",
+          "key_word": "together",
+          "chapter": "Takeaway",
+          "kicker": "ONE NEXT STEP",
+          "broll": {
+            "subject": "Hands bringing notes and records into one folder",
+            "crop": "Portrait close crop on hands, desk or process detail; exclude faces, bank logos and readable personal or financial data",
+            "movement": "Cut to alternate crop or detail"
+          }
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "WhatsApp CredNest. Message Hi.",
+          "key_word": "Hi",
+          "chapter": "End card",
+          "kicker": null,
+          "broll": {
+            "subject": "Uncluttered business desk with notebook and laptop",
+            "crop": "Faceless darkened desk background beneath end-card text",
+            "movement": "Subtle slow zoom; keep CTA, anchor and disclaimer visible"
+          }
+        }
+      ]
+    }
+  }
+}
