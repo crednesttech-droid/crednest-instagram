@@ -3,11 +3,19 @@ name: Re-voice reels (Sarvam)
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: "voice = new Sarvam voice + music (reels waiting for voice); music-only = add music to current voice, no Sarvam cost"
+        type: choice
+        options: [voice, music-only]
+        default: voice
       speaker:
-        description: "Sarvam bulbul:v3 speaker (e.g. aditya, rahul, rohan, priya, neha)"
+        description: "Sarvam speaker (e.g. aditya, rahul, rohan, priya, neha)"
         default: "aditya"
+      model:
+        description: "Sarvam model (bulbul:v3 or bulbul:v4-flash)"
+        default: "bulbul:v3"
       only:
-        description: "One reel id (blank = all reels waiting for voice)"
+        description: "One reel id (blank = all reels for this mode)"
         required: false
 
 concurrency:
@@ -26,10 +34,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-      - run: |
-          if [ -n "${{ inputs.only }}" ]; then python scripts/revoice.py --speaker "${{ inputs.speaker }}" --only "${{ inputs.only }}"
-          else python scripts/revoice.py --speaker "${{ inputs.speaker }}"; fi
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install numpy
+      - name: Voice and music
+        run: |
+          ARGS=""
+          if [ "${{ inputs.mode }}" = "music-only" ]; then ARGS="--music-only --all"; fi
+          if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only ${{ inputs.only }}"; fi
+          python scripts/revoice.py --speaker "${{ inputs.speaker }}" --model "${{ inputs.model }}" $ARGS
       - uses: actions/upload-artifact@v4
         with:
           name: revoiced-reels
@@ -38,4 +49,4 @@ jobs:
           git config user.name "crednest-autopilot"
           git config user.email "actions@users.noreply.github.com"
           git add -A media queue.json
-          git diff --cached --quiet || (git commit -m "Re-voiced reels with Sarvam (${{ inputs.speaker }})" && git push)
+          git diff --cached --quiet || (git commit -m "Reels audio: ${{ inputs.mode }} (${{ inputs.speaker }})" && git push)
