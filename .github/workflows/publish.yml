@@ -2,7 +2,7 @@ name: Instagram autopilot
 
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"   # every 15 min; posts go out at or shortly after their IST time
+    - cron: "7,22,37,52 * * * *"   # every 15 min (UTC); posts go out at or shortly after their IST time
   workflow_dispatch:
     inputs:
       dry_run:
