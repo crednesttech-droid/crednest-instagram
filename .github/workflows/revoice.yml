@@ -1,0 +1,41 @@
+name: Re-voice reels (Sarvam)
+
+on:
+  workflow_dispatch:
+    inputs:
+      speaker:
+        description: "Sarvam bulbul:v3 speaker (e.g. aditya, rahul, rohan, priya, neha)"
+        default: "aditya"
+      only:
+        description: "One reel id (blank = all reels waiting for voice)"
+        required: false
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  revoice:
+    runs-on: ubuntu-latest
+    env:
+      SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: |
+          if [ -n "${{ inputs.only }}" ]; then python scripts/revoice.py --speaker "${{ inputs.speaker }}" --only "${{ inputs.only }}"
+          else python scripts/revoice.py --speaker "${{ inputs.speaker }}"; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: revoiced-reels
+          path: media/*/reel.mp4
+      - run: |
+          git config user.name "crednest-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A media queue.json
+          git diff --cached --quiet || (git commit -m "Re-voiced reels with Sarvam (${{ inputs.speaker }})" && git push)
