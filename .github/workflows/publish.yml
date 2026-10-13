@@ -46,10 +46,14 @@ jobs:
         if: steps.gate.outputs.go == 'yes' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
         run: |
           if [ -n "${{ inputs.only }}" ]; then python scripts/publish.py --only "${{ inputs.only }}"; else python scripts/publish.py; fi
+      - name: Comment -> DM leads (keyword comments get the checklist)
+        if: steps.gate.outputs.go == 'yes' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
+        continue-on-error: true
+        run: python scripts/engage.py
       - name: Save published state
         if: always()
         run: |
           git config user.name "crednest-autopilot"
           git config user.email "actions@users.noreply.github.com"
-          git add state/published.json
+          git add state/published.json state/engaged.json 2>/dev/null || git add state/published.json
           git diff --cached --quiet || (git commit -m "Published: $(date -u +%FT%TZ)" && git push)
