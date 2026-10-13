@@ -1,0 +1,27 @@
+name: Bootstrap (unpack bundles)
+
+on:
+  push:
+    paths: ["bundle-*.zip"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack bundles
+        run: |
+          shopt -s nullglob
+          z=(bundle-*.zip)
+          if [ ${#z[@]} -eq 0 ]; then echo "No bundles"; exit 0; fi
+          for f in "${z[@]}"; do unzip -o -q "$f"; done
+          git rm -q bundle-*.zip
+          git config user.name "crednest-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Unpack autopilot files"
+          git push
