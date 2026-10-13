@@ -71,7 +71,8 @@
     "text": "Save this before your next working-capital discussion."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D03-story",
@@ -206,7 +207,8 @@
     "text": "WhatsApp +91 98199 99057 and message \"Hi\"."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "car-2026-10-21",
@@ -346,7 +348,8 @@
     "text": "WhatsApp +91 98199 99057 and message \"Hi\"."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D12-story",
@@ -417,7 +420,8 @@
     "text": "Save this before you apply."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D15-feed",
@@ -516,7 +520,8 @@
     "text": "Save this for your home-loan preparation."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D18-feed",
@@ -770,7 +775,8 @@
     "text": "Save the process. Start with the business requirement."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D29-story",
