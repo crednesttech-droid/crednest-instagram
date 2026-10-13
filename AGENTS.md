@@ -24,6 +24,7 @@ JPEG only (Instagram API rejects PNG). Each file under 8 MB.
 - Any market fact needs a source (RBI, CIBIL, SIDBI, CRIF, government circular) recorded in the PR description.
 - Feed/reel captions end with the hashtags, then: "CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion." Max 5 hashtags.
 - WhatsApp contact: +91 98199 99057.
+- Lead CTA: every feed post and reel caption includes the line "💬 Comment CHECKLIST and we will DM you our free credit-pack checklist." placed just before "Independent advice. Lender-led decisions." Reels end card may also say "Comment CHECKLIST".
 
 ## Reels and voice
 Do not use Windows/system text-to-speech. Put the narration lines in `voice_scenes` (`start`, `end`, `text`) and set status `needs_voice`; the "Re-voice reels" workflow adds the Sarvam voice.
