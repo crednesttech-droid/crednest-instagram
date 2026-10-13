@@ -36,43 +36,61 @@
   ],
   "caption": "Illustrative scenario, not a client case or testimonial. A trading business pays suppliers before receiving customer collections. Higher sales can still leave cash tied up in invoices. Mapping payments, payroll and collection dates helps explain a working-capital requirement. It does not establish eligibility or a lending outcome.\n\nSave this for your working-capital planning.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #WorkingCapital #BusinessCashFlow #MumbaiBusiness #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Timing is part of the capital plan",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "30-day calendar",
   "cover": "media/D03-feed/cover.jpg",
   "voice_scenes": [
    {
     "start": 0,
+    "end": 2,
+    "text": "Sales up. Cash still tied up?"
+   },
+   {
+    "start": 2,
     "end": 5,
-    "text": "Illustrative scenario: a trading business pays suppliers before customers pay."
+    "text": "Supplier payments come before customer collections."
    },
    {
     "start": 5,
-    "end": 10,
-    "text": "Orders can grow while cash is tied up in receivables."
+    "end": 8,
+    "text": "Invoices can keep cash tied up."
    },
    {
-    "start": 10,
-    "end": 15,
-    "text": "Map supplier payments, payroll and expected collections."
+    "start": 8,
+    "end": 11,
+    "text": "Map supplier payments and payroll dates."
    },
    {
-    "start": 15,
+    "start": 11,
+    "end": 14,
+    "text": "Add expected customer collection dates."
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "Use timing to explain the capital requirement."
+   },
+   {
+    "start": 17,
     "end": 20,
-    "text": "A working-capital request should explain the gap and the repayment source."
+    "text": "This does not establish lending eligibility."
    },
    {
     "start": 20,
+    "end": 22.5,
+    "text": "Put payments and collections on one timeline."
+   },
+   {
+    "start": 22.5,
     "end": 25,
-    "text": "The lender assesses the business, documents and existing obligations."
+    "text": "Explain the gap before lender engagement."
    },
    {
     "start": 25,
-    "end": 30,
-    "text": "Save this before your next working-capital discussion."
+    "end": 28,
+    "text": "WhatsApp CredNest. Message Hi."
    }
-  ],
-  "voice": "sarvam bulbul:v3 aditya",
-  "audio": "voice -14 LUFS + ducked music bed"
+  ]
  },
  {
   "id": "D03-story",
@@ -172,43 +190,61 @@
   ],
   "caption": "An anchor relationship or purchase order creates a commercial opportunity, but the cash needed to fulfil it still needs planning. Check buyer acceptance, supplier commitments, delivery milestones and payment dates. CredNest can help prepare an anchor or PO-linked funding discussion. Each facility depends on independent lender assessment.\n\nWhatsApp +91 98199 99057 and message \"Hi\".\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #StructuredFinance #BusinessFunding #MumbaiBusiness #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Follow the flow across your channel",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "30-day calendar",
   "cover": "media/D06-feed/cover.jpg",
   "voice_scenes": [
    {
     "start": 0,
+    "end": 2,
+    "text": "Purchase order received. Cash ready?"
+   },
+   {
+    "start": 2,
     "end": 5,
-    "text": "Purchase order in hand? Plan how the order will be fulfilled."
+    "text": "Check buyer acceptance and payment dates."
    },
    {
     "start": 5,
-    "end": 10,
-    "text": "An order does not remove the cash needed for inputs, wages and delivery."
+    "end": 8,
+    "text": "Know when collections are expected."
    },
    {
-    "start": 10,
-    "end": 15,
-    "text": "Check acceptance terms, buyer payment dates and supplier commitments."
+    "start": 8,
+    "end": 11,
+    "text": "List supplier commitments before delivery."
    },
    {
-    "start": 15,
+    "start": 11,
+    "end": 14,
+    "text": "Plan cash for each delivery milestone."
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "Match fulfilment costs to payment timing."
+   },
+   {
+    "start": 17,
     "end": 20,
-    "text": "Ask how an anchor or PO-linked facility fits existing working-capital limits."
+    "text": "Each lender assesses the funding request."
    },
    {
     "start": 20,
+    "end": 22.5,
+    "text": "Put the order's cash timeline on paper."
+   },
+   {
+    "start": 22.5,
     "end": 25,
-    "text": "CredNest can help prepare the requirement. Each lender decides."
+    "text": "Prepare before lender engagement."
    },
    {
     "start": 25,
-    "end": 30,
-    "text": "WhatsApp +91 98199 99057 and message \"Hi\"."
+    "end": 28,
+    "text": "WhatsApp CredNest. Message Hi."
    }
-  ],
-  "voice": "sarvam bulbul:v3 aditya",
-  "audio": "voice -14 LUFS + ducked music bed"
+  ]
  },
  {
   "id": "car-2026-10-21",
@@ -313,43 +349,61 @@
   ],
   "caption": "Self-employed and planning to buy a home? Prepare income records, ITRs, business banking and existing obligations so the file tells a consistent story. Property documents and your own contribution need separate attention. CredNest can help you prepare the discussion; the lender assesses the file and decides eligibility and terms.\n\nWhatsApp +91 98199 99057 and message \"Hi\".\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #HomeLoan #HomeLoanPreparation #Mumbai #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Self-employed and planning a home purchase?",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "30-day calendar",
   "cover": "media/D12-feed/cover.jpg",
   "voice_scenes": [
    {
     "start": 0,
+    "end": 2,
+    "text": "Self-employed? Buying a home?"
+   },
+   {
+    "start": 2,
     "end": 5,
-    "text": "Self-employed and planning a home purchase?"
+    "text": "Keep income records and tax returns consistent."
    },
    {
     "start": 5,
-    "end": 10,
-    "text": "Lenders review declared income, continuity and existing obligations."
+    "end": 8,
+    "text": "Add business banking to the same file."
    },
    {
-    "start": 10,
-    "end": 15,
-    "text": "Keep ITRs, business banking and supporting records consistent."
+    "start": 8,
+    "end": 11,
+    "text": "List your existing repayment obligations."
    },
    {
-    "start": 15,
+    "start": 11,
+    "end": 14,
+    "text": "Keep the business and personal context clear."
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "Check property documents and your contribution separately."
+   },
+   {
+    "start": 17,
     "end": 20,
-    "text": "Property documents and your contribution need a separate check."
+    "text": "Each lender decides eligibility and terms."
    },
    {
     "start": 20,
+    "end": 22.5,
+    "text": "Build one consistent home-loan file."
+   },
+   {
+    "start": 22.5,
     "end": 25,
-    "text": "Prepare before you commit to a purchase timeline."
+    "text": "Prepare before lender engagement."
    },
    {
     "start": 25,
-    "end": 30,
-    "text": "WhatsApp +91 98199 99057 and message \"Hi\"."
+    "end": 28,
+    "text": "WhatsApp CredNest. Message Hi."
    }
-  ],
-  "voice": "sarvam bulbul:v3 aditya",
-  "audio": "voice -14 LUFS + ducked music bed"
+  ]
  },
  {
   "id": "D12-story",
@@ -385,43 +439,61 @@
   ],
   "caption": "Myth: a credit score alone decides a personal loan. Fact: lenders also consider income, existing repayment obligations and their own assessment criteria. FOIR is a fixed-obligation-to-income measure: recurring debt commitments compared with eligible income. Ask the lender which commitments and income items it uses. There is no universal approval outcome.\n\nSave this before a personal-loan discussion.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #PersonalLoan #CreditPreparation #Mumbai #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Myth: a credit score alone decides a personal loan.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "30-day calendar",
   "cover": "media/D14-feed/cover.jpg",
   "voice_scenes": [
    {
     "start": 0,
+    "end": 2,
+    "text": "Good score. What about repayments?"
+   },
+   {
+    "start": 2,
     "end": 5,
-    "text": "Myth: a credit score alone decides a personal loan."
+    "text": "Lenders also consider income and repayment obligations."
    },
    {
     "start": 5,
-    "end": 10,
-    "text": "Fact: lenders also review income and existing repayment obligations."
+    "end": 8,
+    "text": "Their own assessment criteria still apply."
    },
    {
-    "start": 10,
-    "end": 15,
-    "text": "FOIR compares recurring debt repayments with eligible income."
+    "start": 8,
+    "end": 11,
+    "text": "FOIR compares recurring commitments with eligible income."
    },
    {
-    "start": 15,
+    "start": 11,
+    "end": 14,
+    "text": "Ask how your lender calculates it."
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "Check which commitments the lender counts."
+   },
+   {
+    "start": 17,
     "end": 20,
-    "text": "Ask which commitments count and which documents the lender needs."
+    "text": "Ask which income items it uses."
    },
    {
     "start": 20,
+    "end": 22.5,
+    "text": "Bring income and repayment records together."
+   },
+   {
+    "start": 22.5,
     "end": 25,
-    "text": "Borrow for a clear purpose and leave room for regular expenses."
+    "text": "There is no universal approval outcome."
    },
    {
     "start": 25,
-    "end": 30,
-    "text": "Save this before you apply."
+    "end": 28,
+    "text": "WhatsApp CredNest. Message Hi."
    }
-  ],
-  "voice": "sarvam bulbul:v3 aditya",
-  "audio": "voice -14 LUFS + ducked music bed"
+  ]
  },
  {
   "id": "D15-feed",
@@ -485,43 +557,61 @@
   ],
   "caption": "A self-employed owner may have business records and personal obligations in the same home-loan file. An adviser can help organise the information and explain gaps before lender engagement. That support does not replace income, property or credit assessment. Prepare a consistent file and let each lender decide.\n\nSave this for your home-loan preparation.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #HomeLoan #HomeLoanPreparation #Mumbai #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Your home-loan file should tell one consistent story.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "30-day calendar",
   "cover": "media/D17-feed/cover.jpg",
   "voice_scenes": [
    {
     "start": 0,
+    "end": 2,
+    "text": "Home-loan file. Conflicting records?"
+   },
+   {
+    "start": 2,
     "end": 5,
-    "text": "Your home-loan file should tell one consistent story."
+    "text": "Bring business records and personal obligations together."
    },
    {
     "start": 5,
-    "end": 10,
-    "text": "For a self-employed owner, the business and personal file overlap."
+    "end": 8,
+    "text": "A self-employed owner's file connects both."
    },
    {
-    "start": 10,
-    "end": 15,
-    "text": "Organise ITRs, banking and existing loan commitments together."
+    "start": 8,
+    "end": 11,
+    "text": "An adviser can help organise the information."
    },
    {
-    "start": 15,
+    "start": 11,
+    "end": 14,
+    "text": "Explain gaps before lender engagement."
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "Advice does not replace income assessment."
+   },
+   {
+    "start": 17,
     "end": 20,
-    "text": "An adviser can explain gaps and help prepare the file."
+    "text": "Property and credit still need lender assessment."
    },
    {
     "start": 20,
+    "end": 22.5,
+    "text": "Prepare one consistent file for discussion."
+   },
+   {
+    "start": 22.5,
     "end": 25,
-    "text": "Lenders still assess income, property, documentation and terms."
+    "text": "Then let each lender decide."
    },
    {
     "start": 25,
-    "end": 30,
-    "text": "Save this for your home-loan preparation."
+    "end": 28,
+    "text": "WhatsApp CredNest. Message Hi."
    }
-  ],
-  "voice": "sarvam bulbul:v3 aditya",
-  "audio": "voice -14 LUFS + ducked music bed"
+  ]
  },
  {
   "id": "D18-feed",
@@ -740,43 +830,61 @@
   ],
   "caption": "Independent advice starts with the requirement rather than a single facility. CredNest can help assess the purpose, discuss structures, prepare credit information and coordinate lender engagement. This support helps organise the process while each lender retains its own assessment and decision authority.\n\nSave the process. Start with the business requirement.\n\nIndependent advice. Lender-led decisions.\n\n#CredNest #BusinessLoan #MSMEFinance #MumbaiBusiness #CreditClarity\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
   "topic": "From requirement to a clearer lender brief.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "30-day calendar",
   "cover": "media/D29-feed/cover.jpg",
   "voice_scenes": [
    {
     "start": 0,
+    "end": 2,
+    "text": "Capital needed. Clear requirement?"
+   },
+   {
+    "start": 2,
     "end": 5,
-    "text": "From requirement to a clearer lender brief."
+    "text": "Start by explaining the business purpose."
    },
    {
     "start": 5,
-    "end": 10,
-    "text": "Start with purpose, timing and repayment context."
+    "end": 8,
+    "text": "CredNest can help assess the requirement."
    },
    {
-    "start": 10,
-    "end": 15,
-    "text": "An adviser can help compare facility structures."
+    "start": 8,
+    "end": 11,
+    "text": "Discuss structures that reflect the purpose."
    },
    {
-    "start": 15,
+    "start": 11,
+    "end": 14,
+    "text": "Prepare the credit information before engagement."
+   },
+   {
+    "start": 14,
+    "end": 17,
+    "text": "Coordinate questions during lender engagement."
+   },
+   {
+    "start": 17,
     "end": 20,
-    "text": "Prepare one coherent credit pack before lender engagement."
+    "text": "Each lender retains its decision authority."
    },
    {
     "start": 20,
+    "end": 22.5,
+    "text": "Write the requirement before choosing a facility."
+   },
+   {
+    "start": 22.5,
     "end": 25,
-    "text": "Coordinate questions while each lender keeps its decision authority."
+    "text": "Bring the purpose and information together."
    },
    {
     "start": 25,
-    "end": 30,
-    "text": "Save the process. Start with the business requirement."
+    "end": 28,
+    "text": "WhatsApp CredNest. Message Hi."
    }
-  ],
-  "voice": "sarvam bulbul:v3 aditya",
-  "audio": "voice -14 LUFS + ducked music bed"
+  ]
  },
  {
   "id": "D29-story",
