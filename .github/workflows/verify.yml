@@ -1,0 +1,28 @@
+name: Verify Instagram connection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+    steps:
+      - name: Check token and user id (read-only, posts nothing)
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse, sys
+          tok = os.environ["IG_ACCESS_TOKEN"].strip(); uid = os.environ["IG_USER_ID"].strip()
+          q = urllib.parse.urlencode({"fields": "user_id,username,account_type", "access_token": tok})
+          try:
+              with urllib.request.urlopen(f"https://graph.instagram.com/v23.0/me?{q}", timeout=30) as r:
+                  me = json.load(r)
+          except urllib.error.HTTPError as e:
+              print("TOKEN ERROR:", e.code, e.read().decode()[:300]); sys.exit(1)
+          print("Username:", me.get("username"), "| type:", me.get("account_type"))
+          ok = str(me.get("user_id")) == uid or str(me.get("id")) == uid
+          print("IG_USER_ID matches token:", ok)
+          sys.exit(0 if ok else 1)
+          PY
