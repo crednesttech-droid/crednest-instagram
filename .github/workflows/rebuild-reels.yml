@@ -42,7 +42,9 @@ jobs:
         run: |
           ARGS=""
           if [ -n "${{ inputs.only }}" ]; then ARGS="--only ${{ inputs.only }}"; fi
-          python scripts/build_reels_v2.py --work-dir /tmp/crednest --force $ARGS
+          B=$(command -v google-chrome || command -v chromium || command -v chromium-browser)
+          printf '#!/bin/sh\nexec "%s" --no-sandbox "$@"\n' "$B" > /tmp/chrome-ns && chmod +x /tmp/chrome-ns
+          python scripts/build_reels_v2.py --work-dir /tmp/crednest --browser /tmp/chrome-ns --force $ARGS || { cat /tmp/crednest/logo-render.log 2>/dev/null; exit 1; }
       - name: Voice + music (Sarvam aditya)
         run: |
           ARGS="--all"
