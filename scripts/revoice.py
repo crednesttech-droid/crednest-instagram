@@ -86,12 +86,12 @@ def finish(video, voice, bed, vlen, tmp):
     fc = ("[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,asplit=2[v][sc];"
           f"[1:a]volume=-19dB,afade=t=in:d=1,afade=t=out:st={fade_out:.2f}:d=1.5[m];"
           "[m][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[md];"
-          "[v][md]amix=inputs=2:normalize=0,alimiter=limit=0.79,loudnorm=I=-14:TP=-2:LRA=11")
+          "[v][md]amix=inputs=2:normalize=0,alimiter=limit=0.79,loudnorm=I=-14:TP=-2:LRA=11,apad")
     run("ffmpeg", "-y", "-v", "error", "-i", voice, "-i", bed, "-filter_complex", fc,
         "-t", f"{vlen:.3f}", "-ar", "44100", mix)
     out = os.path.join(tmp, "out.mp4")
     run("ffmpeg", "-y", "-v", "error", "-i", video, "-i", mix, "-map", "0:v:0", "-map", "1:a:0",
-        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out)
+        "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-t", f"{vlen:.3f}", "-movflags", "+faststart", out)
     os.replace(out, video)
 
 
