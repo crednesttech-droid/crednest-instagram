@@ -1,0 +1,74 @@
+name: Rebuild reels (fixed captions + full end card)
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "One reel id, e.g. D03-feed (blank = all 6 reels)"
+        required: false
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      SARVAM_API_KEY: ${{ secrets.SARVAM_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install numpy pillow
+      - name: Download licensed stock clips (sha256-checked)
+        run: |
+          mkdir -p /tmp/crednest/stock
+          python - <<'PY'
+          import json, hashlib, urllib.request, pathlib
+          reg = json.load(open("reels_v2/stock_sources.json"))
+          for a in reg["assets"]:
+              dst = pathlib.Path("/tmp/crednest/stock") / a["filename"]
+              req = urllib.request.Request(a["download_url"], headers={"User-Agent": "Mozilla/5.0"})
+              dst.write_bytes(urllib.request.urlopen(req, timeout=300).read())
+              h = hashlib.sha256(dst.read_bytes()).hexdigest()
+              print(a["filename"], "OK" if h == a["sha256"] else f"SHA MISMATCH {h}")
+          PY
+      - name: Build silent reels
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.only }}" ]; then ARGS="--only ${{ inputs.only }}"; fi
+          python scripts/build_reels_v2.py --work-dir /tmp/crednest --force $ARGS
+      - name: Voice + music (Sarvam aditya)
+        run: |
+          ARGS="--all"
+          if [ -n "${{ inputs.only }}" ]; then ARGS="--only ${{ inputs.only }}"; fi
+          python scripts/revoice.py --speaker aditya --model bulbul:v3 --keep-status $ARGS
+      - name: Verify 28 s + audio + end card frame
+        run: |
+          mkdir -p /tmp/check
+          FILES="media/*/reel.mp4"
+          if [ -n "${{ inputs.only }}" ]; then FILES="media/${{ inputs.only }}/reel.mp4"; fi
+          for f in $FILES; do
+            id=$(basename $(dirname $f))
+            d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)
+            a=$(ffprobe -v error -select_streams a -show_entries stream=codec_type -of csv=p=0 $f)
+            echo "$id duration=$d audio=$a"
+            python -c "import sys; sys.exit(0 if float('$d') > 27.5 else 1)" || { echo "$id too short"; exit 1; }
+            [ "$a" = "audio" ] || { echo "$id has no audio"; exit 1; }
+            ffmpeg -v error -ss 26.5 -i $f -frames:v 1 /tmp/check/${id}_endcard.png -y
+            ffmpeg -v error -ss 1.0 -i $f -frames:v 1 /tmp/check/${id}_hook.png -y
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reel-check-frames
+          path: /tmp/check
+      - run: |
+          git config user.name "crednest-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A media queue.json
+          git diff --cached --quiet || (git commit -m "Rebuild reels: baseline fix + full 28 s end card" && git push)
