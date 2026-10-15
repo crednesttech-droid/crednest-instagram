@@ -162,7 +162,7 @@ def caption_image(scene: dict, reel: dict, visible_words: int, logo: Image.Image
         for index, word in line:
             if index < visible_words:
                 color = LIME if word.casefold().strip(".,?!'\"") == key else PAPER
-                tracked_bounds(draw, (round(x), y), word, face, color, bounds, "voice_caption", shadow=True)
+                tracked_bounds(draw, (round(x), y), word, face, color, bounds, "voice_caption", anchor="la", shadow=True)
             x += face.getlength(word + " ")
 
     if end_card:
