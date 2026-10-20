@@ -2,7 +2,7 @@
  "keywords": ["checklist", "check list", "cash", "loan", "details", "info", "interested", "dm"],
  "lookback_days": 7,
  "max_per_run": 25,
- "private_reply": "Hi! Here is CredNest's free credit-pack checklist: {checklist_url}\n\nWant a second look at your file? WhatsApp us and send \"Hi\": {whatsapp_url}\n\nCredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.",
+ "private_reply": "Hi! Here is CredNest's free credit-pack checklist: {checklist_url}\n\nWant a second look at your file? WhatsApp us and send \"Hi\": {whatsapp_url}\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
  "public_reply": "Sent you a DM with the checklist. Please check your message requests 📩",
  "whatsapp_url": "https://wa.me/919819999057?text=Hi%20CredNest%2C%20I%20came%20from%20Instagram",
  "checklist_path": "lead/credit-pack-checklist.pdf"
