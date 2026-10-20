@@ -1,0 +1,319 @@
+{
+  "baseline_main": "8bdca8e",
+  "claude_patch_commit": "42a5f7c927c529ee32d1c1616a27521290bc62b3",
+  "changed_queue_items": [
+    "car-2026-10-21",
+    "D09-feed",
+    "D10-feed",
+    "car-2026-10-23",
+    "D12-feed",
+    "D13-feed",
+    "D14-feed",
+    "D15-feed",
+    "D16-feed",
+    "D17-feed",
+    "D18-feed",
+    "D19-new",
+    "D20-feed",
+    "D21-feed",
+    "D22-new",
+    "D23-new",
+    "D24-feed",
+    "D25-new",
+    "D26-feed",
+    "D27-feed",
+    "D28-new",
+    "D29-feed",
+    "D30-new"
+  ],
+  "captions_preserved": true,
+  "schedule_preserved": true,
+  "published_items_preserved": true,
+  "state_preserved": true,
+  "footer_last_ink_y": 1225.0,
+  "headlines": [
+    {
+      "id": "D09-feed",
+      "headline": "Contract won. Bank guarantee needed first?",
+      "font_px": 104,
+      "lines": [
+        "Contract won.",
+        "Bank guarantee",
+        "needed first?"
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D10-feed",
+      "headline": "Loan against property? Keep these papers ready first.",
+      "font_px": 104,
+      "lines": [
+        "Loan against",
+        "property? Keep",
+        "these papers",
+        "ready first."
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D16-feed",
+      "headline": "New project. CMA or DPR: what does the lender need?",
+      "font_px": 104,
+      "lines": [
+        "New project.",
+        "CMA or DPR:",
+        "what does the",
+        "lender need?"
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D20-feed",
+      "headline": "Property de di. Loan pakka? Nahi.",
+      "font_px": 104,
+      "lines": [
+        "Property de di.",
+        "Loan pakka?",
+        "Nahi."
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D21-feed",
+      "headline": "Bank statement says one thing. ITR says another?",
+      "font_px": 104,
+      "lines": [
+        "Bank statement",
+        "says one thing.",
+        "ITR says",
+        "another?"
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D13-feed",
+      "headline": "New personal loan? Add up your EMIs first.",
+      "font_px": 96,
+      "lines": [
+        "New personal",
+        "loan? Add up your",
+        "EMIs first."
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D18-feed",
+      "headline": "Property hai. Repayment plan hai?",
+      "font_px": 96,
+      "lines": [
+        "Property hai.",
+        "Repayment plan",
+        "hai?"
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D19-new",
+      "headline": "Already paying a loan on your property?",
+      "font_px": 96,
+      "lines": [
+        "Already paying a",
+        "loan on your",
+        "property?"
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D22-new",
+      "headline": "Next business loan? Put every EMI on one page.",
+      "font_px": 96,
+      "lines": [
+        "Next business",
+        "loan? Put every",
+        "EMI on one page."
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D23-new",
+      "headline": "CC renewal in 60 days? Start here.",
+      "font_px": 96,
+      "lines": [
+        "CC renewal in 60",
+        "days? Start here."
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D25-new",
+      "headline": "Business ke liye LAP? Purpose pehle, property baad mein.",
+      "font_px": 96,
+      "lines": [
+        "Business ke liye",
+        "LAP? Purpose",
+        "pehle, property",
+        "baad mein."
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D27-feed",
+      "headline": "Property worth crores. Collections slow. Now what?",
+      "font_px": 96,
+      "lines": [
+        "Property worth",
+        "crores. Collections",
+        "slow. Now what?"
+      ],
+      "status": "review"
+    },
+    {
+      "id": "D30-new",
+      "headline": "Funding chahiye? Purpose aur timeline bhejo.",
+      "font_px": 96,
+      "lines": [
+        "Funding chahiye?",
+        "Purpose aur",
+        "timeline bhejo."
+      ],
+      "status": "review"
+    }
+  ],
+  "validated_files": [
+    {
+      "path": "media/D09-feed/01.jpg",
+      "bytes": 224542
+    },
+    {
+      "path": "media/D09-feed/02.jpg",
+      "bytes": 197736
+    },
+    {
+      "path": "media/D09-feed/03.jpg",
+      "bytes": 194579
+    },
+    {
+      "path": "media/D09-feed/04.jpg",
+      "bytes": 213119
+    },
+    {
+      "path": "media/D09-feed/05.jpg",
+      "bytes": 249735
+    },
+    {
+      "path": "media/D10-feed/01.jpg",
+      "bytes": 239488
+    },
+    {
+      "path": "media/D10-feed/02.jpg",
+      "bytes": 165558
+    },
+    {
+      "path": "media/D10-feed/03.jpg",
+      "bytes": 188113
+    },
+    {
+      "path": "media/D10-feed/04.jpg",
+      "bytes": 182948
+    },
+    {
+      "path": "media/D10-feed/05.jpg",
+      "bytes": 234789
+    },
+    {
+      "path": "media/D16-feed/01.jpg",
+      "bytes": 225566
+    },
+    {
+      "path": "media/D16-feed/02.jpg",
+      "bytes": 182105
+    },
+    {
+      "path": "media/D16-feed/03.jpg",
+      "bytes": 205048
+    },
+    {
+      "path": "media/D16-feed/04.jpg",
+      "bytes": 179524
+    },
+    {
+      "path": "media/D16-feed/05.jpg",
+      "bytes": 261456
+    },
+    {
+      "path": "media/D20-feed/01.jpg",
+      "bytes": 188496
+    },
+    {
+      "path": "media/D20-feed/02.jpg",
+      "bytes": 191736
+    },
+    {
+      "path": "media/D20-feed/03.jpg",
+      "bytes": 176130
+    },
+    {
+      "path": "media/D20-feed/04.jpg",
+      "bytes": 174598
+    },
+    {
+      "path": "media/D20-feed/05.jpg",
+      "bytes": 225340
+    },
+    {
+      "path": "media/D21-feed/01.jpg",
+      "bytes": 238675
+    },
+    {
+      "path": "media/D21-feed/02.jpg",
+      "bytes": 202828
+    },
+    {
+      "path": "media/D21-feed/03.jpg",
+      "bytes": 182453
+    },
+    {
+      "path": "media/D21-feed/04.jpg",
+      "bytes": 184839
+    },
+    {
+      "path": "media/D21-feed/05.jpg",
+      "bytes": 279298
+    },
+    {
+      "path": "media/D13-feed/01.jpg",
+      "bytes": 239807
+    },
+    {
+      "path": "media/D18-feed/01.jpg",
+      "bytes": 305504
+    },
+    {
+      "path": "media/D19-new/01.jpg",
+      "bytes": 257422
+    },
+    {
+      "path": "media/D22-new/01.jpg",
+      "bytes": 242388
+    },
+    {
+      "path": "media/D23-new/01.jpg",
+      "bytes": 246295
+    },
+    {
+      "path": "media/D25-new/01.jpg",
+      "bytes": 271356
+    },
+    {
+      "path": "media/D27-feed/01.jpg",
+      "bytes": 261259
+    },
+    {
+      "path": "media/D30-new/01.jpg",
+      "bytes": 336512
+    }
+  ],
+  "footer_contact_px": 30,
+  "footer_disclaimer_px": 32,
+  "specs_preserved": true
+}
