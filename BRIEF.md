@@ -6,7 +6,7 @@ For each item below:
 
 1. Design one 1080 × 1350 JPEG (quality 90+, sRGB) and save it as the path shown.
 2. The headline must be **new wording** built from the caption. Do not reuse the old headline listed (it is already on the grid).
-3. Footer line on the image: `CredNest is an advisory firm, not a lender.`
+3. Footer line on the image: `CredNest is a debt-capital facilitator, not a lender or NBFC.`
 4. In `queue.json`, set that item's `status` to `"review"`. Claude reviews and switches it to `ready`.
 5. Run `python scripts/publish.py --check` before opening the PR.
 
@@ -27,7 +27,7 @@ Independent advice. Lender-led decisions.
 
 #CredNest #LoanAgainstProperty #CapitalPlanning #MumbaiBusiness #CreditClarity
 
-CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
 ```
 
 ## D22-new · 2026-11-04 12:30 IST
@@ -47,7 +47,7 @@ Independent advice. Lender-led decisions.
 
 #CredNest #BusinessLoan #MSMEFinance #MumbaiBusiness #CreditClarity
 
-CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
 ```
 
 ## D23-new · 2026-11-05 12:30 IST
@@ -67,7 +67,7 @@ Independent advice. Lender-led decisions.
 
 #CredNest #WorkingCapital #BusinessCashFlow #MumbaiBusiness #CreditClarity
 
-CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
 ```
 
 ## D25-new · 2026-11-07 12:30 IST
@@ -87,7 +87,7 @@ Independent advice. Lender-led decisions.
 
 #CredNest #LoanAgainstProperty #CapitalPlanning #MumbaiBusiness #CreditClarity
 
-CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
 ```
 
 ## D28-new · 2026-11-10 19:30 IST
@@ -107,7 +107,7 @@ Independent advice. Lender-led decisions.
 
 #CredNest #WorkingCapital #BusinessCashFlow #MumbaiBusiness #CreditClarity
 
-CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
 ```
 
 ## D30-new · 2026-11-12 19:30 IST
@@ -127,5 +127,5 @@ Independent advice. Lender-led decisions.
 
 #CredNest #BusinessLoan #MSMEFinance #MumbaiBusiness #CreditClarity
 
-CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion.
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
 ```

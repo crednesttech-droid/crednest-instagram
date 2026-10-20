@@ -19,12 +19,20 @@ You make Instagram content for CredNest (@crednest.io). Claude writes the brief 
 JPEG only (Instagram API rejects PNG). Each file under 8 MB.
 
 ## Compliance (non-negotiable)
-- CredNest is an advisory firm, not a lender or NBFC. Never imply approval, guaranteed sanction, specific rates, "lowest EMI", bank tie-ups or lender names.
+- CredNest is a debt-capital facilitator, not a lender or NBFC. Never imply approval, guaranteed sanction, specific rates, "lowest EMI", bank tie-ups or lender names.
 - No client names, results or testimonials. Case stories are labelled "Illustrative scenario, not a client case or testimonial."
 - Any market fact needs a source (RBI, CIBIL, SIDBI, CRIF, government circular) recorded in the PR description.
-- Feed/reel captions end with the hashtags, then: "CredNest is an advisory firm, not a lender. Loan approval and terms are at the lender's sole discretion." Max 5 hashtags.
+- Feed/reel captions end with the hashtags, then exactly: "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion." Max 5 hashtags. Use no other disclaimer wording.
 - WhatsApp contact: +91 98199 99057.
-- Lead CTA: every feed post and reel caption includes the line "💬 Comment CHECKLIST and we will DM you our free credit-pack checklist." placed just before "Independent advice. Lender-led decisions." Reels end card may also say "Comment CHECKLIST".
+- One CTA per caption, rotated across the week: either "💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist." or 'WhatsApp "Hi" to +91 98199 99057.' Roughly 60% CHECKLIST, 40% WhatsApp. "Independent advice. Lender-led decisions." on at most one post in four.
+
+## Hooks (applies to every new item)
+- Caption line 1 and the image headline are the hook: a specific pain, question or number the owner recognises ("CC renewal in 60 days? Start here."). Under 70 characters.
+- Banned as headlines: abstract brand lines such as "X is part of the capital conversation", "Numbers tell a business story", "needs a relevant fit". Brand lines go in the body, not the hook.
+- The "Illustrative scenario" tag goes in the caption's second paragraph and small on the image, never as the opening line or first reel frame.
+- 1–2 Hinglish hooks per week in Roman script; finance terms and disclaimer stay in English.
+- Any market fact must be checked against its source the week it posts; record the source in the PR.
+- `scripts/render_hooks.py` renders hook covers and single-image cards in the house layout; add a spec and run it.
 
 ## Reels and voice
 Do not use Windows/system text-to-speech. Put the narration lines in `voice_scenes` (`start`, `end`, `text`) and set status `needs_voice`; the "Re-voice reels" workflow adds the Sarvam voice.
