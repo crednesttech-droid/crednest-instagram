@@ -1,0 +1,48 @@
+name: Facebook backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (list what would post, publish nothing)"
+        type: boolean
+        default: true
+      limit:
+        description: "Max items this run"
+        default: "50"
+      only:
+        description: "Post one item id now (optional)"
+        required: false
+
+concurrency:
+  group: instagram-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Post to the Facebook Page
+        run: |
+          ARGS="--backfill --limit ${{ inputs.limit }}"
+          if [ -n "${{ inputs.only }}" ]; then ARGS="--only ${{ inputs.only }}"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python scripts/fb_publish.py $ARGS
+      - name: Save Facebook state
+        if: always()
+        run: |
+          git config user.name "crednest-autopilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/fb_published.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "FB posted: $(date -u +%FT%TZ)" && git pull --rebase && git push)
