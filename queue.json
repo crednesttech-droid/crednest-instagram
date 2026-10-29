@@ -825,6 +825,26 @@
   "alt_text": "The headline \u201cProperty worth crores. Collections slow. Now what?\u201d appears on a paper card with a property outline, three numbered assessment points, an illustrative scenario tag and a CHECKLIST CTA."
  },
  {
+  "id": "D31-cibil",
+  "type": "carousel",
+  "publish_at": "2026-11-10T12:30:00+05:30",
+  "media": [
+   "media/D31-cibil/01.jpg",
+   "media/D31-cibil/02.jpg",
+   "media/D31-cibil/03.jpg",
+   "media/D31-cibil/04.jpg",
+   "media/D31-cibil/05.jpg",
+   "media/D31-cibil/06.jpg"
+  ],
+  "caption": "Good CIBIL. Still rejected? Here's what else lenders read.\n\nA strong score is one input. Lenders also check your cash flow, your existing EMIs, the purpose of the loan, and whether your ITR, GST returns and bank statements tell one story. Swipe through the four checks and save this before your next application.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #CIBILScore #BusinessLoan #MSMEFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Good CIBIL. Still rejected?",
+  "status": "ready",
+  "source": "Codex cover + Claude slides (brand kit v1)",
+  "product": "business_loans",
+  "pillar": "education",
+  "alt_text": "Six-slide CredNest carousel on a dark green background. Cover headline: Good CIBIL. Still rejected? Slides explain four things lenders check: cash flow, existing EMIs, purpose of the loan and consistent paperwork. Final lime slide: WhatsApp Hi to +91 98199 99057."
+ },
+ {
   "id": "D28-new",
   "type": "image",
   "publish_at": "2026-11-10T19:30:00+05:30",
