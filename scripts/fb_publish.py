@@ -13,7 +13,8 @@ to the CredNest Facebook Page, using the same media URLs on GitHub Pages.
 
 Env: IG_ACCESS_TOKEN (backfill only, to list the Instagram posts),
      FB_PAGE_TOKEN (Page access token with pages_manage_posts),
-     FB_PAGE_ID (optional; read from the token when blank),
+     FB_PAGE_ID (optional; defaults to the CredNest.io Page, 947427528464704).
+     The run stops if the token belongs to any other Page or a personal profile.
      MEDIA_BASE_URL, GRAPH_VERSION (default v23.0).
 
 Stories are not cross-posted. Reels go up as Page videos.
@@ -30,6 +31,7 @@ FB_STATE = os.path.join(ROOT, "state", "fb_published.json")
 IST = timezone(timedelta(hours=5, minutes=30))
 SYNC_WINDOW = timedelta(hours=36)
 FEED_TYPES = ("image", "carousel", "reel")
+CREDNEST_PAGE_ID = "947427528464704"   # CredNest.io (Business Suite asset id)
 WHATSAPP_CTA = 'WhatsApp "Hi" to +91 98199 99057.'
 IG_ONLY_CTAS = (
     "💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.",
@@ -73,7 +75,12 @@ class Page:
     def __init__(self):
         self.token = os.environ["FB_PAGE_TOKEN"]
         self.base = f"https://graph.facebook.com/{os.environ.get('GRAPH_VERSION', 'v23.0')}"
-        self.id = os.environ.get("FB_PAGE_ID") or self.call("GET", "me", fields="id")["id"]
+        self.id = os.environ.get("FB_PAGE_ID") or CREDNEST_PAGE_ID
+        me = self.call("GET", "me", fields="id,name")
+        if me.get("id") != self.id:
+            raise SystemExit(f"Token belongs to '{me.get('name')}' ({me.get('id')}), not the CredNest.io Page "
+                             f"({self.id}). Generate a Page token for CredNest.io. Nothing posted.")
+        print(f"Posting to Facebook Page: {me.get('name')} ({self.id})")
 
     def call(self, method, path, **params):
         params["access_token"] = self.token
