@@ -96,9 +96,7 @@ class Page:
 
     def post(self, it, backdate=None):
         t, msg = it["type"], fb_caption(it.get("caption", ""))
-        extra = {}
-        if backdate:
-            extra = {"backdated_time": str(int(backdate.timestamp())), "backdated_time_granularity": "min"}
+        extra = {}   # Graph API no longer accepts backdated_time; posts go out with today's date
         if t == "image":
             return self.call("POST", f"{self.id}/photos", url=url_for(it["media"][0]), message=msg, **extra)["id"]
         if t == "carousel":
