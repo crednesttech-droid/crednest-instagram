@@ -6,11 +6,13 @@ to the CredNest Facebook Page, using the same media URLs on GitHub Pages.
 
   python scripts/fb_publish.py --dry-run               show what would post
   python scripts/fb_publish.py                         sync: items live on IG in the last 36 h
-  python scripts/fb_publish.py --backfill              every IG feed item not yet on FB
+  python scripts/fb_publish.py --backfill              every post on the Instagram profile not yet on FB
+                                                       (read live from the Instagram API, so manual posts count too)
   python scripts/fb_publish.py --backfill --limit 10   ...at most 10 this run
   python scripts/fb_publish.py --only D02-feed         one item now
 
-Env: FB_PAGE_TOKEN (Page access token with pages_manage_posts),
+Env: IG_ACCESS_TOKEN (backfill only, to list the Instagram posts),
+     FB_PAGE_TOKEN (Page access token with pages_manage_posts),
      FB_PAGE_ID (optional; read from the token when blank),
      MEDIA_BASE_URL, GRAPH_VERSION (default v23.0).
 
@@ -59,6 +61,8 @@ def fb_caption(cap):
 
 
 def url_for(path):
+    if path.startswith("http"):
+        return path
     base = os.environ.get("MEDIA_BASE_URL", "").rstrip("/")
     if not base:
         raise RuntimeError("MEDIA_BASE_URL not set")
@@ -101,14 +105,44 @@ class Page:
         raise RuntimeError(f"{it['id']}: type {t} is not cross-posted")
 
 
-def pick(queue, ig, fb, now, backfill, only):
+def ig_posts():
+    """Every feed post on the Instagram profile, oldest first."""
+    base = f"https://graph.instagram.com/{os.environ.get('GRAPH_VERSION', 'v23.0')}"
+    q = urllib.parse.urlencode({
+        "fields": "id,caption,media_type,media_url,timestamp,children{media_type,media_url}",
+        "limit": 50, "access_token": os.environ["IG_ACCESS_TOKEN"]})
+    url, out = f"{base}/me/media?{q}", []
+    while url:
+        with urllib.request.urlopen(url, timeout=60) as r:
+            d = json.load(r)
+        out += d.get("data", [])
+        url = d.get("paging", {}).get("next")
+    return sorted(out, key=lambda m: m["timestamp"])
+
+
+def ig_to_item(m):
+    """Shape an Instagram post like a queue item, with absolute media URLs."""
+    kind = m["media_type"]
+    if kind == "CAROUSEL_ALBUM":
+        photos = [c["media_url"] for c in m.get("children", {}).get("data", []) if c["media_type"] == "IMAGE"]
+        t, media = ("carousel", photos) if len(photos) > 1 else ("image", photos)
+    elif kind == "VIDEO":
+        t, media = "reel", [m["media_url"]]
+    else:
+        t, media = "image", [m["media_url"]]
+    return {"id": f"ig:{m['id']}", "type": t, "media": media, "caption": m.get("caption", ""),
+            "topic": (m.get("caption") or "").split("\n")[0][:70],
+            "_when": datetime.fromisoformat(m["timestamp"].replace("+0000", "+00:00"))}
+
+
+def pick(queue, ig, fb, now, backfill, only, done_ig=frozenset()):
     items = {i["id"]: i for i in queue}
     if only:
         return [items[only]]
     out = []
     for iid, rec in sorted(ig.items(), key=lambda kv: kv[1]["published"]):
         it = items.get(iid)
-        if not it or it["type"] not in FEED_TYPES or iid in fb:
+        if not it or it["type"] not in FEED_TYPES or iid in fb or str(rec.get("media_id")) in done_ig:
             continue
         if not backfill and now - datetime.fromisoformat(rec["published"]) > SYNC_WINDOW:
             continue
@@ -126,7 +160,14 @@ def main():
 
     queue, ig, fb = load(QUEUE, []), load(IG_STATE, {}), load(FB_STATE, {})
     now = datetime.now(IST)
-    todo = pick(queue, ig, fb, now, a.backfill, a.only)[: a.limit]
+    done_ig = {str(r.get("ig_media_id")) for r in fb.values()} | {k[3:] for k in fb if k.startswith("ig:")}
+    if a.backfill and not a.only:
+        if not os.environ.get("IG_ACCESS_TOKEN"):
+            sys.exit("IG_ACCESS_TOKEN not set; backfill reads the Instagram profile.")
+        todo = [ig_to_item(m) for m in ig_posts() if m["id"] not in done_ig]
+        todo = [t for t in todo if t["media"]][: a.limit]
+    else:
+        todo = pick(queue, ig, fb, now, a.backfill, a.only, done_ig)[: a.limit]
     print(f"{len(todo)} item(s) to post on Facebook")
     for it in todo:
         print(f"- {it['id']} ({it['type']}, {len(it['media'])} file(s)): {it.get('topic', '')}")
@@ -141,11 +182,12 @@ def main():
     page = Page()
     failures = 0
     for it in todo:
-        rec = ig.get(it["id"])
-        backdate = datetime.fromisoformat(rec["published"]) if (a.backfill and rec) else None
+        rec = ig.get(it["id"], {})
+        backdate = it.get("_when") if a.backfill else None
         try:
             pid = page.post(it, backdate)
-            fb[it["id"]] = {"post_id": pid, "published": datetime.now(IST).isoformat()}
+            fb[it["id"]] = {"post_id": pid, "published": datetime.now(IST).isoformat(),
+                            "ig_media_id": it["id"][3:] if it["id"].startswith("ig:") else rec.get("media_id")}
             save(FB_STATE, fb)
             print(f"OK {it['id']} -> {pid}")
         except Exception as e:

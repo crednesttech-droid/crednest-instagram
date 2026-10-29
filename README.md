@@ -32,7 +32,7 @@ One-time setup:
 1. developers.facebook.com → Tools → Graph API Explorer → choose the CredNest Meta app → add permissions `pages_show_list`, `pages_read_engagement`, `pages_manage_posts` → Generate Access Token (log in, tick the CredNest.io Page).
 2. In "User or Page", pick **CredNest.io** to get the Page token. Extend it with the Access Token Debugger → "Extend Access Token" so it does not expire in an hour.
 3. Add it as repository secret `FB_PAGE_TOKEN`. `FB_PAGE_ID` is optional (read from the token).
-4. Backfill what is already on Instagram: Actions → *Facebook backfill* → Run with *Dry run* ticked, check the list, then run again unticked. Posts are back-dated to their Instagram time [VERIFY: Page back-dating via API].
+4. Backfill everything already on the Instagram profile (read from the Instagram API, so posts made by hand are included): Actions → *Facebook backfill* → Run with *Dry run* ticked, check the list, then run again unticked. Posts are back-dated to their Instagram time [VERIFY: Page back-dating via API].
 
 ## Limits
 - Story stickers (link, poll, questions) cannot be added through the API. Add them from the phone if needed.
