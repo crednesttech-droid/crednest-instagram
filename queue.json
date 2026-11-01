@@ -711,7 +711,7 @@
   "cover": "media/CD01-restructuring/cover.jpg",
   "caption": "₹5 Cr debt at 18%. Is your cash flow choking?\n\nIllustrative scenario, not a client case or testimonial. Refinancing ₹5 Cr of 18% three-year debt into a seven-year facility at 11% would take the monthly EMI from ₹18.08 lakh to ₹8.56 lakh, freeing about ₹9.51 lakh a month. A longer tenure adds total interest, so the structure needs planning. Rates are assumed for illustration.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #DebtRestructuring #BusinessFinance #SMEFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "₹5 Cr debt at 18%. Is your cash flow choking?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: ₹5 Cr debt at 18%, cash flow choke? Capital Desk series.",
   "voice_scenes": [
@@ -740,7 +740,9 @@
     "end": 15.0,
     "text": "Talk to the CredNest Capital Desk. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D22-new",
@@ -807,7 +809,7 @@
   "cover": "media/CD02-syndication/cover.jpg",
   "caption": "₹100 Cr needed. One bank won't take it all.\n\nLoan syndication brings several lenders into one deal. A lead arranger structures it, each lender takes a share of the exposure, and everyone works off one set of terms. It fits large expansions, project finance and refinancing a large debt book.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanSyndication #ProjectFinance #CorporateFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "₹100 Cr needed. One bank won't take it all.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: ₹100 Cr chahiye, ek bank itna nahi dega. Capital Desk series.",
   "voice_scenes": [
@@ -836,7 +838,9 @@
     "end": 16.0,
     "text": "Talk to the CredNest Capital Desk. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D26-story",
@@ -888,7 +892,7 @@
   "cover": "media/CD03-sma/cover.jpg",
   "caption": "Bank tagged your account SMA? The clock is running.\n\nSMA-0, SMA-1 and SMA-2 mark 1-30, 31-60 and 61-90 days overdue. Beyond 90 days a term loan can turn NPA. Act early: rephasement, takeover by another lender, refinancing costly debt, or a structured talk with your lender. Every option is subject to lender assessment.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #SMA #DebtRestructuring #SMEFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Bank tagged your account SMA? The clock is running.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Bank ne SMA tag laga diya? Capital Desk series.",
   "voice_scenes": [
@@ -912,7 +916,9 @@
     "end": 15.0,
     "text": "Talk to us early, in confidence. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D27-feed",
@@ -1067,7 +1073,7 @@
   "cover": "media/CD04-preipo/cover.jpg",
   "caption": "IPO 18 months away. Capital needed today?\n\nPre-IPO bridge debt, structured or mezzanine debt, promoter funding against shares, or a pre-IPO placement: the route depends on readiness. Lenders read audited financials and governance, the IPO timeline and advisers, use of proceeds and promoter holding. Equity placements follow applicable regulations.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #PreIPO #StructuredFinance #GrowthCapital #DebtAdvisory\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "IPO 18 months away. Capital needed today?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: IPO 18 mahine door, capital aaj chahiye? Capital Desk series.",
   "voice_scenes": [
@@ -1091,7 +1097,9 @@
     "end": 15.0,
     "text": "Talk to the CredNest Capital Desk. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD05-dscr",
@@ -1103,7 +1111,7 @@
   "cover": "media/CD05-dscr/cover.jpg",
   "caption": "₹50 Cr project. The first number a bank reads: DSCR.\n\nDebt Service Coverage Ratio = cash available for debt ÷ annual debt service. ₹3 Cr ÷ ₹2 Cr = 1.5x in this illustration. Then promoter contribution, the DPR and approvals, and the security and cash-flow waterfall. Each lender sets its own minimum.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #ProjectFinance #DSCR #DPR #DebtAdvisory\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "₹50 Cr project. The first number a bank reads: DSCR.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on paper: ₹50 Cr project, bank pehle kya dekhega? Capital Desk series.",
   "voice_scenes": [
@@ -1132,7 +1140,9 @@
     "end": 16.2,
     "text": "Talk to the CredNest Capital Desk. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "D23-new",
@@ -1159,7 +1169,7 @@
   "cover": "media/CD06-bt-topup/cover.jpg",
   "caption": "Home loan plus 3 personal loans. EMI ka pahad?\n\nIllustrative scenario, not a client case or testimonial. A balance transfer of the home loan with a top-up that clears costly personal loans can turn ₹1,13,920 of monthly EMIs into one EMI of ₹77,189, freeing ₹36,731 a month. The personal-loan part then runs 15 years, so it needs repayment discipline. Rates are assumed; subject to valuation and LTV.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BalanceTransfer #HomeLoan #DebtConsolidation #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Home loan plus 3 personal loans. EMI ka pahad?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Home loan plus three personal loans, EMI ka pahad? Capital Desk series.",
   "voice_scenes": [
@@ -1188,7 +1198,9 @@
     "end": 17.0,
     "text": "Talk to the CredNest Capital Desk. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD07-prepayment",
@@ -1200,7 +1212,7 @@
   "cover": "media/CD07-prepayment/cover.jpg",
   "caption": "One extra EMI a year on your home loan. The result?\n\nOn a ₹50 lakh loan at 8.5% for 20 years, one extra EMI at each year-end closes the loan about 3 years 3 months early and saves about ₹10.29 lakh of interest. Rate assumed for illustration; check your lender's part-payment terms first.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #HomeLoan #Prepayment #HomeLoanTips #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "One extra EMI a year on your home loan. The result?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on paper: Saal mein sirf 1 extra EMI. Result?",
   "voice_scenes": [
@@ -1229,7 +1241,9 @@
     "end": 14.0,
     "text": "Comment LOAN, or WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD08-small-syndication",
@@ -1241,7 +1255,7 @@
   "cover": "media/CD08-small-syndication/cover.jpg",
   "caption": "Syndication isn't only for ₹100 Cr deals.\n\nIllustrative scenario, not a client case or testimonial. A ₹2 Cr need for working capital and new machinery can be split: a bank funds the cash credit and an NBFC funds the machinery term loan. One credit pack, two lenders, coordinated security and terms. Allocation is decided by each lender.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanSyndication #WorkingCapital #MSMEFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Syndication isn't only for ₹100 Cr deals.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on dark: Syndication sirf ₹100 Cr ke liye nahi hai. Capital Desk series.",
   "voice_scenes": [
@@ -1270,7 +1284,9 @@
     "end": 16.2,
     "text": "Talk to the CredNest Capital Desk. WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD09-lap-vs-pl",
@@ -1282,7 +1298,7 @@
   "cover": "media/CD09-lap-vs-pl/cover.jpg",
   "caption": "Own property, but taking a personal loan?\n\n₹10 lakh over 5 years: at an assumed 12% a personal loan costs about ₹3.35 lakh in interest; LAP at an assumed 9.5% costs about ₹2.60 lakh, around ₹74,555 less. But LAP puts the property on the line and needs more paperwork. Choose with care.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #LoanAgainstProperty #PersonalLoan #MumbaiProperty #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Own property, but taking a personal loan?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Property hai? Toh personal loan kyun?",
   "voice_scenes": [
@@ -1306,7 +1322,9 @@
     "end": 12.0,
     "text": "Comment LOAN, or WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD10-red-flags",
@@ -1318,7 +1336,7 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan ke naam pe dhokha? Four red flags.\n\nA fee before sanction. \"No CIBIL check, guaranteed.\" Approved in 10 minutes with no papers. A request for your OTP. Walk away from all four and verify the lender first. Share this with someone looking for a loan.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanFraud #StaySafe #BusinessLoan #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan ke naam pe dhokha? Four red flags.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on paper: Loan ke naam pe dhokha?",
   "voice_scenes": [
@@ -1357,7 +1375,9 @@
     "end": 18.2,
     "text": "Comment LOAN, or WhatsApp Hi."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CR01-lap-emi",
@@ -1386,7 +1406,7 @@
   "cover": "media/CD11-emi-bounce/cover.jpg",
   "caption": "EMI bounced? Don't panic. Four steps.\n\nPay the due today. Call your lender and ask for the charges in writing. Keep one EMI as a buffer in the account. Check your credit report next month to confirm the payment shows correctly.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #EMIBounce #CIBILScore #BusinessLoan #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "EMI bounced? Don't panic. Four steps.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: EMI bounce ho gaya?",
   "voice_scenes": [
@@ -1420,7 +1440,9 @@
     "end": 13.4,
     "text": "Save this. WhatsApp Hi for help."
    }
-  ]
+  ],
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CR02-consolidation",
