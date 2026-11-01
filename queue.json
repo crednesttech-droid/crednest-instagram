@@ -1336,7 +1336,7 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan ke naam pe dhokha? Four red flags.\n\nA fee before sanction. \"No CIBIL check, guaranteed.\" Approved in 10 minutes with no papers. A request for your OTP. Walk away from all four and verify the lender first. Share this with someone looking for a loan.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanFraud #StaySafe #BusinessLoan #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan ke naam pe dhokha? Four red flags.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on paper: Loan ke naam pe dhokha?",
   "voice_scenes": [
@@ -1376,7 +1376,8 @@
     "text": "Type loan in the comments."
    }
   ],
-  "voice": "sarvam bulbul:v3 aditya"
+  "voice": "sarvam bulbul:v3 aditya",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CR01-lap-emi",
