@@ -8,7 +8,8 @@ Posts and stories for @crednest.io publish themselves from this repo. No laptop 
 - `state/published.json` records what is live, so nothing posts twice.
 - Instagram downloads the images and videos from this repo's GitHub Pages site, which is why the repo is public. Tokens stay in GitHub Secrets.
 
-## Schedule loaded (14 Oct – 12 Nov 2026)
+## Schedule loaded (14 Oct – 27 Nov 2026)
+From 2 Nov the feed follows a fixed grid cycle by cover colour: lime → paper → dark (profile grid reads dark | paper | lime). Keep this order when adding items; festival posts (Dhanteras 6 Nov, Diwali 8 Nov) fixed the phase.
 43 items: 31 `ready`, 6 reels `needs_voice` (waiting for the Sarvam voice), 6 feed images `needs_content` (Codex, see BRIEF.md).
 
 ## One-time setup

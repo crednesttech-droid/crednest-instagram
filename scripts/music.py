@@ -51,11 +51,13 @@ def make(seconds, seed):
     while pos < total:
         ch = CHORDS[i % len(CHORDS)]
         p = pad(ch, bar + 1.0)
-        out[pos:pos + len(p)] += 0.55 * p
+        seg = out[pos:pos + len(p)]
+        seg += 0.55 * p[:len(seg)]  # last chord can run past the buffer on short reels
         for beat in range(4):
             b = pos + int(beat * bar / 4 * SR)
             pl = pluck(ch[rng.integers(0, 3)]) * (0.18 if beat else 0.24)
-            out[b:b + len(pl)] += pl
+            seg = out[b:b + len(pl)]
+            seg += pl[:len(seg)]
         pos += int(bar * SR)
         i += 1
     out = out[:total]
