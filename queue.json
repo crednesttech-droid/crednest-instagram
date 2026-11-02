@@ -718,32 +718,38 @@
    {
     "start": 0.0,
     "end": 2.9,
-    "text": "पाँच करोड़ debt, अठारह percent पर?"
+    "text": "पाँच करोड़ debt, अठारह percent पर?",
+    "natural": 2.0
    },
    {
     "start": 2.9,
     "end": 5.9,
-    "text": "EMI हर महीने अठारह लाख।"
+    "text": "EMI हर महीने अठारह लाख।",
+    "natural": 2.08
    },
    {
     "start": 5.9,
     "end": 8.9,
-    "text": "Restructure करो, ग्यारह percent, सात साल।"
+    "text": "Restructure करो, ग्यारह percent, सात साल।",
+    "natural": 2.8
    },
    {
     "start": 8.9,
     "end": 12.1,
-    "text": "नया EMI, साढ़े आठ लाख।"
+    "text": "नया EMI, साढ़े आठ लाख।",
+    "natural": 1.76
    },
    {
     "start": 12.1,
     "end": 15.6,
-    "text": "साढ़े नौ लाख हर महीने business में वापस।"
+    "text": "साढ़े नौ लाख हर महीने business में वापस।",
+    "natural": 2.88
    },
    {
     "start": 15.6,
     "end": 19.0,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.2
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -751,7 +757,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "D22-new",
@@ -825,32 +832,38 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "सौ करोड़ चाहिए?"
+    "text": "सौ करोड़ चाहिए?",
+    "natural": 0.96
    },
    {
     "start": 2.6,
     "end": 5.4,
-    "text": "एक bank इतना नहीं देगा।"
+    "text": "एक bank इतना नहीं देगा।",
+    "natural": 1.36
    },
    {
     "start": 5.4,
     "end": 8.2,
-    "text": "Solution है loan syndication।"
+    "text": "Solution है loan syndication।",
+    "natural": 1.84
    },
    {
     "start": 8.2,
     "end": 12.0,
-    "text": "कई lenders, एक deal, एक जैसी terms।"
+    "text": "कई lenders, एक deal, एक जैसी terms।",
+    "natural": 2.72
    },
    {
     "start": 12.0,
     "end": 15.0,
-    "text": "Capex, project और refinancing के लिए।"
+    "text": "Capex, project और refinancing के लिए।",
+    "natural": 2.72
    },
    {
     "start": 15.0,
     "end": 18.4,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.36
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -858,7 +871,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "D26-story",
@@ -917,27 +931,32 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "आपका account SMA में गया?"
+    "text": "आपका account SMA में गया?",
+    "natural": 1.36
    },
    {
     "start": 2.6,
     "end": 6.8,
-    "text": "तीस, साठ, नब्बे दिन overdue।"
+    "text": "तीस, साठ, नब्बे दिन overdue।",
+    "natural": 3.04
    },
    {
     "start": 6.8,
     "end": 9.6,
-    "text": "नब्बे दिन के बाद NPA।"
+    "text": "नब्बे दिन के बाद NPA।",
+    "natural": 1.68
    },
    {
     "start": 9.6,
     "end": 13.2,
-    "text": "जल्दी action लो, restructure, refinance या lender switch।"
+    "text": "जल्दी action लो, restructure, refinance या lender switch।",
+    "natural": 3.2
    },
    {
     "start": 13.2,
     "end": 16.6,
-    "text": "Confidential बात करो, WhatsApp पर।"
+    "text": "Confidential बात करो, WhatsApp पर।",
+    "natural": 2.0
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -945,7 +964,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "D27-feed",
@@ -1107,27 +1127,32 @@
    {
     "start": 0.0,
     "end": 3.0,
-    "text": "IPO अठारह महीने दूर, capital आज चाहिए?"
+    "text": "IPO अठारह महीने दूर, capital आज चाहिए?",
+    "natural": 2.64
    },
    {
     "start": 3.0,
     "end": 7.8,
-    "text": "चार रास्ते: bridge, mezzanine, promoter funding, placement।"
+    "text": "चार रास्ते: bridge, mezzanine, promoter funding, placement।",
+    "natural": 4.96
    },
    {
     "start": 7.8,
     "end": 11.2,
-    "text": "Lender देखेगा audit, timeline और funds का use।"
+    "text": "Lender देखेगा audit, timeline और funds का use।",
+    "natural": 2.16
    },
    {
     "start": 11.2,
     "end": 14.0,
-    "text": "Readiness ही collateral है।"
+    "text": "Readiness ही collateral है।",
+    "natural": 1.52
    },
    {
     "start": 14.0,
     "end": 17.4,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.2
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1135,7 +1160,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CD05-dscr",
@@ -1154,27 +1180,32 @@
    {
     "start": 0.0,
     "end": 2.8,
-    "text": "पचास करोड़ project, bank क्या देखेगा?"
+    "text": "पचास करोड़ project, bank क्या देखेगा?",
+    "natural": 2.72
    },
    {
     "start": 2.8,
     "end": 6.2,
-    "text": "DSCR, यानी cash for debt, भाग debt service।"
+    "text": "DSCR, यानी cash for debt, भाग debt service।",
+    "natural": 4.24
    },
    {
     "start": 6.2,
     "end": 9.4,
-    "text": "तीन करोड़ भाग दो करोड़, डेढ़ गुना।"
+    "text": "तीन करोड़ भाग दो करोड़, डेढ़ गुना।",
+    "natural": 3.2
    },
    {
     "start": 9.4,
     "end": 12.6,
-    "text": "फिर promoter contribution, approvals और security।"
+    "text": "फिर promoter contribution, approvals और security।",
+    "natural": 2.64
    },
    {
     "start": 12.6,
     "end": 16.0,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.68
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1182,7 +1213,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "D23-new",
@@ -1216,27 +1248,32 @@
    {
     "start": 0.0,
     "end": 2.8,
-    "text": "Home loan और तीन personal loans?"
+    "text": "Home loan और तीन personal loans?",
+    "natural": 1.92
    },
    {
     "start": 2.8,
     "end": 6.0,
-    "text": "Total EMI, एक लाख तेरह हज़ार महीना।"
+    "text": "Total EMI, एक लाख तेरह हज़ार महीना।",
+    "natural": 2.8
    },
    {
     "start": 6.0,
     "end": 9.2,
-    "text": "Balance transfer के साथ top-up loan।"
+    "text": "Balance transfer के साथ top-up loan।",
+    "natural": 1.76
    },
    {
     "start": 9.2,
     "end": 12.8,
-    "text": "एक EMI, सतहत्तर हज़ार। छत्तीस हज़ार की बचत।"
+    "text": "एक EMI, सतहत्तर हज़ार। छत्तीस हज़ार की बचत।",
+    "natural": 3.6
    },
    {
     "start": 12.8,
     "end": 16.2,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.36
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1244,7 +1281,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CD07-prepayment",
@@ -1263,27 +1301,32 @@
    {
     "start": 0.0,
     "end": 2.8,
-    "text": "साल में सिर्फ़ एक extra EMI।"
+    "text": "साल में सिर्फ़ एक extra EMI।",
+    "natural": 2.0
    },
    {
     "start": 2.8,
     "end": 5.8,
-    "text": "पचास लाख का home loan, बीस साल।"
+    "text": "पचास लाख का home loan, बीस साल।",
+    "natural": 2.56
    },
    {
     "start": 5.8,
     "end": 8.8,
-    "text": "तीन साल पहले खत्म।"
+    "text": "तीन साल पहले खत्म।",
+    "natural": 1.36
    },
    {
     "start": 8.8,
     "end": 12.0,
-    "text": "दस लाख interest की बचत।"
+    "text": "दस लाख interest की बचत।",
+    "natural": 1.36
    },
    {
     "start": 12.0,
     "end": 15.4,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.2
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1291,7 +1334,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CD08-small-syndication",
@@ -1310,27 +1354,32 @@
    {
     "start": 0.0,
     "end": 3.1,
-    "text": "क्या syndication सिर्फ़ सौ करोड़ के लिए?"
+    "text": "क्या syndication सिर्फ़ सौ करोड़ के लिए?",
+    "natural": 2.0
    },
    {
     "start": 3.1,
     "end": 5.9,
-    "text": "नहीं, दो करोड़ के लिए भी।"
+    "text": "नहीं, दो करोड़ के लिए भी।",
+    "natural": 1.2
    },
    {
     "start": 5.9,
     "end": 9.7,
-    "text": "Bank देगा cash credit, NBFC देगा machinery loan।"
+    "text": "Bank देगा cash credit, NBFC देगा machinery loan।",
+    "natural": 3.28
    },
    {
     "start": 9.7,
     "end": 12.7,
-    "text": "एक file, दो lenders।"
+    "text": "एक file, दो lenders।",
+    "natural": 2.0
    },
    {
     "start": 12.7,
     "end": 16.1,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.2
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1338,7 +1387,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CD09-lap-vs-pl",
@@ -1357,27 +1407,32 @@
    {
     "start": 0.0,
     "end": 2.8,
-    "text": "Property है? फिर personal loan क्यों?"
+    "text": "Property है? फिर personal loan क्यों?",
+    "natural": 2.64
    },
    {
     "start": 2.8,
     "end": 6.8,
-    "text": "दस लाख, पाँच साल, personal loan versus LAP।"
+    "text": "दस लाख, पाँच साल, personal loan versus LAP।",
+    "natural": 3.84
    },
    {
     "start": 6.8,
     "end": 9.8,
-    "text": "पचहत्तर हज़ार कम interest।"
+    "text": "पचहत्तर हज़ार कम interest।",
+    "natural": 1.52
    },
    {
     "start": 9.8,
     "end": 12.6,
-    "text": "लेकिन property risk पर है।"
+    "text": "लेकिन property risk पर है।",
+    "natural": 1.44
    },
    {
     "start": 12.6,
     "end": 16.0,
-    "text": "WhatsApp पर message करो।"
+    "text": "WhatsApp पर message करो।",
+    "natural": 1.2
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1385,7 +1440,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CD10-red-flags",
@@ -1404,37 +1460,44 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "Loan के नाम पे धोखा?"
+    "text": "Loan के नाम पे धोखा?",
+    "natural": 1.12
    },
    {
     "start": 2.6,
     "end": 4.9,
-    "text": "एक, पहले fees दो।"
+    "text": "एक, पहले fees दो।",
+    "natural": 1.44
    },
    {
     "start": 4.9,
     "end": 7.2,
-    "text": "दो, बिना CIBIL check, guaranteed।"
+    "text": "दो, बिना CIBIL check, guaranteed।",
+    "natural": 2.72
    },
    {
     "start": 7.2,
     "end": 9.5,
-    "text": "तीन, दस minute में approval।"
+    "text": "तीन, दस minute में approval।",
+    "natural": 1.76
    },
    {
     "start": 9.5,
     "end": 11.8,
-    "text": "चार, OTP share करो।"
+    "text": "चार, OTP share करो।",
+    "natural": 1.6
    },
    {
     "start": 11.8,
     "end": 14.6,
-    "text": "हम कोई advance fees नहीं लेते।"
+    "text": "हम कोई advance fees नहीं लेते।",
+    "natural": 1.84
    },
    {
     "start": 14.6,
     "end": 17.8,
-    "text": "Save करो, family को share करो।"
+    "text": "Save करो, family को share करो।",
+    "natural": 1.6
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1442,7 +1505,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CR01-lap-emi",
@@ -1478,32 +1542,38 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "EMI bounce हो गया?"
+    "text": "EMI bounce हो गया?",
+    "natural": 1.12
    },
    {
     "start": 2.6,
     "end": 4.9,
-    "text": "आज ही pay करो।"
+    "text": "आज ही pay करो।",
+    "natural": 0.88
    },
    {
     "start": 4.9,
     "end": 7.2,
-    "text": "Charges लिखित में लो।"
+    "text": "Charges लिखित में लो।",
+    "natural": 1.36
    },
    {
     "start": 7.2,
     "end": 9.5,
-    "text": "एक EMI का buffer रखो।"
+    "text": "एक EMI का buffer रखो।",
+    "natural": 1.6
    },
    {
     "start": 9.5,
     "end": 11.8,
-    "text": "अगले महीने report check करो।"
+    "text": "अगले महीने report check करो।",
+    "natural": 1.44
    },
    {
     "start": 11.8,
     "end": 14.8,
-    "text": "Save करो, काम आएगा।"
+    "text": "Save करो, काम आएगा।",
+    "natural": 1.6
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
@@ -1511,7 +1581,8 @@
   "audio": "voice -14 LUFS + ducked music bed",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_hi_reels",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_hi_reels pace 1.0"
  },
  {
   "id": "CR02-consolidation",
