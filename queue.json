@@ -1091,7 +1091,7 @@
   "cover": "media/CD04-preipo/cover.jpg",
   "caption": "IPO 18 months away. Capital needed today?\n\nPre-IPO bridge debt, structured or mezzanine debt, promoter funding against shares, or a pre-IPO placement: the route depends on readiness. Lenders read audited financials and governance, the IPO timeline and advisers, use of proceeds and promoter holding. Equity placements follow applicable regulations.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #PreIPO #StructuredFinance #GrowthCapital #DebtAdvisory\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "IPO 18 months away. Capital needed today?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: IPO 18 mahine door, capital aaj chahiye? Capital Desk series.",
   "voice_scenes": [
@@ -1122,7 +1122,8 @@
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
-  "voice_lang": "hi-IN"
+  "voice_lang": "hi-IN",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD05-dscr",
@@ -1281,7 +1282,7 @@
   "cover": "media/CD08-small-syndication/cover.jpg",
   "caption": "Syndication isn't only for ₹100 Cr deals.\n\nIllustrative scenario, not a client case or testimonial. A ₹2 Cr need for working capital and new machinery can be split: a bank funds the cash credit and an NBFC funds the machinery term loan. One credit pack, two lenders, coordinated security and terms. Allocation is decided by each lender.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanSyndication #WorkingCapital #MSMEFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Syndication isn't only for ₹100 Cr deals.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on dark: Syndication sirf ₹100 Cr ke liye nahi hai. Capital Desk series.",
   "voice_scenes": [
@@ -1312,7 +1313,8 @@
    }
   ],
   "voice": "sarvam bulbul:v3 aditya",
-  "voice_lang": "hi-IN"
+  "voice_lang": "hi-IN",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD09-lap-vs-pl",
