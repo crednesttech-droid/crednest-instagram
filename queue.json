@@ -718,39 +718,46 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "Five crore of debt, at eighteen percent?"
+    "text": "Five crore of debt, at eighteen percent?",
+    "natural": 2.88
    },
    {
     "start": 2.6,
     "end": 5.3,
-    "text": "That's an EMI of eighteen lakh a month."
+    "text": "That's an EMI of eighteen lakh a month.",
+    "natural": 2.48
    },
    {
     "start": 5.3,
     "end": 8.7,
-    "text": "Restructure it. Eleven percent, seven years."
+    "text": "Restructure it. Eleven percent, seven years.",
+    "natural": 3.76
    },
    {
     "start": 8.7,
     "end": 11.3,
-    "text": "The new EMI? Eight and a half lakh."
+    "text": "The new EMI? Eight and a half lakh.",
+    "natural": 2.4
    },
    {
     "start": 11.3,
     "end": 14.8,
-    "text": "Nine and a half lakh, back in your business every month."
+    "text": "Nine and a half lakh, back in your business every month.",
+    "natural": 4.08
    },
    {
     "start": 14.8,
     "end": 17.8,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 1.92
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "D22-new",
@@ -824,39 +831,46 @@
    {
     "start": 0.0,
     "end": 2.1,
-    "text": "Need a hundred crore?"
+    "text": "Need a hundred crore?",
+    "natural": 1.12
    },
    {
     "start": 2.1,
     "end": 4.2,
-    "text": "One bank won't fund it all."
+    "text": "One bank won't fund it all.",
+    "natural": 1.6
    },
    {
     "start": 4.2,
     "end": 6.7,
-    "text": "The answer is loan syndication."
+    "text": "The answer is loan syndication.",
+    "natural": 2.08
    },
    {
     "start": 6.7,
     "end": 10.1,
-    "text": "Many lenders, one deal, one set of terms."
+    "text": "Many lenders, one deal, one set of terms.",
+    "natural": 3.44
    },
    {
     "start": 10.1,
     "end": 13.5,
-    "text": "Built for capex, projects and refinancing."
+    "text": "Built for capex, projects and refinancing.",
+    "natural": 3.04
    },
    {
     "start": 13.5,
     "end": 16.5,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 2.08
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "D26-story",
@@ -915,34 +929,40 @@
    {
     "start": 0.0,
     "end": 2.1,
-    "text": "Has your account been tagged SMA?"
+    "text": "Has your account been tagged SMA?",
+    "natural": 1.76
    },
    {
     "start": 2.1,
     "end": 5.8,
-    "text": "Thirty, sixty, ninety days overdue."
+    "text": "Thirty, sixty, ninety days overdue.",
+    "natural": 2.88
    },
    {
     "start": 5.8,
     "end": 8.1,
-    "text": "After ninety days, it can turn NPA."
+    "text": "After ninety days, it can turn NPA.",
+    "natural": 2.16
    },
    {
     "start": 8.1,
     "end": 11.9,
-    "text": "Act early. Restructure, refinance, or switch lenders."
+    "text": "Act early. Restructure, refinance, or switch lenders.",
+    "natural": 4.0
    },
    {
     "start": 11.9,
     "end": 14.9,
-    "text": "Talk to us in confidence, on WhatsApp."
+    "text": "Talk to us in confidence, on WhatsApp.",
+    "natural": 2.64
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "D27-feed",
@@ -1104,34 +1124,40 @@
    {
     "start": 0.0,
     "end": 3.3,
-    "text": "Your IPO is eighteen months away. Need capital now?"
+    "text": "Your IPO is eighteen months away. Need capital now?",
+    "natural": 3.44
    },
    {
     "start": 3.3,
     "end": 8.9,
-    "text": "Four routes. Bridge debt, mezzanine, promoter funding, or a placement."
+    "text": "Four routes. Bridge debt, mezzanine, promoter funding, or a placement.",
+    "natural": 5.44
    },
    {
     "start": 8.9,
     "end": 11.7,
-    "text": "Lenders check your audit, IPO timeline and use of funds."
+    "text": "Lenders check your audit, IPO timeline and use of funds.",
+    "natural": 3.6
    },
    {
     "start": 11.7,
     "end": 13.9,
-    "text": "Readiness is the collateral."
+    "text": "Readiness is the collateral.",
+    "natural": 1.52
    },
    {
     "start": 13.9,
     "end": 16.9,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 1.84
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD05-dscr",
@@ -1150,34 +1176,40 @@
    {
     "start": 0.0,
     "end": 3.4,
-    "text": "A fifty crore project. What does the bank check first?"
+    "text": "A fifty crore project. What does the bank check first?",
+    "natural": 3.28
    },
    {
     "start": 3.4,
     "end": 8.3,
-    "text": "D S C R. Cash available for debt, divided by debt service."
+    "text": "D S C R. Cash available for debt, divided by debt service.",
+    "natural": 4.8
    },
    {
     "start": 8.3,
     "end": 12.1,
-    "text": "Three crore over two crore. One point five times."
+    "text": "Three crore over two crore. One point five times.",
+    "natural": 3.92
    },
    {
     "start": 12.1,
     "end": 15.4,
-    "text": "Then promoter contribution, approvals and security."
+    "text": "Then promoter contribution, approvals and security.",
+    "natural": 3.36
    },
    {
     "start": 15.4,
     "end": 18.4,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 2.16
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "D23-new",
@@ -1211,34 +1243,40 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "A home loan, plus three personal loans?"
+    "text": "A home loan, plus three personal loans?",
+    "natural": 2.8
    },
    {
     "start": 2.6,
     "end": 6.0,
-    "text": "That's over one lakh a month in EMIs."
+    "text": "That's over one lakh a month in EMIs.",
+    "natural": 2.0
    },
    {
     "start": 6.0,
     "end": 8.4,
-    "text": "Do a balance transfer, with a top-up loan."
+    "text": "Do a balance transfer, with a top-up loan.",
+    "natural": 2.88
    },
    {
     "start": 8.4,
     "end": 12.6,
-    "text": "One EMI of seventy-seven thousand. Thirty-six thousand saved every month."
+    "text": "One EMI of seventy-seven thousand. Thirty-six thousand saved every month.",
+    "natural": 4.96
    },
    {
     "start": 12.6,
     "end": 15.6,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 1.84
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD07-prepayment",
@@ -1257,34 +1295,40 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "Pay just one extra EMI a year."
+    "text": "Pay just one extra EMI a year.",
+    "natural": 1.84
    },
    {
     "start": 2.6,
     "end": 5.8,
-    "text": "On a fifty lakh home loan over twenty years,"
+    "text": "On a fifty lakh home loan over twenty years,",
+    "natural": 2.48
    },
    {
     "start": 5.8,
     "end": 7.9,
-    "text": "you finish over three years early,"
+    "text": "you finish over three years early,",
+    "natural": 2.4
    },
    {
     "start": 7.9,
     "end": 10.5,
-    "text": "and save about ten lakh in interest."
+    "text": "and save about ten lakh in interest.",
+    "natural": 2.8
    },
    {
     "start": 10.5,
     "end": 13.5,
-    "text": "Message us on WhatsApp."
+    "text": "Message us on WhatsApp.",
+    "natural": 1.6
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD08-small-syndication",
@@ -1303,34 +1347,40 @@
    {
     "start": 0.0,
     "end": 2.6,
-    "text": "Is syndication only for hundred crore deals?"
+    "text": "Is syndication only for hundred crore deals?",
+    "natural": 2.48
    },
    {
     "start": 2.6,
     "end": 4.7,
-    "text": "No. Two crore works too."
+    "text": "No. Two crore works too.",
+    "natural": 1.68
    },
    {
     "start": 4.7,
     "end": 8.6,
-    "text": "A bank funds the cash credit. An NBFC funds the machinery loan."
+    "text": "A bank funds the cash credit. An NBFC funds the machinery loan.",
+    "natural": 4.4
    },
    {
     "start": 8.6,
     "end": 11.2,
-    "text": "One file. Two lenders."
+    "text": "One file. Two lenders.",
+    "natural": 1.92
    },
    {
     "start": 11.2,
     "end": 14.2,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 2.4
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD09-lap-vs-pl",
@@ -1349,34 +1399,40 @@
    {
     "start": 0.0,
     "end": 3.3,
-    "text": "Own property? Then why take a personal loan?"
+    "text": "Own property? Then why take a personal loan?",
+    "natural": 2.32
    },
    {
     "start": 3.3,
     "end": 7.8,
-    "text": "Ten lakh over five years. Personal loan, versus loan against property."
+    "text": "Ten lakh over five years. Personal loan, versus loan against property.",
+    "natural": 5.84
    },
    {
     "start": 7.8,
     "end": 10.4,
-    "text": "About seventy-five thousand less interest."
+    "text": "About seventy-five thousand less interest.",
+    "natural": 3.84
    },
    {
     "start": 10.4,
     "end": 12.5,
-    "text": "But your property is at risk."
+    "text": "But your property is at risk.",
+    "natural": 2.24
    },
    {
     "start": 12.5,
     "end": 15.5,
-    "text": "Talk to the Capital Desk on WhatsApp."
+    "text": "Talk to the Capital Desk on WhatsApp.",
+    "natural": 3.04
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD10-red-flags",
@@ -1395,44 +1451,52 @@
    {
     "start": 0.0,
     "end": 2.1,
-    "text": "Is that loan offer a scam? Four red flags."
+    "text": "Is that loan offer a scam? Four red flags.",
+    "natural": 2.8
    },
    {
     "start": 2.1,
     "end": 4.7,
-    "text": "One. Pay fees first."
+    "text": "One. Pay fees first.",
+    "natural": 2.16
    },
    {
     "start": 4.7,
     "end": 8.1,
-    "text": "Two. No CIBIL check, guaranteed."
+    "text": "Two. No CIBIL check, guaranteed.",
+    "natural": 2.48
    },
    {
     "start": 8.1,
     "end": 10.7,
-    "text": "Three. Approval in ten minutes."
+    "text": "Three. Approval in ten minutes.",
+    "natural": 2.8
    },
    {
     "start": 10.7,
     "end": 13.3,
-    "text": "Four. Share your OTP."
+    "text": "Four. Share your OTP.",
+    "natural": 1.68
    },
    {
     "start": 13.3,
     "end": 15.8,
-    "text": "We never charge advance fees."
+    "text": "We never charge advance fees.",
+    "natural": 1.68
    },
    {
     "start": 15.8,
     "end": 18.8,
-    "text": "Save this, and share it with family."
+    "text": "Save this, and share it with family.",
+    "natural": 2.64
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CR01-lap-emi",
@@ -1468,39 +1532,46 @@
    {
     "start": 0.0,
     "end": 2.1,
-    "text": "EMI bounced? Don't panic."
+    "text": "EMI bounced? Don't panic.",
+    "natural": 2.64
    },
    {
     "start": 2.1,
     "end": 4.7,
-    "text": "Pay it today."
+    "text": "Pay it today.",
+    "natural": 0.56
    },
    {
     "start": 4.7,
     "end": 7.3,
-    "text": "Get the charges in writing."
+    "text": "Get the charges in writing.",
+    "natural": 1.2
    },
    {
     "start": 7.3,
     "end": 9.9,
-    "text": "Keep one EMI as a buffer."
+    "text": "Keep one EMI as a buffer.",
+    "natural": 1.84
    },
    {
     "start": 9.9,
     "end": 12.5,
-    "text": "Check next month's credit report."
+    "text": "Check next month's credit report.",
+    "natural": 2.16
    },
    {
     "start": 12.5,
     "end": 15.5,
-    "text": "Save this. You'll need it."
+    "text": "Save this. You'll need it.",
+    "natural": 2.0
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_hi_reels",
   "voice_lang": "en-IN",
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
-  "voice_pace": 1.0
+  "voice_pace": 1.0,
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CR02-consolidation",
