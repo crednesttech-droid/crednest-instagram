@@ -1241,7 +1241,7 @@
   "cover": "media/CD06-bt-topup/cover.jpg",
   "caption": "Home loan plus 3 personal loans? Too many EMIs?\n\nIllustrative scenario, not a client case or testimonial. A balance transfer of the home loan with a top-up that clears costly personal loans can turn ₹1,13,920 of monthly EMIs into one EMI of ₹77,189, freeing ₹36,731 a month. The personal-loan part then runs 15 years, so it needs repayment discipline. Rates are assumed; subject to valuation and LTV.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BalanceTransfer #HomeLoan #DebtConsolidation #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Home loan plus 3 personal loans? Too many EMIs?",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Home loan plus 3 personal loans? Too many EMIs? Capital Desk series.",
   "voice_scenes": [
@@ -1281,8 +1281,7 @@
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD07-prepayment",
@@ -1294,7 +1293,7 @@
   "cover": "media/CD07-prepayment/cover.jpg",
   "caption": "One extra EMI a year on your home loan. The result?\n\nOn a ₹50 lakh loan at 8.5% for 20 years, one extra EMI at each year-end closes the loan about 3 years 3 months early and saves about ₹10.29 lakh of interest. Rate assumed for illustration; check your lender's part-payment terms first.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #HomeLoan #Prepayment #HomeLoanTips #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "One extra EMI a year on your home loan. The result?",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on paper: Just 1 extra EMI a year. The result?",
   "voice_scenes": [
@@ -1325,7 +1324,7 @@
    {
     "start": 12.0,
     "end": 15.0,
-    "text": "Message us on WhatsApp.",
+    "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 1.6
    }
   ],
@@ -1334,8 +1333,7 @@
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD08-small-syndication",
@@ -1347,7 +1345,7 @@
   "cover": "media/CD08-small-syndication/cover.jpg",
   "caption": "Syndication isn't only for ₹100 Cr deals.\n\nIllustrative scenario, not a client case or testimonial. A ₹2 Cr need for working capital and new machinery can be split: a bank funds the cash credit and an NBFC funds the machinery term loan. One credit pack, two lenders, coordinated security and terms. Allocation is decided by each lender.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanSyndication #WorkingCapital #MSMEFinance #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Syndication isn't only for ₹100 Cr deals.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on dark: Syndication only for ₹100 Cr deals? No. Capital Desk series.",
   "voice_scenes": [
@@ -1387,8 +1385,7 @@
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD09-lap-vs-pl",
@@ -1400,7 +1397,7 @@
   "cover": "media/CD09-lap-vs-pl/cover.jpg",
   "caption": "Own property, but taking a personal loan?\n\n₹10 lakh over 5 years: at an assumed 12% a personal loan costs about ₹3.35 lakh in interest; LAP at an assumed 9.5% costs about ₹2.60 lakh, around ₹74,555 less. But LAP puts the property on the line and needs more paperwork. Choose with care.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #LoanAgainstProperty #PersonalLoan #MumbaiProperty #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Own property, but taking a personal loan?",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Own property? Why a personal loan?",
   "voice_scenes": [
@@ -1440,8 +1437,7 @@
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
  },
  {
   "id": "CD10-red-flags",
