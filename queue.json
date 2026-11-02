@@ -1241,7 +1241,7 @@
   "cover": "media/CD06-bt-topup/cover.jpg",
   "caption": "Home loan plus 3 personal loans? Too many EMIs?\n\nIllustrative scenario, not a client case or testimonial. A balance transfer of the home loan with a top-up that clears costly personal loans can turn ₹1,13,920 of monthly EMIs into one EMI of ₹77,189, freeing ₹36,731 a month. The personal-loan part then runs 15 years, so it needs repayment discipline. Rates are assumed; subject to valuation and LTV.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BalanceTransfer #HomeLoan #DebtConsolidation #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Home loan plus 3 personal loans? Too many EMIs?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Home loan plus 3 personal loans? Too many EMIs? Capital Desk series.",
   "voice_scenes": [
@@ -1281,7 +1281,8 @@
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD07-prepayment",
@@ -1399,7 +1400,7 @@
   "cover": "media/CD09-lap-vs-pl/cover.jpg",
   "caption": "Own property, but taking a personal loan?\n\n₹10 lakh over 5 years: at an assumed 12% a personal loan costs about ₹3.35 lakh in interest; LAP at an assumed 9.5% costs about ₹2.60 lakh, around ₹74,555 less. But LAP puts the property on the line and needs more paperwork. Choose with care.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #LoanAgainstProperty #PersonalLoan #MumbaiProperty #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Own property, but taking a personal loan?",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
   "alt_text": "Reel cover on lime: Own property? Why a personal loan?",
   "voice_scenes": [
@@ -1439,7 +1440,8 @@
   "voice_model": "bulbul:v4-flash",
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0"
+  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "CD10-red-flags",
