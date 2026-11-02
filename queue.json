@@ -713,41 +713,41 @@
   "topic": "₹5 Cr debt at 18%. Is your cash flow choking?",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: ₹5 Cr debt at 18%, cash flow choke? Capital Desk series.",
+  "alt_text": "Reel cover on lime: ₹5 Cr debt at 18%? Cash flow choking? Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.6,
+    "end": 3.5,
     "text": "Five crore of debt, at eighteen percent?",
     "natural": 2.88
    },
    {
-    "start": 2.6,
-    "end": 5.3,
+    "start": 3.5,
+    "end": 6.6,
     "text": "That's an EMI of eighteen lakh a month.",
     "natural": 2.48
    },
    {
-    "start": 5.3,
-    "end": 8.7,
+    "start": 6.6,
+    "end": 11.0,
     "text": "Restructure it. Eleven percent, seven years.",
     "natural": 3.76
    },
    {
-    "start": 8.7,
-    "end": 11.3,
+    "start": 11.0,
+    "end": 14.0,
     "text": "The new EMI? Eight and a half lakh.",
     "natural": 2.4
    },
    {
-    "start": 11.3,
-    "end": 14.8,
+    "start": 14.0,
+    "end": 18.7,
     "text": "Nine and a half lakh, back in your business every month.",
     "natural": 4.08
    },
    {
-    "start": 14.8,
-    "end": 17.8,
+    "start": 18.7,
+    "end": 21.7,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 1.92
    }
@@ -826,7 +826,7 @@
   "topic": "₹100 Cr needed. One bank won't take it all.",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: ₹100 Cr chahiye, ek bank itna nahi dega. Capital Desk series.",
+  "alt_text": "Reel cover on lime: Need ₹100 Cr? One bank won't fund it all. Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
@@ -836,31 +836,31 @@
    },
    {
     "start": 2.1,
-    "end": 4.2,
+    "end": 4.3,
     "text": "One bank won't fund it all.",
     "natural": 1.6
    },
    {
-    "start": 4.2,
-    "end": 6.7,
+    "start": 4.3,
+    "end": 7.0,
     "text": "The answer is loan syndication.",
     "natural": 2.08
    },
    {
-    "start": 6.7,
-    "end": 10.1,
+    "start": 7.0,
+    "end": 11.1,
     "text": "Many lenders, one deal, one set of terms.",
     "natural": 3.44
    },
    {
-    "start": 10.1,
-    "end": 13.5,
+    "start": 11.1,
+    "end": 14.8,
     "text": "Built for capex, projects and refinancing.",
     "natural": 3.04
    },
    {
-    "start": 13.5,
-    "end": 16.5,
+    "start": 14.8,
+    "end": 17.8,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 2.08
    }
@@ -924,35 +924,35 @@
   "topic": "Bank tagged your account SMA? The clock is running.",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: Bank ne SMA tag laga diya? Capital Desk series.",
+  "alt_text": "Reel cover on lime: Account tagged SMA? Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.1,
+    "end": 2.4,
     "text": "Has your account been tagged SMA?",
     "natural": 1.76
    },
    {
-    "start": 2.1,
-    "end": 5.8,
+    "start": 2.4,
+    "end": 5.9,
     "text": "Thirty, sixty, ninety days overdue.",
     "natural": 2.88
    },
    {
-    "start": 5.8,
-    "end": 8.1,
+    "start": 5.9,
+    "end": 8.7,
     "text": "After ninety days, it can turn NPA.",
     "natural": 2.16
    },
    {
-    "start": 8.1,
-    "end": 11.9,
+    "start": 8.7,
+    "end": 13.3,
     "text": "Act early. Restructure, refinance, or switch lenders.",
     "natural": 4.0
    },
    {
-    "start": 11.9,
-    "end": 14.9,
+    "start": 13.3,
+    "end": 16.6,
     "text": "Talk to us in confidence, on WhatsApp.",
     "natural": 2.64
    }
@@ -1119,35 +1119,35 @@
   "topic": "IPO 18 months away. Capital needed today?",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: IPO 18 mahine door, capital aaj chahiye? Capital Desk series.",
+  "alt_text": "Reel cover on lime: IPO 18 months away. Need capital now? Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.3,
+    "end": 4.1,
     "text": "Your IPO is eighteen months away. Need capital now?",
     "natural": 3.44
    },
    {
-    "start": 3.3,
-    "end": 8.9,
+    "start": 4.1,
+    "end": 10.2,
     "text": "Four routes. Bridge debt, mezzanine, promoter funding, or a placement.",
     "natural": 5.44
    },
    {
-    "start": 8.9,
-    "end": 11.7,
+    "start": 10.2,
+    "end": 14.4,
     "text": "Lenders check your audit, IPO timeline and use of funds.",
     "natural": 3.6
    },
    {
-    "start": 11.7,
-    "end": 13.9,
+    "start": 14.4,
+    "end": 16.6,
     "text": "Readiness is the collateral.",
     "natural": 1.52
    },
    {
-    "start": 13.9,
-    "end": 16.9,
+    "start": 16.6,
+    "end": 19.6,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 1.84
    }
@@ -1171,35 +1171,35 @@
   "topic": "₹50 Cr project. The first number a bank reads: DSCR.",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on paper: ₹50 Cr project, bank pehle kya dekhega? Capital Desk series.",
+  "alt_text": "Reel cover on paper: ₹50 Cr project. What does the bank check first? Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.4,
+    "end": 3.9,
     "text": "A fifty crore project. What does the bank check first?",
     "natural": 3.28
    },
    {
-    "start": 3.4,
-    "end": 8.3,
+    "start": 3.9,
+    "end": 9.3,
     "text": "D S C R. Cash available for debt, divided by debt service.",
     "natural": 4.8
    },
    {
-    "start": 8.3,
-    "end": 12.1,
+    "start": 9.3,
+    "end": 13.9,
     "text": "Three crore over two crore. One point five times.",
     "natural": 3.92
    },
    {
-    "start": 12.1,
-    "end": 15.4,
+    "start": 13.9,
+    "end": 17.9,
     "text": "Then promoter contribution, approvals and security.",
     "natural": 3.36
    },
    {
-    "start": 15.4,
-    "end": 18.4,
+    "start": 17.9,
+    "end": 20.9,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 2.16
    }
@@ -1234,39 +1234,39 @@
    "media/CD06-bt-topup/reel.mp4"
   ],
   "cover": "media/CD06-bt-topup/cover.jpg",
-  "caption": "Home loan plus 3 personal loans. EMI ka pahad?\n\nIllustrative scenario, not a client case or testimonial. A balance transfer of the home loan with a top-up that clears costly personal loans can turn ₹1,13,920 of monthly EMIs into one EMI of ₹77,189, freeing ₹36,731 a month. The personal-loan part then runs 15 years, so it needs repayment discipline. Rates are assumed; subject to valuation and LTV.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BalanceTransfer #HomeLoan #DebtConsolidation #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Home loan plus 3 personal loans. EMI ka pahad?",
+  "caption": "Home loan plus 3 personal loans? Too many EMIs?\n\nIllustrative scenario, not a client case or testimonial. A balance transfer of the home loan with a top-up that clears costly personal loans can turn ₹1,13,920 of monthly EMIs into one EMI of ₹77,189, freeing ₹36,731 a month. The personal-loan part then runs 15 years, so it needs repayment discipline. Rates are assumed; subject to valuation and LTV.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BalanceTransfer #HomeLoan #DebtConsolidation #Mumbai\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Home loan plus 3 personal loans? Too many EMIs?",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: Home loan plus three personal loans, EMI ka pahad? Capital Desk series.",
+  "alt_text": "Reel cover on lime: Home loan plus 3 personal loans? Too many EMIs? Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.6,
+    "end": 3.4,
     "text": "A home loan, plus three personal loans?",
     "natural": 2.8
    },
    {
-    "start": 2.6,
+    "start": 3.4,
     "end": 6.0,
     "text": "That's over one lakh a month in EMIs.",
     "natural": 2.0
    },
    {
     "start": 6.0,
-    "end": 8.4,
+    "end": 9.5,
     "text": "Do a balance transfer, with a top-up loan.",
     "natural": 2.88
    },
    {
-    "start": 8.4,
-    "end": 12.6,
+    "start": 9.5,
+    "end": 15.1,
     "text": "One EMI of seventy-seven thousand. Thirty-six thousand saved every month.",
     "natural": 4.96
    },
    {
-    "start": 12.6,
-    "end": 15.6,
+    "start": 15.1,
+    "end": 18.1,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 1.84
    }
@@ -1290,35 +1290,35 @@
   "topic": "One extra EMI a year on your home loan. The result?",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on paper: Saal mein sirf 1 extra EMI. Result?",
+  "alt_text": "Reel cover on paper: Just 1 extra EMI a year. The result?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.6,
+    "end": 2.5,
     "text": "Pay just one extra EMI a year.",
     "natural": 1.84
    },
    {
-    "start": 2.6,
-    "end": 5.8,
+    "start": 2.5,
+    "end": 5.6,
     "text": "On a fifty lakh home loan over twenty years,",
     "natural": 2.48
    },
    {
-    "start": 5.8,
-    "end": 7.9,
+    "start": 5.6,
+    "end": 8.6,
     "text": "you finish over three years early,",
     "natural": 2.4
    },
    {
-    "start": 7.9,
-    "end": 10.5,
+    "start": 8.6,
+    "end": 12.0,
     "text": "and save about ten lakh in interest.",
     "natural": 2.8
    },
    {
-    "start": 10.5,
-    "end": 13.5,
+    "start": 12.0,
+    "end": 15.0,
     "text": "Message us on WhatsApp.",
     "natural": 1.6
    }
@@ -1342,35 +1342,35 @@
   "topic": "Syndication isn't only for ₹100 Cr deals.",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on dark: Syndication sirf ₹100 Cr ke liye nahi hai. Capital Desk series.",
+  "alt_text": "Reel cover on dark: Syndication only for ₹100 Cr deals? No. Capital Desk series.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.6,
+    "end": 3.1,
     "text": "Is syndication only for hundred crore deals?",
     "natural": 2.48
    },
    {
-    "start": 2.6,
-    "end": 4.7,
+    "start": 3.1,
+    "end": 5.4,
     "text": "No. Two crore works too.",
     "natural": 1.68
    },
    {
-    "start": 4.7,
-    "end": 8.6,
+    "start": 5.4,
+    "end": 10.4,
     "text": "A bank funds the cash credit. An NBFC funds the machinery loan.",
     "natural": 4.4
    },
    {
-    "start": 8.6,
-    "end": 11.2,
+    "start": 10.4,
+    "end": 13.0,
     "text": "One file. Two lenders.",
     "natural": 1.92
    },
    {
-    "start": 11.2,
-    "end": 14.2,
+    "start": 13.0,
+    "end": 16.0,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 2.4
    }
@@ -1394,35 +1394,35 @@
   "topic": "Own property, but taking a personal loan?",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: Property hai? Toh personal loan kyun?",
+  "alt_text": "Reel cover on lime: Own property? Why a personal loan?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.3,
+    "end": 3.0,
     "text": "Own property? Then why take a personal loan?",
     "natural": 2.32
    },
    {
-    "start": 3.3,
-    "end": 7.8,
+    "start": 3.0,
+    "end": 9.5,
     "text": "Ten lakh over five years. Personal loan, versus loan against property.",
     "natural": 5.84
    },
    {
-    "start": 7.8,
-    "end": 10.4,
+    "start": 9.5,
+    "end": 14.0,
     "text": "About seventy-five thousand less interest.",
     "natural": 3.84
    },
    {
-    "start": 10.4,
-    "end": 12.5,
+    "start": 14.0,
+    "end": 16.9,
     "text": "But your property is at risk.",
     "natural": 2.24
    },
    {
-    "start": 12.5,
-    "end": 15.5,
+    "start": 16.9,
+    "end": 20.6,
     "text": "Talk to the Capital Desk on WhatsApp.",
     "natural": 3.04
    }
@@ -1442,51 +1442,51 @@
    "media/CD10-red-flags/reel.mp4"
   ],
   "cover": "media/CD10-red-flags/cover.jpg",
-  "caption": "Loan ke naam pe dhokha? Four red flags.\n\nA fee before sanction. \"No CIBIL check, guaranteed.\" Approved in 10 minutes with no papers. A request for your OTP. Walk away from all four and verify the lender first. Share this with someone looking for a loan.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanFraud #StaySafe #BusinessLoan #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Loan ke naam pe dhokha? Four red flags.",
+  "caption": "Loan offer or a scam? Four red flags.\n\nA fee before sanction. \"No CIBIL check, guaranteed.\" Approved in 10 minutes with no papers. A request for your OTP. Walk away from all four and verify the lender first. Share this with someone looking for a loan.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanFraud #StaySafe #BusinessLoan #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Loan offer or a scam? Four red flags.",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on paper: Loan ke naam pe dhokha?",
+  "alt_text": "Reel cover on paper: Loan offer or a scam?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.1,
+    "end": 3.4,
     "text": "Is that loan offer a scam? Four red flags.",
     "natural": 2.8
    },
    {
-    "start": 2.1,
-    "end": 4.7,
+    "start": 3.4,
+    "end": 6.2,
     "text": "One. Pay fees first.",
     "natural": 2.16
    },
    {
-    "start": 4.7,
-    "end": 8.1,
+    "start": 6.2,
+    "end": 9.3,
     "text": "Two. No CIBIL check, guaranteed.",
     "natural": 2.48
    },
    {
-    "start": 8.1,
-    "end": 10.7,
+    "start": 9.3,
+    "end": 12.7,
     "text": "Three. Approval in ten minutes.",
     "natural": 2.8
    },
    {
-    "start": 10.7,
-    "end": 13.3,
+    "start": 12.7,
+    "end": 15.3,
     "text": "Four. Share your OTP.",
     "natural": 1.68
    },
    {
-    "start": 13.3,
-    "end": 15.8,
+    "start": 15.3,
+    "end": 17.6,
     "text": "We never charge advance fees.",
     "natural": 1.68
    },
    {
-    "start": 15.8,
-    "end": 18.8,
+    "start": 17.6,
+    "end": 20.9,
     "text": "Save this, and share it with family.",
     "natural": 2.64
    }
@@ -1513,7 +1513,7 @@
   "topic": "₹50 lakh LAP. What will the EMI be?",
   "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Dark carousel cover: ₹50 lakh LAP, EMI kitni banegi? Slides compare 10, 15 and 20 year tenures."
+  "alt_text": "Dark carousel cover: ₹50 lakh LAP. What's the EMI? Slides compare 10, 15 and 20 year tenures."
  },
  {
   "id": "CD11-emi-bounce",
@@ -1527,41 +1527,41 @@
   "topic": "EMI bounced? Don't panic. Four steps.",
   "status": "needs_voice",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Reel cover on lime: EMI bounce ho gaya?",
+  "alt_text": "Reel cover on lime: EMI bounced?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.1,
+    "end": 3.3,
     "text": "EMI bounced? Don't panic.",
     "natural": 2.64
    },
    {
-    "start": 2.1,
-    "end": 4.7,
+    "start": 3.3,
+    "end": 5.9,
     "text": "Pay it today.",
     "natural": 0.56
    },
    {
-    "start": 4.7,
-    "end": 7.3,
+    "start": 5.9,
+    "end": 8.5,
     "text": "Get the charges in writing.",
     "natural": 1.2
    },
    {
-    "start": 7.3,
-    "end": 9.9,
+    "start": 8.5,
+    "end": 11.1,
     "text": "Keep one EMI as a buffer.",
     "natural": 1.84
    },
    {
-    "start": 9.9,
-    "end": 12.5,
+    "start": 11.1,
+    "end": 13.9,
     "text": "Check next month's credit report.",
     "natural": 2.16
    },
    {
-    "start": 12.5,
-    "end": 15.5,
+    "start": 13.9,
+    "end": 16.9,
     "text": "Save this. You'll need it.",
     "natural": 2.0
    }
@@ -1587,7 +1587,7 @@
   "topic": "4 EMIs. 4 dates. Shift to one loan?",
   "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Paper carousel cover: 4 EMIs, 4 dates, ek loan mein shift? Slides list four questions to ask first."
+  "alt_text": "Paper carousel cover: 4 EMIs, 4 dates. Time to consolidate? Slides list four questions to ask first."
  },
  {
   "id": "CR03-rate-half",
@@ -1604,6 +1604,6 @@
   "topic": "Only 0.5% difference? On ₹50 lakh, that's ₹3.83 lakh.",
   "status": "ready",
   "source": "Capital Desk series (Claude, 2 Nov 2026)",
-  "alt_text": "Dark carousel cover: Sirf 0.5% ka farak? ₹3.83 lakh. Slides compare 8.5% and 9.0% on a ₹50 lakh home loan."
+  "alt_text": "Dark carousel cover: Just 0.5% apart? ₹3.83 lakh. Slides compare 8.5% and 9.0% on a ₹50 lakh home loan."
  }
 ]
