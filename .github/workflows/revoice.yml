@@ -6,7 +6,7 @@ on:
       mode:
         description: "voice = new Sarvam voice + music (reels waiting for voice); music-only = add music to current voice, no Sarvam cost"
         type: choice
-        options: [voice, music-only]
+        options: [voice, music-only, measure, sample]
         default: voice
       speaker:
         description: "Sarvam speaker (e.g. aditya, rahul, rohan, priya, neha)"
@@ -39,14 +39,19 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ inputs.mode }}" = "music-only" ]; then ARGS="--music-only --all"; fi
+          if [ "${{ inputs.mode }}" = "measure" ]; then ARGS="--measure"; fi
+          if [ "${{ inputs.mode }}" = "sample" ]; then ARGS="--sample ${{ inputs.speaker }}"; fi
           if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only ${{ inputs.only }}"; fi
           python scripts/revoice.py --speaker "${{ inputs.speaker }}" --model "${{ inputs.model }}" $ARGS
       - uses: actions/upload-artifact@v4
         with:
           name: revoiced-reels
-          path: media/*/reel.mp4
+          path: |
+            media/*/reel.mp4
+            samples/*.mp4
+          if-no-files-found: ignore
       - run: |
           git config user.name "crednest-autopilot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A media queue.json
+          git add -A media queue.json samples 2>/dev/null || git add -A media queue.json
           git diff --cached --quiet || (git commit -m "Reels audio: ${{ inputs.mode }} (${{ inputs.speaker }})" && git push)

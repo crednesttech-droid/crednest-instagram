@@ -43,11 +43,18 @@ def tts(text, speaker, model, pace, key, out, lang="en-IN"):
         f.write(base64.b64decode(d["audios"][0]))
 
 
+def voice_cfg(item, a):
+    """Per-item overrides (voice_model / voice_speaker / voice_pace) win over workflow inputs."""
+    return (item.get("voice_speaker") or a.speaker, item.get("voice_model") or a.model,
+            float(item.get("voice_pace") or a.pace))
+
+
 def sarvam_voice(item, a, key, vlen, tmp):
     parts = []
+    speaker, model, pace = voice_cfg(item, a)
     for n, sc in enumerate(item["voice_scenes"]):
         raw = os.path.join(tmp, f"s{n}.wav")
-        tts(sc["text"], a.speaker, a.model, a.pace, key, raw, item.get("voice_lang", "en-IN"))
+        tts(sc["text"], speaker, model, pace, key, raw, item.get("voice_lang", "en-IN"))
         slot = max(0.5, min(sc["end"], vlen) - sc["start"] - 0.3)
         speed = min(max(duration(raw) / slot, 1.0), 1.35)
         fit = os.path.join(tmp, f"f{n}.wav")
@@ -114,6 +121,8 @@ def main():
     ap.add_argument("--music-only", action="store_true")
     ap.add_argument("--keep-status", action="store_true")
     ap.add_argument("--force", action="store_true", help="music-only: remix even if music was already added")
+    ap.add_argument("--measure", action="store_true", help="record each line's natural TTS length in voice_scenes[].natural; no video change")
+    ap.add_argument("--sample", help="comma-separated speakers: voice --only reel into samples/<id>__<speaker>.mp4; queue untouched")
     a = ap.parse_args()
     key = os.environ.get("SARVAM_API_KEY")
     if not a.music_only and not key:
@@ -126,13 +135,39 @@ def main():
         targets = reels
     else:
         targets = [i for i in reels if i["status"] == "needs_voice"]
+    if a.measure:
+        for it in targets:
+            speaker, model, pace = voice_cfg(it, a)
+            with tempfile.TemporaryDirectory() as tmp:
+                for n, sc in enumerate(it["voice_scenes"]):
+                    raw = os.path.join(tmp, f"m{n}.wav")
+                    tts(sc["text"], speaker, model, pace, key, raw, it.get("voice_lang", "en-IN"))
+                    sc["natural"] = round(duration(raw), 2)
+            it["voice_measured"] = f"sarvam {model} {speaker} pace {pace}"
+            print("measured", it["id"], [sc["natural"] for sc in it["voice_scenes"]])
+        json.dump(q, open(QUEUE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+        return
+    if a.sample:
+        import shutil
+        os.makedirs(os.path.join(ROOT, "samples"), exist_ok=True)
+        for it in targets:
+            for sp in [x.strip() for x in a.sample.split(",") if x.strip()]:
+                tmp_item = dict(it); tmp_item["voice_speaker"] = sp
+                src = os.path.join(ROOT, it["media"][0])
+                dst = os.path.join(ROOT, "samples", f"{it['id']}__{sp}.mp4")
+                shutil.copy(src, dst)
+                tmp_item["media"] = [os.path.relpath(dst, ROOT)]
+                print("sample", it["id"], sp)
+                process(tmp_item, a, key, seed=1)
+        return
     if a.music_only and not a.force:
         targets = [i for i in targets if "audio" not in i]  # never stack music twice
     for n, it in enumerate(targets):
         print(("music for" if a.music_only else f"voicing ({a.model} {a.speaker})"), it["id"])
         process(it, a, key, seed=n + 1)
         if not a.music_only:
-            it["voice"] = f"sarvam {a.model} {a.speaker}"
+            sp_, mo_, pa_ = voice_cfg(it, a)
+            it["voice"] = f"sarvam {mo_} {sp_}"
             if not a.keep_status and it["status"] == "needs_voice":
                 it["status"] = "ready"
         it["audio"] = "voice -14 LUFS + ducked music bed"
