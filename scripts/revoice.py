@@ -32,8 +32,8 @@ def duration(p):
                                           "-of", "csv=p=0", p]).strip())
 
 
-def tts(text, speaker, model, pace, key, out):
-    body = json.dumps({"text": text, "language_code": "en-IN", "model": model,
+def tts(text, speaker, model, pace, key, out, lang="en-IN"):
+    body = json.dumps({"text": text, "language_code": lang, "model": model,
                        "speaker": speaker, "pace": pace, "speech_sample_rate": 44100}).encode()
     req = urllib.request.Request(API, data=body, method="POST",
                                  headers={"api-subscription-key": key, "Content-Type": "application/json"})
@@ -47,7 +47,7 @@ def sarvam_voice(item, a, key, vlen, tmp):
     parts = []
     for n, sc in enumerate(item["voice_scenes"]):
         raw = os.path.join(tmp, f"s{n}.wav")
-        tts(sc["text"], a.speaker, a.model, a.pace, key, raw)
+        tts(sc["text"], a.speaker, a.model, a.pace, key, raw, item.get("voice_lang", "en-IN"))
         slot = max(0.5, min(sc["end"], vlen) - sc["start"] - 0.3)
         speed = min(max(duration(raw) / slot, 1.0), 1.35)
         fit = os.path.join(tmp, f"f{n}.wav")
