@@ -888,6 +888,31 @@
   "requires": "D26-feed"
  },
  {
+  "id": "DIW-status",
+  "type": "story",
+  "publish_at": "2026-11-08T13:55:00+05:30",
+  "media": [
+   "media/DIW-status/01.jpg"
+  ],
+  "caption": "",
+  "topic": "Happy Diwali greeting story",
+  "status": "ready",
+  "source": "Claude, 8 Nov 2026 (owner request)"
+ },
+ {
+  "id": "DIW-feed",
+  "type": "image",
+  "publish_at": "2026-11-08T13:55:00+05:30",
+  "media": [
+   "media/DIW-feed/01.jpg"
+  ],
+  "caption": "Happy Diwali from CredNest! 🪔\n\nWishing you and your family a festival full of light, prosperity and new beginnings. May the year ahead bring steady growth for your business.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#HappyDiwali #Diwali2026 #ShubhDeepavali #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Happy Diwali from CredNest",
+  "status": "ready",
+  "source": "Claude, 8 Nov 2026 (owner request)",
+  "alt_text": "Bright green Diwali greeting card with a marigold garland, paper lanterns, fireworks and three glowing diyas over a rangoli; text reads Shubh Deepavali, Happy Diwali, Wishing you light, prosperity and a year of growth, CredNest Advisory, crednest.io."
+ },
+ {
   "id": "D26-feed",
   "type": "image",
   "publish_at": "2026-11-08T19:30:00+05:30",
