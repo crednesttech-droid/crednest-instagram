@@ -252,7 +252,7 @@ def build_reel(reel_id: str, storyboard: dict, registry: dict, args, logo):
     output = destination / "reel.mp4"
     # The concat image demuxer may round its final timestamp one frame short.
     # Pad that boundary, then explicitly cap the output at 840 frames / 28 s.
-    run([args.ffmpeg, "-hide_banner", "-loglevel", "warning", "-y", "-threads", str(args.threads), "-i", str(base), "-f", "concat", "-safe", "0", "-i", str(captions), "-filter_complex", "[0:v][1:v]overlay=shortest=1:format=auto,tpad=stop_mode=clone:stop_duration=0.1,format=yuv420p[v]", "-map", "[v]", "-an", "-t", "28", "-frames:v", "840", "-r", "30", "-c:v", "libx264", "-preset", "fast", "-crf", "20", "-maxrate", "2000k", "-bufsize", "4000k", "-threads", str(args.threads), "-pix_fmt", "yuv420p", "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-movflags", "+faststart", str(output)], log)
+    run([args.ffmpeg, "-hide_banner", "-loglevel", "warning", "-y", "-threads", str(args.threads), "-i", str(base), "-f", "concat", "-safe", "0", "-i", str(captions), "-filter_complex", "[0:v][1:v]overlay=shortest=1:format=auto,tpad=stop_mode=clone:stop_duration=0.1,format=yuv420p[v]", "-map", "[v]", "-an", "-t", "28", "-frames:v", "840", "-r", "30", "-c:v", "libx264", "-preset", "fast", "-crf", "18", "-maxrate", "6000k", "-bufsize", "12000k", "-threads", str(args.threads), "-pix_fmt", "yuv420p", "-color_primaries", "bt709", "-color_trc", "bt709", "-colorspace", "bt709", "-movflags", "+faststart", str(output)], log)
     if output.stat().st_size >= 8_000_000:
         raise ValueError(f"Reel exceeds 8 MB: {output.stat().st_size}")
     frame = external / "hook_frame.png"
