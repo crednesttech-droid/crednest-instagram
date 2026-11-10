@@ -1092,13 +1092,13 @@
   "media": [
    "media/D30-new/01.jpg"
   ],
-  "caption": "Funding chahiye? Purpose aur timeline bhejo.\n\nOne WhatsApp message with what the funds will support, a rough amount and your timeline. We come back with the next step. Share documents only through the secure channel we agree.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BusinessLoan #MSMEFinance #MumbaiBusiness #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Funding chahiye? Purpose aur timeline bhejo.",
+  "caption": "Need funding? Send the purpose and timeline.\n\nOne WhatsApp message with what the funds will support, a rough amount and your timeline. We come back with the next step. Share documents only through the secure channel we agree.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CredNest #BusinessLoan #MSMEFinance #MumbaiBusiness #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Need funding? Send the purpose and timeline.",
   "status": "ready",
   "source": "Codex (pending)",
   "product": "business_loans",
   "pillar": "lead",
-  "alt_text": "The headline “Funding chahiye? Purpose aur timeline bhejo.” appears on a lime card with a message outline, three numbered enquiry details and a WhatsApp CTA."
+  "alt_text": "The headline “Need funding? Send the purpose and timeline.” appears on a lime card with a message outline, three numbered enquiry details and a WhatsApp CTA."
  },
  {
   "id": "D28-new",
@@ -1754,14 +1754,14 @@
   "id": "N1202-purpose",
   "type": "image",
   "publish_at": "2026-12-02T12:30:00+05:30",
-  "caption": "Loan ka purpose likho. Amount baad mein.\n\nLenders read the purpose before the amount. Write what the funds will do, when they come back and what they earn the business. The right product follows from that.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#BusinessLoan #LoanPurpose #SMEIndia #CredNest #MSME\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Loan ka purpose likho. Amount baad mein.",
+  "caption": "Write the purpose first. The amount comes later.\n\nLenders read the purpose before the amount. Write what the funds will do, when they come back and what they earn the business. The right product follows from that.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#BusinessLoan #LoanPurpose #SMEIndia #CredNest #MSME\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Write the purpose first. The amount comes later.",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "media": [
    "media/N1202-purpose/01.jpg"
   ],
   "status": "ready",
-  "alt_text": "Branded card on lime: “Loan ka purpose likho. Amount baad mein.” with three points: What will the money do?; When will it come back?; What does it earn the business?."
+  "alt_text": "Branded card on lime: “Write the purpose first. The amount comes later.” with three points: What will the money do?; When will it come back?; What does it earn the business?."
  },
  {
   "id": "N1202-purpose-story",
@@ -1771,10 +1771,55 @@
    "media/N1202-purpose-story/01.jpg"
   ],
   "caption": "",
-  "topic": "Loan ka purpose likho. Amount baad mein.",
+  "topic": "Write the purpose first. The amount comes later.",
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1202-purpose"
+ },
+ {
+  "id": "N1203-bg-lc",
+  "type": "reel",
+  "publish_at": "2026-12-03T19:30:00+05:30",
+  "caption": "Bank guarantee or LC? Which does your deal need?\n\nA bank guarantee pays only if you fail to perform. A letter of credit pays when shipping documents are presented. Your contract decides which one you need, and lenders assess each separately.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#BankGuarantee #LetterOfCredit #TradeFinance #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Bank guarantee or LC? Which does your deal need?",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1203-bg-lc/reel.mp4"
+  ],
+  "cover": "media/N1203-bg-lc/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Bank guarantee or LC? Which does your deal need?” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Bank guarantee or letter of credit?"
+   },
+   {
+    "start": 3.4,
+    "end": 7.5,
+    "text": "A guarantee pays only if you don't perform."
+   },
+   {
+    "start": 7.5,
+    "end": 11.6,
+    "text": "An LC pays when the documents are presented."
+   },
+   {
+    "start": 11.6,
+    "end": 15.7,
+    "text": "The contract tells you which one is needed."
+   },
+   {
+    "start": 15.7,
+    "end": 20.2,
+    "text": "Ask the Capital Desk before you sign."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N1204-rbi-policy",
@@ -1796,14 +1841,14 @@
   "id": "N1205-collateral",
   "type": "image",
   "publish_at": "2026-12-05T12:30:00+05:30",
-  "caption": "Collateral hai. Cash flow dikhao.\n\nA property secures the loan, but cash flow repays it. Lenders assess both. Keep banking, financials and existing EMIs ready alongside the property papers.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#LAP #LoanAgainstProperty #CashFlow #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Collateral hai. Cash flow dikhao.",
+  "caption": "You have collateral. Now show the cash flow.\n\nA property secures the loan, but cash flow repays it. Lenders assess both. Keep banking, financials and existing EMIs ready alongside the property papers.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#LAP #LoanAgainstProperty #CashFlow #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "You have collateral. Now show the cash flow.",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "media": [
    "media/N1205-collateral/01.jpg"
   ],
   "status": "ready",
-  "alt_text": "Branded card on dark: “Collateral hai. Cash flow dikhao.” with three points: 12 months of banking; Income or business financials; Existing EMIs on one page."
+  "alt_text": "Branded card on dark: “You have collateral. Now show the cash flow.” with three points: 12 months of banking; Income or business financials; Existing EMIs on one page."
  },
  {
   "id": "N1205-collateral-story",
@@ -1813,7 +1858,7 @@
    "media/N1205-collateral-story/01.jpg"
   ],
   "caption": "",
-  "topic": "Collateral hai. Cash flow dikhao.",
+  "topic": "You have collateral. Now show the cash flow.",
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1205-collateral"
@@ -1851,6 +1896,51 @@
   "alt_text": "4-slide carousel on paper: “Credit pack checklist: 8 papers lenders open first”. Slides cover KYC of business and promoters; 2-3 years' financials; GST returns; 12 months of banking; Existing loan list; Debtor and creditor ageing; Use of funds note; Security papers."
  },
  {
+  "id": "N1208-od-tl",
+  "type": "reel",
+  "publish_at": "2026-12-08T19:30:00+05:30",
+  "caption": "Overdraft or term loan? Match the loan to the need\n\nAn overdraft funds day-to-day swings. A term loan funds assets that earn over years. Mixing them up strains cash flow and shows up at renewal.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#Overdraft #TermLoan #BusinessLoan #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Overdraft or term loan? Match the loan to the need",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1208-od-tl/reel.mp4"
+  ],
+  "cover": "media/N1208-od-tl/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Overdraft or term loan? Match the loan to the need” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.6,
+    "text": "Overdraft or term loan?"
+   },
+   {
+    "start": 2.6,
+    "end": 5.6,
+    "text": "An overdraft funds day-to-day swings."
+   },
+   {
+    "start": 5.6,
+    "end": 10.0,
+    "text": "A term loan funds assets that earn over years."
+   },
+   {
+    "start": 10.0,
+    "end": 14.1,
+    "text": "Using one for the other strains cash flow."
+   },
+   {
+    "start": 14.1,
+    "end": 19.7,
+    "text": "Match the loan to the need. WhatsApp the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N1209-missed-emi",
   "type": "image",
   "publish_at": "2026-12-09T12:30:00+05:30",
@@ -1875,6 +1965,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1209-missed-emi"
+ },
+ {
+  "id": "N1210-restructure-settle",
+  "type": "reel",
+  "publish_at": "2026-12-10T19:30:00+05:30",
+  "caption": "Restructuring vs settlement: know the difference\n\nRestructuring changes the terms and you repay in full. Settlement closes the loan for less than what is due and is recorded differently in your credit report. Know the impact before you choose.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#LoanRestructuring #Settlement #CIBIL #CredNest #DebtAdvice\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Restructuring vs settlement: know the difference",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1210-restructure-settle/reel.mp4"
+  ],
+  "cover": "media/N1210-restructure-settle/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Restructuring vs settlement: know the difference” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.7,
+    "text": "Restructuring and settlement are not the same."
+   },
+   {
+    "start": 3.7,
+    "end": 8.1,
+    "text": "Restructuring changes tenure or EMI. You repay in full."
+   },
+   {
+    "start": 8.1,
+    "end": 12.2,
+    "text": "Settlement closes the loan for less than due."
+   },
+   {
+    "start": 12.2,
+    "end": 15.6,
+    "text": "The credit report records them differently."
+   },
+   {
+    "start": 15.6,
+    "end": 21.2,
+    "text": "Understand the impact before you choose. WhatsApp the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N1211-sma",
@@ -1951,6 +2086,51 @@
   "alt_text": "4-slide carousel on lime: “Repo-linked loans: how your EMI actually resets”. Slides cover External benchmark; Rate = benchmark + spread; Reset at least every 3 months; Your benchmark; Your spread; Reset dates."
  },
  {
+  "id": "N1215-advance-tax",
+  "type": "reel",
+  "publish_at": "2026-12-15T19:30:00+05:30",
+  "caption": "Advance tax due 15 Dec. Is your cash plan ready?\n\nThe advance tax instalment is due on 15 December, in the same week as salaries and EMIs for many businesses. Map December's outflows and keep working-capital limits for their purpose.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#AdvanceTax #CashFlow #SMEIndia #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Advance tax due 15 Dec. Is your cash plan ready?",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1215-advance-tax/reel.mp4"
+  ],
+  "cover": "media/N1215-advance-tax/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Advance tax due 15 Dec. Is your cash plan ready?” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Advance tax instalment is due today."
+   },
+   {
+    "start": 3.4,
+    "end": 7.8,
+    "text": "Tax, salaries and EMIs land in the same week."
+   },
+   {
+    "start": 7.8,
+    "end": 10.8,
+    "text": "Map every outflow for December."
+   },
+   {
+    "start": 10.8,
+    "end": 15.2,
+    "text": "Don't pull tax from a limit meant for stock."
+   },
+   {
+    "start": 15.2,
+    "end": 20.1,
+    "text": "Plan the next quarter with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N1216-packing-credit",
   "type": "image",
   "publish_at": "2026-12-16T12:30:00+05:30",
@@ -1975,6 +2155,56 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1216-packing-credit"
+ },
+ {
+  "id": "N1217-unsecured",
+  "type": "reel",
+  "publish_at": "2026-12-17T19:30:00+05:30",
+  "caption": "Unsecured business loan: what lenders check first\n\nWithout collateral, lenders lean on four things: banking, GST and ITR filings, bureau history and how much room is left after existing EMIs. Check them before you apply.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#UnsecuredLoan #BusinessLoan #SMEIndia #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Unsecured business loan: what lenders check first",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1217-unsecured/reel.mp4"
+  ],
+  "cover": "media/N1217-unsecured/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Unsecured business loan: what lenders check first” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "No collateral? Here's what lenders check."
+   },
+   {
+    "start": 3.4,
+    "end": 6.8,
+    "text": "Steady credits in your bank account."
+   },
+   {
+    "start": 6.8,
+    "end": 9.4,
+    "text": "Returns filed and consistent."
+   },
+   {
+    "start": 9.4,
+    "end": 12.0,
+    "text": "Clean repayment history."
+   },
+   {
+    "start": 12.0,
+    "end": 15.7,
+    "text": "Room in cash flow for one more."
+   },
+   {
+    "start": 15.7,
+    "end": 20.9,
+    "text": "Check these before you apply. WhatsApp the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N1218-pg-cg",
@@ -2051,6 +2281,51 @@
   "alt_text": "4-slide carousel on dark: “Venture debt: when it fits a startup, when it doesn't”. Slides cover Recently raised equity; Clear use; Visible path to the next round; Funding losses with no plan; Very early stage; Covenants you can't meet."
  },
  {
+  "id": "N1222-preship",
+  "type": "reel",
+  "publish_at": "2026-12-22T19:30:00+05:30",
+  "caption": "Pre-shipment finance in 30 seconds\n\nPre-shipment finance, often called packing credit, funds production against a confirmed export order and is repaid from export proceeds.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#ExportFinance #PreShipment #TradeFinance #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Pre-shipment finance in 30 seconds",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1222-preship/reel.mp4"
+  ],
+  "cover": "media/N1222-preship/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Pre-shipment finance in 30 seconds” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "You've won an export order."
+   },
+   {
+    "start": 3.0,
+    "end": 6.7,
+    "text": "But you need cash to produce it."
+   },
+   {
+    "start": 6.7,
+    "end": 10.4,
+    "text": "Packing credit funds production before you ship."
+   },
+   {
+    "start": 10.4,
+    "end": 13.8,
+    "text": "It's repaid when the buyer pays."
+   },
+   {
+    "start": 13.8,
+    "end": 18.7,
+    "text": "Plan your export cycle with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N1223-treds",
   "type": "image",
   "publish_at": "2026-12-23T12:30:00+05:30",
@@ -2075,6 +2350,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1223-treds"
+ },
+ {
+  "id": "N1224-lrd",
+  "type": "reel",
+  "publish_at": "2026-12-24T19:30:00+05:30",
+  "caption": "Lease rental discounting explained\n\nLease rental discounting lets you borrow against future rent from a leased property. Lenders review the lease, the tenant and the lock-in, and the rent services the loan.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LRD #LeaseRentalDiscounting #CommercialProperty #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Lease rental discounting explained",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1224-lrd/reel.mp4"
+  ],
+  "cover": "media/N1224-lrd/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Lease rental discounting explained” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Your property earns rent every month."
+   },
+   {
+    "start": 3.4,
+    "end": 7.5,
+    "text": "LRD lets you borrow against that future rent."
+   },
+   {
+    "start": 7.5,
+    "end": 11.2,
+    "text": "The lease, the tenant and the lock-in."
+   },
+   {
+    "start": 11.2,
+    "end": 14.6,
+    "text": "Rent flows to repay the loan."
+   },
+   {
+    "start": 14.6,
+    "end": 19.1,
+    "text": "WhatsApp the Capital Desk to check fit."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N1226-cgtmse",
@@ -2135,6 +2455,51 @@
   "alt_text": "4-slide carousel on lime: “Top-up on the old loan or a fresh loan? Compare first”. Slides cover Same lender, same security; Rate may be higher; Tenure tied to the base loan; New lender assessment; Switching costs; Could reset terms."
  },
  {
+  "id": "N1229-msme-rank",
+  "type": "reel",
+  "publish_at": "2026-12-29T19:30:00+05:30",
+  "caption": "CIBIL MSME rank: what moves it\n\nBusinesses have their own credit rank with bureaus. Timely repayment helps; overdues and maxed-out limits pull it down. Check your business report before you apply.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CIBIL #MSME #CreditScore #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "CIBIL MSME rank: what moves it",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1229-msme-rank/reel.mp4"
+  ],
+  "cover": "media/N1229-msme-rank/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “CIBIL MSME rank: what moves it” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.7,
+    "text": "Your business has its own credit rank."
+   },
+   {
+    "start": 3.7,
+    "end": 7.1,
+    "text": "Paying on time across all facilities."
+   },
+   {
+    "start": 7.1,
+    "end": 10.5,
+    "text": "Overdues and defaults pull it down."
+   },
+   {
+    "start": 10.5,
+    "end": 14.2,
+    "text": "Limits always maxed out send a signal."
+   },
+   {
+    "start": 14.2,
+    "end": 18.7,
+    "text": "Check your business report before you apply."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N1230-card-rollover",
   "type": "image",
   "publish_at": "2026-12-30T12:30:00+05:30",
@@ -2159,6 +2524,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1230-card-rollover"
+ },
+ {
+  "id": "N1231-gstr9",
+  "type": "reel",
+  "publish_at": "2026-12-31T19:30:00+05:30",
+  "caption": "31 Dec: GST annual return due. Lenders read it too\n\nGSTR-9, the GST annual return for FY 2025-26, is due on 31 December 2026. Lenders compare GST turnover with your books and banking, so reconcile through the year.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#GSTR9 #GST #CreditPack #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "31 Dec: GST annual return due. Lenders read it too",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N1231-gstr9/reel.mp4"
+  ],
+  "cover": "media/N1231-gstr9/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “31 Dec: GST annual return due. Lenders read it too” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 4.8,
+    "text": "The GST annual return for FY 2025-26 is due today."
+   },
+   {
+    "start": 4.8,
+    "end": 8.5,
+    "text": "Lenders compare GST turnover with your books."
+   },
+   {
+    "start": 8.5,
+    "end": 12.2,
+    "text": "Differences raise questions in the credit file."
+   },
+   {
+    "start": 12.2,
+    "end": 15.6,
+    "text": "Reconcile monthly, not once a year."
+   },
+   {
+    "start": 15.6,
+    "end": 20.5,
+    "text": "Keep a clean file. WhatsApp the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N0102-guarantor",
@@ -2219,6 +2629,51 @@
   "alt_text": "4-slide carousel on paper: “Year-end review: 5 loan questions before 31 March”. Slides cover Which loans renew this year?; Is any limit fully used?; Any overdues?; Will new capital be needed?; Do the books match the bank?."
  },
  {
+  "id": "N0105-inventory",
+  "type": "reel",
+  "publish_at": "2027-01-05T19:30:00+05:30",
+  "caption": "Inventory funding before the rush\n\nSeasonal businesses buy stock months before they sell it. Ask for a seasonal limit early and support it with last season's sales and stock cycle.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#InventoryFinance #WorkingCapital #SMEIndia #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Inventory funding before the rush",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0105-inventory/reel.mp4"
+  ],
+  "cover": "media/N0105-inventory/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Inventory funding before the rush” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.6,
+    "text": "Busy season coming up?"
+   },
+   {
+    "start": 2.6,
+    "end": 6.3,
+    "text": "You buy stock months before you sell."
+   },
+   {
+    "start": 6.3,
+    "end": 10.4,
+    "text": "Ask for a higher limit before the season."
+   },
+   {
+    "start": 10.4,
+    "end": 14.1,
+    "text": "Show last season's sales and stock cycle."
+   },
+   {
+    "start": 14.1,
+    "end": 18.6,
+    "text": "Plan the season with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N0106-old-file",
   "type": "image",
   "publish_at": "2027-01-06T12:30:00+05:30",
@@ -2243,6 +2698,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N0106-old-file"
+ },
+ {
+  "id": "N0107-promoter",
+  "type": "reel",
+  "publish_at": "2027-01-07T19:30:00+05:30",
+  "caption": "Promoter contribution: skin in the game\n\nFor project loans, lenders first look at the promoter's own contribution and its source. It shows shared risk and shapes how much they will fund.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\nIndependent advice. Lender-led decisions.\n\n#ProjectFinance #PromoterContribution #SMEIndia #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Promoter contribution: skin in the game",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0107-promoter/reel.mp4"
+  ],
+  "cover": "media/N0107-promoter/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Promoter contribution: skin in the game” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.6,
+    "text": "Planning a new project?"
+   },
+   {
+    "start": 2.6,
+    "end": 7.0,
+    "text": "Lenders first ask: how much are you putting in?"
+   },
+   {
+    "start": 7.0,
+    "end": 9.6,
+    "text": "Your contribution shows commitment."
+   },
+   {
+    "start": 9.6,
+    "end": 13.0,
+    "text": "Show where your share comes from."
+   },
+   {
+    "start": 13.0,
+    "end": 17.5,
+    "text": "Plan the structure with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N0108-machinery",
@@ -2319,6 +2819,51 @@
   "alt_text": "4-slide carousel on lime: “Bank or NBFC: how the process differs”. Slides cover Documentation-heavy; Often priced lower; Longer timelines; Flexible on some criteria; Often faster; Pricing varies."
  },
  {
+  "id": "N0112-march-numbers",
+  "type": "reel",
+  "publish_at": "2027-01-12T19:30:00+05:30",
+  "caption": "Year-end books: lenders read your March numbers\n\nLenders read your 31 March numbers for every loan in the coming year. Review sales, margins, borrowings and limit usage before the year closes.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\nIndependent advice. Lender-led decisions.\n\n#YearEnd #Financials #BusinessLoan #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Year-end books: lenders read your March numbers",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0112-march-numbers/reel.mp4"
+  ],
+  "cover": "media/N0112-march-numbers/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Year-end books: lenders read your March numbers” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 4.1,
+    "text": "Your March numbers become the next loan story."
+   },
+   {
+    "start": 4.1,
+    "end": 6.7,
+    "text": "Sales, margins and profit."
+   },
+   {
+    "start": 6.7,
+    "end": 10.1,
+    "text": "How much you borrowed and used."
+   },
+   {
+    "start": 10.1,
+    "end": 13.5,
+    "text": "Clean up before the year closes."
+   },
+   {
+    "start": 13.5,
+    "end": 17.7,
+    "text": "Plan year-end with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N0113-mismatch",
   "type": "image",
   "publish_at": "2027-01-13T12:30:00+05:30",
@@ -2343,6 +2888,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N0113-mismatch"
+ },
+ {
+  "id": "N0114-bank-statement",
+  "type": "reel",
+  "publish_at": "2027-01-14T19:30:00+05:30",
+  "caption": "Your bank statement is your loan story\n\nYour bank statement shows lenders regular credits, bounces and large cash withdrawals. Read it before they do and be ready to explain anything unusual.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#BankStatement #CreditPack #BusinessLoan #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Your bank statement is your loan story",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0114-bank-statement/reel.mp4"
+  ],
+  "cover": "media/N0114-bank-statement/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Your bank statement is your loan story” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Lenders read twelve months of banking."
+   },
+   {
+    "start": 3.4,
+    "end": 6.0,
+    "text": "Regular sales credits."
+   },
+   {
+    "start": 6.0,
+    "end": 8.6,
+    "text": "Cheque and EMI bounces."
+   },
+   {
+    "start": 8.6,
+    "end": 11.6,
+    "text": "Large cash withdrawals raise questions."
+   },
+   {
+    "start": 11.6,
+    "end": 16.1,
+    "text": "Read your statement before the lender does."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N0116-cc-od",
@@ -2403,6 +2993,51 @@
   "alt_text": "4-slide carousel on paper: “Loan against shares or mutual funds: how it works”. Slides cover Securities are pledged; Lender funds a share of value; Interest on what you use; Market falls; Eligible list; Short-term use."
  },
  {
+  "id": "N0119-reapply",
+  "type": "reel",
+  "publish_at": "2027-01-19T19:30:00+05:30",
+  "caption": "Loan rejected once? Fix this before reapplying\n\nAfter a rejection, find out why, fix the file and avoid a burst of fresh applications, which show up as enquiries on your credit report.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#LoanRejected #BusinessLoan #CIBIL #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Loan rejected once? Fix this before reapplying",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0119-reapply/reel.mp4"
+  ],
+  "cover": "media/N0119-reapply/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Loan rejected once? Fix this before reapplying” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Loan rejected? Don't reapply straight away."
+   },
+   {
+    "start": 3.4,
+    "end": 6.8,
+    "text": "Ask the lender for the reason."
+   },
+   {
+    "start": 6.8,
+    "end": 10.5,
+    "text": "Fix the file, not just the form."
+   },
+   {
+    "start": 10.5,
+    "end": 14.6,
+    "text": "Too many applications show up on your report."
+   },
+   {
+    "start": 14.6,
+    "end": 19.8,
+    "text": "Reapply with a stronger file. WhatsApp the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N0120-bt",
   "type": "image",
   "publish_at": "2027-01-20T12:30:00+05:30",
@@ -2427,6 +3062,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N0120-bt"
+ },
+ {
+  "id": "N0121-cards",
+  "type": "reel",
+  "publish_at": "2027-01-21T19:30:00+05:30",
+  "caption": "Business on credit cards? Break the rollover\n\nRunning a business on revolving card dues is costly and shows as high utilisation on your credit report. Move business spend to a proper business limit.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#CreditCard #DebtConsolidation #SMEIndia #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Business on credit cards? Break the rollover",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0121-cards/reel.mp4"
+  ],
+  "cover": "media/N0121-cards/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Business on credit cards? Break the rollover” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.4,
+    "text": "Running the business on credit cards?"
+   },
+   {
+    "start": 3.4,
+    "end": 7.1,
+    "text": "Revolving dues are among the costliest borrowing."
+   },
+   {
+    "start": 7.1,
+    "end": 10.8,
+    "text": "High card use shows on your report."
+   },
+   {
+    "start": 10.8,
+    "end": 14.5,
+    "text": "Move business spend to a business limit."
+   },
+   {
+    "start": 14.5,
+    "end": 19.0,
+    "text": "Plan the switch with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N0122-sanction",
@@ -2527,6 +3207,51 @@
   "status": "ready",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N0127-one-name"
+ },
+ {
+  "id": "N0128-venture-debt",
+  "type": "reel",
+  "publish_at": "2027-01-28T19:30:00+05:30",
+  "caption": "Startup with revenue? When venture debt fits\n\nVenture debt can extend runway after an equity raise without more dilution, when there is a clear use and a path to the next milestone. It is not for open-ended losses.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#VentureDebt #StartupIndia #StartupFunding #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Startup with revenue? When venture debt fits",
+  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "media": [
+   "media/N0128-venture-debt/reel.mp4"
+  ],
+  "cover": "media/N0128-venture-debt/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "Capital Desk reel: “Startup with revenue? When venture debt fits” over muted stock footage, ending on a WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Raised an equity round recently?"
+   },
+   {
+    "start": 3.0,
+    "end": 7.1,
+    "text": "Venture debt can extend runway without more dilution."
+   },
+   {
+    "start": 7.1,
+    "end": 12.3,
+    "text": "There's a clear use and a path to the next milestone."
+   },
+   {
+    "start": 12.3,
+    "end": 15.3,
+    "text": "Not for funding open-ended losses."
+   },
+   {
+    "start": 15.3,
+    "end": 19.5,
+    "text": "Plan it with the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N0129-drawing-power",

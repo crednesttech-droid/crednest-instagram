@@ -63,7 +63,7 @@ SPECS = [
          points=["Title and valuation", "Cash flow and collections", "Existing obligations"],
          bar="Comment CHECKLIST for the free list"),
     dict(id="D30-new", layout="card", theme="lime", kicker="Start a conversation",
-         headline="Funding chahiye? Purpose aur timeline bhejo.",
+         headline="Need funding? Send the purpose and timeline.",
          sub="One WhatsApp message. We come back with the next step.",
          points=["What the funds will support", "Amount range and timeline", "City and business type"],
          bar="WhatsApp \"Hi\" to +91 98199 99057"),
