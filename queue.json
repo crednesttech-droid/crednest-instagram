@@ -1711,7 +1711,7 @@
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "needs_voice",
+  "status": "ready",
   "alt_text": "Capital Desk reel: “Working capital gap? It starts at your debtor days” over muted stock footage, ending on a WhatsApp card.",
   "voice_scenes": [
    {
@@ -2376,7 +2376,7 @@
    "media/N1224-lrd/reel.mp4"
   ],
   "cover": "media/N1224-lrd/cover.jpg",
-  "status": "needs_voice",
+  "status": "ready",
   "alt_text": "Capital Desk reel: “Lease rental discounting explained” over muted stock footage, ending on a WhatsApp card.",
   "voice_scenes": [
    {
@@ -2596,7 +2596,7 @@
    "media/N1231-gstr9/reel.mp4"
   ],
   "cover": "media/N1231-gstr9/cover.jpg",
-  "status": "needs_voice",
+  "status": "ready",
   "alt_text": "Capital Desk reel: “31 Dec: GST annual return due. Lenders read it too” over muted stock footage, ending on a WhatsApp card.",
   "voice_scenes": [
    {
