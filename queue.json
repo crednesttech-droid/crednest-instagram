@@ -2397,6 +2397,46 @@
   "voice_pace": 1.0
  },
  {
+  "id": "F1225-christmas",
+  "type": "reel",
+  "publish_at": "2026-12-25T12:30:00+05:30",
+  "caption": "Merry Christmas from CredNest\n\nMerry Christmas from all of us at CredNest. Wishing you warmth, rest and time with family, and steady growth for your business in the year ahead.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#MerryChristmas #Christmas2026 #SeasonsGreetings #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Merry Christmas from CredNest",
+  "source": "Dec-Jan calendar festival reel (Claude, 11 Nov 2026)",
+  "media": [
+   "media/F1225-christmas/reel.mp4"
+  ],
+  "cover": "media/F1225-christmas/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "CredNest greeting reel: “Merry Christmas from CredNest” over muted footage, ending on a lime WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 4.1,
+    "text": "Merry Christmas from all of us at CredNest."
+   },
+   {
+    "start": 4.1,
+    "end": 8.2,
+    "text": "Wishing you warmth, rest and time with family."
+   },
+   {
+    "start": 8.2,
+    "end": 13.0,
+    "text": "May the new year bring steady growth to your business."
+   },
+   {
+    "start": 13.0,
+    "end": 16.4,
+    "text": "Season's greetings from CredNest."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N1226-cgtmse",
   "type": "image",
   "publish_at": "2026-12-26T12:30:00+05:30",
@@ -2563,6 +2603,46 @@
     "start": 15.6,
     "end": 20.5,
     "text": "Keep a clean file. WhatsApp the Capital Desk."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
+  "id": "F0101-newyear",
+  "type": "reel",
+  "publish_at": "2027-01-01T12:30:00+05:30",
+  "caption": "Happy New Year 2027 from CredNest\n\nHappy New Year from CredNest. A fresh year to plan your capital with care, and here's to steady growth for your business in 2027.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#HappyNewYear #NewYear2027 #CredNest #SMEIndia #BusinessGrowth\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Happy New Year 2027 from CredNest",
+  "source": "Dec-Jan calendar festival reel (Claude, 11 Nov 2026)",
+  "media": [
+   "media/F0101-newyear/reel.mp4"
+  ],
+  "cover": "media/F0101-newyear/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "CredNest greeting reel: “Happy New Year 2027 from CredNest” over muted footage, ending on a lime WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Happy New Year from CredNest."
+   },
+   {
+    "start": 3.0,
+    "end": 7.4,
+    "text": "A fresh year to plan your capital with care."
+   },
+   {
+    "start": 7.4,
+    "end": 11.1,
+    "text": "Here's to steady growth for your business."
+   },
+   {
+    "start": 11.1,
+    "end": 16.0,
+    "text": "Happy New Year. We are one message away."
    }
   ],
   "voice_lang": "en-IN",
@@ -2935,6 +3015,46 @@
   "voice_pace": 1.0
  },
  {
+  "id": "F0115-sankranti",
+  "type": "reel",
+  "publish_at": "2027-01-15T12:30:00+05:30",
+  "caption": "Happy Makar Sankranti from CredNest\n\nHappy Makar Sankranti from CredNest. A season of harvest and new beginnings. May your business rise higher, like the kites today.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#MakarSankranti #Sankranti2027 #HappySankranti #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Happy Makar Sankranti from CredNest",
+  "source": "Dec-Jan calendar festival reel (Claude, 11 Nov 2026)",
+  "media": [
+   "media/F0115-sankranti/reel.mp4"
+  ],
+  "cover": "media/F0115-sankranti/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "CredNest greeting reel: “Happy Makar Sankranti from CredNest” over muted footage, ending on a lime WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Happy Makar Sankranti from CredNest."
+   },
+   {
+    "start": 3.0,
+    "end": 6.7,
+    "text": "A season of harvest and new beginnings."
+   },
+   {
+    "start": 6.7,
+    "end": 11.1,
+    "text": "May your business rise higher, like the kites today."
+   },
+   {
+    "start": 11.1,
+    "end": 14.9,
+    "text": "Happy Makar Sankranti from CredNest."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
+ },
+ {
   "id": "N0116-cc-od",
   "type": "image",
   "publish_at": "2027-01-16T12:30:00+05:30",
@@ -3181,6 +3301,41 @@
   ],
   "status": "ready",
   "alt_text": "4-slide carousel on lime: “Budget week: 5 things an SME owner should track”. Slides cover MSME credit schemes; Tax changes; Customs duty; Infrastructure spend; Compliance changes."
+ },
+ {
+  "id": "F0126-republic",
+  "type": "reel",
+  "publish_at": "2027-01-26T12:30:00+05:30",
+  "caption": "Happy Republic Day from CredNest\n\nHappy Republic Day from CredNest. A salute to the businesses that build India every day. Jai Hind.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#RepublicDay #RepublicDay2027 #JaiHind #CredNest #SMEIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Happy Republic Day from CredNest",
+  "source": "Dec-Jan calendar festival reel (Claude, 11 Nov 2026)",
+  "media": [
+   "media/F0126-republic/reel.mp4"
+  ],
+  "cover": "media/F0126-republic/cover.jpg",
+  "status": "needs_voice",
+  "alt_text": "CredNest greeting reel: “Happy Republic Day from CredNest” over muted footage, ending on a lime WhatsApp card.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Happy Republic Day from CredNest."
+   },
+   {
+    "start": 3.0,
+    "end": 7.8,
+    "text": "A salute to the businesses that build India every day."
+   },
+   {
+    "start": 7.8,
+    "end": 11.6,
+    "text": "Happy Republic Day. Jai Hind."
+   }
+  ],
+  "voice_lang": "en-IN",
+  "voice_model": "bulbul:v4-flash",
+  "voice_speaker": "sunny_en_social",
+  "voice_pace": 1.0
  },
  {
   "id": "N0127-one-name",

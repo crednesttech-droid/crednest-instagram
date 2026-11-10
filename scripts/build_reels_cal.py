@@ -57,9 +57,10 @@ def overlay(it, n, scenes, total):
     im.alpha_composite(logo, (88, 262))
     d.text((190, 304), "CredNest", font=F(46, "Bold"), fill=fg, anchor="lm")
     pill = F(24, "Bold")
-    pw = d.textlength("CAPITAL DESK", font=pill) + 40
+    ptxt = it.get("pill", "CAPITAL DESK")
+    pw = d.textlength(ptxt, font=pill) + 40
     d.rounded_rectangle((992 - pw, 282, 992, 326), radius=22, outline=acc, width=3)
-    d.text((992 - pw / 2, 304), "CAPITAL DESK", font=pill, fill=fg, anchor="mm")
+    d.text((992 - pw / 2, 304), ptxt, font=pill, fill=fg, anchor="mm")
     d.text((88, 430), kicker.upper(), font=F(34, "Bold"), fill=acc)
     if end:
         y = 520
@@ -138,8 +139,8 @@ def main():
     a = ap.parse_args()
     reg = {x["name"]: x for x in json.loads((ROOT / "reels_v2/stock_sources.json").read_text())["assets"]}
     res = {}
-    for it in C.ITEMS:
-        if it["type"] == "reel" and (not a.only or it["id"] in a.only):
+    for it in C.ITEMS + getattr(C, "FESTIVALS", []):
+        if it["type"] == "reel" and it.get("scenes") and (not a.only or it["id"] in a.only):
             res[it["id"]] = build(it, reg, a.work_dir.resolve())
     (a.work_dir / "voice_scenes.json").write_text(json.dumps(res, indent=1))
 
