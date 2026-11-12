@@ -35,6 +35,14 @@ All new slots use **19:30 IST (+05:30)**.
 - `[END]` is expanded in place in each caption, preserving the original hashtag order and all five supplied hashtags. The batch's final copy overrides the older generic caption/CTA template in AGENTS.md.
 - No other queue object or existing asset is changed. `state/published.json` is untouched.
 
+## PR #8 layout and timing fixes
+
+All 31 carousel slides were rebuilt with words positioned on a shared font baseline rather than their individual visible top edges. The render manifest records each line baseline and each word's actual draw anchor, origin and baseline; the independent validator rejects any word that leaves its line baseline.
+
+The two requested layout overrides are limited to N02/04 (heading followed by three separate numbered lines) and N06/04 (the personal-loan and LAP interest totals on separate lines, without the separator dot). The supplied source brief, captions, figures and other wording are preserved.
+
+Reels are driven by editable per-scene durations in `reels_nov2026/timings.json`. Their total length is computed from the opening-hook duration, the scene durations and the fixed 1.5-second end card. The renderer, word captions, exported queue timings, media cache and validator all use those timings; there is no fixed fourteen-second duration. See [the retiming instructions](../../reels_nov2026/README.md).
+
 ## Important queue overlap
 
 The existing queue already contains approved entries on these dates, including CD04–CD11, CR01–CR03, D23-new, N1128-cc-full and N1129-cma. Several use the same 19:30 slot as this batch. They are intentionally preserved because the brief forbids changing other items. Resolve the overlap during editorial review **before approving the new items**. The new entries cannot auto-publish in their current `review`, `needs_voice` or `needs_content` states.
@@ -44,7 +52,8 @@ The existing queue already contains approved entries on these dates, including C
 ```sh
 python scripts/build_nov_carousels.py
 python scripts/build_nov_reels.py --help
-python scripts/build_nov_queue.py
+python scripts/build_nov_queue.py --retime
+python scripts/build_nov_previews.py
 python scripts/check_nov_batch.py
 python scripts/publish.py --check
 ```
@@ -53,7 +62,7 @@ The independent batch validator checks the new review/voice-pending items, where
 
 ## Audio handoff to Claude
 
-No speech, music, audio API calls or revoice workflows are run in this PR. Voice lines and timings remain in `voice_scenes`; `voice_lang` is `hi-IN`. The supplied six scripts are dense for a fourteen-second reel (approximately 163–245 words/minute before any opening-hook allowance). Test N01 with two Hindi speakers first, as the brief requests for the **later** audio stage. Check intelligibility, full line coverage, video/audio duration and end card before marking an item ready. A longer natural recording may require an editorial timing decision; no words were shortened or omitted here.
+No speech, music, audio API calls or revoice workflows are run in this PR. Voice lines and timings remain in `voice_scenes`; `voice_lang` is `hi-IN`. Initial timings target approximately 16–22 seconds per reel. Claude can replace each scene duration with the measured recorded-voice duration, rebuild the silent video and refresh only its queue timings with `python scripts/build_nov_queue.py --retime`. The opening hook remains visible on frame one, and the end card always occupies the last 1.5 seconds. Test N01 with two Hindi speakers first, as the brief requests for the **later** audio stage. Check intelligibility, full line coverage, video/audio duration and end card before marking an item ready. No words were shortened or omitted.
 
 ## Sources and calculation audit
 

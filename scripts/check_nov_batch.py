@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+import copy
 from datetime import datetime, timedelta, timezone
 import hashlib
 import io
@@ -18,8 +19,9 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 
-from PIL import Image, ImageChops, ImageCms, ImageStat
+from PIL import Image, ImageChops, ImageCms, ImageDraw, ImageFont, ImageStat
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +29,16 @@ IDS = [f"N{i:02d}" for i in range(1, 15)]
 RESERVED = {"N07", "N14"}
 FPS_TOLERANCE = 1 / 30 + 0.001
 MAX_BYTES = 8_000_000
+FPS = 30
+APPROVED_SOURCE_HASHES = {
+    "batch_nov16_29/batch.json": "007be784abf98ef9f479528e34b08bc3bc47af9986154aa615ba462ff648eb33",
+    "batch_nov16_29/BRIEF_SOURCE.txt": "b77cce8c4d9cd35124354d0317f1221165c0cfede329ea9872cd2fb947f111b5",
+}
+# Explicit user-requested display arrangements. Canonical source remains intact.
+DISPLAY_LAYOUTS = {
+    ("N02", 4): "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
+    ("N06", 4): "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
+}
 
 
 class Audit:
@@ -90,7 +102,61 @@ def check_box(audit, box, canvas, label, item, safe_y=None):
         audit.check(f"{label}.bbox_inside_safe_zone", safe_y[0] <= y1 and y2 <= safe_y[1], {"bounds": box, "safe_y": safe_y}, item)
 
 
-def check_elements(audit, elements, expected, canvas, label, item, safe_y=None):
+def check_line_baselines(audit, root, element, label, item, scale):
+    """Check actual recorded draw origins against independent Pillow metrics.
+
+    A common ink-top is not a baseline: words containing descenders have
+    different top offsets. Recomputing every word bbox with anchor='ls' catches
+    that old failure even if a manifest merely claims a shared baseline.
+    """
+    draw = ImageDraw.Draw(Image.new("L", (1, 1)))
+    for index, line in enumerate(element.get("lines", [])):
+        key = f"{label}.line{index}"
+        if not isinstance(line, dict):
+            audit.error(f"{key}.baseline_records", "Line requires recorded word draw origins", item)
+            continue
+        baseline, words = line.get("baseline_y"), line.get("words")
+        valid = isinstance(baseline, (int, float)) and math.isfinite(baseline) and isinstance(words, list) and bool(words)
+        if not audit.check(f"{key}.baseline_records", valid, item=item):
+            continue
+        size, weight = line.get("font_size", element.get("font_size")), line.get("weight", element.get("weight"))
+        expected_font = f"brand/03_Fonts/Manrope-{weight}.ttf"
+        try:
+            face = ImageFont.truetype(str(root / expected_font), round(size * scale))
+        except Exception as exc:
+            audit.error(f"{key}.independent_font_metrics", str(exc), item)
+            continue
+        ascent, descent = face.getmetrics()
+        metrics = line.get("font_metrics", {})
+        audit.check(f"{key}.independent_font_metrics", line.get("font_path") == expected_font and metrics.get("ascent") == ascent / scale and metrics.get("descent") == descent / scale, {"font": expected_font, "ascent": ascent / scale, "descent": descent / scale}, item)
+        line_origin, pixel_origin = line.get("draw_origin"), line.get("pixel_origin")
+        audit.check(f"{key}.baseline_draw_origin", line.get("anchor") == "ls" and isinstance(line_origin, list) and len(line_origin) == 2 and abs(line_origin[1] - baseline) <= 0.011 and pixel_origin == [round(value * scale) for value in line_origin], item=item)
+        audit.check(f"{key}.words_preserve_line", wrapped_equal(" ".join(word.get("text", "") for word in words), line.get("text", "")), item=item)
+        baseline_errors, metric_errors = [], []
+        measured_boxes = []
+        for word in words:
+            origin = word.get("draw_origin")
+            correct = isinstance(origin, list) and len(origin) == 2 and all(isinstance(v, (int, float)) and math.isfinite(v) for v in origin)
+            correct = correct and word.get("anchor") == "ls" and all(isinstance(word.get(field), (int, float)) and abs(word[field] - baseline) <= 0.011 for field in ("baseline_y", "line_baseline_y"))
+            correct = correct and abs(origin[1] - baseline) <= 0.011
+            correct = correct and word.get("pixel_origin") == [round(value * scale) for value in origin] and word.get("baseline_px") == round(baseline * scale)
+            if not correct:
+                baseline_errors.append(word)
+            if isinstance(origin, list) and len(origin) == 2:
+                measured = [value / scale for value in draw.textbbox((round(origin[0] * scale), round(origin[1] * scale)), word.get("text", ""), font=face, anchor="ls")]
+                measured_boxes.append(measured)
+                bounds = word.get("bounds")
+                if not isinstance(bounds, list) or len(bounds) != 4 or any(abs(actual - recorded) > 0.011 for actual, recorded in zip(measured, bounds)):
+                    metric_errors.append({"text": word.get("text"), "recorded": bounds, "independently_measured": measured})
+        audit.check(f"{key}.all_words_on_line_baseline", not baseline_errors, baseline_errors or None, item)
+        audit.check(f"{key}.word_bounds_match_font_metrics", not metric_errors and len(measured_boxes) == len(words), metric_errors or None, item)
+        if measured_boxes:
+            union = [min(box[0] for box in measured_boxes), min(box[1] for box in measured_boxes), max(box[2] for box in measured_boxes), max(box[3] for box in measured_boxes)]
+            actual = line.get("bounds", [])
+            audit.check(f"{key}.line_bounds_match_drawn_words", len(actual) == 4 and all(abs(a - b) <= 0.011 for a, b in zip(actual, union)), {"recorded": actual, "measured_union": union}, item)
+
+
+def check_elements(audit, elements, expected, canvas, label, item, safe_y=None, *, root=None, scale=1, body_display=None):
     if not audit.check(f"{label}.elements_present", isinstance(elements, list) and bool(elements), item=item):
         return
     actual_roles = Counter(element.get("role") for element in elements)
@@ -104,10 +170,16 @@ def check_elements(audit, elements, expected, canvas, label, item, safe_y=None):
         lines = element.get("lines")
         if lines is not None:
             joined = " ".join(line["text"] if isinstance(line, dict) else line for line in lines)
-            audit.check(f"{key}.wrapped_lines_preserve_copy", wrapped_equal(joined, element.get("text", "")), {"joined": joined}, item)
+            display = body_display if role == "body" and body_display is not None else element.get("text", "")
+            audit.check(f"{key}.display_text_authorized", wrapped_equal(element.get("display_text", element.get("text", "")), display), item=item)
+            audit.check(f"{key}.wrapped_lines_preserve_copy", wrapped_equal(joined, display), {"joined": joined}, item)
+            if role == "body" and body_display is not None:
+                audit.check(f"{key}.requested_exact_line_layout", [line["text"] for line in lines] == body_display.splitlines(), {"actual": [line["text"] for line in lines], "expected": body_display.splitlines()}, item)
             for line_index, line in enumerate(lines):
                 if isinstance(line, dict):
                     check_box(audit, line.get("bounds", line.get("box")), canvas, f"{key}.line{line_index}", item, safe_y)
+            if root is not None:
+                check_line_baselines(audit, root, element, key, item, scale)
 
 
 def jpeg_quality90_tables():
@@ -145,7 +217,43 @@ def check_jpeg(audit, path, relative, size, item):
         audit.error(f"{relative}.readable", str(exc), item)
 
 
-def check_voice_scenes(audit, actual, canonical, item, speech_end=12.5):
+def timing_plan(config, item):
+    """Derive expected timing solely from the editable duration configuration."""
+    specification = config["reels"][item["id"]]
+    durations = specification["scene_durations"]
+    if len(durations) != len(item["voice_lines"]):
+        raise ValueError("scene_durations must have one duration per exact voice line")
+    hook_duration = specification.get("hook_duration", config.get("hook_duration", 0.8))
+    end_duration = config.get("end_card_duration", 1.5)
+    values = [hook_duration, end_duration, *durations]
+    if not all(type(value) in (int, float) and math.isfinite(value) and value > 0 for value in values):
+        raise ValueError("All configured durations must be finite positive seconds")
+    if end_duration != 1.5:
+        raise ValueError("The end card must remain exactly 1.5 seconds")
+    hook_frames, end_frames = round(hook_duration * FPS), round(end_duration * FPS)
+    scene_frames = [round(duration * FPS) for duration in durations]
+    if min(hook_frames, end_frames, *scene_frames) < 1:
+        raise ValueError("Every hook, scene and end card must last at least one frame")
+    cursor = hook_frames
+    scenes = []
+    for frames, text in zip(scene_frames, item["voice_lines"]):
+        scenes.append({"start": round(cursor / FPS, 6), "end": round((cursor + frames) / FPS, 6), "text": text})
+        cursor += frames
+    total_frames = cursor + end_frames
+    if total_frames > 90 * FPS:
+        raise ValueError("Configured reel exceeds the repository's 90-second maximum")
+    signed_config = {"hook_frames": hook_frames, "scene_frames": scene_frames, "end_card_frames": end_frames, "voice_lines": item["voice_lines"]}
+    signature = hashlib.sha256(json.dumps(signed_config, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")).hexdigest()
+    return {"hook_frames": hook_frames, "scene_frames": scene_frames, "end_card_frames": end_frames, "total_frames": total_frames, "duration": total_frames / FPS, "end_card_start": cursor / FPS, "voice_scenes": scenes, "config_sha256": signature}
+
+
+def check_configured_timing(audit, actual_scenes, actual_duration, plan, item):
+    audit.check("voice_scenes.exact_configured_timing", actual_scenes == plan["voice_scenes"], item=item)
+    if actual_duration is not None:
+        audit.check("reel.actual_duration_matches_configuration", abs(actual_duration - plan["duration"]) <= 0.01, {"actual": actual_duration, "configured": plan["duration"]}, item)
+
+
+def check_voice_scenes(audit, actual, canonical, item, speech_end):
     if not audit.check("voice_scenes.list", isinstance(actual, list), item=item):
         return
     expected_lines = canonical["voice_lines"]
@@ -167,7 +275,7 @@ def check_voice_scenes(audit, actual, canonical, item, speech_end=12.5):
         audit.check("voice_scenes.finish_at_speech_boundary", abs(previous_end - speech_end) <= FPS_TOLERANCE, {"actual": previous_end, "expected": speech_end}, item)
 
 
-def check_video(audit, root, path, item, ffprobe):
+def check_video(audit, root, path, item, ffprobe, plan):
     if not audit.check("reel.exists", path.is_file(), item=item):
         return None
     if not audit.check("ffprobe.available", bool(ffprobe), item=item):
@@ -184,8 +292,10 @@ def check_video(audit, root, path, item, ffprobe):
             stream = video[0]
             audit.check("reel.h264", stream.get("codec_name") == "h264", stream.get("codec_name"), item)
             audit.check("reel.geometry", (stream.get("width"), stream.get("height")) == (1080, 1920), [stream.get("width"), stream.get("height")], item)
+            if plan:
+                audit.check("reel.actual_frame_count_matches_configuration", str(stream.get("nb_frames")) == str(plan["total_frames"]), {"actual": stream.get("nb_frames"), "configured": plan["total_frames"]}, item)
         duration = float(probe["format"]["duration"])
-        audit.check("reel.duration_9_to_14s", 9 <= duration <= 14.001, duration, item)
+        audit.check("reel.duration_within_repository_limit", 0 < duration <= 90.001, duration, item)
         audit.items.setdefault(item, {})["video"] = {"path": path.relative_to(root).as_posix(), "bytes": path.stat().st_size, "sha256": file_hash(path), "duration": duration, "streams": [{key: stream.get(key) for key in ("codec_type", "codec_name", "width", "height", "pix_fmt", "r_frame_rate")} for stream in probe.get("streams", [])]}
         return duration
     except Exception as exc:
@@ -230,6 +340,9 @@ def load_manifest(audit, path, name):
 
 
 def check_carousel_manifest(audit, root, manifest, canonical):
+    scale = manifest.get("supersampling")
+    if not audit.check("carousel_manifest.valid_render_scale", isinstance(scale, (int, float)) and scale > 0, scale):
+        scale = 1
     actual_slides = manifest.get("slides", [])
     expected_count = sum(len(item.get("slides", [])) for item in canonical["items"])
     audit.check("carousel_manifest.slide_count", len(actual_slides) == expected_count, {"actual": len(actual_slides), "expected": expected_count})
@@ -264,7 +377,17 @@ def check_carousel_manifest(audit, root, manifest, canonical):
                 expected["example_tag"] = tag
             if footer:
                 expected["footer"] = footer
-            check_elements(audit, actual.get("elements"), expected, (1080, 1350), label, ident)
+            display = DISPLAY_LAYOUTS.get((ident, number))
+            if display is not None:
+                audit.check(f"{label}.requested_display_text", actual.get("display_body") == display, item=ident)
+            elif "display_text" in actual:
+                audit.check(f"{label}.no_unapproved_display_rewrite", wrapped_equal(actual["display_text"], slide["text"]), item=ident)
+            override = actual.get("display_override")
+            if (ident, number) == ("N06", 4):
+                audit.check(f"{label}.explicit_user_display_override", isinstance(override, dict) and override.get("requested_by_user") is True and override.get("canonical_text") == slide["text"] and override.get("display_text") == display, override, ident)
+            elif override:
+                audit.check(f"{label}.only_authorized_display_override", (ident, number) == ("N02", 4) and isinstance(override, dict) and override.get("canonical_text") == slide["text"] and override.get("display_text") == display, override, ident)
+            check_elements(audit, actual.get("elements"), expected, (1080, 1350), label, ident, root=root, scale=scale, body_display=display)
 
 
 def check_reel_boxes(audit, boxes, expected, label, item):
@@ -291,7 +414,7 @@ def check_reel_boxes(audit, boxes, expected, label, item):
     audit.check(f"{label}.exact_rendered_copy", not mismatches, mismatches or None, item)
 
 
-def check_reel_manifest(audit, root, item, queued, canonical, registry):
+def check_reel_manifest(audit, root, item, queued, canonical, registry, plan):
     ident = item["id"]
     manifest = load_manifest(audit, root / "reels_nov2026/manifests" / f"{ident}.json", f"{ident}.render_manifest")
     if not manifest:
@@ -300,7 +423,10 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry):
         audit.check(f"reel_manifest.exact_{field}", manifest.get(field) == item.get(field), item=ident)
     audit.check("reel_manifest.exact_disclaimer", manifest.get("disclaimer") == canonical["disclaimer"], item=ident)
     output = manifest.get("output", {})
-    for field, expected in (("width", 1080), ("height", 1920), ("fps", 30), ("duration", 14.0), ("audio", False), ("safe_zone", [250, 1500]), ("caption_baseline", 1260), ("end_card_start", 12.5), ("cover_frame_seconds", 0)):
+    expected_output = {"width": 1080, "height": 1920, "fps": FPS, "audio": False, "safe_zone": [250, 1500], "caption_baseline": 1260, "cover_frame_seconds": 0}
+    if plan:
+        expected_output.update(duration=plan["duration"], hook_duration=plan["hook_frames"] / FPS, end_card_duration=plan["end_card_frames"] / FPS, end_card_start=plan["end_card_start"], total_frames=plan["total_frames"], timing_config_sha256=plan["config_sha256"])
+    for field, expected in expected_output.items():
         audit.check(f"reel_manifest.output.{field}", field in output and output[field] == expected, output.get(field), ident)
     cover_expected = {"hook": item["hook"], "series_tag": item["series"], "website": "crednest.io"}
     check_reel_boxes(audit, manifest.get("cover_boxes"), cover_expected, "reel_cover", ident)
@@ -308,6 +434,8 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry):
     stripped = [{key: scene.get(key) for key in ("start", "end", "text")} for scene in scenes]
     audit.check("reel_manifest.voice_matches_queue", stripped == queued.get("voice_scenes"), item=ident)
     audit.check("reel_manifest.voice_matches_canonical", [scene.get("text") for scene in scenes] == item["voice_lines"], item=ident)
+    if plan:
+        audit.check("reel_manifest.voice_matches_configuration", stripped == plan["voice_scenes"], item=ident)
     expected_voice_states = []
     for index, scene in enumerate(scenes):
         words = scene.get("words", [])
@@ -344,10 +472,10 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry):
         kind = state.get("kind")
         if kind == "hook":
             expected = cover_expected
-            audit.check("reel.hook_on_first_frame", start == 0 and state.get("text") == item["hook"], item=ident)
+            audit.check("reel.hook_on_first_frame", start == 0 and state.get("text") == item["hook"] and (not plan or end == plan["hook_frames"]), item=ident)
         elif kind == "end_card":
             expected = {"cta": item["cta"], "website": "crednest.io", "disclaimer": canonical["disclaimer"]}
-            audit.check("reel.end_card_last_1_5s", start == 375 and end == 420 and state.get("text") == item["cta"], item=ident)
+            audit.check("reel.end_card_last_1_5s", plan is not None and start == plan["total_frames"] - plan["end_card_frames"] and end == plan["total_frames"] and state.get("text") == item["cta"], item=ident)
         elif kind == "voice":
             expected = {"series_tag": item["series"], "voice_caption": state.get("text", "")}
             if any(box.get("label") == "number_card" for box in state.get("boxes", [])):
@@ -356,7 +484,7 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry):
         else:
             expected = {}
         check_reel_boxes(audit, state.get("boxes"), expected, f"reel_state{index}", ident)
-    audit.check("reel_manifest.no_frame_gaps_or_overlaps", not interval_errors and previous_end == 420, interval_errors or {"final_frame": previous_end}, ident)
+    audit.check("reel_manifest.no_frame_gaps_or_overlaps", plan is not None and not interval_errors and previous_end == plan["total_frames"], interval_errors or {"final_frame": previous_end}, ident)
     audit.check("reel_manifest.numeric_card_rendered_when_required", number_card_seen == bool(item.get("number_card")), item=ident)
     assets = {asset.get("name"): asset for asset in registry.get("assets", [])}
     broll_errors = []
@@ -367,12 +495,61 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry):
     audit.check("reel_manifest.licensed_broll_registry_matches", bool(manifest.get("broll")) and not broll_errors, broll_errors or None, ident)
 
 
+def regression_controls(root, carousel_manifest, config, canonical):
+    """Exercise typography and retiming failure cases without changing files."""
+    controls = []
+    sample = next(element for slide in carousel_manifest["slides"] for element in slide["elements"] if element.get("role") == "body" and element.get("lines") and len(element["lines"][0].get("words", [])) > 1)
+    scale = carousel_manifest["supersampling"]
+    positive = Audit()
+    check_line_baselines(positive, root, sample, "baseline_control", "test", scale)
+    controls.append({"scenario": "actual_baseline_metadata_passes_independent_font_metrics", "passed": all(check["passed"] for check in positive.checks)})
+    floated = copy.deepcopy(sample)
+    word = floated["lines"][0]["words"][-1]
+    word["draw_origin"][1] -= 4
+    word["pixel_origin"][1] -= round(4 * scale)
+    negative = Audit()
+    check_line_baselines(negative, root, floated, "floated_word", "test", scale)
+    controls.append({"scenario": "word_draw_origin_offset_is_rejected", "passed": any(not check["passed"] and check["check"].endswith("all_words_on_line_baseline") for check in negative.checks)})
+    legacy = copy.deepcopy(sample)
+    line = legacy["lines"][0]
+    word = line["words"][0]
+    weight, size = line.get("weight", legacy["weight"]), line.get("font_size", legacy["font_size"])
+    face = ImageFont.truetype(str(root / "brand/03_Fonts" / f"Manrope-{weight}.ttf"), round(size * scale))
+    draw = ImageDraw.Draw(Image.new("L", (1, 1)))
+    # The prior renderer aligned each token by its ink top. These independently
+    # generated lt bounds cannot masquerade as baseline-aligned ls glyph bounds.
+    word["bounds"] = [value / scale for value in draw.textbbox(tuple(word["pixel_origin"]), word["text"], font=face, anchor="lt")]
+    negative = Audit()
+    check_line_baselines(negative, root, legacy, "legacy_ink_top", "test", scale)
+    controls.append({"scenario": "old_ink_top_anchor_bounds_are_rejected", "passed": any(not check["passed"] and check["check"].endswith("word_bounds_match_font_metrics") for check in negative.checks)})
+    item = next(item for item in canonical["items"] if item["type"] == "reel")
+    plan = timing_plan(config, item)
+    negative = Audit()
+    check_configured_timing(negative, plan["voice_scenes"], plan["duration"] - 1 / FPS, plan, "test")
+    controls.append({"scenario": "encoded_duration_one_frame_short_is_rejected", "passed": any(not check["passed"] and check["check"] == "reel.actual_duration_matches_configuration" for check in negative.checks)})
+    retimed = copy.deepcopy(config)
+    retimed["reels"][item["id"]]["scene_durations"][0] += 0.8
+    new_plan = timing_plan(retimed, item)
+    negative = Audit()
+    check_configured_timing(negative, plan["voice_scenes"], plan["duration"], new_plan, "test")
+    controls.append({"scenario": "edited_config_rejects_stale_queue_and_render_duration", "passed": all(not check["passed"] for check in negative.checks) and new_plan["config_sha256"] != plan["config_sha256"]})
+    positive = Audit()
+    check_configured_timing(positive, new_plan["voice_scenes"], new_plan["duration"], new_plan, "test")
+    controls.append({"scenario": "freshly_retimed_scenes_and_duration_pass_without_code_changes", "passed": all(check["passed"] for check in positive.checks)})
+    return controls
+
+
 def main():
+    # Validation failures can contain the exact supplied rupee figures.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--base", help="Protected base revision; defaults to batch.json base_revision, then HEAD")
     parser.add_argument("--ffprobe", help="ffprobe executable; auto-detects Jellyfin on Windows")
     parser.add_argument("--ffmpeg", help="ffmpeg executable for actual first-frame/cover comparison and motion check")
+    parser.add_argument("--timings", type=Path, default=Path("reels_nov2026/timings.json"), help="Editable per-scene duration configuration")
+    parser.add_argument("--self-test", action="store_true", help="Run in-memory baseline/duration/retiming regression controls only")
     parser.add_argument("--report", type=Path, default=Path("reports/nov16-29/validation.json"))
     args = parser.parse_args()
     root = args.root.resolve()
@@ -391,6 +568,27 @@ def main():
     except Exception as exc:
         raise SystemExit(f"Cannot load canonical batch, queue, or protected baseline: {exc}")
     expected_items = canonical["items"]
+    timings_path = args.timings if args.timings.is_absolute() else root / args.timings
+    config = load_manifest(audit, timings_path, "timing_configuration")
+    expected_reel_ids = {item["id"] for item in expected_items if item["type"] == "reel"}
+    audit.check("timing_configuration.exact_reels", set(config.get("reels", {})) == expected_reel_ids)
+    audit.check("timing_configuration.version", config.get("version") == 1)
+    plans = {}
+    for item in expected_items:
+        if item["type"] != "reel":
+            continue
+        try:
+            plans[item["id"]] = timing_plan(config, item)
+            audit.check("timing_configuration.valid_scene_durations", True, {"duration": plans[item["id"]]["duration"], "scene_frames": plans[item["id"]]["scene_frames"]}, item["id"])
+        except Exception as exc:
+            audit.error("timing_configuration.valid_scene_durations", str(exc), item["id"])
+    if args.self_test:
+        controls = regression_controls(root, read_json(root / "reports/nov16-29/carousel-render-manifest.json"), config, canonical)
+        for control in controls:
+            print(("PASS " if control["passed"] else "FAIL ") + control["scenario"])
+        return 0 if all(control["passed"] for control in controls) else 1
+    for relative, approved_hash in APPROVED_SOURCE_HASHES.items():
+        audit.check("approved_source.unchanged", file_hash(root / relative) == approved_hash, relative)
     audit.check("canonical.exact_14_ids_in_order", [item.get("id") for item in expected_items] == IDS)
     audit.check("canonical.confirmed_series", canonical.get("series_pending") is False and len(canonical.get("series_tags", {})) == 4)
     audit.check("canonical.cover_annotations_disabled", canonical.get("cover_annotations") is False)
@@ -436,28 +634,40 @@ def main():
             relative, cover = f"media/{ident}/reel.mp4", f"media/{ident}/cover.jpg"
             audit.check("queue.exact_reel_path", actual.get("media") == [relative], actual.get("media"), ident)
             audit.check("queue.exact_cover_path", actual.get("cover") == cover, actual.get("cover"), ident)
-            duration = check_video(audit, root, safe_path(root, relative), ident, ffprobe)
+            plan = plans.get(ident)
+            duration = check_video(audit, root, safe_path(root, relative), ident, ffprobe, plan)
             check_jpeg(audit, safe_path(root, cover), cover, (1080, 1920), ident)
             check_first_frames(audit, safe_path(root, relative), safe_path(root, cover), ident, ffmpeg)
-            check_voice_scenes(audit, actual.get("voice_scenes"), item, ident, (duration - 1.5) if duration else 12.5)
+            if plan:
+                check_voice_scenes(audit, actual.get("voice_scenes"), item, ident, plan["end_card_start"])
+                check_configured_timing(audit, actual.get("voice_scenes"), duration, plan, ident)
     carousel_manifest = load_manifest(audit, root / "reports/nov16-29/carousel-render-manifest.json", "carousel_manifest")
     check_carousel_manifest(audit, root, carousel_manifest, canonical)
     registry = load_manifest(audit, root / "reels_nov2026/stock_sources.json", "reel_stock_registry")
     audit.check("reel_stock_registry.pexels_license_recorded", registry.get("license_url") == "https://www.pexels.com/license/")
     for item in expected_items:
         if item["type"] == "reel" and item["id"] in by_id:
-            check_reel_manifest(audit, root, item, by_id[item["id"]], canonical, registry)
+            check_reel_manifest(audit, root, item, by_id[item["id"]], canonical, registry, plans.get(item["id"]))
+    try:
+        controls = regression_controls(root, carousel_manifest, config, canonical)
+        for control in controls:
+            audit.check("regression_control." + control["scenario"], control["passed"])
+    except Exception as exc:
+        controls = []
+        audit.error("regression_controls.completed", str(exc))
     failed = [check for check in audit.checks if not check["passed"]]
     report = {
         "status": "OK" if not failed else "FAILED",
         "checked_at": datetime.now(timezone.utc).isoformat(),
         "canonical_sha256": file_hash(canonical_path),
+        "timing_configuration_sha256": file_hash(timings_path) if timings_path.is_file() else None,
         "baseline_commit": baseline_commit,
         "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; original queue and publishing state protected",
         "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
         "summary": {"checks": len(audit.checks), "passed": len(audit.checks) - len(failed), "failed": len(failed)},
         "errors": failed,
         "items": audit.items,
+        "regression_controls": controls,
         "checks": audit.checks,
     }
     output = args.report if args.report.is_absolute() else root / args.report

@@ -4,15 +4,20 @@
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "duration": 14.0,
+    "duration": 16.5,
+    "total_frames": 495,
+    "hook_duration": 0.8,
+    "end_card_duration": 1.5,
+    "timing_config_sha256": "8fb1ebe0647da3ddeba183860ee71fac89abe0a6b7dbc0dcb919747d9bcfc83b",
     "audio": false,
-    "file_size_bytes": 3000376,
+    "file_size_bytes": 3551497,
     "safe_zone": [
       250,
       1500
     ],
     "caption_baseline": 1260,
-    "end_card_start": 12.5,
+    "caption_anchor": "ls",
+    "end_card_start": 15.0,
     "cover_frame_seconds": 0,
     "cover_quality": 95,
     "cover_color_profile": "sRGB"
@@ -31,6 +36,11 @@
         284,
         431,
         307
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        284
       ]
     },
     {
@@ -41,6 +51,11 @@
         478,
         674,
         582
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        478
       ]
     },
     {
@@ -51,6 +66,11 @@
         649,
         865,
         786
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        649
       ]
     },
     {
@@ -61,6 +81,11 @@
         820,
         878,
         924
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        820
       ]
     },
     {
@@ -71,6 +96,11 @@
         991,
         644,
         1069
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        991
       ]
     },
     {
@@ -81,292 +111,297 @@
         1435,
         301,
         1463
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        1435
       ]
     }
   ],
   "voice_scenes": [
     {
       "start": 0.8,
-      "end": 3.566667,
+      "end": 4.0,
       "text": "Bank file reject kyun karta hai? Paanch reason.",
       "words": [
         {
           "text": "Bank",
           "start": 0.8,
-          "end": 1.133333,
+          "end": 1.2,
           "start_frame": 24,
-          "end_frame": 34
+          "end_frame": 36
         },
         {
           "text": "file",
-          "start": 1.133333,
-          "end": 1.466667,
-          "start_frame": 34,
-          "end_frame": 44
+          "start": 1.2,
+          "end": 1.566667,
+          "start_frame": 36,
+          "end_frame": 47
         },
         {
           "text": "reject",
-          "start": 1.466667,
-          "end": 1.8,
-          "start_frame": 44,
-          "end_frame": 54
+          "start": 1.566667,
+          "end": 1.933333,
+          "start_frame": 47,
+          "end_frame": 58
         },
         {
           "text": "kyun",
-          "start": 1.8,
-          "end": 2.133333,
-          "start_frame": 54,
-          "end_frame": 64
+          "start": 1.933333,
+          "end": 2.333333,
+          "start_frame": 58,
+          "end_frame": 70
         },
         {
           "text": "karta",
-          "start": 2.133333,
-          "end": 2.433333,
-          "start_frame": 64,
-          "end_frame": 73
+          "start": 2.333333,
+          "end": 2.733333,
+          "start_frame": 70,
+          "end_frame": 82
         },
         {
           "text": "hai?",
-          "start": 2.433333,
-          "end": 2.766667,
-          "start_frame": 73,
-          "end_frame": 83
-        },
-        {
-          "text": "Paanch",
-          "start": 2.766667,
+          "start": 2.733333,
           "end": 3.1,
-          "start_frame": 83,
+          "start_frame": 82,
           "end_frame": 93
         },
         {
-          "text": "reason.",
+          "text": "Paanch",
           "start": 3.1,
-          "end": 3.566667,
+          "end": 3.466667,
           "start_frame": 93,
-          "end_frame": 107
+          "end_frame": 104
+        },
+        {
+          "text": "reason.",
+          "start": 3.466667,
+          "end": 4.0,
+          "start_frame": 104,
+          "end_frame": 120
         }
       ],
       "stock": "document_review"
     },
     {
-      "start": 3.566667,
-      "end": 4.933333,
+      "start": 4.0,
+      "end": 5.8,
       "text": "Ek: purani EMI zyada.",
       "words": [
         {
           "text": "Ek:",
-          "start": 3.566667,
-          "end": 3.866667,
-          "start_frame": 107,
-          "end_frame": 116
+          "start": 4.0,
+          "end": 4.4,
+          "start_frame": 120,
+          "end_frame": 132
         },
         {
           "text": "purani",
-          "start": 3.866667,
-          "end": 4.166667,
-          "start_frame": 116,
-          "end_frame": 125
+          "start": 4.4,
+          "end": 4.833333,
+          "start_frame": 132,
+          "end_frame": 145
         },
         {
           "text": "EMI",
-          "start": 4.166667,
-          "end": 4.5,
-          "start_frame": 125,
-          "end_frame": 135
+          "start": 4.833333,
+          "end": 5.266667,
+          "start_frame": 145,
+          "end_frame": 158
         },
         {
           "text": "zyada.",
-          "start": 4.5,
-          "end": 4.933333,
-          "start_frame": 135,
-          "end_frame": 148
+          "start": 5.266667,
+          "end": 5.8,
+          "start_frame": 158,
+          "end_frame": 174
         }
       ],
       "stock": "calculator"
     },
     {
-      "start": 4.933333,
-      "end": 6.666667,
+      "start": 5.8,
+      "end": 7.8,
       "text": "Do: ITR mein kamai kam.",
       "words": [
         {
           "text": "Do:",
-          "start": 4.933333,
-          "end": 5.266667,
-          "start_frame": 148,
-          "end_frame": 158
+          "start": 5.8,
+          "end": 6.166667,
+          "start_frame": 174,
+          "end_frame": 185
         },
         {
           "text": "ITR",
-          "start": 5.266667,
-          "end": 5.566667,
-          "start_frame": 158,
-          "end_frame": 167
+          "start": 6.166667,
+          "end": 6.533333,
+          "start_frame": 185,
+          "end_frame": 196
         },
         {
           "text": "mein",
-          "start": 5.566667,
-          "end": 5.9,
-          "start_frame": 167,
-          "end_frame": 177
+          "start": 6.533333,
+          "end": 6.933333,
+          "start_frame": 196,
+          "end_frame": 208
         },
         {
           "text": "kamai",
-          "start": 5.9,
-          "end": 6.2,
-          "start_frame": 177,
-          "end_frame": 186
+          "start": 6.933333,
+          "end": 7.3,
+          "start_frame": 208,
+          "end_frame": 219
         },
         {
           "text": "kam.",
-          "start": 6.2,
-          "end": 6.666667,
-          "start_frame": 186,
-          "end_frame": 200
+          "start": 7.3,
+          "end": 7.8,
+          "start_frame": 219,
+          "end_frame": 234
         }
       ],
       "stock": "document_review"
     },
     {
-      "start": 6.666667,
-      "end": 8.366667,
+      "start": 7.8,
+      "end": 9.8,
       "text": "Teen: cheque ya EMI bounce.",
       "words": [
         {
           "text": "Teen:",
-          "start": 6.666667,
-          "end": 6.966667,
-          "start_frame": 200,
-          "end_frame": 209
+          "start": 7.8,
+          "end": 8.166667,
+          "start_frame": 234,
+          "end_frame": 245
         },
         {
           "text": "cheque",
-          "start": 6.966667,
-          "end": 7.3,
-          "start_frame": 209,
-          "end_frame": 219
+          "start": 8.166667,
+          "end": 8.533333,
+          "start_frame": 245,
+          "end_frame": 256
         },
         {
           "text": "ya",
-          "start": 7.3,
-          "end": 7.6,
-          "start_frame": 219,
-          "end_frame": 228
+          "start": 8.533333,
+          "end": 8.933333,
+          "start_frame": 256,
+          "end_frame": 268
         },
         {
           "text": "EMI",
-          "start": 7.6,
-          "end": 7.933333,
-          "start_frame": 228,
-          "end_frame": 238
+          "start": 8.933333,
+          "end": 9.3,
+          "start_frame": 268,
+          "end_frame": 279
         },
         {
           "text": "bounce.",
-          "start": 7.933333,
-          "end": 8.366667,
-          "start_frame": 238,
-          "end_frame": 251
+          "start": 9.3,
+          "end": 9.8,
+          "start_frame": 279,
+          "end_frame": 294
         }
       ],
       "stock": "signing"
     },
     {
-      "start": 8.366667,
-      "end": 10.1,
+      "start": 9.8,
+      "end": 11.9,
       "text": "Chaar: property ke kagaz adhure.",
       "words": [
         {
           "text": "Chaar:",
-          "start": 8.366667,
-          "end": 8.7,
-          "start_frame": 251,
-          "end_frame": 261
+          "start": 9.8,
+          "end": 10.2,
+          "start_frame": 294,
+          "end_frame": 306
         },
         {
           "text": "property",
-          "start": 8.7,
-          "end": 9.0,
-          "start_frame": 261,
-          "end_frame": 270
+          "start": 10.2,
+          "end": 10.6,
+          "start_frame": 306,
+          "end_frame": 318
         },
         {
           "text": "ke",
-          "start": 9.0,
-          "end": 9.333333,
-          "start_frame": 270,
-          "end_frame": 280
+          "start": 10.6,
+          "end": 10.966667,
+          "start_frame": 318,
+          "end_frame": 329
         },
         {
           "text": "kagaz",
-          "start": 9.333333,
-          "end": 9.633333,
-          "start_frame": 280,
-          "end_frame": 289
+          "start": 10.966667,
+          "end": 11.366667,
+          "start_frame": 329,
+          "end_frame": 341
         },
         {
           "text": "adhure.",
-          "start": 9.633333,
-          "end": 10.1,
-          "start_frame": 289,
-          "end_frame": 303
+          "start": 11.366667,
+          "end": 11.9,
+          "start_frame": 341,
+          "end_frame": 357
         }
       ],
       "stock": "document_review"
     },
     {
-      "start": 10.1,
-      "end": 12.5,
+      "start": 11.9,
+      "end": 15.0,
       "text": "Paanch: chhupaya hua loan. Yeh sabse bada.",
       "words": [
         {
           "text": "Paanch:",
-          "start": 10.1,
-          "end": 10.433333,
-          "start_frame": 303,
-          "end_frame": 313
+          "start": 11.9,
+          "end": 12.333333,
+          "start_frame": 357,
+          "end_frame": 370
         },
         {
           "text": "chhupaya",
-          "start": 10.433333,
-          "end": 10.733333,
-          "start_frame": 313,
-          "end_frame": 322
+          "start": 12.333333,
+          "end": 12.733333,
+          "start_frame": 370,
+          "end_frame": 382
         },
         {
           "text": "hua",
-          "start": 10.733333,
-          "end": 11.066667,
-          "start_frame": 322,
-          "end_frame": 332
+          "start": 12.733333,
+          "end": 13.166667,
+          "start_frame": 382,
+          "end_frame": 395
         },
         {
           "text": "loan.",
-          "start": 11.066667,
-          "end": 11.4,
-          "start_frame": 332,
-          "end_frame": 342
+          "start": 13.166667,
+          "end": 13.6,
+          "start_frame": 395,
+          "end_frame": 408
         },
         {
           "text": "Yeh",
-          "start": 11.4,
-          "end": 11.733333,
-          "start_frame": 342,
-          "end_frame": 352
+          "start": 13.6,
+          "end": 14.033333,
+          "start_frame": 408,
+          "end_frame": 421
         },
         {
           "text": "sabse",
-          "start": 11.733333,
-          "end": 12.033333,
-          "start_frame": 352,
-          "end_frame": 361
+          "start": 14.033333,
+          "end": 14.433333,
+          "start_frame": 421,
+          "end_frame": 433
         },
         {
           "text": "bada.",
-          "start": 12.033333,
-          "end": 12.5,
-          "start_frame": 361,
-          "end_frame": 375
+          "start": 14.433333,
+          "end": 15.0,
+          "start_frame": 433,
+          "end_frame": 450
         }
       ],
       "stock": "signing"
@@ -387,6 +422,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -397,6 +437,11 @@
             478,
             674,
             582
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            478
           ]
         },
         {
@@ -407,6 +452,11 @@
             649,
             865,
             786
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            649
           ]
         },
         {
@@ -417,6 +467,11 @@
             820,
             878,
             924
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            820
           ]
         },
         {
@@ -427,6 +482,11 @@
             991,
             644,
             1069
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            991
           ]
         },
         {
@@ -437,6 +497,11 @@
             1435,
             301,
             1463
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1435
           ]
         }
       ]
@@ -445,7 +510,7 @@
       "kind": "voice",
       "text": "Bank",
       "start_frame": 24,
-      "end_frame": 34,
+      "end_frame": 36,
       "boxes": [
         {
           "label": "series_tag",
@@ -455,6 +520,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -462,9 +532,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         }
       ]
@@ -472,8 +547,8 @@
     {
       "kind": "voice",
       "text": "Bank file",
-      "start_frame": 34,
-      "end_frame": 44,
+      "start_frame": 36,
+      "end_frame": 47,
       "boxes": [
         {
           "label": "series_tag",
@@ -483,6 +558,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -490,9 +570,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         },
         {
@@ -500,9 +585,14 @@
           "text": "file",
           "box": [
             292,
-            972,
+            1011,
             415,
-            1030
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
           ]
         }
       ]
@@ -510,8 +600,8 @@
     {
       "kind": "voice",
       "text": "Bank file reject",
-      "start_frame": 44,
-      "end_frame": 54,
+      "start_frame": 47,
+      "end_frame": 58,
       "boxes": [
         {
           "label": "series_tag",
@@ -521,6 +611,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -528,9 +623,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         },
         {
@@ -538,9 +638,14 @@
           "text": "file",
           "box": [
             292,
-            972,
+            1011,
             415,
-            1030
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
           ]
         },
         {
@@ -548,9 +653,14 @@
           "text": "reject",
           "box": [
             431,
-            972,
+            1011,
             660,
-            1048
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            431,
+            1068
           ]
         }
       ]
@@ -558,8 +668,8 @@
     {
       "kind": "voice",
       "text": "Bank file reject kyun",
-      "start_frame": 54,
-      "end_frame": 64,
+      "start_frame": 58,
+      "end_frame": 70,
       "boxes": [
         {
           "label": "series_tag",
@@ -569,6 +679,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -576,9 +691,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         },
         {
@@ -586,9 +706,14 @@
           "text": "file",
           "box": [
             292,
-            972,
+            1011,
             415,
-            1030
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
           ]
         },
         {
@@ -596,9 +721,14 @@
           "text": "reject",
           "box": [
             431,
-            972,
+            1011,
             660,
-            1048
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            431,
+            1068
           ]
         },
         {
@@ -606,9 +736,14 @@
           "text": "kyun",
           "box": [
             676,
-            972,
+            1012,
             863,
-            1047
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            676,
+            1068
           ]
         }
       ]
@@ -616,8 +751,8 @@
     {
       "kind": "voice",
       "text": "Bank file reject kyun karta",
-      "start_frame": 64,
-      "end_frame": 73,
+      "start_frame": 70,
+      "end_frame": 82,
       "boxes": [
         {
           "label": "series_tag",
@@ -627,6 +762,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -634,9 +774,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         },
         {
@@ -644,9 +789,14 @@
           "text": "file",
           "box": [
             292,
-            972,
+            1011,
             415,
-            1030
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
           ]
         },
         {
@@ -654,9 +804,14 @@
           "text": "reject",
           "box": [
             431,
-            972,
+            1011,
             660,
-            1048
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            431,
+            1068
           ]
         },
         {
@@ -664,9 +819,14 @@
           "text": "kyun",
           "box": [
             676,
-            972,
+            1012,
             863,
-            1047
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            676,
+            1068
           ]
         },
         {
@@ -674,9 +834,14 @@
           "text": "karta",
           "box": [
             88,
-            1068,
+            1108,
             288,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         }
       ]
@@ -684,85 +849,7 @@
     {
       "kind": "voice",
       "text": "Bank file reject kyun karta hai?",
-      "start_frame": 73,
-      "end_frame": 83,
-      "boxes": [
-        {
-          "label": "series_tag",
-          "text": "BANK KYA DEKHTA HAI",
-          "box": [
-            88,
-            284,
-            431,
-            307
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "Bank",
-          "box": [
-            88,
-            972,
-            278,
-            1029
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "file",
-          "box": [
-            292,
-            972,
-            415,
-            1030
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "reject",
-          "box": [
-            431,
-            972,
-            660,
-            1048
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "kyun",
-          "box": [
-            676,
-            972,
-            863,
-            1047
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "karta",
-          "box": [
-            88,
-            1068,
-            288,
-            1125
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "hai?",
-          "box": [
-            304,
-            1068,
-            466,
-            1126
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "voice",
-      "text": "Bank file reject kyun karta hai? Paanch",
-      "start_frame": 83,
+      "start_frame": 82,
       "end_frame": 93,
       "boxes": [
         {
@@ -773,6 +860,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -780,9 +872,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         },
         {
@@ -790,9 +887,14 @@
           "text": "file",
           "box": [
             292,
-            972,
+            1011,
             415,
-            1030
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
           ]
         },
         {
@@ -800,9 +902,14 @@
           "text": "reject",
           "box": [
             431,
-            972,
+            1011,
             660,
-            1048
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            431,
+            1068
           ]
         },
         {
@@ -810,9 +917,14 @@
           "text": "kyun",
           "box": [
             676,
-            972,
+            1012,
             863,
-            1047
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            676,
+            1068
           ]
         },
         {
@@ -820,9 +932,14 @@
           "text": "karta",
           "box": [
             88,
-            1068,
+            1108,
             288,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -830,9 +947,127 @@
           "text": "hai?",
           "box": [
             304,
-            1068,
+            1107,
             466,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            304,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank file reject kyun karta hai? Paanch",
+      "start_frame": 93,
+      "end_frame": 104,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1012,
+            278,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "file",
+          "box": [
+            292,
+            1011,
+            415,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "reject",
+          "box": [
+            431,
+            1011,
+            660,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            431,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kyun",
+          "box": [
+            676,
+            1012,
+            863,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            676,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "karta",
+          "box": [
+            88,
+            1108,
+            288,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai?",
+          "box": [
+            304,
+            1107,
+            466,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            304,
+            1164
           ]
         },
         {
@@ -840,9 +1075,14 @@
           "text": "Paanch",
           "box": [
             482,
-            1068,
+            1108,
             768,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            482,
+            1164
           ]
         }
       ]
@@ -850,8 +1090,8 @@
     {
       "kind": "voice",
       "text": "Bank file reject kyun karta hai? Paanch reason.",
-      "start_frame": 93,
-      "end_frame": 107,
+      "start_frame": 104,
+      "end_frame": 120,
       "boxes": [
         {
           "label": "series_tag",
@@ -861,6 +1101,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -868,9 +1113,14 @@
           "text": "Bank",
           "box": [
             88,
-            972,
+            1012,
             278,
-            1029
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
           ]
         },
         {
@@ -878,9 +1128,14 @@
           "text": "file",
           "box": [
             292,
-            972,
+            1011,
             415,
-            1030
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1068
           ]
         },
         {
@@ -888,9 +1143,14 @@
           "text": "reject",
           "box": [
             431,
-            972,
+            1011,
             660,
-            1048
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            431,
+            1068
           ]
         },
         {
@@ -898,9 +1158,14 @@
           "text": "kyun",
           "box": [
             676,
-            972,
+            1012,
             863,
-            1047
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            676,
+            1068
           ]
         },
         {
@@ -908,9 +1173,14 @@
           "text": "karta",
           "box": [
             88,
-            1068,
+            1108,
             288,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -918,9 +1188,14 @@
           "text": "hai?",
           "box": [
             304,
-            1068,
+            1107,
             466,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            304,
+            1164
           ]
         },
         {
@@ -928,9 +1203,14 @@
           "text": "Paanch",
           "box": [
             482,
-            1068,
+            1108,
             768,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            482,
+            1164
           ]
         },
         {
@@ -938,9 +1218,14 @@
           "text": "reason.",
           "box": [
             88,
-            1164,
+            1217,
             379,
-            1208
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         }
       ]
@@ -948,8 +1233,8 @@
     {
       "kind": "voice",
       "text": "Ek:",
-      "start_frame": 107,
-      "end_frame": 116,
+      "start_frame": 120,
+      "end_frame": 132,
       "boxes": [
         {
           "label": "series_tag",
@@ -959,6 +1244,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -966,9 +1256,14 @@
           "text": "Ek:",
           "box": [
             88,
-            1164,
+            1204,
             205,
-            1220
+            1260
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         }
       ]
@@ -976,8 +1271,8 @@
     {
       "kind": "voice",
       "text": "Ek: purani",
-      "start_frame": 116,
-      "end_frame": 125,
+      "start_frame": 132,
+      "end_frame": 145,
       "boxes": [
         {
           "label": "series_tag",
@@ -987,6 +1282,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -994,9 +1294,14 @@
           "text": "Ek:",
           "box": [
             88,
-            1164,
+            1204,
             205,
-            1220
+            1260
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         },
         {
@@ -1004,9 +1309,14 @@
           "text": "purani",
           "box": [
             221,
-            1164,
+            1203,
             470,
-            1240
+            1279
+          ],
+          "anchor": "ls",
+          "origin": [
+            221,
+            1260
           ]
         }
       ]
@@ -1014,113 +1324,7 @@
     {
       "kind": "voice",
       "text": "Ek: purani EMI",
-      "start_frame": 125,
-      "end_frame": 135,
-      "boxes": [
-        {
-          "label": "series_tag",
-          "text": "BANK KYA DEKHTA HAI",
-          "box": [
-            88,
-            284,
-            431,
-            307
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "Ek:",
-          "box": [
-            88,
-            1164,
-            205,
-            1220
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "purani",
-          "box": [
-            221,
-            1164,
-            470,
-            1240
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "EMI",
-          "box": [
-            486,
-            1164,
-            622,
-            1220
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "voice",
-      "text": "Ek: purani EMI zyada.",
-      "start_frame": 135,
-      "end_frame": 148,
-      "boxes": [
-        {
-          "label": "series_tag",
-          "text": "BANK KYA DEKHTA HAI",
-          "box": [
-            88,
-            284,
-            431,
-            307
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "Ek:",
-          "box": [
-            88,
-            1164,
-            205,
-            1220
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "purani",
-          "box": [
-            221,
-            1164,
-            470,
-            1240
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "EMI",
-          "box": [
-            486,
-            1164,
-            622,
-            1220
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "zyada.",
-          "box": [
-            638,
-            1164,
-            888,
-            1239
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "voice",
-      "text": "Do:",
-      "start_frame": 148,
+      "start_frame": 145,
       "end_frame": 158,
       "boxes": [
         {
@@ -1131,6 +1335,162 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Ek:",
+          "box": [
+            88,
+            1204,
+            205,
+            1260
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "purani",
+          "box": [
+            221,
+            1203,
+            470,
+            1279
+          ],
+          "anchor": "ls",
+          "origin": [
+            221,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            486,
+            1204,
+            622,
+            1260
+          ],
+          "anchor": "ls",
+          "origin": [
+            486,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Ek: purani EMI zyada.",
+      "start_frame": 158,
+      "end_frame": 174,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Ek:",
+          "box": [
+            88,
+            1204,
+            205,
+            1260
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "purani",
+          "box": [
+            221,
+            1203,
+            470,
+            1279
+          ],
+          "anchor": "ls",
+          "origin": [
+            221,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            486,
+            1204,
+            622,
+            1260
+          ],
+          "anchor": "ls",
+          "origin": [
+            486,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada.",
+          "box": [
+            638,
+            1204,
+            888,
+            1279
+          ],
+          "anchor": "ls",
+          "origin": [
+            638,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Do:",
+      "start_frame": 174,
+      "end_frame": 185,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1138,9 +1498,14 @@
           "text": "Do:",
           "box": [
             88,
-            1068,
+            1108,
             220,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         }
       ]
@@ -1148,8 +1513,8 @@
     {
       "kind": "voice",
       "text": "Do: ITR",
-      "start_frame": 158,
-      "end_frame": 167,
+      "start_frame": 185,
+      "end_frame": 196,
       "boxes": [
         {
           "label": "series_tag",
@@ -1159,6 +1524,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1166,9 +1536,14 @@
           "text": "Do:",
           "box": [
             88,
-            1068,
+            1108,
             220,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1176,9 +1551,14 @@
           "text": "ITR",
           "box": [
             236,
-            1068,
+            1108,
             359,
-            1124
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            236,
+            1164
           ]
         }
       ]
@@ -1186,8 +1566,8 @@
     {
       "kind": "voice",
       "text": "Do: ITR mein",
-      "start_frame": 167,
-      "end_frame": 177,
+      "start_frame": 196,
+      "end_frame": 208,
       "boxes": [
         {
           "label": "series_tag",
@@ -1197,6 +1577,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1204,9 +1589,14 @@
           "text": "Do:",
           "box": [
             88,
-            1068,
+            1108,
             220,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1214,9 +1604,14 @@
           "text": "ITR",
           "box": [
             236,
-            1068,
+            1108,
             359,
-            1124
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            236,
+            1164
           ]
         },
         {
@@ -1224,9 +1619,14 @@
           "text": "mein",
           "box": [
             375,
-            1068,
+            1107,
             566,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            375,
+            1164
           ]
         }
       ]
@@ -1234,161 +1634,7 @@
     {
       "kind": "voice",
       "text": "Do: ITR mein kamai",
-      "start_frame": 177,
-      "end_frame": 186,
-      "boxes": [
-        {
-          "label": "series_tag",
-          "text": "BANK KYA DEKHTA HAI",
-          "box": [
-            88,
-            284,
-            431,
-            307
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "Do:",
-          "box": [
-            88,
-            1068,
-            220,
-            1125
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "ITR",
-          "box": [
-            236,
-            1068,
-            359,
-            1124
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "mein",
-          "box": [
-            375,
-            1068,
-            566,
-            1126
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "kamai",
-          "box": [
-            582,
-            1068,
-            809,
-            1126
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "voice",
-      "text": "Do: ITR mein kamai kam.",
-      "start_frame": 186,
-      "end_frame": 200,
-      "boxes": [
-        {
-          "label": "series_tag",
-          "text": "BANK KYA DEKHTA HAI",
-          "box": [
-            88,
-            284,
-            431,
-            307
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "Do:",
-          "box": [
-            88,
-            1068,
-            220,
-            1125
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "ITR",
-          "box": [
-            236,
-            1068,
-            359,
-            1124
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "mein",
-          "box": [
-            375,
-            1068,
-            566,
-            1126
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "kamai",
-          "box": [
-            582,
-            1068,
-            809,
-            1126
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "kam.",
-          "box": [
-            88,
-            1164,
-            272,
-            1221
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "voice",
-      "text": "Teen:",
-      "start_frame": 200,
-      "end_frame": 209,
-      "boxes": [
-        {
-          "label": "series_tag",
-          "text": "BANK KYA DEKHTA HAI",
-          "box": [
-            88,
-            284,
-            431,
-            307
-          ]
-        },
-        {
-          "label": "voice_caption",
-          "text": "Teen:",
-          "box": [
-            88,
-            1068,
-            308,
-            1125
-          ]
-        }
-      ]
-    },
-    {
-      "kind": "voice",
-      "text": "Teen: cheque",
-      "start_frame": 209,
+      "start_frame": 208,
       "end_frame": 219,
       "boxes": [
         {
@@ -1399,6 +1645,192 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Do:",
+          "box": [
+            88,
+            1108,
+            220,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            236,
+            1108,
+            359,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            236,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            375,
+            1107,
+            566,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            375,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            582,
+            1107,
+            809,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            582,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Do: ITR mein kamai kam.",
+      "start_frame": 219,
+      "end_frame": 234,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Do:",
+          "box": [
+            88,
+            1108,
+            220,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            236,
+            1108,
+            359,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            236,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            375,
+            1107,
+            566,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            375,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            582,
+            1107,
+            809,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            582,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam.",
+          "box": [
+            88,
+            1204,
+            272,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Teen:",
+      "start_frame": 234,
+      "end_frame": 245,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1406,9 +1838,52 @@
           "text": "Teen:",
           "box": [
             88,
-            1068,
+            1108,
             308,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Teen: cheque",
+      "start_frame": 245,
+      "end_frame": 256,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Teen:",
+          "box": [
+            88,
+            1108,
+            308,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1416,9 +1891,14 @@
           "text": "cheque",
           "box": [
             324,
-            1068,
+            1108,
             612,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            324,
+            1164
           ]
         }
       ]
@@ -1426,8 +1906,8 @@
     {
       "kind": "voice",
       "text": "Teen: cheque ya",
-      "start_frame": 219,
-      "end_frame": 228,
+      "start_frame": 256,
+      "end_frame": 268,
       "boxes": [
         {
           "label": "series_tag",
@@ -1437,6 +1917,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1444,9 +1929,14 @@
           "text": "Teen:",
           "box": [
             88,
-            1068,
+            1108,
             308,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1454,9 +1944,14 @@
           "text": "cheque",
           "box": [
             324,
-            1068,
+            1108,
             612,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            324,
+            1164
           ]
         },
         {
@@ -1464,9 +1959,14 @@
           "text": "ya",
           "box": [
             628,
-            1068,
+            1121,
             717,
-            1130
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            628,
+            1164
           ]
         }
       ]
@@ -1474,8 +1974,8 @@
     {
       "kind": "voice",
       "text": "Teen: cheque ya EMI",
-      "start_frame": 228,
-      "end_frame": 238,
+      "start_frame": 268,
+      "end_frame": 279,
       "boxes": [
         {
           "label": "series_tag",
@@ -1485,6 +1985,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1492,9 +1997,14 @@
           "text": "Teen:",
           "box": [
             88,
-            1068,
+            1108,
             308,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1502,9 +2012,14 @@
           "text": "cheque",
           "box": [
             324,
-            1068,
+            1108,
             612,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            324,
+            1164
           ]
         },
         {
@@ -1512,9 +2027,14 @@
           "text": "ya",
           "box": [
             628,
-            1068,
+            1121,
             717,
-            1130
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            628,
+            1164
           ]
         },
         {
@@ -1522,9 +2042,14 @@
           "text": "EMI",
           "box": [
             733,
-            1068,
+            1108,
             869,
-            1124
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            733,
+            1164
           ]
         }
       ]
@@ -1532,8 +2057,8 @@
     {
       "kind": "voice",
       "text": "Teen: cheque ya EMI bounce.",
-      "start_frame": 238,
-      "end_frame": 251,
+      "start_frame": 279,
+      "end_frame": 294,
       "boxes": [
         {
           "label": "series_tag",
@@ -1543,6 +2068,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1550,9 +2080,14 @@
           "text": "Teen:",
           "box": [
             88,
-            1068,
+            1108,
             308,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1560,9 +2095,14 @@
           "text": "cheque",
           "box": [
             324,
-            1068,
+            1108,
             612,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            324,
+            1164
           ]
         },
         {
@@ -1570,9 +2110,14 @@
           "text": "ya",
           "box": [
             628,
-            1068,
+            1121,
             717,
-            1130
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            628,
+            1164
           ]
         },
         {
@@ -1580,9 +2125,14 @@
           "text": "EMI",
           "box": [
             733,
-            1068,
+            1108,
             869,
-            1124
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            733,
+            1164
           ]
         },
         {
@@ -1590,9 +2140,14 @@
           "text": "bounce.",
           "box": [
             88,
-            1164,
+            1204,
             403,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         }
       ]
@@ -1600,8 +2155,8 @@
     {
       "kind": "voice",
       "text": "Chaar:",
-      "start_frame": 251,
-      "end_frame": 261,
+      "start_frame": 294,
+      "end_frame": 306,
       "boxes": [
         {
           "label": "series_tag",
@@ -1611,6 +2166,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1618,9 +2178,14 @@
           "text": "Chaar:",
           "box": [
             88,
-            1068,
+            1107,
             346,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         }
       ]
@@ -1628,8 +2193,8 @@
     {
       "kind": "voice",
       "text": "Chaar: property",
-      "start_frame": 261,
-      "end_frame": 270,
+      "start_frame": 306,
+      "end_frame": 318,
       "boxes": [
         {
           "label": "series_tag",
@@ -1639,6 +2204,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1646,9 +2216,14 @@
           "text": "Chaar:",
           "box": [
             88,
-            1068,
+            1107,
             346,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1656,9 +2231,14 @@
           "text": "property",
           "box": [
             362,
-            1068,
+            1111,
             700,
-            1140
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            362,
+            1164
           ]
         }
       ]
@@ -1666,8 +2246,8 @@
     {
       "kind": "voice",
       "text": "Chaar: property ke",
-      "start_frame": 270,
-      "end_frame": 280,
+      "start_frame": 318,
+      "end_frame": 329,
       "boxes": [
         {
           "label": "series_tag",
@@ -1677,6 +2257,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1684,9 +2269,14 @@
           "text": "Chaar:",
           "box": [
             88,
-            1068,
+            1107,
             346,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1694,9 +2284,14 @@
           "text": "property",
           "box": [
             362,
-            1068,
+            1111,
             700,
-            1140
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            362,
+            1164
           ]
         },
         {
@@ -1704,9 +2299,14 @@
           "text": "ke",
           "box": [
             715,
-            1068,
+            1108,
             805,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            715,
+            1164
           ]
         }
       ]
@@ -1714,8 +2314,8 @@
     {
       "kind": "voice",
       "text": "Chaar: property ke kagaz",
-      "start_frame": 280,
-      "end_frame": 289,
+      "start_frame": 329,
+      "end_frame": 341,
       "boxes": [
         {
           "label": "series_tag",
@@ -1725,6 +2325,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1732,9 +2337,14 @@
           "text": "Chaar:",
           "box": [
             88,
-            1068,
+            1107,
             346,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1742,9 +2352,14 @@
           "text": "property",
           "box": [
             362,
-            1068,
+            1111,
             700,
-            1140
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            362,
+            1164
           ]
         },
         {
@@ -1752,9 +2367,14 @@
           "text": "ke",
           "box": [
             715,
-            1068,
+            1108,
             805,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            715,
+            1164
           ]
         },
         {
@@ -1762,9 +2382,14 @@
           "text": "kagaz",
           "box": [
             88,
-            1164,
+            1204,
             312,
-            1240
+            1280
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         }
       ]
@@ -1772,8 +2397,8 @@
     {
       "kind": "voice",
       "text": "Chaar: property ke kagaz adhure.",
-      "start_frame": 289,
-      "end_frame": 303,
+      "start_frame": 341,
+      "end_frame": 357,
       "boxes": [
         {
           "label": "series_tag",
@@ -1783,6 +2408,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1790,9 +2420,14 @@
           "text": "Chaar:",
           "box": [
             88,
-            1068,
+            1107,
             346,
-            1126
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1800,9 +2435,14 @@
           "text": "property",
           "box": [
             362,
-            1068,
+            1111,
             700,
-            1140
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            362,
+            1164
           ]
         },
         {
@@ -1810,9 +2450,14 @@
           "text": "ke",
           "box": [
             715,
-            1068,
+            1108,
             805,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            715,
+            1164
           ]
         },
         {
@@ -1820,9 +2465,14 @@
           "text": "kagaz",
           "box": [
             88,
-            1164,
+            1204,
             312,
-            1240
+            1280
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         },
         {
@@ -1830,9 +2480,14 @@
           "text": "adhure.",
           "box": [
             328,
-            1164,
+            1204,
             626,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            328,
+            1260
           ]
         }
       ]
@@ -1840,8 +2495,8 @@
     {
       "kind": "voice",
       "text": "Paanch:",
-      "start_frame": 303,
-      "end_frame": 313,
+      "start_frame": 357,
+      "end_frame": 370,
       "boxes": [
         {
           "label": "series_tag",
@@ -1851,6 +2506,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1858,9 +2518,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         }
       ]
@@ -1868,8 +2533,8 @@
     {
       "kind": "voice",
       "text": "Paanch: chhupaya",
-      "start_frame": 313,
-      "end_frame": 322,
+      "start_frame": 370,
+      "end_frame": 382,
       "boxes": [
         {
           "label": "series_tag",
@@ -1879,6 +2544,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1886,9 +2556,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1896,9 +2571,14 @@
           "text": "chhupaya",
           "box": [
             418,
-            1068,
+            1108,
             796,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            418,
+            1164
           ]
         }
       ]
@@ -1906,8 +2586,8 @@
     {
       "kind": "voice",
       "text": "Paanch: chhupaya hua",
-      "start_frame": 322,
-      "end_frame": 332,
+      "start_frame": 382,
+      "end_frame": 395,
       "boxes": [
         {
           "label": "series_tag",
@@ -1917,6 +2597,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1924,9 +2609,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1934,9 +2624,14 @@
           "text": "chhupaya",
           "box": [
             418,
-            1068,
+            1108,
             796,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            418,
+            1164
           ]
         },
         {
@@ -1944,9 +2639,14 @@
           "text": "hua",
           "box": [
             812,
-            1068,
+            1108,
             957,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            812,
+            1164
           ]
         }
       ]
@@ -1954,8 +2654,8 @@
     {
       "kind": "voice",
       "text": "Paanch: chhupaya hua loan.",
-      "start_frame": 332,
-      "end_frame": 342,
+      "start_frame": 395,
+      "end_frame": 408,
       "boxes": [
         {
           "label": "series_tag",
@@ -1965,6 +2665,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -1972,9 +2677,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -1982,9 +2692,14 @@
           "text": "chhupaya",
           "box": [
             418,
-            1068,
+            1108,
             796,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            418,
+            1164
           ]
         },
         {
@@ -1992,9 +2707,14 @@
           "text": "hua",
           "box": [
             812,
-            1068,
+            1108,
             957,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            812,
+            1164
           ]
         },
         {
@@ -2002,9 +2722,14 @@
           "text": "loan.",
           "box": [
             88,
-            1164,
+            1203,
             280,
-            1222
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         }
       ]
@@ -2012,8 +2737,8 @@
     {
       "kind": "voice",
       "text": "Paanch: chhupaya hua loan. Yeh",
-      "start_frame": 342,
-      "end_frame": 352,
+      "start_frame": 408,
+      "end_frame": 421,
       "boxes": [
         {
           "label": "series_tag",
@@ -2023,6 +2748,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -2030,9 +2760,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -2040,9 +2775,14 @@
           "text": "chhupaya",
           "box": [
             418,
-            1068,
+            1108,
             796,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            418,
+            1164
           ]
         },
         {
@@ -2050,9 +2790,14 @@
           "text": "hua",
           "box": [
             812,
-            1068,
+            1108,
             957,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            812,
+            1164
           ]
         },
         {
@@ -2060,9 +2805,14 @@
           "text": "loan.",
           "box": [
             88,
-            1164,
+            1203,
             280,
-            1222
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         },
         {
@@ -2070,9 +2820,14 @@
           "text": "Yeh",
           "box": [
             296,
-            1164,
+            1204,
             442,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            296,
+            1260
           ]
         }
       ]
@@ -2080,8 +2835,8 @@
     {
       "kind": "voice",
       "text": "Paanch: chhupaya hua loan. Yeh sabse",
-      "start_frame": 352,
-      "end_frame": 361,
+      "start_frame": 421,
+      "end_frame": 433,
       "boxes": [
         {
           "label": "series_tag",
@@ -2091,6 +2846,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -2098,9 +2858,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -2108,9 +2873,14 @@
           "text": "chhupaya",
           "box": [
             418,
-            1068,
+            1108,
             796,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            418,
+            1164
           ]
         },
         {
@@ -2118,9 +2888,14 @@
           "text": "hua",
           "box": [
             812,
-            1068,
+            1108,
             957,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            812,
+            1164
           ]
         },
         {
@@ -2128,9 +2903,14 @@
           "text": "loan.",
           "box": [
             88,
-            1164,
+            1203,
             280,
-            1222
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         },
         {
@@ -2138,9 +2918,14 @@
           "text": "Yeh",
           "box": [
             296,
-            1164,
+            1204,
             442,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            296,
+            1260
           ]
         },
         {
@@ -2148,9 +2933,14 @@
           "text": "sabse",
           "box": [
             458,
-            1164,
+            1204,
             685,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            458,
+            1260
           ]
         }
       ]
@@ -2158,8 +2948,8 @@
     {
       "kind": "voice",
       "text": "Paanch: chhupaya hua loan. Yeh sabse bada.",
-      "start_frame": 361,
-      "end_frame": 375,
+      "start_frame": 433,
+      "end_frame": 450,
       "boxes": [
         {
           "label": "series_tag",
@@ -2169,6 +2959,11 @@
             284,
             431,
             307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
           ]
         },
         {
@@ -2176,9 +2971,14 @@
           "text": "Paanch:",
           "box": [
             88,
-            1068,
+            1108,
             402,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
           ]
         },
         {
@@ -2186,9 +2986,14 @@
           "text": "chhupaya",
           "box": [
             418,
-            1068,
+            1108,
             796,
-            1143
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            418,
+            1164
           ]
         },
         {
@@ -2196,9 +3001,14 @@
           "text": "hua",
           "box": [
             812,
-            1068,
+            1108,
             957,
-            1125
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            812,
+            1164
           ]
         },
         {
@@ -2206,9 +3016,14 @@
           "text": "loan.",
           "box": [
             88,
-            1164,
+            1203,
             280,
-            1222
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
           ]
         },
         {
@@ -2216,9 +3031,14 @@
           "text": "Yeh",
           "box": [
             296,
-            1164,
+            1204,
             442,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            296,
+            1260
           ]
         },
         {
@@ -2226,9 +3046,14 @@
           "text": "sabse",
           "box": [
             458,
-            1164,
+            1204,
             685,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            458,
+            1260
           ]
         },
         {
@@ -2236,9 +3061,14 @@
           "text": "bada.",
           "box": [
             701,
-            1164,
+            1204,
             914,
-            1221
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            701,
+            1260
           ]
         }
       ]
@@ -2246,8 +3076,8 @@
     {
       "kind": "end_card",
       "text": "Save karo. File dene se pehle check karo",
-      "start_frame": 375,
-      "end_frame": 420,
+      "start_frame": 450,
+      "end_frame": 495,
       "boxes": [
         {
           "label": "cta",
@@ -2257,6 +3087,11 @@
             612,
             794,
             687
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            612
           ]
         },
         {
@@ -2267,6 +3102,11 @@
             734,
             771,
             832
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            734
           ]
         },
         {
@@ -2277,6 +3117,11 @@
             856,
             621,
             930
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            856
           ]
         },
         {
@@ -2287,6 +3132,11 @@
             1125,
             380,
             1164
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1125
           ]
         },
         {
@@ -2297,6 +3147,11 @@
             1320,
             980,
             1349
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1320
           ]
         },
         {
@@ -2307,6 +3162,11 @@
             1357,
             839,
             1386
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1357
           ]
         }
       ]
@@ -2320,70 +3180,206 @@
       "name": "document_review",
       "source_id": "8440643",
       "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
-      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay.",
+      "cache_key": "6ea2ae72db39300636899089b3946f792b90d7f845f4884314824fd9038c7565",
+      "cache_config": {
+        "source_sha256": "d333ab5c268fd8869491c7b92ae6c76b0b88b25083ee91f1193aaf5380f4f234",
+        "source_size": 64380488,
+        "input_loop": -1,
+        "frames": 24,
+        "offset": 0.45,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
       "start": 0.8,
-      "end": 3.566667,
+      "end": 4.0,
       "source_offset": 1.25,
       "name": "document_review",
       "source_id": "8440643",
       "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
-      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay.",
+      "cache_key": "68487d65729888883d1ae015adde9006a72d90c18956106b5560a3b4ae46e6bc",
+      "cache_config": {
+        "source_sha256": "d333ab5c268fd8869491c7b92ae6c76b0b88b25083ee91f1193aaf5380f4f234",
+        "source_size": 64380488,
+        "input_loop": -1,
+        "frames": 96,
+        "offset": 1.25,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
-      "start": 3.566667,
-      "end": 4.933333,
+      "start": 4.0,
+      "end": 5.8,
       "source_offset": 2.0500000000000003,
       "name": "calculator",
       "source_id": "7821801",
       "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
-      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge."
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge.",
+      "cache_key": "c9dfc5ed47001adfdd220d21dbb57872ab74c7ca596cc55ddbf4d62b79a56161",
+      "cache_config": {
+        "source_sha256": "5f449105d90ab66eba33a6c59abebb0b43f4fed0c79e5d164eec2a973d33c70b",
+        "source_size": 2266583,
+        "input_loop": -1,
+        "frames": 54,
+        "offset": 2.05,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
-      "start": 4.933333,
-      "end": 6.666667,
+      "start": 5.8,
+      "end": 7.8,
       "source_offset": 0.45,
       "name": "document_review",
       "source_id": "8440643",
       "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
-      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay.",
+      "cache_key": "e494a93ffc80ceec72c63d0b064e370b8b8cdac02cabab13906c7d1ec9e623a4",
+      "cache_config": {
+        "source_sha256": "d333ab5c268fd8869491c7b92ae6c76b0b88b25083ee91f1193aaf5380f4f234",
+        "source_size": 64380488,
+        "input_loop": -1,
+        "frames": 60,
+        "offset": 0.45,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
-      "start": 6.666667,
-      "end": 8.366667,
+      "start": 7.8,
+      "end": 9.8,
       "source_offset": 1.25,
       "name": "signing",
       "source_id": "7685212",
       "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
-      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names.",
+      "cache_key": "33f73ecc3dbb0517fd571f1ae0fbc4f036403e9d978545fcd1499f17279bb776",
+      "cache_config": {
+        "source_sha256": "ed51a6dd1542a140bcc6a21dbc173299e3bf9b24fba2c272fb541bde6ac3163c",
+        "source_size": 11355194,
+        "input_loop": -1,
+        "frames": 60,
+        "offset": 1.25,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
-      "start": 8.366667,
-      "end": 10.1,
+      "start": 9.8,
+      "end": 11.9,
       "source_offset": 2.0500000000000003,
       "name": "document_review",
       "source_id": "8440643",
       "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
-      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay.",
+      "cache_key": "34734e96b292b677d8e07d4bae8a0cd81cdd0491485dc095e4f54c138b8d5ae8",
+      "cache_config": {
+        "source_sha256": "d333ab5c268fd8869491c7b92ae6c76b0b88b25083ee91f1193aaf5380f4f234",
+        "source_size": 64380488,
+        "input_loop": -1,
+        "frames": 63,
+        "offset": 2.05,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
-      "start": 10.1,
-      "end": 12.5,
+      "start": 11.9,
+      "end": 15.0,
       "source_offset": 0.45,
       "name": "signing",
       "source_id": "7685212",
       "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
-      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names.",
+      "cache_key": "e1a1c4dd1f25f8ec3c470c7c4a4d843888918c3507618772d8a3c40e76fe1835",
+      "cache_config": {
+        "source_sha256": "ed51a6dd1542a140bcc6a21dbc173299e3bf9b24fba2c272fb541bde6ac3163c",
+        "source_size": 11355194,
+        "input_loop": -1,
+        "frames": 93,
+        "offset": 0.45,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     },
     {
-      "start": 12.5,
-      "end": 14.0,
+      "start": 15.0,
+      "end": 16.5,
       "source_offset": 1.25,
       "name": "signing",
       "source_id": "7685212",
       "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
-      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names.",
+      "cache_key": "02848d8dcd1622e492c6b4f5498fb60205e4aef405903206e152f4ec4d54935d",
+      "cache_config": {
+        "source_sha256": "ed51a6dd1542a140bcc6a21dbc173299e3bf9b24fba2c272fb541bde6ac3163c",
+        "source_size": 11355194,
+        "input_loop": -1,
+        "frames": 45,
+        "offset": 1.25,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
     }
   ],
   "ffprobe": {
@@ -2422,11 +3418,11 @@
         "time_base": "1/15360",
         "start_pts": 0,
         "start_time": "0.000000",
-        "duration_ts": 215040,
-        "duration": "14.000000",
-        "bit_rate": "1711125",
+        "duration_ts": 253440,
+        "duration": "16.500000",
+        "bit_rate": "1718661",
         "bits_per_raw_sample": "8",
-        "nb_frames": "420",
+        "nb_frames": "495",
         "extradata_size": 51,
         "disposition": {
           "default": 1,
@@ -2458,16 +3454,16 @@
       }
     ],
     "format": {
-      "filename": "C:\\Users\\amrut\\Documents\\Codex\\2026-11-12\\crednest-instagram-nov16-29\\media\\N08\\reel.mp4",
+      "filename": "C:\\Users\\amrut\\.codex\\worktrees\\crednest-nov16-29\\crednest-pr3-approved\\media\\N08\\reel.mp4",
       "nb_streams": 1,
       "nb_programs": 0,
       "nb_stream_groups": 0,
       "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
       "format_long_name": "QuickTime / MOV",
       "start_time": "0.000000",
-      "duration": "14.000000",
-      "size": "3000376",
-      "bit_rate": "1714500",
+      "duration": "16.500000",
+      "size": "3551497",
+      "bit_rate": "1721937",
       "probe_score": 100,
       "tags": {
         "major_brand": "isom",
@@ -2477,13 +3473,13 @@
       }
     }
   },
-  "render_seconds": 19.15,
+  "render_seconds": 23.0,
   "first_frame_motion": {
     "frames_compared": [
       0,
       1
     ],
-    "mean_absolute_rgb_change": 1.829791,
+    "mean_absolute_rgb_change": 1.827777,
     "hook_text_unchanged": true,
     "passed": true
   }

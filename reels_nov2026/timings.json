@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "notes": "Initial silent layouts for the exact approved lines. Claude can replace each scene duration with its recorded-voice duration, then rebuild using --timings. Durations are seconds and each value is quantized independently to 30fps. The end card stays 1.5 seconds; total duration is computed, never capped at 14 seconds.",
+  "hook_duration": 0.8,
+  "end_card_duration": 1.5,
+  "reels": {
+    "N01": {"scene_durations": [3.2, 3.8, 3.2, 5.5, 2.2]},
+    "N04": {"scene_durations": [3.1, 1.9, 3.1, 5.1, 2.3]},
+    "N05": {"scene_durations": [2.6, 4.0, 3.6, 2.5, 3.9]},
+    "N08": {"scene_durations": [3.2, 1.8, 2.0, 2.0, 2.1, 3.1]},
+    "N11": {"scene_durations": [2.8, 2.2, 4.5, 4.2, 2.6]},
+    "N12": {"scene_durations": [2.0, 4.6, 4.2, 3.2, 2.6]}
+  }
+}

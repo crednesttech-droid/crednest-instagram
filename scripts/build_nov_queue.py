@@ -47,9 +47,46 @@ def entries(batch, timings):
     return result
 
 
+def refresh_voice_timings(original, additions):
+    """Replace only existing batch reel timings, preserving all other objects."""
+    expected = {item["id"]: item for item in additions}
+    decoder = json.JSONDecoder()
+    cursor = original.index("[") + 1
+    replacements = []
+    while True:
+        while cursor < len(original) and original[cursor].isspace():
+            cursor += 1
+        if original[cursor] == "]":
+            break
+        start = cursor
+        item, cursor = decoder.raw_decode(original, cursor)
+        target = expected.get(item.get("id"))
+        if target is not None and item != target:
+            if target["type"] != "reel" or any(item.get(key) != value for key, value in target.items() if key != "voice_scenes"):
+                raise SystemExit(f"Refusing changes beyond voice timing for {item['id']}")
+            if [scene["text"] for scene in item["voice_scenes"]] != [scene["text"] for scene in target["voice_scenes"]]:
+                raise SystemExit(f"Refusing narration copy changes for {item['id']}")
+            updated = dict(item)
+            updated["voice_scenes"] = [dict(before, start=after["start"], end=after["end"])
+                                       for before, after in zip(item["voice_scenes"], target["voice_scenes"])]
+            if updated != item:
+                replacements.append((start, cursor, json.dumps(updated, ensure_ascii=False, indent=1)))
+        while cursor < len(original) and original[cursor].isspace():
+            cursor += 1
+        if original[cursor] == ",":
+            cursor += 1
+        elif original[cursor] != "]":
+            raise SystemExit("Invalid queue array separator")
+    for start, end, replacement in reversed(replacements):
+        original = original[:start] + replacement + original[end:]
+    return original, len(replacements)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--check", action="store_true", help="Compare only; do not write")
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument("--check", action="store_true", help="Compare only; do not write")
+    modes.add_argument("--retime", action="store_true", help="Refresh only existing batch reel voice_scenes after rebuilding from a timings file")
     args = parser.parse_args()
     batch = json.loads(BATCH.read_text(encoding="utf-8"))
     timings = json.loads(TIMINGS.read_text(encoding="utf-8"))
@@ -60,10 +97,31 @@ def main():
     existing = {item["id"]: item for item in queue}
     already = [item for item in additions if item["id"] in existing]
     if already:
-        if len(already) != len(additions) or any(existing[item["id"]] != item for item in additions):
-            raise SystemExit("Batch IDs already exist with different content; refusing to overwrite")
+        if len(already) != len(additions):
+            raise SystemExit("Only part of the batch exists; refusing to overwrite")
+        if any(existing[item["id"]] != item for item in additions):
+            if not args.retime:
+                raise SystemExit("Batch differs; use --retime to refresh only reel voice timings")
+            updated, count = refresh_voice_timings(original, additions)
+            expected = {item["id"]: item for item in additions}
+            updated_queue = json.loads(updated)
+            assert len(updated_queue) == len(queue)
+            for before, after in zip(queue, updated_queue):
+                if before == after:
+                    continue
+                assert before["id"] in expected and before["type"] == "reel"
+                assert {key for key in set(before) | set(after) if before.get(key) != after.get(key)} == {"voice_scenes"}
+                for old_scene, new_scene, target in zip(before["voice_scenes"], after["voice_scenes"], expected[before["id"]]["voice_scenes"]):
+                    assert {key: value for key, value in old_scene.items() if key not in {"start", "end"}} == {key: value for key, value in new_scene.items() if key not in {"start", "end"}}
+                    assert all(new_scene[key] == target[key] for key in ("start", "end", "text"))
+            with queue_path.open("w", encoding="utf-8", newline="\n") as handle:
+                handle.write(updated)
+            print(f"Retimed {count} reels; captions, metadata and unrelated items unchanged")
+            return
         print("OK: all 14 batch slots already match; unrelated items unchanged")
         return
+    if args.retime:
+        raise SystemExit("Cannot retime a batch that has not been added")
     if args.check:
         raise SystemExit("Batch has not yet been added")
     # Append without reserializing any pre-existing object, including its spacing.

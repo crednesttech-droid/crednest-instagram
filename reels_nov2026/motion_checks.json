@@ -4,7 +4,7 @@
       0,
       1
     ],
-    "mean_absolute_rgb_change": 1.709062,
+    "mean_absolute_rgb_change": 1.708478,
     "hook_text_unchanged": true,
     "passed": true
   },
@@ -13,7 +13,7 @@
       0,
       1
     ],
-    "mean_absolute_rgb_change": 1.849066,
+    "mean_absolute_rgb_change": 1.84546,
     "hook_text_unchanged": true,
     "passed": true
   },
@@ -22,7 +22,7 @@
       0,
       1
     ],
-    "mean_absolute_rgb_change": 3.561863,
+    "mean_absolute_rgb_change": 3.572167,
     "hook_text_unchanged": true,
     "passed": true
   },
@@ -31,7 +31,7 @@
       0,
       1
     ],
-    "mean_absolute_rgb_change": 1.829791,
+    "mean_absolute_rgb_change": 1.827777,
     "hook_text_unchanged": true,
     "passed": true
   },
@@ -49,7 +49,7 @@
       0,
       1
     ],
-    "mean_absolute_rgb_change": 3.213388,
+    "mean_absolute_rgb_change": 3.213054,
     "hook_text_unchanged": true,
     "passed": true
   }
