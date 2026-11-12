@@ -3509,422 +3509,434 @@
   "alt_text": "4-slide carousel on paper: “Stock statement due? Why the bank asks every month”. Slides cover Stock on hand; Debtors; Creditors; Sets drawing power; Late filing; Must match books."
  },
  {
- "id": "N01",
- "type": "reel",
- "publish_at": "2026-11-16T19:30:00+05:30",
- "media": [
-  "media/N01/reel.mp4"
- ],
- "caption": "Achha CIBIL score sirf pehla darwaza hai. Uske baad lender dekhta hai ki kamai ka kitna hissa pehle se EMI mein ja raha hai (FOIR: fixed obligations to income ratio). Har lender ki limit alag hoti hai; 50% sirf example hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanEligibility #CredNest #MumbaiBusiness #HomeLoan",
- "status": "needs_voice",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "CIBIL 780. Phir bhi loan kam kyun mila?",
- "series": "BANK KYA DEKHTA HAI",
- "cover": "media/N01/cover.jpg",
- "voice_scenes": [
-  {
-   "start": 0.8,
-   "end": 4.0,
-   "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
-   "say": "CIBIL 780 है। फिर भी loan कम क्यों मिला?"
-  },
-  {
-   "start": 4.0,
-   "end": 7.8,
-   "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
-   "say": "क्योंकि bank, score के बाद आपकी EMI का बोझ देखता है।"
-  },
-  {
-   "start": 7.8,
-   "end": 11.0,
-   "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
-   "say": "Example: कमाई एक लाख महीना, पुरानी EMI पैंतीस हज़ार।"
-  },
-  {
-   "start": 11.0,
-   "end": 16.5,
-   "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
-   "say": "अगर bank पचास percent तक EMI मानता है, तो नई EMI की जगह सिर्फ़ पंद्रह हज़ार।"
-  },
-  {
-   "start": 16.5,
-   "end": 18.7,
-   "text": "Score achha hai. Jagah kam hai.",
-   "say": "Score अच्छा है। जगह कम है।"
-  }
- ],
- "voice_lang": "hi-IN",
- "voice_model": "bulbul:v3"
-},
+  "id": "N01",
+  "type": "reel",
+  "publish_at": "2026-11-16T19:30:00+05:30",
+  "media": [
+   "media/N01/reel.mp4"
+  ],
+  "caption": "Achha CIBIL score sirf pehla darwaza hai. Uske baad lender dekhta hai ki kamai ka kitna hissa pehle se EMI mein ja raha hai (FOIR: fixed obligations to income ratio). Har lender ki limit alag hoti hai; 50% sirf example hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanEligibility #CredNest #MumbaiBusiness #HomeLoan",
+  "status": "ready",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "CIBIL 780. Phir bhi loan kam kyun mila?",
+  "series": "BANK KYA DEKHTA HAI",
+  "cover": "media/N01/cover.jpg",
+  "voice_scenes": [
+   {
+    "start": 0.8,
+    "end": 4.0,
+    "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
+    "say": "CIBIL 780 है। फिर भी loan कम क्यों मिला?"
+   },
+   {
+    "start": 4.0,
+    "end": 7.8,
+    "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
+    "say": "क्योंकि bank, score के बाद आपकी EMI का बोझ देखता है।"
+   },
+   {
+    "start": 7.8,
+    "end": 11.0,
+    "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
+    "say": "Example: कमाई एक लाख महीना, पुरानी EMI पैंतीस हज़ार।"
+   },
+   {
+    "start": 11.0,
+    "end": 16.5,
+    "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
+    "say": "अगर bank पचास percent तक EMI मानता है, तो नई EMI की जगह सिर्फ़ पंद्रह हज़ार।"
+   },
+   {
+    "start": 16.5,
+    "end": 18.7,
+    "text": "Score achha hai. Jagah kam hai.",
+    "say": "Score अच्छा है। जगह कम है।"
+   }
+  ],
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
+ },
  {
- "id": "N02",
- "type": "carousel",
- "publish_at": "2026-11-17T19:30:00+05:30",
- "media": [
-  "media/N02/01.jpg",
-  "media/N02/02.jpg",
-  "media/N02/03.jpg",
-  "media/N02/04.jpg",
-  "media/N02/05.jpg"
- ],
- "caption": "Loan against property (LAP) mein property aur repayment do alag sawaal hain. Dono ka jawab file mein hona chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #CredNest #MumbaiProperty #MythVsFact",
- "status": "review",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Property de di. Loan pakka? Nahi.",
- "series": "MYTH YA SACH"
-},
+  "id": "N02",
+  "type": "carousel",
+  "publish_at": "2026-11-17T19:30:00+05:30",
+  "media": [
+   "media/N02/01.jpg",
+   "media/N02/02.jpg",
+   "media/N02/03.jpg",
+   "media/N02/04.jpg",
+   "media/N02/05.jpg"
+  ],
+  "caption": "Loan against property (LAP) mein property aur repayment do alag sawaal hain. Dono ka jawab file mein hona chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #CredNest #MumbaiProperty #MythVsFact",
+  "status": "review",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Property de di. Loan pakka? Nahi.",
+  "series": "MYTH YA SACH"
+ },
  {
- "id": "N03",
- "type": "carousel",
- "publish_at": "2026-11-18T19:30:00+05:30",
- "media": [
-  "media/N03/01.jpg",
-  "media/N03/02.jpg",
-  "media/N03/03.jpg",
-  "media/N03/04.jpg",
-  "media/N03/05.jpg",
-  "media/N03/06.jpg"
- ],
- "caption": "Consolidation ka matlab hai kai loan ko ek loan mein badalna. EMI kam hoti hai kyunki rate kam aur tenure lamba hota hai; total byaaj badh sakta hai. Dono side dekh ke faisla lo. Rate aur tenure example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanConsolidation #LAP #EMI #CredNest #MumbaiBusiness",
- "status": "review",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "5 EMI → 1 EMI. Poora hisaab dekho",
- "series": "EK CASE, EK HISAAB"
-},
+  "id": "N03",
+  "type": "carousel",
+  "publish_at": "2026-11-18T19:30:00+05:30",
+  "media": [
+   "media/N03/01.jpg",
+   "media/N03/02.jpg",
+   "media/N03/03.jpg",
+   "media/N03/04.jpg",
+   "media/N03/05.jpg",
+   "media/N03/06.jpg"
+  ],
+  "caption": "Consolidation ka matlab hai kai loan ko ek loan mein badalna. EMI kam hoti hai kyunki rate kam aur tenure lamba hota hai; total byaaj badh sakta hai. Dono side dekh ke faisla lo. Rate aur tenure example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanConsolidation #LAP #EMI #CredNest #MumbaiBusiness",
+  "status": "review",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "5 EMI → 1 EMI. Poora hisaab dekho",
+  "series": "EK CASE, EK HISAAB"
+ },
  {
- "id": "N04",
- "type": "reel",
- "publish_at": "2026-11-19T19:30:00+05:30",
- "media": [
-  "media/N04/reel.mp4"
- ],
- "caption": "Turnover aur income alag cheezein hain. Jab ITR aur bank statement alag kahani batate hain, lender sawaal poochta hai. File dene se pehle farak samjha do. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ITR #BusinessLoan #CredNest #MSME #LoanEligibility",
- "status": "needs_voice",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
- "series": "BANK KYA DEKHTA HAI",
- "cover": "media/N04/cover.jpg",
- "voice_scenes": [
-  {
-   "start": 0.8,
-   "end": 3.9,
-   "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
-   "say": "ITR में बारह लाख। Bank statement में चालीस लाख।"
-  },
-  {
-   "start": 3.9,
-   "end": 5.8,
-   "text": "Bank kis pe bharosa karega?",
-   "say": "Bank किस पर भरोसा करेगा?"
-  },
-  {
-   "start": 5.8,
-   "end": 8.9,
-   "text": "Zyada lender loan ITR ki kamai pe naapte hain.",
-   "say": "ज़्यादातर lender, loan ITR की कमाई पर नापते हैं।"
-  },
-  {
-   "start": 8.9,
-   "end": 14.0,
-   "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
-   "say": "Statement सिर्फ़ यह दिखाता है कि पैसा आया। कमाई कितनी थी, यह ITR बताता है।"
-  },
-  {
-   "start": 14.0,
-   "end": 16.3,
-   "text": "Dono ki kahani ek honi chahiye.",
-   "say": "दोनों की कहानी एक होनी चाहिए।"
-  }
- ],
- "voice_lang": "hi-IN",
- "voice_model": "bulbul:v3"
-},
+  "id": "N04",
+  "type": "reel",
+  "publish_at": "2026-11-19T19:30:00+05:30",
+  "media": [
+   "media/N04/reel.mp4"
+  ],
+  "caption": "Turnover aur income alag cheezein hain. Jab ITR aur bank statement alag kahani batate hain, lender sawaal poochta hai. File dene se pehle farak samjha do. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ITR #BusinessLoan #CredNest #MSME #LoanEligibility",
+  "status": "ready",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
+  "series": "BANK KYA DEKHTA HAI",
+  "cover": "media/N04/cover.jpg",
+  "voice_scenes": [
+   {
+    "start": 0.8,
+    "end": 3.9,
+    "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
+    "say": "ITR में बारह लाख। Bank statement में चालीस लाख।"
+   },
+   {
+    "start": 3.9,
+    "end": 5.8,
+    "text": "Bank kis pe bharosa karega?",
+    "say": "Bank किस पर भरोसा करेगा?"
+   },
+   {
+    "start": 5.8,
+    "end": 8.9,
+    "text": "Zyada lender loan ITR ki kamai pe naapte hain.",
+    "say": "ज़्यादातर lender, loan ITR की कमाई पर नापते हैं।"
+   },
+   {
+    "start": 8.9,
+    "end": 14.0,
+    "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
+    "say": "Statement सिर्फ़ यह दिखाता है कि पैसा आया। कमाई कितनी थी, यह ITR बताता है।"
+   },
+   {
+    "start": 14.0,
+    "end": 16.3,
+    "text": "Dono ki kahani ek honi chahiye.",
+    "say": "दोनों की कहानी एक होनी चाहिए।"
+   }
+  ],
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
+ },
  {
- "id": "N05",
- "type": "reel",
- "publish_at": "2026-11-20T19:30:00+05:30",
- "media": [
-  "media/N05/reel.mp4"
- ],
- "caption": "CC (cash credit) limit sanction hoti hai, par har mahine ka stock statement tay karta hai ki kitna nikal sakte ho. Isse drawing power kehte hain. Margin har lender ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CashCredit #WorkingCapital #MSME #CredNest #MumbaiBusiness",
- "status": "needs_voice",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Bank ne CC limit kyun kam ki?",
- "series": "BUSINESS KA PAISA",
- "cover": "media/N05/cover.jpg",
- "voice_scenes": [
-  {
-   "start": 0.8,
-   "end": 3.4,
-   "text": "Bank ne CC limit kyun kam ki?",
-   "say": "Bank ने CC limit क्यों कम की?"
-  },
-  {
-   "start": 3.4,
-   "end": 7.4,
-   "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
-   "say": "क्योंकि limit काग़ज़ पर होती है। पैसा drawing power से मिलता है।"
-  },
-  {
-   "start": 7.4,
-   "end": 11.0,
-   "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
-   "say": "Example: stock साठ लाख, debtors चालीस लाख, creditors तीस लाख।"
-  },
-  {
-   "start": 11.0,
-   "end": 13.5,
-   "text": "Bacha sattar lakh. Pachees percent margin kaato.",
-   "say": "बचा सत्तर लाख। पच्चीस percent margin काटो।"
-  },
-  {
-   "start": 13.5,
-   "end": 17.4,
-   "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.",
-   "say": "Drawing power साढ़े बावन लाख। Limit पचहत्तर लाख होने पर भी।"
-  }
- ],
- "voice_lang": "hi-IN",
- "voice_model": "bulbul:v3"
-},
+  "id": "N05",
+  "type": "reel",
+  "publish_at": "2026-11-20T19:30:00+05:30",
+  "media": [
+   "media/N05/reel.mp4"
+  ],
+  "caption": "CC (cash credit) limit sanction hoti hai, par har mahine ka stock statement tay karta hai ki kitna nikal sakte ho. Isse drawing power kehte hain. Margin har lender ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CashCredit #WorkingCapital #MSME #CredNest #MumbaiBusiness",
+  "status": "ready",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Bank ne CC limit kyun kam ki?",
+  "series": "BUSINESS KA PAISA",
+  "cover": "media/N05/cover.jpg",
+  "voice_scenes": [
+   {
+    "start": 0.8,
+    "end": 3.4,
+    "text": "Bank ne CC limit kyun kam ki?",
+    "say": "Bank ने CC limit क्यों कम की?"
+   },
+   {
+    "start": 3.4,
+    "end": 7.4,
+    "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
+    "say": "क्योंकि limit काग़ज़ पर होती है। पैसा drawing power से मिलता है।"
+   },
+   {
+    "start": 7.4,
+    "end": 11.0,
+    "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
+    "say": "Example: stock साठ लाख, debtors चालीस लाख, creditors तीस लाख।"
+   },
+   {
+    "start": 11.0,
+    "end": 13.5,
+    "text": "Bacha sattar lakh. Pachees percent margin kaato.",
+    "say": "बचा सत्तर लाख। पच्चीस percent margin काटो।"
+   },
+   {
+    "start": 13.5,
+    "end": 17.4,
+    "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.",
+    "say": "Drawing power साढ़े बावन लाख। Limit पचहत्तर लाख होने पर भी।"
+   }
+  ],
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
+ },
  {
- "id": "N06",
- "type": "carousel",
- "publish_at": "2026-11-21T19:30:00+05:30",
- "media": [
-  "media/N06/01.jpg",
-  "media/N06/02.jpg",
-  "media/N06/03.jpg",
-  "media/N06/04.jpg",
-  "media/N06/05.jpg"
- ],
- "caption": "EMI aur total cost do alag numbers hain. LAP mein property girvi hoti hai, isliye rate kam aur tenure lamba milta hai. Rates example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #PersonalLoan #EMI #CredNest #LoanComparison",
- "status": "review",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Same ₹30 lakh. Do loan. EMI ka farak dekho",
- "series": "EK CASE, EK HISAAB"
-},
+  "id": "N06",
+  "type": "carousel",
+  "publish_at": "2026-11-21T19:30:00+05:30",
+  "media": [
+   "media/N06/01.jpg",
+   "media/N06/02.jpg",
+   "media/N06/03.jpg",
+   "media/N06/04.jpg",
+   "media/N06/05.jpg"
+  ],
+  "caption": "EMI aur total cost do alag numbers hain. LAP mein property girvi hoti hai, isliye rate kam aur tenure lamba milta hai. Rates example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #PersonalLoan #EMI #CredNest #LoanComparison",
+  "status": "review",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Same ₹30 lakh. Do loan. EMI ka farak dekho",
+  "series": "EK CASE, EK HISAAB"
+ },
  {
- "id": "N07",
- "type": "image",
- "publish_at": "2026-11-22T19:30:00+05:30",
- "media": [],
- "caption": "",
- "status": "needs_content",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "reserved_for": "Claude",
- "editor_note": "Claude fills this on Sat 21 Nov from the best performer of N01–N06 (highest shares, then follows). Codex: leave the slot empty."
-},
+  "id": "N07",
+  "type": "image",
+  "publish_at": "2026-11-22T19:30:00+05:30",
+  "media": [],
+  "caption": "",
+  "status": "needs_content",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "reserved_for": "Claude",
+  "editor_note": "Claude fills this on Sat 21 Nov from the best performer of N01–N06 (highest shares, then follows). Codex: leave the slot empty."
+ },
  {
- "id": "N08",
- "type": "reel",
- "publish_at": "2026-11-23T19:30:00+05:30",
- "media": [
-  "media/N08/reel.mp4"
- ],
- "caption": "Zyada file lender ke paas jaane se pehle hi theek ki ja sakti hain. Sabse bada nuksan chhupaye hue loan se hota hai, kyunki credit report mein sab dikhta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanRejection #CIBIL #BusinessLoan #CredNest #LoanTips",
- "status": "needs_voice",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Bank file reject kyun karta hai? 5 reasons",
- "series": "BANK KYA DEKHTA HAI",
- "cover": "media/N08/cover.jpg",
- "voice_scenes": [
-  {
-   "start": 0.8,
-   "end": 4.0,
-   "text": "Bank file reject kyun karta hai? Paanch reason.",
-   "say": "Bank file reject क्यों करता है? पाँच reason."
-  },
-  {
-   "start": 4.0,
-   "end": 5.8,
-   "text": "Ek: purani EMI zyada.",
-   "say": "एक: पुरानी EMI ज़्यादा।"
-  },
-  {
-   "start": 5.8,
-   "end": 7.8,
-   "text": "Do: ITR mein kamai kam.",
-   "say": "दो: ITR में कमाई कम।"
-  },
-  {
-   "start": 7.8,
-   "end": 9.8,
-   "text": "Teen: cheque ya EMI bounce.",
-   "say": "तीन: cheque या EMI bounce."
-  },
-  {
-   "start": 9.8,
-   "end": 11.9,
-   "text": "Chaar: property ke kagaz adhure.",
-   "say": "चार: property के काग़ज़ अधूरे।"
-  },
-  {
-   "start": 11.9,
-   "end": 15.0,
-   "text": "Paanch: chhupaya hua loan. Yeh sabse bada.",
-   "say": "पाँच: छुपाया हुआ loan. यह सबसे बड़ा।"
-  }
- ],
- "voice_lang": "hi-IN",
- "voice_model": "bulbul:v3"
-},
+  "id": "N08",
+  "type": "reel",
+  "publish_at": "2026-11-23T19:30:00+05:30",
+  "media": [
+   "media/N08/reel.mp4"
+  ],
+  "caption": "Zyada file lender ke paas jaane se pehle hi theek ki ja sakti hain. Sabse bada nuksan chhupaye hue loan se hota hai, kyunki credit report mein sab dikhta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanRejection #CIBIL #BusinessLoan #CredNest #LoanTips",
+  "status": "ready",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Bank file reject kyun karta hai? 5 reasons",
+  "series": "BANK KYA DEKHTA HAI",
+  "cover": "media/N08/cover.jpg",
+  "voice_scenes": [
+   {
+    "start": 0.8,
+    "end": 4.0,
+    "text": "Bank file reject kyun karta hai? Paanch reason.",
+    "say": "Bank file reject क्यों करता है? पाँच reason."
+   },
+   {
+    "start": 4.0,
+    "end": 5.8,
+    "text": "Ek: purani EMI zyada.",
+    "say": "एक: पुरानी EMI ज़्यादा।"
+   },
+   {
+    "start": 5.8,
+    "end": 7.8,
+    "text": "Do: ITR mein kamai kam.",
+    "say": "दो: ITR में कमाई कम।"
+   },
+   {
+    "start": 7.8,
+    "end": 9.8,
+    "text": "Teen: cheque ya EMI bounce.",
+    "say": "तीन: cheque या EMI bounce."
+   },
+   {
+    "start": 9.8,
+    "end": 11.9,
+    "text": "Chaar: property ke kagaz adhure.",
+    "say": "चार: property के काग़ज़ अधूरे।"
+   },
+   {
+    "start": 11.9,
+    "end": 15.0,
+    "text": "Paanch: chhupaya hua loan. Yeh sabse bada.",
+    "say": "पाँच: छुपाया हुआ loan. यह सबसे बड़ा।"
+   }
+  ],
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
+ },
  {
- "id": "N09",
- "type": "carousel",
- "publish_at": "2026-11-24T19:30:00+05:30",
- "media": [
-  "media/N09/01.jpg",
-  "media/N09/02.jpg",
-  "media/N09/03.jpg",
-  "media/N09/04.jpg",
-  "media/N09/05.jpg"
- ],
- "caption": "Settlement aur closure alag hain. Settlement ka asar aage ke loan pe pad sakta hai. Faisla lene se pehle apni credit report khud dekho. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanSettlement #CreditScore #CredNest #MythVsFact",
- "status": "review",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Settlement kar liya. CIBIL theek? Nahi.",
- "series": "MYTH YA SACH"
-},
+  "id": "N09",
+  "type": "carousel",
+  "publish_at": "2026-11-24T19:30:00+05:30",
+  "media": [
+   "media/N09/01.jpg",
+   "media/N09/02.jpg",
+   "media/N09/03.jpg",
+   "media/N09/04.jpg",
+   "media/N09/05.jpg"
+  ],
+  "caption": "Settlement aur closure alag hain. Settlement ka asar aage ke loan pe pad sakta hai. Faisla lene se pehle apni credit report khud dekho. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanSettlement #CreditScore #CredNest #MythVsFact",
+  "status": "review",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Settlement kar liya. CIBIL theek? Nahi.",
+  "series": "MYTH YA SACH"
+ },
  {
- "id": "N10",
- "type": "carousel",
- "publish_at": "2026-11-25T19:30:00+05:30",
- "media": [
-  "media/N10/01.jpg",
-  "media/N10/02.jpg",
-  "media/N10/03.jpg",
-  "media/N10/04.jpg",
-  "media/N10/05.jpg"
- ],
- "caption": "LAP mein do naap hote hain: property ki value ka hissa (LTV: loan to value) aur EMI bharne ki capacity. Jo chhota, wahi loan. 60% aur 11% example hain; har lender aur property type ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #MumbaiProperty #CredNest #LoanEligibility",
- "status": "review",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "₹3 Cr ki property. Loan kitna banta hai?",
- "series": "EK CASE, EK HISAAB"
-},
+  "id": "N10",
+  "type": "carousel",
+  "publish_at": "2026-11-25T19:30:00+05:30",
+  "media": [
+   "media/N10/01.jpg",
+   "media/N10/02.jpg",
+   "media/N10/03.jpg",
+   "media/N10/04.jpg",
+   "media/N10/05.jpg"
+  ],
+  "caption": "LAP mein do naap hote hain: property ki value ka hissa (LTV: loan to value) aur EMI bharne ki capacity. Jo chhota, wahi loan. 60% aur 11% example hain; har lender aur property type ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #MumbaiProperty #CredNest #LoanEligibility",
+  "status": "review",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "₹3 Cr ki property. Loan kitna banta hai?",
+  "series": "EK CASE, EK HISAAB"
+ },
  {
- "id": "N11",
- "type": "reel",
- "publish_at": "2026-11-26T19:30:00+05:30",
- "media": [
-  "media/N11/reel.mp4"
- ],
- "caption": "Is naap ko DSCR kehte hain (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #DSCR #BusinessLoan #MSME #CredNest #TermLoan",
- "status": "needs_voice",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Profit hai. Phir bhi bank bole capacity kam?",
- "series": "BANK KYA DEKHTA HAI",
- "cover": "media/N11/cover.jpg",
- "voice_scenes": [
-  {
-   "start": 0.8,
-   "end": 3.6,
-   "text": "Profit hai. Phir bhi bank bole capacity kam?",
-   "say": "Profit है। फिर भी bank बोले capacity कम?"
-  },
-  {
-   "start": 3.6,
-   "end": 5.8,
-   "text": "Bank ek simple naap dekhta hai.",
-   "say": "Bank एक simple नाप देखता है।"
-  },
-  {
-   "start": 5.8,
-   "end": 10.3,
-   "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
-   "say": "साल में loan चुकाने के लिए कितना cash बचा, और कितना चुकाना है।"
-  },
-  {
-   "start": 10.3,
-   "end": 14.5,
-   "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
-   "say": "Example: cash तीस लाख, चुकाना पच्चीस लाख। नाप आया एक point दो।"
-  },
-  {
-   "start": 14.5,
-   "end": 17.1,
-   "text": "Kai lender isse zyada cushion maangte hain.",
-   "say": "कई lender इससे ज़्यादा cushion माँगते हैं।"
-  }
- ],
- "voice_lang": "hi-IN",
- "voice_model": "bulbul:v3"
-},
+  "id": "N11",
+  "type": "reel",
+  "publish_at": "2026-11-26T19:30:00+05:30",
+  "media": [
+   "media/N11/reel.mp4"
+  ],
+  "caption": "Is naap ko DSCR kehte hain (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #DSCR #BusinessLoan #MSME #CredNest #TermLoan",
+  "status": "ready",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Profit hai. Phir bhi bank bole capacity kam?",
+  "series": "BANK KYA DEKHTA HAI",
+  "cover": "media/N11/cover.jpg",
+  "voice_scenes": [
+   {
+    "start": 0.8,
+    "end": 3.6,
+    "text": "Profit hai. Phir bhi bank bole capacity kam?",
+    "say": "Profit है। फिर भी bank बोले capacity कम?"
+   },
+   {
+    "start": 3.6,
+    "end": 5.8,
+    "text": "Bank ek simple naap dekhta hai.",
+    "say": "Bank एक simple नाप देखता है।"
+   },
+   {
+    "start": 5.8,
+    "end": 10.3,
+    "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
+    "say": "साल में loan चुकाने के लिए कितना cash बचा, और कितना चुकाना है।"
+   },
+   {
+    "start": 10.3,
+    "end": 14.5,
+    "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
+    "say": "Example: cash तीस लाख, चुकाना पच्चीस लाख। नाप आया एक point दो।"
+   },
+   {
+    "start": 14.5,
+    "end": 17.1,
+    "text": "Kai lender isse zyada cushion maangte hain.",
+    "say": "कई lender इससे ज़्यादा cushion माँगते हैं।"
+   }
+  ],
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
+ },
  {
- "id": "N12",
- "type": "reel",
- "publish_at": "2026-11-27T19:30:00+05:30",
- "media": [
-  "media/N12/reel.mp4"
- ],
- "caption": "DPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ProjectFinance #CMA #DPR #MSME #CredNest",
- "status": "needs_voice",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Naya project. CMA ya DPR? Bank pehle kya maangega",
- "series": "BUSINESS KA PAISA",
- "cover": "media/N12/cover.jpg",
- "voice_scenes": [
-  {
-   "start": 0.8,
-   "end": 2.8,
-   "text": "Naya project. CMA ya DPR?",
-   "say": "नया project. CMA या DPR?"
-  },
-  {
-   "start": 2.8,
-   "end": 7.4,
-   "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
-   "say": "DPR बताता है project क्या है, कितने का है, पैसा कैसे वापस आएगा।"
-  },
-  {
-   "start": 7.4,
-   "end": 11.6,
-   "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
-   "say": "CMA बताता है business के numbers: पिछले साल और आने वाले साल।"
-  },
-  {
-   "start": 11.6,
-   "end": 14.8,
-   "text": "Naye project ke liye zyada lender dono maangte hain.",
-   "say": "नए project के लिए ज़्यादातर lender दोनों माँगते हैं।"
-  },
-  {
-   "start": 14.8,
-   "end": 17.4,
-   "text": "Pehle DPR, phir uske numbers se CMA.",
-   "say": "पहले DPR, फिर उसके numbers से CMA."
-  }
- ],
- "voice_lang": "hi-IN",
- "voice_model": "bulbul:v3"
-},
+  "id": "N12",
+  "type": "reel",
+  "publish_at": "2026-11-27T19:30:00+05:30",
+  "media": [
+   "media/N12/reel.mp4"
+  ],
+  "caption": "DPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ProjectFinance #CMA #DPR #MSME #CredNest",
+  "status": "ready",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Naya project. CMA ya DPR? Bank pehle kya maangega",
+  "series": "BUSINESS KA PAISA",
+  "cover": "media/N12/cover.jpg",
+  "voice_scenes": [
+   {
+    "start": 0.8,
+    "end": 2.8,
+    "text": "Naya project. CMA ya DPR?",
+    "say": "नया project. CMA या DPR?"
+   },
+   {
+    "start": 2.8,
+    "end": 7.4,
+    "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
+    "say": "DPR बताता है project क्या है, कितने का है, पैसा कैसे वापस आएगा।"
+   },
+   {
+    "start": 7.4,
+    "end": 11.6,
+    "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
+    "say": "CMA बताता है business के numbers: पिछले साल और आने वाले साल।"
+   },
+   {
+    "start": 11.6,
+    "end": 14.8,
+    "text": "Naye project ke liye zyada lender dono maangte hain.",
+    "say": "नए project के लिए ज़्यादातर lender दोनों माँगते हैं।"
+   },
+   {
+    "start": 14.8,
+    "end": 17.4,
+    "text": "Pehle DPR, phir uske numbers se CMA.",
+    "say": "पहले DPR, फिर उसके numbers से CMA."
+   }
+  ],
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
+ },
  {
- "id": "N13",
- "type": "carousel",
- "publish_at": "2026-11-28T19:30:00+05:30",
- "media": [
-  "media/N13/01.jpg",
-  "media/N13/02.jpg",
-  "media/N13/03.jpg",
-  "media/N13/04.jpg",
-  "media/N13/05.jpg"
- ],
- "caption": "Top-up tabhi milta hai jab home loan ka record achha ho aur property ki value mein jagah ho. Rates example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #HomeLoan #TopUpLoan #PersonalLoan #EMI #CredNest",
- "status": "review",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "topic": "Home loan pe top-up ya naya personal loan?",
- "series": "EK CASE, EK HISAAB"
-},
+  "id": "N13",
+  "type": "carousel",
+  "publish_at": "2026-11-28T19:30:00+05:30",
+  "media": [
+   "media/N13/01.jpg",
+   "media/N13/02.jpg",
+   "media/N13/03.jpg",
+   "media/N13/04.jpg",
+   "media/N13/05.jpg"
+  ],
+  "caption": "Top-up tabhi milta hai jab home loan ka record achha ho aur property ki value mein jagah ho. Rates example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #HomeLoan #TopUpLoan #PersonalLoan #EMI #CredNest",
+  "status": "review",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "topic": "Home loan pe top-up ya naya personal loan?",
+  "series": "EK CASE, EK HISAAB"
+ },
  {
- "id": "N14",
- "type": "image",
- "publish_at": "2026-11-29T19:30:00+05:30",
- "media": [],
- "caption": "",
- "status": "needs_content",
- "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
- "reserved_for": "Claude",
- "editor_note": "Claude fills this on Sat 28 Nov from the best performer of N08–N13. Codex: leave the slot empty."
-}
+  "id": "N14",
+  "type": "image",
+  "publish_at": "2026-11-29T19:30:00+05:30",
+  "media": [],
+  "caption": "",
+  "status": "needs_content",
+  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
+  "reserved_for": "Claude",
+  "editor_note": "Claude fills this on Sat 28 Nov from the best performer of N08–N13. Codex: leave the slot empty."
+ }
 ]
