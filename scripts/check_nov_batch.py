@@ -27,6 +27,13 @@ from PIL import Image, ImageChops, ImageCms, ImageDraw, ImageFont, ImageStat
 ROOT = Path(__file__).resolve().parents[1]
 IDS = [f"N{i:02d}" for i in range(1, 15)]
 RESERVED = {"N07", "N14"}
+AUTHORIZED_HOLD_IDS = (
+    "CD04-preipo", "CD05-dscr", "D23-new", "CD06-bt-topup",
+    "CD07-prepayment", "CD08-small-syndication", "CD09-lap-vs-pl",
+    "CD10-red-flags", "CR01-lap-emi", "CD11-emi-bounce",
+    "CR02-consolidation", "CR03-rate-half", "N1128-cc-full",
+    "N1128-cc-full-story", "N1129-cma",
+)
 FPS_TOLERANCE = 1 / 30 + 0.001
 MAX_BYTES = 8_000_000
 FPS = 30
@@ -179,6 +186,38 @@ class Audit:
 
     def error(self, name, detail, item=None):
         self.check(name, False, detail, item)
+
+
+def expected_original_queue(baseline):
+    expected = copy.deepcopy(baseline)
+    for item in expected:
+        if item.get("id") in AUTHORIZED_HOLD_IDS:
+            item["status"] = "hold"
+    return expected
+
+
+def check_protected_originals(audit, baseline, queue):
+    """Permit only the 15 explicitly authorized status changes, not object edits."""
+    expected = expected_original_queue(baseline)
+    prefix = queue[:len(baseline)]
+    audit.check("queue.original_count_and_order_preserved", len(prefix) == len(baseline) and [item.get("id") for item in prefix] == [item.get("id") for item in baseline], {"original_count": len(baseline), "current_prefix_count": len(prefix)})
+    audit.check("queue.original_objects_only_authorized_holds", prefix == expected, {"allowed_status_changes": list(AUTHORIZED_HOLD_IDS)})
+    actual_changes = []
+    for before, after in zip(baseline, prefix):
+        if before != after:
+            fields = sorted(key for key in before.keys() | after.keys() if (key in before) != (key in after) or before.get(key) != after.get(key))
+            actual_changes.append({"id": before.get("id"), "fields": fields, "status": after.get("status")})
+    audit.check("queue.exactly_15_original_hold_changes", len(actual_changes) == len(AUTHORIZED_HOLD_IDS) and {change["id"] for change in actual_changes} == set(AUTHORIZED_HOLD_IDS) and all(change["fields"] == ["status"] and change["status"] == "hold" for change in actual_changes), actual_changes)
+    for ident in AUTHORIZED_HOLD_IDS:
+        prior = [item for item in baseline if item.get("id") == ident]
+        current = [item for item in queue if item.get("id") == ident]
+        if not audit.check("hold.original_and_current_exist_exactly_once", len(prior) == len(current) == 1, {"original": len(prior), "current": len(current)}, ident):
+            continue
+        audit.check("hold.status_is_hold", current[0].get("status") == "hold", current[0].get("status"), ident)
+        exact = copy.deepcopy(prior[0])
+        exact["status"] = "hold"
+        changed_fields = sorted(key for key in exact.keys() | current[0].keys() if (key in exact) != (key in current[0]) or exact.get(key) != current[0].get(key))
+        audit.check("hold.all_other_fields_preserved", current[0] == exact, {"unexpected_changed_fields": changed_fields}, ident)
 
 
 def read_json(path):
@@ -618,7 +657,7 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry, plan):
     audit.check("reel_manifest.licensed_broll_registry_matches", bool(manifest.get("broll")) and not broll_errors, broll_errors or None, ident)
 
 
-def regression_controls(root, carousel_manifest, config, canonical):
+def regression_controls(root, carousel_manifest, config, canonical, baseline):
     """Exercise typography and retiming failure cases without changing files."""
     controls = []
     sample = next(element for slide in carousel_manifest["slides"] for element in slide["elements"] if element.get("role") == "body" and element.get("lines") and len(element["lines"][0].get("words", [])) > 1)
@@ -687,6 +726,28 @@ def regression_controls(root, carousel_manifest, config, canonical):
         negative = Audit()
         check_requested_wrapped_layout(negative, root, bad, "N02", scale)
         controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"].endswith(target) for check in negative.checks)})
+    permitted = expected_original_queue(baseline)
+    positive = Audit()
+    check_protected_originals(positive, baseline, permitted)
+    controls.append({"scenario": "exactly_authorized_15_hold_status_changes_pass", "passed": all(check["passed"] for check in positive.checks)})
+    first_held = AUTHORIZED_HOLD_IDS[0]
+    mutations = []
+    bad = copy.deepcopy(permitted)
+    next(item for item in bad if item["id"] == first_held)["status"] = "ready"
+    mutations.append((bad, "reverted_ready_status_on_held_item_is_rejected", "hold.status_is_hold"))
+    bad = copy.deepcopy(permitted)
+    next(item for item in bad if item["id"] not in AUTHORIZED_HOLD_IDS)["status"] = "hold"
+    mutations.append((bad, "unauthorized_sixteenth_hold_is_rejected", "queue.exactly_15_original_hold_changes"))
+    bad = copy.deepcopy(permitted)
+    held = next(item for item in bad if item["id"] == first_held)
+    held["caption"] = held.get("caption", "") + " Unauthorized edit."
+    mutations.append((bad, "held_item_caption_edit_is_rejected", "hold.all_other_fields_preserved"))
+    bad = [copy.deepcopy(item) for item in permitted if item["id"] != first_held]
+    mutations.append((bad, "held_item_deletion_is_rejected", "hold.original_and_current_exist_exactly_once"))
+    for bad, scenario, target in mutations:
+        negative = Audit()
+        check_protected_originals(negative, baseline, bad)
+        controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"] == target for check in negative.checks)})
     return controls
 
 
@@ -734,7 +795,7 @@ def main():
         except Exception as exc:
             audit.error("timing_configuration.valid_scene_durations", str(exc), item["id"])
     if args.self_test:
-        controls = regression_controls(root, read_json(root / "reports/nov16-29/carousel-render-manifest.json"), config, canonical)
+        controls = regression_controls(root, read_json(root / "reports/nov16-29/carousel-render-manifest.json"), config, canonical, baseline)
         for control in controls:
             print(("PASS " if control["passed"] else "FAIL ") + control["scenario"])
         return 0 if all(control["passed"] for control in controls) else 1
@@ -746,7 +807,7 @@ def main():
     audit.check("user_clarifications.present", (root / "batch_nov16_29/USER_CLARIFICATIONS.md").is_file())
     counts = Counter(item.get("id") for item in queue)
     audit.check("queue.unique_ids", all(count == 1 for count in counts.values()))
-    audit.check("queue.original_objects_unchanged", queue[:len(baseline)] == baseline, {"original_count": len(baseline)})
+    check_protected_originals(audit, baseline, queue)
     audit.check("queue.only_14_batch_items_appended", [item.get("id") for item in queue[len(baseline):]] == IDS)
     try:
         changed = git(root, "diff", "--name-only", baseline_commit, "--", "state/published.json").strip()
@@ -800,7 +861,7 @@ def main():
         if item["type"] == "reel" and item["id"] in by_id:
             check_reel_manifest(audit, root, item, by_id[item["id"]], canonical, registry, plans.get(item["id"]))
     try:
-        controls = regression_controls(root, carousel_manifest, config, canonical)
+        controls = regression_controls(root, carousel_manifest, config, canonical, baseline)
         for control in controls:
             audit.check("regression_control." + control["scenario"], control["passed"])
     except Exception as exc:
@@ -813,7 +874,8 @@ def main():
         "canonical_sha256": file_hash(canonical_path),
         "timing_configuration_sha256": file_hash(timings_path) if timings_path.is_file() else None,
         "baseline_commit": baseline_commit,
-        "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; original queue and publishing state protected",
+        "authorized_original_hold_ids": list(AUTHORIZED_HOLD_IDS),
+        "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
         "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
         "summary": {"checks": len(audit.checks), "passed": len(audit.checks) - len(failed), "failed": len(failed)},
         "errors": failed,

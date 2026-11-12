@@ -33,7 +33,7 @@ All new slots use **19:30 IST (+05:30)**.
 - `Example. Not an offer.` appears on numbered interior slides and reel number cards, including the numbered checklist. It does not appear on covers.
 - The 25-word limit applies to main body copy, excluding the supplied CTA, series/website, example tag and required footer. This interpretation was explicitly selected by the user.
 - `[END]` is expanded in place in each caption, preserving the original hashtag order and all five supplied hashtags. The batch's final copy overrides the older generic caption/CTA template in AGENTS.md.
-- No other queue object or existing asset is changed. `state/published.json` is untouched.
+- Exactly 15 older overlapping queue entries have the editorially approved status change to `hold`; every other field on those entries, all remaining original queue objects and existing assets are preserved. `state/published.json` is untouched.
 
 ## PR #8 layout and timing fixes
 
@@ -43,9 +43,13 @@ The two requested layout overrides are limited to N02/04 (heading followed by th
 
 Reels are driven by editable per-scene durations in `reels_nov2026/timings.json`. Their total length is computed from the opening-hook duration, the scene durations and the fixed 1.5-second end card. The renderer, word captions, exported queue timings, media cache and validator all use those timings; there is no fixed fourteen-second duration. See [the retiming instructions](../../reels_nov2026/README.md).
 
-## Important queue overlap
+## Queue overlap resolved
 
-The existing queue already contains approved entries on these dates, including CD04–CD11, CR01–CR03, D23-new, N1128-cc-full and N1129-cma. Several use the same 19:30 slot as this batch. They are intentionally preserved because the brief forbids changing other items. Resolve the overlap during editorial review **before approving the new items**. The new entries cannot auto-publish in their current `review`, `needs_voice` or `needs_content` states.
+The editorial decision is resolved: the new N-series replaces the older items scheduled for 16–29 November. Exactly the following 15 entries are retained with status `hold`:
+
+`CD04-preipo`, `CD05-dscr`, `D23-new`, `CD06-bt-topup`, `CD07-prepayment`, `CD08-small-syndication`, `CD09-lap-vs-pl`, `CD10-red-flags`, `CR01-lap-emi`, `CD11-emi-bounce`, `CR02-consolidation`, `CR03-rate-half`, `N1128-cc-full`, `N1128-cc-full-story`, `N1129-cma`.
+
+Only their status fields changed; none were deleted or rescheduled. The validator expects these exact holds, protects their other fields, and preserves every other original queue entry. New N-series entries remain in `review`, `needs_voice` or `needs_content` pending the existing editorial/audio workflow.
 
 ## Validation and rebuild
 
@@ -60,7 +64,7 @@ python scripts/publish.py --check
 
 For a targeted correction, `python scripts/build_nov_carousels.py --slide N02/04 --slide N06/04` rewrites only those two JPEGs. It merges their updated records into the complete 31-slide manifest and refreshes the review sheets while preserving every other media file.
 
-The independent batch validator checks the new review/voice-pending items, whereas the existing publication checker primarily validates already-ready items. It verifies the exact captions and voice lines, dates, statuses, protected original queue objects, image dimensions/profile/size, silent video format/duration, text manifests, and untouched publication state.
+The independent batch validator checks the new review/voice-pending items, whereas the existing publication checker primarily validates already-ready items. It verifies the exact captions and voice lines, dates, statuses, the 15 authorized holds with all other original fields protected, image dimensions/profile/size, silent video format/duration, text manifests, and untouched publication state.
 
 ## Audio handoff to Claude
 

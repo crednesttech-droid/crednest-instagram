@@ -1,14 +1,31 @@
 {
   "status": "OK",
-  "checked_at": "2026-11-12T10:19:37.325264+00:00",
+  "checked_at": "2026-11-12T10:25:26.213547+00:00",
   "canonical_sha256": "007be784abf98ef9f479528e34b08bc3bc47af9986154aa615ba462ff648eb33",
   "timing_configuration_sha256": "badd87d41b0b253c3d6fc5ed00a2af95000e3c9b7494b2cbbb01fc6105f60f4a",
   "baseline_commit": "e394c4d614a295123a321b1e189c111ec38e916c",
-  "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; original queue and publishing state protected",
+  "authorized_original_hold_ids": [
+    "CD04-preipo",
+    "CD05-dscr",
+    "D23-new",
+    "CD06-bt-topup",
+    "CD07-prepayment",
+    "CD08-small-syndication",
+    "CD09-lap-vs-pl",
+    "CD10-red-flags",
+    "CR01-lap-emi",
+    "CD11-emi-bounce",
+    "CR02-consolidation",
+    "CR03-rate-half",
+    "N1128-cc-full",
+    "N1128-cc-full-story",
+    "N1129-cma"
+  ],
+  "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
   "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
   "summary": {
-    "checks": 4291,
-    "passed": 4291,
+    "checks": 4343,
+    "passed": 4343,
     "failed": 0
   },
   "errors": [],
@@ -622,6 +639,26 @@
     {
       "scenario": "non_lime_numeric_fill_is_rejected",
       "passed": true
+    },
+    {
+      "scenario": "exactly_authorized_15_hold_status_changes_pass",
+      "passed": true
+    },
+    {
+      "scenario": "reverted_ready_status_on_held_item_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "unauthorized_sixteenth_hold_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "held_item_caption_edit_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "held_item_deletion_is_rejected",
+      "passed": true
     }
   ],
   "checks": [
@@ -759,10 +796,490 @@
       "passed": true
     },
     {
-      "check": "queue.original_objects_unchanged",
+      "check": "queue.original_count_and_order_preserved",
       "passed": true,
       "detail": {
-        "original_count": 144
+        "original_count": 144,
+        "current_prefix_count": 144
+      }
+    },
+    {
+      "check": "queue.original_objects_only_authorized_holds",
+      "passed": true,
+      "detail": {
+        "allowed_status_changes": [
+          "CD04-preipo",
+          "CD05-dscr",
+          "D23-new",
+          "CD06-bt-topup",
+          "CD07-prepayment",
+          "CD08-small-syndication",
+          "CD09-lap-vs-pl",
+          "CD10-red-flags",
+          "CR01-lap-emi",
+          "CD11-emi-bounce",
+          "CR02-consolidation",
+          "CR03-rate-half",
+          "N1128-cc-full",
+          "N1128-cc-full-story",
+          "N1129-cma"
+        ]
+      }
+    },
+    {
+      "check": "queue.exactly_15_original_hold_changes",
+      "passed": true,
+      "detail": [
+        {
+          "id": "CD04-preipo",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD05-dscr",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "D23-new",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD06-bt-topup",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD07-prepayment",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD08-small-syndication",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD09-lap-vs-pl",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD10-red-flags",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CR01-lap-emi",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CD11-emi-bounce",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CR02-consolidation",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "CR03-rate-half",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "N1128-cc-full",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "N1128-cc-full-story",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        },
+        {
+          "id": "N1129-cma",
+          "fields": [
+            "status"
+          ],
+          "status": "hold"
+        }
+      ]
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD04-preipo",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD04-preipo",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD04-preipo",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD05-dscr",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD05-dscr",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD05-dscr",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "D23-new",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "D23-new",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "D23-new",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD06-bt-topup",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD06-bt-topup",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD06-bt-topup",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD07-prepayment",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD07-prepayment",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD07-prepayment",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD08-small-syndication",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD08-small-syndication",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD08-small-syndication",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD09-lap-vs-pl",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD09-lap-vs-pl",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD09-lap-vs-pl",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD10-red-flags",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD10-red-flags",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD10-red-flags",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CR01-lap-emi",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CR01-lap-emi",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CR01-lap-emi",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CD11-emi-bounce",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CD11-emi-bounce",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CD11-emi-bounce",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CR02-consolidation",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CR02-consolidation",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CR02-consolidation",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "CR03-rate-half",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "CR03-rate-half",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "CR03-rate-half",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "N1128-cc-full",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "N1128-cc-full",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "N1128-cc-full",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "N1128-cc-full-story",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "N1128-cc-full-story",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "N1128-cc-full-story",
+      "detail": {
+        "unexpected_changed_fields": []
+      }
+    },
+    {
+      "check": "hold.original_and_current_exist_exactly_once",
+      "passed": true,
+      "id": "N1129-cma",
+      "detail": {
+        "original": 1,
+        "current": 1
+      }
+    },
+    {
+      "check": "hold.status_is_hold",
+      "passed": true,
+      "id": "N1129-cma",
+      "detail": "hold"
+    },
+    {
+      "check": "hold.all_other_fields_preserved",
+      "passed": true,
+      "id": "N1129-cma",
+      "detail": {
+        "unexpected_changed_fields": []
       }
     },
     {
@@ -35480,6 +35997,26 @@
     },
     {
       "check": "regression_control.non_lime_numeric_fill_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.exactly_authorized_15_hold_status_changes_pass",
+      "passed": true
+    },
+    {
+      "check": "regression_control.reverted_ready_status_on_held_item_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.unauthorized_sixteenth_hold_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.held_item_caption_edit_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.held_item_deletion_is_rejected",
       "passed": true
     }
   ]
