@@ -34,6 +34,52 @@ AUTHORIZED_HOLD_IDS = (
     "CR02-consolidation", "CR03-rate-half", "N1128-cc-full",
     "N1128-cc-full-story", "N1129-cma",
 )
+# Exact owner-supplied pronunciation lines. Do not normalize their Unicode.
+CANONICAL_SAY = {
+    "N01": [
+        "CIBIL 780 है। फिर भी loan कम क्यों मिला?",
+        "क्योंकि bank, score के बाद आपकी EMI का बोझ देखता है।",
+        "Example: कमाई एक लाख महीना, पुरानी EMI पैंतीस हज़ार।",
+        "अगर bank पचास percent तक EMI मानता है, तो नई EMI की जगह सिर्फ़ पंद्रह हज़ार।",
+        "Score अच्छा है। जगह कम है।",
+    ],
+    "N04": [
+        "ITR में बारह लाख। Bank statement में चालीस लाख।",
+        "Bank किस पर भरोसा करेगा?",
+        "ज़्यादातर lender, loan ITR की कमाई पर नापते हैं।",
+        "Statement सिर्फ़ यह दिखाता है कि पैसा आया। कमाई कितनी थी, यह ITR बताता है।",
+        "दोनों की कहानी एक होनी चाहिए।",
+    ],
+    "N05": [
+        "Bank ने CC limit क्यों कम की?",
+        "क्योंकि limit काग़ज़ पर होती है। पैसा drawing power से मिलता है।",
+        "Example: stock साठ लाख, debtors चालीस लाख, creditors तीस लाख।",
+        "बचा सत्तर लाख। पच्चीस percent margin काटो।",
+        "Drawing power साढ़े बावन लाख। Limit पचहत्तर लाख होने पर भी।",
+    ],
+    "N08": [
+        "Bank file reject क्यों करता है? पाँच reason.",
+        "एक: पुरानी EMI ज़्यादा।",
+        "दो: ITR में कमाई कम।",
+        "तीन: cheque या EMI bounce.",
+        "चार: property के काग़ज़ अधूरे।",
+        "पाँच: छुपाया हुआ loan. यह सबसे बड़ा।",
+    ],
+    "N11": [
+        "Profit है। फिर भी bank बोले capacity कम?",
+        "Bank एक simple नाप देखता है।",
+        "साल में loan चुकाने के लिए कितना cash बचा, और कितना चुकाना है।",
+        "Example: cash तीस लाख, चुकाना पच्चीस लाख। नाप आया एक point दो।",
+        "कई lender इससे ज़्यादा cushion माँगते हैं।",
+    ],
+    "N12": [
+        "नया project. CMA या DPR?",
+        "DPR बताता है project क्या है, कितने का है, पैसा कैसे वापस आएगा।",
+        "CMA बताता है business के numbers: पिछले साल और आने वाले साल।",
+        "नए project के लिए ज़्यादातर lender दोनों माँगते हैं।",
+        "पहले DPR, फिर उसके numbers से CMA.",
+    ],
+}
 FPS_TOLERANCE = 1 / 30 + 0.001
 MAX_BYTES = 8_000_000
 FPS = 30
@@ -409,8 +455,25 @@ def timing_plan(config, item):
     return {"hook_frames": hook_frames, "scene_frames": scene_frames, "end_card_frames": end_frames, "total_frames": total_frames, "duration": total_frames / FPS, "end_card_start": cursor / FPS, "voice_scenes": scenes, "config_sha256": signature}
 
 
+def scene_text_timeline(scenes):
+    if not isinstance(scenes, list) or not all(isinstance(scene, dict) for scene in scenes):
+        return None
+    return [{key: scene.get(key) for key in ("start", "end", "text")} for scene in scenes]
+
+
+def check_pronunciation(audit, queued, item):
+    expected = CANONICAL_SAY[item]
+    scenes = queued.get("voice_scenes", [])
+    actual = [scene.get("say") for scene in scenes] if isinstance(scenes, list) and all(isinstance(scene, dict) for scene in scenes) else None
+    # Python string equality deliberately preserves punctuation, spacing and
+    # composed/decomposed nukta code points exactly as supplied by the owner.
+    audit.check("voice_scenes.exact_owner_say_lines", actual == expected, {"actual_count": len(actual) if actual is not None else None, "expected_count": len(expected), "mismatched_indices": [index for index, (have, need) in enumerate(zip(actual or [], expected)) if have != need]}, item)
+    audit.check("voice.exact_language", queued.get("voice_lang") == "hi-IN", queued.get("voice_lang"), item)
+    audit.check("voice.exact_model", queued.get("voice_model") == "bulbul:v3", queued.get("voice_model"), item)
+
+
 def check_configured_timing(audit, actual_scenes, actual_duration, plan, item):
-    audit.check("voice_scenes.exact_configured_timing", actual_scenes == plan["voice_scenes"], item=item)
+    audit.check("voice_scenes.exact_configured_timing", scene_text_timeline(actual_scenes) == plan["voice_scenes"], item=item)
     if actual_duration is not None:
         audit.check("reel.actual_duration_matches_configuration", abs(actual_duration - plan["duration"]) <= 0.01, {"actual": actual_duration, "configured": plan["duration"]}, item)
 
@@ -594,7 +657,7 @@ def check_reel_manifest(audit, root, item, queued, canonical, registry, plan):
     check_reel_boxes(audit, manifest.get("cover_boxes"), cover_expected, "reel_cover", ident)
     scenes = manifest.get("voice_scenes", [])
     stripped = [{key: scene.get(key) for key in ("start", "end", "text")} for scene in scenes]
-    audit.check("reel_manifest.voice_matches_queue", stripped == queued.get("voice_scenes"), item=ident)
+    audit.check("reel_manifest.voice_matches_queue", stripped == scene_text_timeline(queued.get("voice_scenes")), item=ident)
     audit.check("reel_manifest.voice_matches_canonical", [scene.get("text") for scene in scenes] == item["voice_lines"], item=ident)
     if plan:
         audit.check("reel_manifest.voice_matches_configuration", stripped == plan["voice_scenes"], item=ident)
@@ -748,6 +811,39 @@ def regression_controls(root, carousel_manifest, config, canonical, baseline):
         negative = Audit()
         check_protected_originals(negative, baseline, bad)
         controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"] == target for check in negative.checks)})
+    ident = "N01"
+    pronunciation = {"voice_lang": "hi-IN", "voice_model": "bulbul:v3", "voice_scenes": [{"say": line} for line in CANONICAL_SAY[ident]]}
+    positive = Audit()
+    check_pronunciation(positive, pronunciation, ident)
+    controls.append({"scenario": "exact_owner_unicode_say_and_voice_settings_pass", "passed": all(check["passed"] for check in positive.checks)})
+    mutations = []
+    bad = copy.deepcopy(pronunciation)
+    bad["voice_scenes"][0]["say"] += "."
+    mutations.append((bad, "altered_say_punctuation_is_rejected", "voice_scenes.exact_owner_say_lines"))
+    bad = copy.deepcopy(pronunciation)
+    del bad["voice_scenes"][0]["say"]
+    mutations.append((bad, "missing_scene_say_is_rejected", "voice_scenes.exact_owner_say_lines"))
+    bad = copy.deepcopy(pronunciation)
+    bad["voice_scenes"][0]["say"], bad["voice_scenes"][1]["say"] = bad["voice_scenes"][1]["say"], bad["voice_scenes"][0]["say"]
+    mutations.append((bad, "swapped_say_scene_order_is_rejected", "voice_scenes.exact_owner_say_lines"))
+    bad = copy.deepcopy(pronunciation)
+    bad["voice_model"] = "bulbul:v2"
+    mutations.append((bad, "wrong_voice_model_is_rejected", "voice.exact_model"))
+    bad = copy.deepcopy(pronunciation)
+    bad["voice_lang"] = "en-IN"
+    mutations.append((bad, "wrong_voice_language_is_rejected", "voice.exact_language"))
+    bad = copy.deepcopy(pronunciation)
+    for scene in bad["voice_scenes"]:
+        if "\u091c\u093c" in scene["say"]:
+            scene["say"] = scene["say"].replace("\u091c\u093c", "\u095b", 1)
+            break
+    else:
+        raise AssertionError("The pronunciation fixture must contain the owner's exact decomposed nukta sequence")
+    mutations.append((bad, "visually_equivalent_nukta_codepoint_change_is_rejected", "voice_scenes.exact_owner_say_lines"))
+    for bad, scenario, target in mutations:
+        negative = Audit()
+        check_pronunciation(negative, bad, ident)
+        controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"] == target for check in negative.checks)})
     return controls
 
 
@@ -783,6 +879,7 @@ def main():
     timings_path = args.timings if args.timings.is_absolute() else root / args.timings
     config = load_manifest(audit, timings_path, "timing_configuration")
     expected_reel_ids = {item["id"] for item in expected_items if item["type"] == "reel"}
+    audit.check("pronunciation.canonical_exact_reel_ids", set(CANONICAL_SAY) == expected_reel_ids)
     audit.check("timing_configuration.exact_reels", set(config.get("reels", {})) == expected_reel_ids)
     audit.check("timing_configuration.version", config.get("version") == 1)
     plans = {}
@@ -844,6 +941,7 @@ def main():
                 check_jpeg(audit, safe_path(root, relative), relative, (1080, 1350), ident)
         else:
             relative, cover = f"media/{ident}/reel.mp4", f"media/{ident}/cover.jpg"
+            check_pronunciation(audit, actual, ident)
             audit.check("queue.exact_reel_path", actual.get("media") == [relative], actual.get("media"), ident)
             audit.check("queue.exact_cover_path", actual.get("cover") == cover, actual.get("cover"), ident)
             plan = plans.get(ident)

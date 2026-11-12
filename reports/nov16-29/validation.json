@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "checked_at": "2026-11-12T10:25:26.213547+00:00",
+  "checked_at": "2026-11-12T12:06:54.691099+00:00",
   "canonical_sha256": "007be784abf98ef9f479528e34b08bc3bc47af9986154aa615ba462ff648eb33",
   "timing_configuration_sha256": "badd87d41b0b253c3d6fc5ed00a2af95000e3c9b7494b2cbbb01fc6105f60f4a",
   "baseline_commit": "e394c4d614a295123a321b1e189c111ec38e916c",
@@ -24,8 +24,8 @@
   "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
   "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
   "summary": {
-    "checks": 4343,
-    "passed": 4343,
+    "checks": 4369,
+    "passed": 4369,
     "failed": 0
   },
   "errors": [],
@@ -659,11 +659,43 @@
     {
       "scenario": "held_item_deletion_is_rejected",
       "passed": true
+    },
+    {
+      "scenario": "exact_owner_unicode_say_and_voice_settings_pass",
+      "passed": true
+    },
+    {
+      "scenario": "altered_say_punctuation_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "missing_scene_say_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "swapped_say_scene_order_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "wrong_voice_model_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "wrong_voice_language_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "visually_equivalent_nukta_codepoint_change_is_rejected",
+      "passed": true
     }
   ],
   "checks": [
     {
       "check": "timing_configuration.present_readable",
+      "passed": true
+    },
+    {
+      "check": "pronunciation.canonical_exact_reel_ids",
       "passed": true
     },
     {
@@ -1348,6 +1380,28 @@
       "detail": "needs_voice"
     },
     {
+      "check": "voice_scenes.exact_owner_say_lines",
+      "passed": true,
+      "id": "N01",
+      "detail": {
+        "actual_count": 5,
+        "expected_count": 5,
+        "mismatched_indices": []
+      }
+    },
+    {
+      "check": "voice.exact_language",
+      "passed": true,
+      "id": "N01",
+      "detail": "hi-IN"
+    },
+    {
+      "check": "voice.exact_model",
+      "passed": true,
+      "id": "N01",
+      "detail": "bulbul:v3"
+    },
+    {
       "check": "queue.exact_reel_path",
       "passed": true,
       "id": "N01",
@@ -1509,7 +1563,8 @@
       "detail": {
         "start": 0.8,
         "end": 4.0,
-        "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?"
+        "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
+        "say": "CIBIL 780 है। फिर भी loan कम क्यों मिला?"
       }
     },
     {
@@ -1546,7 +1601,8 @@
       "detail": {
         "start": 4.0,
         "end": 7.8,
-        "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai."
+        "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
+        "say": "क्योंकि bank, score के बाद आपकी EMI का बोझ देखता है।"
       }
     },
     {
@@ -1583,7 +1639,8 @@
       "detail": {
         "start": 7.8,
         "end": 11.0,
-        "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar."
+        "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
+        "say": "Example: कमाई एक लाख महीना, पुरानी EMI पैंतीस हज़ार।"
       }
     },
     {
@@ -1620,7 +1677,8 @@
       "detail": {
         "start": 11.0,
         "end": 16.5,
-        "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar."
+        "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
+        "say": "अगर bank पचास percent तक EMI मानता है, तो नई EMI की जगह सिर्फ़ पंद्रह हज़ार।"
       }
     },
     {
@@ -1657,7 +1715,8 @@
       "detail": {
         "start": 16.5,
         "end": 18.7,
-        "text": "Score achha hai. Jagah kam hai."
+        "text": "Score achha hai. Jagah kam hai.",
+        "say": "Score अच्छा है। जगह कम है।"
       }
     },
     {
@@ -2393,6 +2452,28 @@
       "detail": "needs_voice"
     },
     {
+      "check": "voice_scenes.exact_owner_say_lines",
+      "passed": true,
+      "id": "N04",
+      "detail": {
+        "actual_count": 5,
+        "expected_count": 5,
+        "mismatched_indices": []
+      }
+    },
+    {
+      "check": "voice.exact_language",
+      "passed": true,
+      "id": "N04",
+      "detail": "hi-IN"
+    },
+    {
+      "check": "voice.exact_model",
+      "passed": true,
+      "id": "N04",
+      "detail": "bulbul:v3"
+    },
+    {
       "check": "queue.exact_reel_path",
       "passed": true,
       "id": "N04",
@@ -2554,7 +2635,8 @@
       "detail": {
         "start": 0.8,
         "end": 3.9,
-        "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh."
+        "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
+        "say": "ITR में बारह लाख। Bank statement में चालीस लाख।"
       }
     },
     {
@@ -2591,7 +2673,8 @@
       "detail": {
         "start": 3.9,
         "end": 5.8,
-        "text": "Bank kis pe bharosa karega?"
+        "text": "Bank kis pe bharosa karega?",
+        "say": "Bank किस पर भरोसा करेगा?"
       }
     },
     {
@@ -2628,7 +2711,8 @@
       "detail": {
         "start": 5.8,
         "end": 8.9,
-        "text": "Zyada lender loan ITR ki kamai pe naapte hain."
+        "text": "Zyada lender loan ITR ki kamai pe naapte hain.",
+        "say": "ज़्यादातर lender, loan ITR की कमाई पर नापते हैं।"
       }
     },
     {
@@ -2665,7 +2749,8 @@
       "detail": {
         "start": 8.9,
         "end": 14.0,
-        "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai."
+        "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
+        "say": "Statement सिर्फ़ यह दिखाता है कि पैसा आया। कमाई कितनी थी, यह ITR बताता है।"
       }
     },
     {
@@ -2702,7 +2787,8 @@
       "detail": {
         "start": 14.0,
         "end": 16.3,
-        "text": "Dono ki kahani ek honi chahiye."
+        "text": "Dono ki kahani ek honi chahiye.",
+        "say": "दोनों की कहानी एक होनी चाहिए।"
       }
     },
     {
@@ -2815,6 +2901,28 @@
       "passed": true,
       "id": "N05",
       "detail": "needs_voice"
+    },
+    {
+      "check": "voice_scenes.exact_owner_say_lines",
+      "passed": true,
+      "id": "N05",
+      "detail": {
+        "actual_count": 5,
+        "expected_count": 5,
+        "mismatched_indices": []
+      }
+    },
+    {
+      "check": "voice.exact_language",
+      "passed": true,
+      "id": "N05",
+      "detail": "hi-IN"
+    },
+    {
+      "check": "voice.exact_model",
+      "passed": true,
+      "id": "N05",
+      "detail": "bulbul:v3"
     },
     {
       "check": "queue.exact_reel_path",
@@ -2978,7 +3086,8 @@
       "detail": {
         "start": 0.8,
         "end": 3.4,
-        "text": "Bank ne CC limit kyun kam ki?"
+        "text": "Bank ne CC limit kyun kam ki?",
+        "say": "Bank ने CC limit क्यों कम की?"
       }
     },
     {
@@ -3015,7 +3124,8 @@
       "detail": {
         "start": 3.4,
         "end": 7.4,
-        "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai."
+        "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
+        "say": "क्योंकि limit काग़ज़ पर होती है। पैसा drawing power से मिलता है।"
       }
     },
     {
@@ -3052,7 +3162,8 @@
       "detail": {
         "start": 7.4,
         "end": 11.0,
-        "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh."
+        "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
+        "say": "Example: stock साठ लाख, debtors चालीस लाख, creditors तीस लाख।"
       }
     },
     {
@@ -3089,7 +3200,8 @@
       "detail": {
         "start": 11.0,
         "end": 13.5,
-        "text": "Bacha sattar lakh. Pachees percent margin kaato."
+        "text": "Bacha sattar lakh. Pachees percent margin kaato.",
+        "say": "बचा सत्तर लाख। पच्चीस percent margin काटो।"
       }
     },
     {
@@ -3126,7 +3238,8 @@
       "detail": {
         "start": 13.5,
         "end": 17.4,
-        "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi."
+        "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.",
+        "say": "Drawing power साढ़े बावन लाख। Limit पचहत्तर लाख होने पर भी।"
       }
     },
     {
@@ -3562,6 +3675,28 @@
       "detail": "needs_voice"
     },
     {
+      "check": "voice_scenes.exact_owner_say_lines",
+      "passed": true,
+      "id": "N08",
+      "detail": {
+        "actual_count": 6,
+        "expected_count": 6,
+        "mismatched_indices": []
+      }
+    },
+    {
+      "check": "voice.exact_language",
+      "passed": true,
+      "id": "N08",
+      "detail": "hi-IN"
+    },
+    {
+      "check": "voice.exact_model",
+      "passed": true,
+      "id": "N08",
+      "detail": "bulbul:v3"
+    },
+    {
       "check": "queue.exact_reel_path",
       "passed": true,
       "id": "N08",
@@ -3723,7 +3858,8 @@
       "detail": {
         "start": 0.8,
         "end": 4.0,
-        "text": "Bank file reject kyun karta hai? Paanch reason."
+        "text": "Bank file reject kyun karta hai? Paanch reason.",
+        "say": "Bank file reject क्यों करता है? पाँच reason."
       }
     },
     {
@@ -3760,7 +3896,8 @@
       "detail": {
         "start": 4.0,
         "end": 5.8,
-        "text": "Ek: purani EMI zyada."
+        "text": "Ek: purani EMI zyada.",
+        "say": "एक: पुरानी EMI ज़्यादा।"
       }
     },
     {
@@ -3797,7 +3934,8 @@
       "detail": {
         "start": 5.8,
         "end": 7.8,
-        "text": "Do: ITR mein kamai kam."
+        "text": "Do: ITR mein kamai kam.",
+        "say": "दो: ITR में कमाई कम।"
       }
     },
     {
@@ -3834,7 +3972,8 @@
       "detail": {
         "start": 7.8,
         "end": 9.8,
-        "text": "Teen: cheque ya EMI bounce."
+        "text": "Teen: cheque ya EMI bounce.",
+        "say": "तीन: cheque या EMI bounce."
       }
     },
     {
@@ -3871,7 +4010,8 @@
       "detail": {
         "start": 9.8,
         "end": 11.9,
-        "text": "Chaar: property ke kagaz adhure."
+        "text": "Chaar: property ke kagaz adhure.",
+        "say": "चार: property के काग़ज़ अधूरे।"
       }
     },
     {
@@ -3908,7 +4048,8 @@
       "detail": {
         "start": 11.9,
         "end": 15.0,
-        "text": "Paanch: chhupaya hua loan. Yeh sabse bada."
+        "text": "Paanch: chhupaya hua loan. Yeh sabse bada.",
+        "say": "पाँच: छुपाया हुआ loan. यह सबसे बड़ा।"
       }
     },
     {
@@ -4599,6 +4740,28 @@
       "detail": "needs_voice"
     },
     {
+      "check": "voice_scenes.exact_owner_say_lines",
+      "passed": true,
+      "id": "N11",
+      "detail": {
+        "actual_count": 5,
+        "expected_count": 5,
+        "mismatched_indices": []
+      }
+    },
+    {
+      "check": "voice.exact_language",
+      "passed": true,
+      "id": "N11",
+      "detail": "hi-IN"
+    },
+    {
+      "check": "voice.exact_model",
+      "passed": true,
+      "id": "N11",
+      "detail": "bulbul:v3"
+    },
+    {
       "check": "queue.exact_reel_path",
       "passed": true,
       "id": "N11",
@@ -4760,7 +4923,8 @@
       "detail": {
         "start": 0.8,
         "end": 3.6,
-        "text": "Profit hai. Phir bhi bank bole capacity kam?"
+        "text": "Profit hai. Phir bhi bank bole capacity kam?",
+        "say": "Profit है। फिर भी bank बोले capacity कम?"
       }
     },
     {
@@ -4797,7 +4961,8 @@
       "detail": {
         "start": 3.6,
         "end": 5.8,
-        "text": "Bank ek simple naap dekhta hai."
+        "text": "Bank ek simple naap dekhta hai.",
+        "say": "Bank एक simple नाप देखता है।"
       }
     },
     {
@@ -4834,7 +4999,8 @@
       "detail": {
         "start": 5.8,
         "end": 10.3,
-        "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai."
+        "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
+        "say": "साल में loan चुकाने के लिए कितना cash बचा, और कितना चुकाना है।"
       }
     },
     {
@@ -4871,7 +5037,8 @@
       "detail": {
         "start": 10.3,
         "end": 14.5,
-        "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do."
+        "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
+        "say": "Example: cash तीस लाख, चुकाना पच्चीस लाख। नाप आया एक point दो।"
       }
     },
     {
@@ -4908,7 +5075,8 @@
       "detail": {
         "start": 14.5,
         "end": 17.1,
-        "text": "Kai lender isse zyada cushion maangte hain."
+        "text": "Kai lender isse zyada cushion maangte hain.",
+        "say": "कई lender इससे ज़्यादा cushion माँगते हैं।"
       }
     },
     {
@@ -5021,6 +5189,28 @@
       "passed": true,
       "id": "N12",
       "detail": "needs_voice"
+    },
+    {
+      "check": "voice_scenes.exact_owner_say_lines",
+      "passed": true,
+      "id": "N12",
+      "detail": {
+        "actual_count": 5,
+        "expected_count": 5,
+        "mismatched_indices": []
+      }
+    },
+    {
+      "check": "voice.exact_language",
+      "passed": true,
+      "id": "N12",
+      "detail": "hi-IN"
+    },
+    {
+      "check": "voice.exact_model",
+      "passed": true,
+      "id": "N12",
+      "detail": "bulbul:v3"
     },
     {
       "check": "queue.exact_reel_path",
@@ -5184,7 +5374,8 @@
       "detail": {
         "start": 0.8,
         "end": 2.8,
-        "text": "Naya project. CMA ya DPR?"
+        "text": "Naya project. CMA ya DPR?",
+        "say": "नया project. CMA या DPR?"
       }
     },
     {
@@ -5221,7 +5412,8 @@
       "detail": {
         "start": 2.8,
         "end": 7.4,
-        "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega."
+        "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
+        "say": "DPR बताता है project क्या है, कितने का है, पैसा कैसे वापस आएगा।"
       }
     },
     {
@@ -5258,7 +5450,8 @@
       "detail": {
         "start": 7.4,
         "end": 11.6,
-        "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal."
+        "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
+        "say": "CMA बताता है business के numbers: पिछले साल और आने वाले साल।"
       }
     },
     {
@@ -5295,7 +5488,8 @@
       "detail": {
         "start": 11.6,
         "end": 14.8,
-        "text": "Naye project ke liye zyada lender dono maangte hain."
+        "text": "Naye project ke liye zyada lender dono maangte hain.",
+        "say": "नए project के लिए ज़्यादातर lender दोनों माँगते हैं।"
       }
     },
     {
@@ -5332,7 +5526,8 @@
       "detail": {
         "start": 14.8,
         "end": 17.4,
-        "text": "Pehle DPR, phir uske numbers se CMA."
+        "text": "Pehle DPR, phir uske numbers se CMA.",
+        "say": "पहले DPR, फिर उसके numbers से CMA."
       }
     },
     {
@@ -36017,6 +36212,34 @@
     },
     {
       "check": "regression_control.held_item_deletion_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.exact_owner_unicode_say_and_voice_settings_pass",
+      "passed": true
+    },
+    {
+      "check": "regression_control.altered_say_punctuation_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.missing_scene_say_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.swapped_say_scene_order_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.wrong_voice_model_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.wrong_voice_language_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.visually_equivalent_nukta_codepoint_change_is_rejected",
       "passed": true
     }
   ]
