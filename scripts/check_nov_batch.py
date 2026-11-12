@@ -39,6 +39,128 @@ DISPLAY_LAYOUTS = {
     ("N02", 4): "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
     ("N06", 4): "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
 }
+REQUESTED_FONT_STEPS = (84, 80, 76, 72)
+REQUESTED_SAFE_BOX = (88, 250, 992, 1120)
+
+
+def requested_paragraphs(item):
+    texts = DISPLAY_LAYOUTS[(item, 4)].splitlines()
+    roles = ["heading", "numbered_item", "numbered_item", "numbered_item"] if item == "N02" else ["heading", "total_item", "total_item", "closing"]
+    return [{"text": text, "kind": role, "prefix": re.match(r"^\d+\.\s+", text).group() if role == "numbered_item" else ""} for text, role in zip(texts, roles)]
+
+
+def independent_requested_layout(root, item, size, scale):
+    """Predict wrapping and occupied ink using the user-authorized fixed policy."""
+    face = ImageFont.truetype(str(root / "brand/03_Fonts/Manrope-Extrabold.ttf"), round(size * scale))
+    draw = ImageDraw.Draw(Image.new("L", (1, 1)))
+    left, top, right, bottom = REQUESTED_SAFE_BOX
+    leading, baseline = round(size * 1.18), 0
+    groups, measured = [], []
+    for paragraph in requested_paragraphs(item):
+        continuation_x = left + draw.textlength(paragraph["prefix"], font=face) / scale
+        lines, current, x = [], "", left
+        for token in paragraph["text"].split():
+            proposed = (current + " " + token).strip()
+            if current and draw.textlength(proposed, font=face) / scale > right - x:
+                lines.append(current)
+                current, x = token, continuation_x
+            else:
+                current = proposed
+        if current:
+            lines.append(current)
+        records = []
+        for index, line in enumerate(lines):
+            x = left if index == 0 else continuation_x
+            box = [value / scale for value in draw.textbbox((round(x * scale), round(baseline * scale)), line, font=face, anchor="ls")]
+            measured.append(box)
+            records.append({"text": line, "x": x, "baseline": baseline})
+            baseline += leading
+        groups.append({**paragraph, "lines": records, "continuation_x": continuation_x})
+        baseline += 36
+    ink_top, ink_bottom = min(box[1] for box in measured), max(box[3] for box in measured)
+    fits = ink_bottom - ink_top <= bottom - top and all(left <= box[0] < box[2] <= right for box in measured) and all(len(group["lines"]) <= 2 for group in groups)
+    return {"size": size, "groups": groups, "fits": fits, "ink_height": ink_bottom - ink_top, "ink_top": ink_top, "ink_bottom": ink_bottom, "leading": leading}
+
+
+def numeric_core_color(root, image, word, line, scale):
+    """Measure actual JPEG pixels inside independently rendered glyph cores."""
+    left, top, right, bottom = word["bounds"]
+    crop = (math.floor(left), math.floor(top), math.ceil(right), math.ceil(bottom))
+    width, height = crop[2] - crop[0], crop[3] - crop[1]
+    face = ImageFont.truetype(str(root / "brand/03_Fonts/Manrope-Extrabold.ttf"), round(line["font_size"] * scale))
+    mask = Image.new("L", (round(width * scale), round(height * scale)))
+    origin = (word["pixel_origin"][0] - round(crop[0] * scale), word["pixel_origin"][1] - round(crop[1] * scale))
+    ImageDraw.Draw(mask).text(origin, word["text"], font=face, fill=255, anchor="ls")
+    core = mask.resize((width, height), Image.Resampling.LANCZOS).point(lambda value: 255 if value >= 250 else 0)
+    if core.histogram()[255] == 0:
+        raise ValueError(f"No solid glyph-core pixels for {word['text']!r}")
+    return ImageStat.Stat(image.crop(crop).convert("RGB"), mask=core).mean
+
+
+def check_requested_wrapped_layout(audit, root, element, item, scale, image_path=None):
+    label = "slide4.requested_layout"
+    policy = element.get("layout_policy", {})
+    expected_policy = {"safe_box": list(REQUESTED_SAFE_BOX), "font_steps": list(REQUESTED_FONT_STEPS), "line_height_factor": 1.18, "group_gap": 36}
+    audit.check(f"{label}.fixed_safe_area_and_policy", all(policy.get(key) == value for key, value in expected_policy.items()), policy, item)
+    lines = element.get("lines", [])
+    sizes = [line.get("font_size") for line in lines]
+    uniform = bool(sizes) and len(set(sizes)) == 1 and sizes[0] in REQUESTED_FONT_STEPS and element.get("font_size") == sizes[0]
+    audit.check(f"{label}.uniform_84_80_76_72_font", uniform, sizes, item)
+    candidates = [independent_requested_layout(root, item, size, scale) for size in REQUESTED_FONT_STEPS]
+    fitting = [candidate for candidate in candidates if candidate["fits"]]
+    selected = fitting[0] if fitting else None
+    audit.check(f"{label}.largest_fitting_font", selected is not None and uniform and sizes[0] == selected["size"], {"selected": sizes[0] if sizes else None, "candidates": [{"font_size": candidate["size"], "fits": candidate["fits"], "ink_height": candidate["ink_height"]} for candidate in candidates]}, item)
+    groups = element.get("groups", [])
+    paragraphs = requested_paragraphs(item)
+    audit.check(f"{label}.separate_exact_semantic_groups", isinstance(groups, list) and [group.get("text") for group in groups] == [paragraph["text"] for paragraph in paragraphs], item=item)
+    if selected is None or not isinstance(groups, list) or len(groups) != len(paragraphs):
+        return
+    group_errors, origin_errors, numeric_errors, color_errors = [], [], [], []
+    all_indices, previous_group_last = [], None
+    actual_baselines, predicted_baselines = [], []
+    image = Image.open(image_path).convert("RGB") if image_path is not None else None
+    for index, (group, predicted) in enumerate(zip(groups, selected["groups"])):
+        indices = group.get("line_indices", [])
+        all_indices.extend(indices)
+        group_lines = [lines[line_index] for line_index in indices if isinstance(line_index, int) and 0 <= line_index < len(lines)]
+        expected_texts = [line["text"] for line in predicted["lines"]]
+        valid = group.get("index") == index and group.get("kind") == predicted["kind"] and group.get("prefix") == predicted["prefix"] and [line.get("text") for line in group_lines] == expected_texts
+        valid = valid and indices == list(range(indices[0], indices[0] + len(indices))) if indices else False
+        for field, expected_x in (("first_line_x", REQUESTED_SAFE_BOX[0]), ("text_start_x", predicted["continuation_x"]), ("continuation_x", predicted["continuation_x"])):
+            if not isinstance(group.get(field), (int, float)) or abs(group[field] - expected_x) > 0.51:
+                origin_errors.append({"group": index, "field": field, "actual": group.get(field), "expected": expected_x})
+        if not valid:
+            group_errors.append({"group": index, "actual_indices": indices, "actual_lines": [line.get("text") for line in group_lines], "expected": expected_texts})
+        for row, (line, expected_line) in enumerate(zip(group_lines, predicted["lines"])):
+            origin = line.get("draw_origin", [])
+            expected_x = expected_line["x"]
+            valid_origin = len(origin) == 2 and abs(origin[0] - expected_x) <= 0.51 and line.get("paragraph_index") == index and line.get("group_role") == predicted["kind"] and line.get("is_continuation") is (row > 0)
+            if not valid_origin:
+                origin_errors.append({"group": index, "row": row, "origin": origin, "expected_x": expected_x})
+            actual_baselines.append(line.get("baseline_y", float("nan")))
+            predicted_baselines.append(expected_line["baseline"])
+            if row == 0 and previous_group_last is not None and line.get("baseline_y", 0) <= previous_group_last:
+                group_errors.append({"group": index, "error": "Semantic item did not start on a new physical line"})
+            for word in line.get("words", []):
+                if re.search(r"\d|₹", word.get("text", "")):
+                    if str(word.get("fill", "")).lower() != "#b8ff5a":
+                        numeric_errors.append({"text": word.get("text"), "fill": word.get("fill")})
+                    if image is not None:
+                        measured = numeric_core_color(root, image, word, line, scale)
+                        if max(abs(value - expected) for value, expected in zip(measured, (184, 255, 90))) > 12:
+                            color_errors.append({"text": word.get("text"), "measured_rgb": measured})
+        if group_lines:
+            previous_group_last = group_lines[-1].get("baseline_y")
+    audit.check(f"{label}.each_item_starts_own_group", not group_errors and all_indices == list(range(len(lines))), group_errors or None, item)
+    audit.check(f"{label}.hanging_indent_origins", not origin_errors, origin_errors or None, item)
+    baseline_offsets = [actual - expected for actual, expected in zip(actual_baselines, predicted_baselines)]
+    audit.check(f"{label}.fixed_leading_and_group_spacing", bool(baseline_offsets) and max(baseline_offsets) - min(baseline_offsets) <= 0.51, baseline_offsets, item)
+    bounds = element.get("bounds", [])
+    safe = REQUESTED_SAFE_BOX
+    audit.check(f"{label}.body_ink_inside_safe_area", len(bounds) == 4 and safe[0] <= bounds[0] < bounds[2] <= safe[2] and safe[1] <= bounds[1] < bounds[3] <= safe[3], bounds, item)
+    audit.check(f"{label}.numeric_words_lime", not numeric_errors, numeric_errors or None, item)
+    if image is not None:
+        audit.check(f"{label}.actual_numeric_glyph_pixels_lime", not color_errors, color_errors or None, item)
 
 
 class Audit:
@@ -174,7 +296,8 @@ def check_elements(audit, elements, expected, canvas, label, item, safe_y=None, 
             audit.check(f"{key}.display_text_authorized", wrapped_equal(element.get("display_text", element.get("text", "")), display), item=item)
             audit.check(f"{key}.wrapped_lines_preserve_copy", wrapped_equal(joined, display), {"joined": joined}, item)
             if role == "body" and body_display is not None:
-                audit.check(f"{key}.requested_exact_line_layout", [line["text"] for line in lines] == body_display.splitlines(), {"actual": [line["text"] for line in lines], "expected": body_display.splitlines()}, item)
+                if root is not None:
+                    check_requested_wrapped_layout(audit, root, element, item, scale, root / "media" / item / "04.jpg")
             for line_index, line in enumerate(lines):
                 if isinstance(line, dict):
                     check_box(audit, line.get("bounds", line.get("box")), canvas, f"{key}.line{line_index}", item, safe_y)
@@ -536,6 +659,34 @@ def regression_controls(root, carousel_manifest, config, canonical):
     positive = Audit()
     check_configured_timing(positive, new_plan["voice_scenes"], new_plan["duration"], new_plan, "test")
     controls.append({"scenario": "freshly_retimed_scenes_and_duration_pass_without_code_changes", "passed": all(check["passed"] for check in positive.checks)})
+    special = next(slide for slide in carousel_manifest["slides"] if (slide["id"], slide["slide"]) == ("N02", 4))
+    body = next(element for element in special["elements"] if element["role"] == "body")
+    mutations = []
+    for size, scenario, target in ((68, "below_72px_requested_body_is_rejected", "uniform_84_80_76_72_font"), (72, "unnecessary_downsizing_when_84px_fits_is_rejected", "largest_fitting_font")):
+        bad = copy.deepcopy(body)
+        bad["font_size"] = size
+        for line in bad["lines"]:
+            line["font_size"] = size
+        mutations.append((bad, scenario, target))
+    bad = copy.deepcopy(body)
+    bad["lines"][0]["font_size"] = 80
+    mutations.append((bad, "inconsistent_heading_and_item_font_is_rejected", "uniform_84_80_76_72_font"))
+    bad = copy.deepcopy(body)
+    continuation = next(line for line in bad["lines"] if line["is_continuation"] and line["group_role"] == "numbered_item")
+    continuation["draw_origin"][0] = REQUESTED_SAFE_BOX[0]
+    mutations.append((bad, "continuation_aligned_under_number_is_rejected", "hanging_indent_origins"))
+    bad = copy.deepcopy(body)
+    bad["groups"][1]["text"] += " " + bad["groups"][2]["text"]
+    del bad["groups"][2]
+    mutations.append((bad, "combined_numbered_items_are_rejected", "separate_exact_semantic_groups"))
+    bad = copy.deepcopy(body)
+    numeric = next(word for line in bad["lines"] for word in line["words"] if re.search(r"\d|₹", word["text"]))
+    numeric["fill"] = "#F8F8F4"
+    mutations.append((bad, "non_lime_numeric_fill_is_rejected", "numeric_words_lime"))
+    for bad, scenario, target in mutations:
+        negative = Audit()
+        check_requested_wrapped_layout(negative, root, bad, "N02", scale)
+        controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"].endswith(target) for check in negative.checks)})
     return controls
 
 

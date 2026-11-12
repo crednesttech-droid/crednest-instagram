@@ -1,6 +1,11 @@
 {
   "status": "passed",
   "rendered_images": 31,
+  "updated_images": 2,
+  "updated_media": [
+    "media/N02/04.jpg",
+    "media/N06/04.jpg"
+  ],
   "canvas": [
     1080,
     1350
@@ -8,9 +13,9 @@
   "jpeg_quality": 95,
   "icc": "embedded sRGB",
   "max_file_bytes": 222396,
-  "total_bytes": 4825777,
+  "total_bytes": 4900285,
   "max_main_body_words": 21,
-  "minimum_main_body_font_size": 51,
+  "minimum_main_body_font_size": 80,
   "baseline_regressions": {
     "status": "passed",
     "mixed_glyph_fixture": "aur tax p.a. se naap EMI \u20b913,77,250",
@@ -22,7 +27,7 @@
     "anchor": "ls",
     "origin_units": "final-image pixels; pixel_origin is the 2x raster coordinate"
   },
-  "baseline_lines_checked": 199,
+  "baseline_lines_checked": 204,
   "baseline_words_checked": 612,
   "text_and_bounds_checks": "Canonical body preserved; exact user display overrides recorded; all word origins use a common line baseline; every element inside canvas."
 }

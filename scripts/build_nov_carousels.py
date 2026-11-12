@@ -44,12 +44,12 @@ def word_count(text: str) -> int:
 DISPLAY_LAYOUTS = {
     ("N02", 4): {
         "display_text": "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
-        "description": "User-requested heading and three separately spaced numbered entries, each on one line.",
+        "description": "User-requested heading and three separate numbered items, using uniform 84px type with hanging indents on wrapped continuation lines; 80/76/72px fallback only if needed to fit.",
         "kind": "line_breaks",
     },
     ("N06", 4): {
         "display_text": "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
-        "description": "User-requested heading, two separate loan/interest lines, and closing line; remove the middot only here.",
+        "description": "User-requested heading, two separate loan/interest items, and closing paragraph, using uniform 84px type with 80/76/72px fallback only if needed; remove the middot only here.",
         "kind": "explicit_user_text_layout",
     },
 }
@@ -148,7 +148,7 @@ class Canvas:
             color=self.colors["accent"] if accent_numbers and self.theme=="dark" and re.search(r"\d|₹",token) else (fill or self.colors["fg"])
             self.draw.text(origin,token,font=face,fill=color,anchor="ls")
             ink=self.draw.textbbox(origin,token,font=face,anchor="ls")
-            words.append(dict(text=token,bounds=[round(v/SCALE,2) for v in ink],
+            words.append(dict(text=token,bounds=[round(v/SCALE,2) for v in ink],fill=color,
                               baseline_y=baseline,line_baseline_y=baseline,baseline_px=baseline_px,
                               draw_origin=[x_px/SCALE,baseline],pixel_origin=list(origin),anchor="ls"))
         bounds=[min(w["bounds"][0] for w in words),min(w["bounds"][1] for w in words),
@@ -197,26 +197,77 @@ class Canvas:
     def requested_display_layout(self,item,slide):
         spec=DISPLAY_LAYOUTS[(item["id"],slide["number"])]
         texts=spec["display_text"].splitlines()
-        width=W-2*MARGIN
-        if item["id"]=="N02":
-            heading_size=self.single_line_size(texts[0],width,72,44)
-            entry_size=min(self.single_line_size(t,width,64,38) for t in texts[1:])
-            sizes=[heading_size,entry_size,entry_size,entry_size]
-            tops=[330,530,710,890]
-        else:
-            heading_size=self.single_line_size(texts[0],width,80,54)
-            amount_size=min(self.single_line_size(t,width,80,54) for t in texts[1:3])
-            closing_size=self.single_line_size(texts[3],width,62,40)
-            sizes=[heading_size,amount_size,amount_size,closing_size]
-            tops=[330,525,710,945]
+        kinds=["heading","numbered_item","numbered_item","numbered_item"] if item["id"]=="N02" else ["heading","total_item","total_item","closing"]
+        policy=dict(safe_box=[MARGIN,250,W-MARGIN,1120],font_steps=[84,80,76,72],
+                    line_height_factor=1.18,group_gap=36,weight="Extrabold",valign="center",
+                    numeric_fill=LIME,hanging_indent="number prefix including its trailing space")
+        x1,y1,x2,y2=policy["safe_box"]
+        plan=None
+        for size in policy["font_steps"]:
+            leading=round(size*policy["line_height_factor"])
+            baseline=font(size,"Extrabold").getmetrics()[0]/SCALE
+            candidate=[]
+            groups=[]
+            fits=True
+            for index,(text,kind) in enumerate(zip(texts,kinds)):
+                if index:
+                    baseline+=policy["group_gap"]
+                match=re.match(r"^(\d+\.\s+)(.*)$",text) if kind=="numbered_item" else None
+                prefix=match[1] if match else ""
+                content=match[2] if match else text
+                text_start=round((x1+self.width(prefix,size,"Extrabold"))*SCALE)/SCALE
+                remaining=content.split()
+                paragraph_lines=[]
+                while remaining:
+                    continuation=bool(paragraph_lines)
+                    origin_x=text_start if continuation else x1
+                    visible_prefix="" if continuation else prefix
+                    words=[]
+                    while remaining:
+                        proposed=visible_prefix+" ".join(words+[remaining[0]])
+                        if self.width(proposed,size,"Extrabold")>x2-origin_x:
+                            break
+                        words.append(remaining.pop(0))
+                    if not words:
+                        fits=False
+                        break
+                    paragraph_lines.append(dict(text=visible_prefix+" ".join(words),x=origin_x,
+                                                baseline=baseline,paragraph_index=index,group_role=kind,
+                                                is_continuation=continuation))
+                    baseline+=leading
+                if not fits:
+                    break
+                indices=list(range(len(candidate),len(candidate)+len(paragraph_lines)))
+                groups.append(dict(index=index,text=text,kind=kind,prefix=prefix,first_line_x=x1,
+                                   text_start_x=text_start,continuation_x=text_start,line_indices=indices))
+                candidate.extend(paragraph_lines)
+            if not fits:
+                continue
+            boxes=[self.ink_bounds(line["text"],line["x"],line["baseline"],size,"Extrabold") for line in candidate]
+            top=min(box[1] for box in boxes)
+            bottom=max(box[3] for box in boxes)
+            if bottom-top<=y2-y1 and all(x1<=box[0] and box[2]<=x2 for box in boxes):
+                plan=(size,leading,candidate,groups,top,bottom)
+                break
+        if plan is None:
+            raise ValueError(f'{item["id"]}/{slide["number"]:02d} does not fit the safe area at 84, 80, 76 or 72px; refusing smaller type.')
+        size,leading,planned_lines,groups,top,bottom=plan
+        offset=y1+(y2-y1-(bottom-top))/2-top
         records=[]
-        for text,size,top in zip(texts,sizes,tops):
-            # Shared ascent gives a typographic line box; it is not token-specific.
-            ascent=font(size,"Extrabold").getmetrics()[0]/SCALE
-            records.append(self.draw_baseline_line(text,MARGIN,top+ascent,size,"Extrabold",accent_numbers=True))
+        for planned in planned_lines:
+            record=self.draw_baseline_line(planned["text"],planned["x"],planned["baseline"]+offset,size,"Extrabold",accent_numbers=True)
+            record.update(paragraph_index=planned["paragraph_index"],group_role=planned["group_role"],is_continuation=planned["is_continuation"])
+            records.append(record)
+        for group in groups:
+            boxes=[records[index]["bounds"] for index in group["line_indices"]]
+            group["bounds"]=[min(box[0] for box in boxes),min(box[1] for box in boxes),max(box[2] for box in boxes),max(box[3] for box in boxes)]
+        assert all(line["font_size"]==size>=72 for line in records)
+        assert normalized(" ".join(line["text"] for line in records))==normalized(spec["display_text"])
+        assert all(y1<=line["bounds"][1] and line["bounds"][3]<=y2 for line in records)
         override=dict(requested_by_user=True,kind=spec["kind"],canonical_text=slide["text"],
                       display_text=spec["display_text"],description=spec["description"])
-        self.record_element("body",slide["text"],records,max(sizes),"Extrabold",spec["display_text"],override)
+        self.record_element("body",slide["text"],records,size,"Extrabold",spec["display_text"],override)
+        self.elements[-1].update(groups=groups,layout_policy=dict(policy,selected_font_size=size,leading=leading,ink_height=bottom-top))
 
     def save(self,path):
         path.parent.mkdir(parents=True,exist_ok=True)
@@ -324,9 +375,36 @@ def baseline_regressions():
                 anchor="ls",origin_units="final-image pixels; pixel_origin is the 2x raster coordinate")
 
 
+def select_slide_keys(items, selectors=None, only=None):
+    """Resolve an explicit render scope without writing any image or report."""
+    ordered=[(item["id"],slide["number"]) for item in items for slide in item["slides"]]
+    valid=set(ordered)
+    ids={item["id"] for item in items}
+    if selectors:
+        selected=set()
+        for selector in selectors:
+            match=re.fullmatch(r"(N\d{2})/(\d{2})",selector)
+            if not match:
+                raise ValueError(f"Bad slide selector {selector!r}; use N02/04.")
+            key=(match[1],int(match[2]))
+            if key not in valid:
+                raise ValueError(f"Unknown carousel slide: {selector}")
+            selected.add(key)
+    elif only:
+        unknown=set(only)-ids
+        if unknown:
+            raise ValueError(f"Unknown carousel item(s): {', '.join(sorted(unknown))}")
+        selected={key for key in ordered if key[0] in only}
+    else:
+        selected=valid
+    return [key for key in ordered if key in selected]
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--only",nargs="*",help="Render only the named carousel IDs.")
+    selection=parser.add_mutually_exclusive_group()
+    selection.add_argument("--only",nargs="*",help="Render every slide in the named carousel IDs; retain the other manifest rows.")
+    selection.add_argument("--slide",action="append",help="Render only this ID/slide, e.g. N02/04. Repeat to select multiple slides.")
     parser.add_argument("--self-test",action="store_true",help="Run the mixed-glyph and negative baseline regressions only.")
     args=parser.parse_args()
     baseline_checks=baseline_regressions()
@@ -335,12 +413,37 @@ def main():
         return
     data=json.loads((ROOT/"batch_nov16_29/batch.json").read_text(encoding="utf-8"))
     assert not data.get("series_pending"),"Exact series tags must be resolved before rendering."
+    items=[i for i in data["items"] if i["type"]=="carousel"]
+    all_keys=[(item["id"],slide["number"]) for item in items for slide in item["slides"]]
+    try:
+        selected_keys=set(select_slide_keys(items,args.slide,args.only))
+    except ValueError as exc:
+        parser.error(str(exc))
+    reports=ROOT/"reports/nov16-29"
+    manifest_path=reports/"carousel-render-manifest.json"
+    rows={}
+    if selected_keys!=set(all_keys):
+        if not manifest_path.is_file():
+            parser.error("Selective rendering needs the existing complete carousel manifest; render the full batch first.")
+        prior=json.loads(manifest_path.read_text(encoding="utf-8"))
+        prior_rows={(row["id"],row["slide"]):row for row in prior["slides"]}
+        for key in all_keys:
+            if key in selected_keys:
+                continue
+            expected=f"media/{key[0]}/{key[1]:02d}.jpg"
+            row=prior_rows.get(key)
+            if row is None or row.get("path")!=expected or not (ROOT/expected).is_file():
+                parser.error(f"Selective rendering needs the existing manifest row and JPEG for {key[0]}/{key[1]:02d}.")
+            rows[key]=row
     report=dict(canvas=[W,H],color_space="sRGB",jpeg_quality=95,supersampling=SCALE,
                 text_anchor="ls",origin_units="final-image pixels; pixel_origin is the 2x raster coordinate",
-                baseline_regressions=baseline_checks,slides=[])
-    items=[i for i in data["items"] if i["type"]=="carousel" and (not args.only or i["id"] in args.only)]
+                baseline_regressions=baseline_checks,
+                updated_media=[f"media/{item_id}/{number:02d}.jpg" for item_id,number in all_keys if (item_id,number) in selected_keys],slides=[])
     for item in items:
         for slide in item["slides"]:
+            key=(item["id"],slide["number"])
+            if key not in selected_keys:
+                continue
             assert word_count(slide["text"])<=25,(item["id"],slide["number"],word_count(slide["text"]))
             c=cover(item,slide) if slide["number"]==1 else interior(item,slide,data)
             path=ROOT/"media"/item["id"]/f'{slide["number"]:02d}.jpg'
@@ -357,14 +460,16 @@ def main():
             row["display_body"]=body_element["display_text"]
             if body_element.get("display_override"):
                 row["display_override"]=body_element["display_override"]
-            report["slides"].append(row)
+            rows[key]=row
             print(f'rendered {row["path"]} ({row["main_body_words"]} body words)')
-    reports=ROOT/"reports/nov16-29"
+    report["slides"]=[rows[key] for key in all_keys]
+    assert len(report["slides"])==len(all_keys),"A selective render must retain the complete batch manifest."
     reports.mkdir(parents=True,exist_ok=True)
-    (reports/"carousel-render-manifest.json").write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+    manifest_path.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     contact_sheet(report["slides"],reports/"carousel-all-slides.jpg")
     contact_sheet([s for s in report["slides"] if s["slide"]==1],reports/"carousel-covers.jpg",columns=3,thumb_width=320)
-    validation=dict(status="passed",rendered_images=len(report["slides"]),canvas=[W,H],jpeg_quality=95,
+    validation=dict(status="passed",rendered_images=len(report["slides"]),updated_images=len(selected_keys),
+                    updated_media=report["updated_media"],canvas=[W,H],jpeg_quality=95,
                     icc="embedded sRGB",max_file_bytes=max(s["bytes"] for s in report["slides"]),
                     total_bytes=sum(s["bytes"] for s in report["slides"]),
                     max_main_body_words=max(s["main_body_words"] for s in report["slides"]),
@@ -374,7 +479,7 @@ def main():
                     baseline_words_checked=sum(len(line["words"]) for s in report["slides"] for e in s["elements"] for line in e["lines"]),
                     text_and_bounds_checks="Canonical body preserved; exact user display overrides recorded; all word origins use a common line baseline; every element inside canvas.")
     (reports/"carousel-validation.json").write_text(json.dumps(validation,indent=2)+"\n",encoding="utf-8")
-    print(f'{len(report["slides"])} slides rendered; manifest and contact sheets in reports/nov16-29/')
+    print(f'{len(selected_keys)} JPEGs updated; complete {len(report["slides"])}-slide manifest and contact sheets in reports/nov16-29/')
 
 
 if __name__=="__main__":

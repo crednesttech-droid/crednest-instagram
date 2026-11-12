@@ -39,7 +39,7 @@ All new slots use **19:30 IST (+05:30)**.
 
 All 31 carousel slides were rebuilt with words positioned on a shared font baseline rather than their individual visible top edges. The render manifest records each line baseline and each word's actual draw anchor, origin and baseline; the independent validator rejects any word that leaves its line baseline.
 
-The two requested layout overrides are limited to N02/04 (heading followed by three separate numbered lines) and N06/04 (the personal-loan and LAP interest totals on separate lines, without the separator dot). The supplied source brief, captions, figures and other wording are preserved.
+The two requested layout overrides are limited to N02/04 (heading followed by three numbered items) and N06/04 (separate personal-loan and LAP interest totals, without the separator dot). Each item starts on a new line; a long item may wrap once with continuation text aligned under the item text. Headings and items use the same size, starting at 84px and stepping down by 4px only if the safe area overflows, never below 72px. Numbers and rupee figures remain lime. The supplied source brief, captions, figures and other wording are preserved.
 
 Reels are driven by editable per-scene durations in `reels_nov2026/timings.json`. Their total length is computed from the opening-hook duration, the scene durations and the fixed 1.5-second end card. The renderer, word captions, exported queue timings, media cache and validator all use those timings; there is no fixed fourteen-second duration. See [the retiming instructions](../../reels_nov2026/README.md).
 
@@ -57,6 +57,8 @@ python scripts/build_nov_previews.py
 python scripts/check_nov_batch.py
 python scripts/publish.py --check
 ```
+
+For a targeted correction, `python scripts/build_nov_carousels.py --slide N02/04 --slide N06/04` rewrites only those two JPEGs. It merges their updated records into the complete 31-slide manifest and refreshes the review sheets while preserving every other media file.
 
 The independent batch validator checks the new review/voice-pending items, whereas the existing publication checker primarily validates already-ready items. It verifies the exact captions and voice lines, dates, statuses, protected original queue objects, image dimensions/profile/size, silent video format/duration, text manifests, and untouched publication state.
 

@@ -1,14 +1,14 @@
 {
   "status": "OK",
-  "checked_at": "2026-11-12T09:42:35.094291+00:00",
+  "checked_at": "2026-11-12T10:19:37.325264+00:00",
   "canonical_sha256": "007be784abf98ef9f479528e34b08bc3bc47af9986154aa615ba462ff648eb33",
   "timing_configuration_sha256": "badd87d41b0b253c3d6fc5ed00a2af95000e3c9b7494b2cbbb01fc6105f60f4a",
   "baseline_commit": "e394c4d614a295123a321b1e189c111ec38e916c",
   "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; original queue and publishing state protected",
   "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
   "summary": {
-    "checks": 4222,
-    "passed": 4222,
+    "checks": 4291,
+    "passed": 4291,
     "failed": 0
   },
   "errors": [],
@@ -83,8 +83,8 @@
         },
         {
           "path": "media/N02/04.jpg",
-          "bytes": 122265,
-          "sha256": "6c3dc8b7b3bf2704482336449daf6cd730eb07d2e0562906af4e1b87895257e9",
+          "bytes": 169716,
+          "sha256": "f934a1d1b935b1bcde1e9d0c97c0029e1a52310f4aaa3dea0e33306fc5f30e67",
           "size": [
             1080,
             1350
@@ -273,8 +273,8 @@
         },
         {
           "path": "media/N06/04.jpg",
-          "bytes": 136227,
-          "sha256": "1f4ce9716ec55261200f06513fbcbfe4cecc2417212138db15776cbef0ec6cd5",
+          "bytes": 163284,
+          "sha256": "3a415f301a025545071402c83f187a34c0436c1e0e6bff3fbc56188523300b4b",
           "size": [
             1080,
             1350
@@ -597,6 +597,30 @@
     },
     {
       "scenario": "freshly_retimed_scenes_and_duration_pass_without_code_changes",
+      "passed": true
+    },
+    {
+      "scenario": "below_72px_requested_body_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "unnecessary_downsizing_when_84px_fits_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "inconsistent_heading_and_item_font_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "continuation_aligned_under_number_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "combined_numbered_items_are_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "non_lime_numeric_fill_is_rejected",
       "passed": true
     }
   ],
@@ -1383,7 +1407,7 @@
       "check": "media/N02/04.jpg.under_8mb",
       "passed": true,
       "id": "N02",
-      "detail": 122265
+      "detail": 169716
     },
     {
       "check": "media/N02/04.jpg.jpeg",
@@ -2852,7 +2876,7 @@
       "check": "media/N06/04.jpg.under_8mb",
       "passed": true,
       "id": "N06",
-      "detail": 136227
+      "detail": 163284
     },
     {
       "check": "media/N06/04.jpg.jpeg",
@@ -7035,7 +7059,7 @@
         "kind": "line_breaks",
         "canonical_text": "Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title",
         "display_text": "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
-        "description": "User-requested heading and three separately spaced numbered entries, each on one line."
+        "description": "User-requested heading and three separate numbered items, using uniform 84px type with hanging indents on wrapped continuation lines; 80/76/72px fallback only if needed to fit."
       }
     },
     {
@@ -7193,9 +7217,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        352.0,
-        987.0,
-        957.5
+        303.0,
+        988.5,
+        1067.0
       ]
     },
     {
@@ -7204,9 +7228,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        352.0,
-        987.0,
-        957.5
+        303.0,
+        988.5,
+        1067.0
       ]
     },
     {
@@ -7223,23 +7247,126 @@
       }
     },
     {
-      "check": "slide4.body.1.requested_exact_line_layout",
+      "check": "slide4.requested_layout.fixed_safe_area_and_policy",
       "passed": true,
       "id": "N02",
       "detail": {
-        "actual": [
-          "Bank 3 cheezein dekhta hai:",
-          "1. Kamai aur ITR (income tax return)",
-          "2. Purani EMIs",
-          "3. Property ke kagaz aur title"
+        "safe_box": [
+          88,
+          250,
+          992,
+          1120
         ],
-        "expected": [
-          "Bank 3 cheezein dekhta hai:",
-          "1. Kamai aur ITR (income tax return)",
-          "2. Purani EMIs",
-          "3. Property ke kagaz aur title"
+        "font_steps": [
+          84,
+          80,
+          76,
+          72
+        ],
+        "line_height_factor": 1.18,
+        "group_gap": 36,
+        "weight": "Extrabold",
+        "valign": "center",
+        "numeric_fill": "#B8FF5A",
+        "hanging_indent": "number prefix including its trailing space",
+        "selected_font_size": 84,
+        "leading": 99,
+        "ink_height": 764.0
+      }
+    },
+    {
+      "check": "slide4.requested_layout.uniform_84_80_76_72_font",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84
+      ]
+    },
+    {
+      "check": "slide4.requested_layout.largest_fitting_font",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "selected": 84,
+        "candidates": [
+          {
+            "font_size": 84,
+            "fits": true,
+            "ink_height": 764.0
+          },
+          {
+            "font_size": 80,
+            "fits": true,
+            "ink_height": 731.5
+          },
+          {
+            "font_size": 76,
+            "fits": true,
+            "ink_height": 704.0
+          },
+          {
+            "font_size": 72,
+            "fits": true,
+            "ink_height": 671.5
+          }
         ]
       }
+    },
+    {
+      "check": "slide4.requested_layout.separate_exact_semantic_groups",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.requested_layout.each_item_starts_own_group",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.requested_layout.hanging_indent_origins",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.requested_layout.fixed_leading_and_group_spacing",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        364.5,
+        364.5,
+        364.5,
+        364.5,
+        364.5,
+        364.5,
+        364.5
+      ]
+    },
+    {
+      "check": "slide4.requested_layout.body_ink_inside_safe_area",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        88.0,
+        303.0,
+        988.5,
+        1067.0
+      ]
+    },
+    {
+      "check": "slide4.requested_layout.numeric_words_lime",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.requested_layout.actual_numeric_glyph_pixels_lime",
+      "passed": true,
+      "id": "N02"
     },
     {
       "check": "slide4.body.1.line0.bbox_shape",
@@ -7247,9 +7374,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        352.0,
-        987.0,
-        401.0
+        303.0,
+        753.0,
+        365.0
       ]
     },
     {
@@ -7258,9 +7385,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        352.0,
-        987.0,
-        401.0
+        303.0,
+        753.0,
+        365.0
       ]
     },
     {
@@ -7269,9 +7396,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        540.5,
-        979.5,
-        594.5
+        402.0,
+        552.5,
+        464.0
       ]
     },
     {
@@ -7280,9 +7407,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        540.5,
-        979.5,
-        594.5
+        402.0,
+        552.5,
+        464.0
       ]
     },
     {
@@ -7291,9 +7418,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        727.0,
-        436.0,
-        765.0
+        537.0,
+        729.5,
+        599.0
       ]
     },
     {
@@ -7302,9 +7429,9 @@
       "id": "N02",
       "detail": [
         88.0,
-        727.0,
-        436.0,
-        765.0
+        537.0,
+        729.5,
+        599.0
       ]
     },
     {
@@ -7312,10 +7439,10 @@
       "passed": true,
       "id": "N02",
       "detail": [
-        88.0,
-        907.0,
-        800.5,
-        957.5
+        170.0,
+        625.5,
+        988.5,
+        714.0
       ]
     },
     {
@@ -7323,10 +7450,76 @@
       "passed": true,
       "id": "N02",
       "detail": [
+        170.0,
+        625.5,
+        988.5,
+        714.0
+      ]
+    },
+    {
+      "check": "slide4.body.1.line4.bbox_shape",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        88.0,
+        771.0,
+        662.0,
+        833.0
+      ]
+    },
+    {
+      "check": "slide4.body.1.line4.bbox_inside_canvas",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        88.0,
+        771.0,
+        662.0,
+        833.0
+      ]
+    },
+    {
+      "check": "slide4.body.1.line5.bbox_shape",
+      "passed": true,
+      "id": "N02",
+      "detail": [
         88.0,
         907.0,
-        800.5,
-        957.5
+        920.0,
+        988.0
+      ]
+    },
+    {
+      "check": "slide4.body.1.line5.bbox_inside_canvas",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        88.0,
+        907.0,
+        920.0,
+        988.0
+      ]
+    },
+    {
+      "check": "slide4.body.1.line6.bbox_shape",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        181.5,
+        1005.0,
+        511.5,
+        1067.0
+      ]
+    },
+    {
+      "check": "slide4.body.1.line6.bbox_inside_canvas",
+      "passed": true,
+      "id": "N02",
+      "detail": [
+        181.5,
+        1005.0,
+        511.5,
+        1067.0
       ]
     },
     {
@@ -7340,8 +7533,8 @@
       "id": "N02",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 70.5,
-        "descent": 20.0
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -7371,15 +7564,15 @@
       "detail": {
         "recorded": [
           88.0,
-          352.0,
-          987.0,
-          401.0
+          303.0,
+          753.0,
+          365.0
         ],
         "measured_union": [
           88.0,
-          352.0,
-          987.0,
-          401.0
+          303.0,
+          753.0,
+          365.0
         ]
       }
     },
@@ -7394,8 +7587,8 @@
       "id": "N02",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 54.5,
-        "descent": 15.5
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -7425,15 +7618,15 @@
       "detail": {
         "recorded": [
           88.0,
-          540.5,
-          979.5,
-          594.5
+          402.0,
+          552.5,
+          464.0
         ],
         "measured_union": [
           88.0,
-          540.5,
-          979.5,
-          594.5
+          402.0,
+          552.5,
+          464.0
         ]
       }
     },
@@ -7448,8 +7641,8 @@
       "id": "N02",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 54.5,
-        "descent": 15.5
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -7479,15 +7672,15 @@
       "detail": {
         "recorded": [
           88.0,
-          727.0,
-          436.0,
-          765.0
+          537.0,
+          729.5,
+          599.0
         ],
         "measured_union": [
           88.0,
-          727.0,
-          436.0,
-          765.0
+          537.0,
+          729.5,
+          599.0
         ]
       }
     },
@@ -7502,8 +7695,8 @@
       "id": "N02",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 54.5,
-        "descent": 15.5
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -7532,16 +7725,178 @@
       "id": "N02",
       "detail": {
         "recorded": [
+          170.0,
+          625.5,
+          988.5,
+          714.0
+        ],
+        "measured_union": [
+          170.0,
+          625.5,
+          988.5,
+          714.0
+        ]
+      }
+    },
+    {
+      "check": "slide4.body.1.line4.baseline_records",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line4.independent_font_metrics",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
+        "ascent": 90.0,
+        "descent": 25.5
+      }
+    },
+    {
+      "check": "slide4.body.1.line4.baseline_draw_origin",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line4.words_preserve_line",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line4.all_words_on_line_baseline",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line4.word_bounds_match_font_metrics",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line4.line_bounds_match_drawn_words",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "recorded": [
+          88.0,
+          771.0,
+          662.0,
+          833.0
+        ],
+        "measured_union": [
+          88.0,
+          771.0,
+          662.0,
+          833.0
+        ]
+      }
+    },
+    {
+      "check": "slide4.body.1.line5.baseline_records",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line5.independent_font_metrics",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
+        "ascent": 90.0,
+        "descent": 25.5
+      }
+    },
+    {
+      "check": "slide4.body.1.line5.baseline_draw_origin",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line5.words_preserve_line",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line5.all_words_on_line_baseline",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line5.word_bounds_match_font_metrics",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line5.line_bounds_match_drawn_words",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "recorded": [
           88.0,
           907.0,
-          800.5,
-          957.5
+          920.0,
+          988.0
         ],
         "measured_union": [
           88.0,
           907.0,
-          800.5,
-          957.5
+          920.0,
+          988.0
+        ]
+      }
+    },
+    {
+      "check": "slide4.body.1.line6.baseline_records",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line6.independent_font_metrics",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
+        "ascent": 90.0,
+        "descent": 25.5
+      }
+    },
+    {
+      "check": "slide4.body.1.line6.baseline_draw_origin",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line6.words_preserve_line",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line6.all_words_on_line_baseline",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line6.word_bounds_match_font_metrics",
+      "passed": true,
+      "id": "N02"
+    },
+    {
+      "check": "slide4.body.1.line6.line_bounds_match_drawn_words",
+      "passed": true,
+      "id": "N02",
+      "detail": {
+        "recorded": [
+          181.5,
+          1005.0,
+          511.5,
+          1067.0
+        ],
+        "measured_union": [
+          181.5,
+          1005.0,
+          511.5,
+          1067.0
         ]
       }
     },
@@ -14402,7 +14757,7 @@
         "kind": "explicit_user_text_layout",
         "canonical_text": "Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi.",
         "display_text": "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
-        "description": "User-requested heading, two separate loan/interest lines, and closing line; remove the middot only here."
+        "description": "User-requested heading, two separate loan/interest items, and closing paragraph, using uniform 84px type with 80/76/72px fallback only if needed; remove the middot only here."
       }
     },
     {
@@ -14560,9 +14915,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        356.5,
-        988.0,
-        1002.0
+        352.5,
+        853.0,
+        1017.5
       ]
     },
     {
@@ -14571,9 +14926,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        356.5,
-        988.0,
-        1002.0
+        352.5,
+        853.0,
+        1017.5
       ]
     },
     {
@@ -14590,23 +14945,124 @@
       }
     },
     {
-      "check": "slide4.body.1.requested_exact_line_layout",
+      "check": "slide4.requested_layout.fixed_safe_area_and_policy",
       "passed": true,
       "id": "N06",
       "detail": {
-        "actual": [
-          "Par total byaaj:",
-          "Personal loan ₹13,77,250",
-          "LAP ₹31,37,623",
-          "Kam EMI ka matlab sasta loan nahi."
+        "safe_box": [
+          88,
+          250,
+          992,
+          1120
         ],
-        "expected": [
-          "Par total byaaj:",
-          "Personal loan ₹13,77,250",
-          "LAP ₹31,37,623",
-          "Kam EMI ka matlab sasta loan nahi."
+        "font_steps": [
+          84,
+          80,
+          76,
+          72
+        ],
+        "line_height_factor": 1.18,
+        "group_gap": 36,
+        "weight": "Extrabold",
+        "valign": "center",
+        "numeric_fill": "#B8FF5A",
+        "hanging_indent": "number prefix including its trailing space",
+        "selected_font_size": 84,
+        "leading": 99,
+        "ink_height": 665.0
+      }
+    },
+    {
+      "check": "slide4.requested_layout.uniform_84_80_76_72_font",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        84,
+        84,
+        84,
+        84,
+        84,
+        84
+      ]
+    },
+    {
+      "check": "slide4.requested_layout.largest_fitting_font",
+      "passed": true,
+      "id": "N06",
+      "detail": {
+        "selected": 84,
+        "candidates": [
+          {
+            "font_size": 84,
+            "fits": true,
+            "ink_height": 665.0
+          },
+          {
+            "font_size": 80,
+            "fits": true,
+            "ink_height": 637.5
+          },
+          {
+            "font_size": 76,
+            "fits": true,
+            "ink_height": 614.5
+          },
+          {
+            "font_size": 72,
+            "fits": true,
+            "ink_height": 501.5
+          }
         ]
       }
+    },
+    {
+      "check": "slide4.requested_layout.separate_exact_semantic_groups",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.requested_layout.each_item_starts_own_group",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.requested_layout.hanging_indent_origins",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.requested_layout.fixed_leading_and_group_spacing",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        414.0,
+        414.0,
+        414.0,
+        414.0,
+        414.0,
+        414.0
+      ]
+    },
+    {
+      "check": "slide4.requested_layout.body_ink_inside_safe_area",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        88.0,
+        352.5,
+        853.0,
+        1017.5
+      ]
+    },
+    {
+      "check": "slide4.requested_layout.numeric_words_lime",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.requested_layout.actual_numeric_glyph_pixels_lime",
+      "passed": true,
+      "id": "N06"
     },
     {
       "check": "slide4.body.1.line0.bbox_shape",
@@ -14614,9 +15070,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        356.5,
-        683.5,
-        434.5
+        352.5,
+        715.5,
+        434.0
       ]
     },
     {
@@ -14625,9 +15081,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        356.5,
-        683.5,
-        434.5
+        352.5,
+        715.5,
+        434.0
       ]
     },
     {
@@ -14636,9 +15092,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        549.5,
-        988.0,
-        615.0
+        487.5,
+        651.0,
+        549.5
       ]
     },
     {
@@ -14647,9 +15103,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        549.5,
-        988.0,
-        615.0
+        487.5,
+        651.0,
+        549.5
       ]
     },
     {
@@ -14658,9 +15114,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        735.5,
-        629.5,
-        800.0
+        587.0,
+        528.5,
+        660.5
       ]
     },
     {
@@ -14669,9 +15125,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        735.5,
-        629.5,
-        800.0
+        587.0,
+        528.5,
+        660.5
       ]
     },
     {
@@ -14680,9 +15136,9 @@
       "id": "N06",
       "detail": [
         88.0,
-        962.5,
-        988.0,
-        1002.0
+        722.0,
+        703.0,
+        795.5
       ]
     },
     {
@@ -14691,9 +15147,53 @@
       "id": "N06",
       "detail": [
         88.0,
-        962.5,
-        988.0,
-        1002.0
+        722.0,
+        703.0,
+        795.5
+      ]
+    },
+    {
+      "check": "slide4.body.1.line4.bbox_shape",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        88.0,
+        856.5,
+        853.0,
+        918.5
+      ]
+    },
+    {
+      "check": "slide4.body.1.line4.bbox_inside_canvas",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        88.0,
+        856.5,
+        853.0,
+        918.5
+      ]
+    },
+    {
+      "check": "slide4.body.1.line5.bbox_shape",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        88.0,
+        955.5,
+        737.5,
+        1017.5
+      ]
+    },
+    {
+      "check": "slide4.body.1.line5.bbox_inside_canvas",
+      "passed": true,
+      "id": "N06",
+      "detail": [
+        88.0,
+        955.5,
+        737.5,
+        1017.5
       ]
     },
     {
@@ -14707,8 +15207,8 @@
       "id": "N06",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 85.5,
-        "descent": 24.0
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -14738,15 +15238,15 @@
       "detail": {
         "recorded": [
           88.0,
-          356.5,
-          683.5,
-          434.5
+          352.5,
+          715.5,
+          434.0
         ],
         "measured_union": [
           88.0,
-          356.5,
-          683.5,
-          434.5
+          352.5,
+          715.5,
+          434.0
         ]
       }
     },
@@ -14761,8 +15261,8 @@
       "id": "N06",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 79.0,
-        "descent": 22.5
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -14792,15 +15292,15 @@
       "detail": {
         "recorded": [
           88.0,
-          549.5,
-          988.0,
-          615.0
+          487.5,
+          651.0,
+          549.5
         ],
         "measured_union": [
           88.0,
-          549.5,
-          988.0,
-          615.0
+          487.5,
+          651.0,
+          549.5
         ]
       }
     },
@@ -14815,8 +15315,8 @@
       "id": "N06",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 79.0,
-        "descent": 22.5
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -14846,15 +15346,15 @@
       "detail": {
         "recorded": [
           88.0,
-          735.5,
-          629.5,
-          800.0
+          587.0,
+          528.5,
+          660.5
         ],
         "measured_union": [
           88.0,
-          735.5,
-          629.5,
-          800.0
+          587.0,
+          528.5,
+          660.5
         ]
       }
     },
@@ -14869,8 +15369,8 @@
       "id": "N06",
       "detail": {
         "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
-        "ascent": 56.5,
-        "descent": 16.0
+        "ascent": 90.0,
+        "descent": 25.5
       }
     },
     {
@@ -14900,15 +15400,123 @@
       "detail": {
         "recorded": [
           88.0,
-          962.5,
-          988.0,
-          1002.0
+          722.0,
+          703.0,
+          795.5
         ],
         "measured_union": [
           88.0,
-          962.5,
-          988.0,
-          1002.0
+          722.0,
+          703.0,
+          795.5
+        ]
+      }
+    },
+    {
+      "check": "slide4.body.1.line4.baseline_records",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line4.independent_font_metrics",
+      "passed": true,
+      "id": "N06",
+      "detail": {
+        "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
+        "ascent": 90.0,
+        "descent": 25.5
+      }
+    },
+    {
+      "check": "slide4.body.1.line4.baseline_draw_origin",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line4.words_preserve_line",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line4.all_words_on_line_baseline",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line4.word_bounds_match_font_metrics",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line4.line_bounds_match_drawn_words",
+      "passed": true,
+      "id": "N06",
+      "detail": {
+        "recorded": [
+          88.0,
+          856.5,
+          853.0,
+          918.5
+        ],
+        "measured_union": [
+          88.0,
+          856.5,
+          853.0,
+          918.5
+        ]
+      }
+    },
+    {
+      "check": "slide4.body.1.line5.baseline_records",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line5.independent_font_metrics",
+      "passed": true,
+      "id": "N06",
+      "detail": {
+        "font": "brand/03_Fonts/Manrope-Extrabold.ttf",
+        "ascent": 90.0,
+        "descent": 25.5
+      }
+    },
+    {
+      "check": "slide4.body.1.line5.baseline_draw_origin",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line5.words_preserve_line",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line5.all_words_on_line_baseline",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line5.word_bounds_match_font_metrics",
+      "passed": true,
+      "id": "N06"
+    },
+    {
+      "check": "slide4.body.1.line5.line_bounds_match_drawn_words",
+      "passed": true,
+      "id": "N06",
+      "detail": {
+        "recorded": [
+          88.0,
+          955.5,
+          737.5,
+          1017.5
+        ],
+        "measured_union": [
+          88.0,
+          955.5,
+          737.5,
+          1017.5
         ]
       }
     },
@@ -34848,6 +35456,30 @@
     },
     {
       "check": "regression_control.freshly_retimed_scenes_and_duration_pass_without_code_changes",
+      "passed": true
+    },
+    {
+      "check": "regression_control.below_72px_requested_body_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.unnecessary_downsizing_when_84px_fits_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.inconsistent_heading_and_item_font_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.continuation_aligned_under_number_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.combined_numbered_items_are_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.non_lime_numeric_fill_is_rejected",
       "passed": true
     }
   ]

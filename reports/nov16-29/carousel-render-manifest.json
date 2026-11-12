@@ -19,6 +19,10 @@
     "anchor": "ls",
     "origin_units": "final-image pixels; pixel_origin is the 2x raster coordinate"
   },
+  "updated_media": [
+    "media/N02/04.jpg",
+    "media/N06/04.jpg"
+  ],
   "slides": [
     {
       "id": "N02",
@@ -1367,6 +1371,7 @@
                     194.5,
                     176.5
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -1388,6 +1393,7 @@
                     242.5,
                     171.0
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -1409,6 +1415,7 @@
                     276.5,
                     171.0
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -1430,6 +1437,7 @@
                     346.0,
                     171.0
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -1453,565 +1461,691 @@
           "display_text": "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
           "bounds": [
             88.0,
-            352.0,
-            987.0,
-            957.5
+            303.0,
+            988.5,
+            1067.0
           ],
-          "font_size": 66,
+          "font_size": 84,
           "weight": "Extrabold",
           "lines": [
             {
-              "text": "Bank 3 cheezein dekhta hai:",
+              "text": "Bank 3 cheezein",
               "bounds": [
                 88.0,
-                352.0,
-                987.0,
-                401.0
+                303.0,
+                753.0,
+                365.0
               ],
-              "baseline_y": 400.5,
+              "baseline_y": 364.5,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                400.5
+                364.5
               ],
               "pixel_origin": [
                 176,
-                801
+                729
               ],
-              "font_size": 66,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 70.5,
-                "descent": 20.0
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "Bank",
                   "bounds": [
                     88.0,
-                    353.0,
-                    248.5,
-                    401.0
+                    304.0,
+                    292.5,
+                    365.0
                   ],
-                  "baseline_y": 400.5,
-                  "line_baseline_y": 400.5,
-                  "baseline_px": 801,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 364.5,
+                  "line_baseline_y": 364.5,
+                  "baseline_px": 729,
                   "draw_origin": [
                     88.0,
-                    400.5
+                    364.5
                   ],
                   "pixel_origin": [
                     176,
-                    801
+                    729
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "3",
                   "bounds": [
-                    260.0,
-                    353.0,
-                    299.0,
-                    401.0
+                    307.5,
+                    304.0,
+                    357.0,
+                    365.0
                   ],
-                  "baseline_y": 400.5,
-                  "line_baseline_y": 400.5,
-                  "baseline_px": 801,
+                  "fill": "#B8FF5A",
+                  "baseline_y": 364.5,
+                  "line_baseline_y": 364.5,
+                  "baseline_px": 729,
                   "draw_origin": [
-                    260.0,
-                    400.5
+                    307.5,
+                    364.5
                   ],
                   "pixel_origin": [
-                    520,
-                    801
+                    615,
+                    729
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "cheezein",
                   "bounds": [
-                    312.0,
-                    352.0,
-                    609.5,
-                    401.0
+                    374.0,
+                    303.0,
+                    753.0,
+                    365.0
                   ],
-                  "baseline_y": 400.5,
-                  "line_baseline_y": 400.5,
-                  "baseline_px": 801,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 364.5,
+                  "line_baseline_y": 364.5,
+                  "baseline_px": 729,
                   "draw_origin": [
-                    312.0,
-                    400.5
+                    374.0,
+                    364.5
                   ],
                   "pixel_origin": [
-                    624,
-                    801
+                    748,
+                    729
                   ],
                   "anchor": "ls"
-                },
+                }
+              ],
+              "paragraph_index": 0,
+              "group_role": "heading",
+              "is_continuation": false
+            },
+            {
+              "text": "dekhta hai:",
+              "bounds": [
+                88.0,
+                402.0,
+                552.5,
+                464.0
+              ],
+              "baseline_y": 463.5,
+              "anchor": "ls",
+              "draw_origin": [
+                88.0,
+                463.5
+              ],
+              "pixel_origin": [
+                176,
+                927
+              ],
+              "font_size": 84,
+              "weight": "Extrabold",
+              "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
+              "font_metrics": {
+                "ascent": 90.0,
+                "descent": 25.5
+              },
+              "words": [
                 {
                   "text": "dekhta",
                   "bounds": [
-                    622.5,
-                    353.0,
-                    850.5,
-                    401.0
+                    88.0,
+                    403.0,
+                    378.0,
+                    464.0
                   ],
-                  "baseline_y": 400.5,
-                  "line_baseline_y": 400.5,
-                  "baseline_px": 801,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 463.5,
+                  "line_baseline_y": 463.5,
+                  "baseline_px": 927,
                   "draw_origin": [
-                    622.5,
-                    400.5
+                    88.0,
+                    463.5
                   ],
                   "pixel_origin": [
-                    1245,
-                    801
+                    176,
+                    927
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "hai:",
                   "bounds": [
-                    863.5,
-                    352.0,
-                    987.0,
-                    401.0
+                    395.0,
+                    402.0,
+                    552.5,
+                    464.0
                   ],
-                  "baseline_y": 400.5,
-                  "line_baseline_y": 400.5,
-                  "baseline_px": 801,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 463.5,
+                  "line_baseline_y": 463.5,
+                  "baseline_px": 927,
                   "draw_origin": [
-                    863.5,
-                    400.5
+                    395.0,
+                    463.5
                   ],
                   "pixel_origin": [
-                    1727,
-                    801
+                    790,
+                    927
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 0,
+              "group_role": "heading",
+              "is_continuation": true
             },
             {
-              "text": "1. Kamai aur ITR (income tax return)",
+              "text": "1. Kamai aur ITR",
               "bounds": [
                 88.0,
-                540.5,
-                979.5,
-                594.5
+                537.0,
+                729.5,
+                599.0
               ],
-              "baseline_y": 584.5,
+              "baseline_y": 598.5,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                584.5
+                598.5
               ],
               "pixel_origin": [
                 176,
-                1169
+                1197
               ],
-              "font_size": 51,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 54.5,
-                "descent": 15.5
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "1.",
                   "bounds": [
                     88.0,
-                    547.5,
-                    127.5,
-                    584.5
+                    538.0,
+                    153.0,
+                    598.5
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#B8FF5A",
+                  "baseline_y": 598.5,
+                  "line_baseline_y": 598.5,
+                  "baseline_px": 1197,
                   "draw_origin": [
                     88.0,
-                    584.5
+                    598.5
                   ],
                   "pixel_origin": [
                     176,
-                    1169
+                    1197
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "Kamai",
                   "bounds": [
-                    137.5,
-                    547.0,
-                    292.0,
-                    585.0
+                    170.0,
+                    537.0,
+                    426.0,
+                    599.0
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 598.5,
+                  "line_baseline_y": 598.5,
+                  "baseline_px": 1197,
                   "draw_origin": [
-                    137.5,
-                    584.5
+                    170.0,
+                    598.5
                   ],
                   "pixel_origin": [
-                    275,
-                    1169
+                    340,
+                    1197
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "aur",
                   "bounds": [
-                    302.0,
-                    556.5,
-                    385.0,
-                    585.0
+                    443.0,
+                    552.5,
+                    580.0,
+                    599.0
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 598.5,
+                  "line_baseline_y": 598.5,
+                  "baseline_px": 1197,
                   "draw_origin": [
-                    302.0,
-                    584.5
+                    443.0,
+                    598.5
                   ],
                   "pixel_origin": [
-                    604,
-                    1169
+                    886,
+                    1197
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "ITR",
                   "bounds": [
-                    395.0,
-                    547.5,
-                    475.0,
-                    584.5
+                    597.0,
+                    538.0,
+                    729.5,
+                    598.5
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 598.5,
+                  "line_baseline_y": 598.5,
+                  "baseline_px": 1197,
                   "draw_origin": [
-                    395.0,
-                    584.5
+                    597.0,
+                    598.5
                   ],
                   "pixel_origin": [
-                    790,
-                    1169
+                    1194,
+                    1197
                   ],
                   "anchor": "ls"
-                },
+                }
+              ],
+              "paragraph_index": 1,
+              "group_role": "numbered_item",
+              "is_continuation": false
+            },
+            {
+              "text": "(income tax return)",
+              "bounds": [
+                170.0,
+                625.5,
+                988.5,
+                714.0
+              ],
+              "baseline_y": 697.5,
+              "anchor": "ls",
+              "draw_origin": [
+                170.0,
+                697.5
+              ],
+              "pixel_origin": [
+                340,
+                1395
+              ],
+              "font_size": 84,
+              "weight": "Extrabold",
+              "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
+              "font_metrics": {
+                "ascent": 90.0,
+                "descent": 25.5
+              },
+              "words": [
                 {
                   "text": "(income",
                   "bounds": [
-                    485.0,
-                    540.5,
-                    695.0,
-                    594.5
+                    170.0,
+                    625.5,
+                    517.0,
+                    714.0
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 697.5,
+                  "line_baseline_y": 697.5,
+                  "baseline_px": 1395,
                   "draw_origin": [
-                    485.0,
-                    584.5
+                    170.0,
+                    697.5
                   ],
                   "pixel_origin": [
-                    970,
-                    1169
+                    340,
+                    1395
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "tax",
                   "bounds": [
-                    705.0,
-                    549.0,
-                    785.5,
-                    585.0
+                    534.0,
+                    639.5,
+                    668.0,
+                    698.0
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 697.5,
+                  "line_baseline_y": 697.5,
+                  "baseline_px": 1395,
                   "draw_origin": [
-                    705.0,
-                    584.5
+                    534.0,
+                    697.5
                   ],
                   "pixel_origin": [
-                    1410,
-                    1169
+                    1068,
+                    1395
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "return)",
                   "bounds": [
-                    795.5,
-                    540.5,
-                    979.5,
-                    594.5
+                    685.0,
+                    625.5,
+                    988.5,
+                    714.0
                   ],
-                  "baseline_y": 584.5,
-                  "line_baseline_y": 584.5,
-                  "baseline_px": 1169,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 697.5,
+                  "line_baseline_y": 697.5,
+                  "baseline_px": 1395,
                   "draw_origin": [
-                    795.5,
-                    584.5
+                    685.0,
+                    697.5
                   ],
                   "pixel_origin": [
-                    1591,
-                    1169
+                    1370,
+                    1395
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 1,
+              "group_role": "numbered_item",
+              "is_continuation": true
             },
             {
               "text": "2. Purani EMIs",
               "bounds": [
                 88.0,
-                727.0,
-                436.0,
-                765.0
+                771.0,
+                662.0,
+                833.0
               ],
-              "baseline_y": 764.5,
+              "baseline_y": 832.5,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                764.5
+                832.5
               ],
               "pixel_origin": [
                 176,
-                1529
+                1665
               ],
-              "font_size": 51,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 54.5,
-                "descent": 15.5
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "2.",
                   "bounds": [
                     88.0,
-                    727.0,
-                    135.5,
-                    764.5
+                    771.5,
+                    165.5,
+                    832.5
                   ],
-                  "baseline_y": 764.5,
-                  "line_baseline_y": 764.5,
-                  "baseline_px": 1529,
+                  "fill": "#B8FF5A",
+                  "baseline_y": 832.5,
+                  "line_baseline_y": 832.5,
+                  "baseline_px": 1665,
                   "draw_origin": [
                     88.0,
-                    764.5
+                    832.5
                   ],
                   "pixel_origin": [
                     176,
-                    1529
+                    1665
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "Purani",
                   "bounds": [
-                    145.5,
-                    727.0,
-                    309.0,
-                    765.0
+                    182.5,
+                    771.0,
+                    452.5,
+                    833.0
                   ],
-                  "baseline_y": 764.5,
-                  "line_baseline_y": 764.5,
-                  "baseline_px": 1529,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 832.5,
+                  "line_baseline_y": 832.5,
+                  "baseline_px": 1665,
                   "draw_origin": [
-                    145.5,
-                    764.5
+                    182.5,
+                    832.5
                   ],
                   "pixel_origin": [
-                    291,
-                    1529
+                    365,
+                    1665
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "EMIs",
                   "bounds": [
-                    319.0,
-                    727.5,
-                    436.0,
-                    765.0
+                    469.5,
+                    772.0,
+                    662.0,
+                    833.0
                   ],
-                  "baseline_y": 764.5,
-                  "line_baseline_y": 764.5,
-                  "baseline_px": 1529,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 832.5,
+                  "line_baseline_y": 832.5,
+                  "baseline_px": 1665,
                   "draw_origin": [
-                    319.0,
-                    764.5
+                    469.5,
+                    832.5
                   ],
                   "pixel_origin": [
-                    638,
-                    1529
+                    939,
+                    1665
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 2,
+              "group_role": "numbered_item",
+              "is_continuation": false
             },
             {
-              "text": "3. Property ke kagaz aur title",
+              "text": "3. Property ke kagaz",
               "bounds": [
                 88.0,
                 907.0,
-                800.5,
-                957.5
+                920.0,
+                988.0
               ],
-              "baseline_y": 944.5,
+              "baseline_y": 967.5,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                944.5
+                967.5
               ],
               "pixel_origin": [
                 176,
-                1889
+                1935
               ],
-              "font_size": 51,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 54.5,
-                "descent": 15.5
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "3.",
                   "bounds": [
                     88.0,
-                    907.5,
-                    134.5,
-                    945.0
+                    907.0,
+                    164.5,
+                    968.0
                   ],
-                  "baseline_y": 944.5,
-                  "line_baseline_y": 944.5,
-                  "baseline_px": 1889,
+                  "fill": "#B8FF5A",
+                  "baseline_y": 967.5,
+                  "line_baseline_y": 967.5,
+                  "baseline_px": 1935,
                   "draw_origin": [
                     88.0,
-                    944.5
+                    967.5
                   ],
                   "pixel_origin": [
                     176,
-                    1889
+                    1935
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "Property",
                   "bounds": [
-                    144.5,
-                    907.5,
-                    366.5,
-                    957.0
+                    181.5,
+                    907.0,
+                    546.5,
+                    987.5
                   ],
-                  "baseline_y": 944.5,
-                  "line_baseline_y": 944.5,
-                  "baseline_px": 1889,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 967.5,
+                  "line_baseline_y": 967.5,
+                  "baseline_px": 1935,
                   "draw_origin": [
-                    144.5,
-                    944.5
+                    181.5,
+                    967.5
                   ],
                   "pixel_origin": [
-                    289,
-                    1889
+                    363,
+                    1935
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "ke",
                   "bounds": [
-                    376.0,
-                    907.5,
-                    435.0,
-                    945.0
+                    563.5,
+                    907.0,
+                    661.0,
+                    968.0
                   ],
-                  "baseline_y": 944.5,
-                  "line_baseline_y": 944.5,
-                  "baseline_px": 1889,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 967.5,
+                  "line_baseline_y": 967.5,
+                  "baseline_px": 1935,
                   "draw_origin": [
-                    376.0,
-                    944.5
+                    563.5,
+                    967.5
                   ],
                   "pixel_origin": [
-                    752,
-                    1889
+                    1127,
+                    1935
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "kagaz",
                   "bounds": [
-                    445.0,
-                    907.5,
-                    591.5,
-                    957.5
+                    678.0,
+                    907.0,
+                    920.0,
+                    988.0
                   ],
-                  "baseline_y": 944.5,
-                  "line_baseline_y": 944.5,
-                  "baseline_px": 1889,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 967.5,
+                  "line_baseline_y": 967.5,
+                  "baseline_px": 1935,
                   "draw_origin": [
-                    445.0,
-                    944.5
+                    678.0,
+                    967.5
                   ],
                   "pixel_origin": [
-                    890,
-                    1889
+                    1356,
+                    1935
                   ],
                   "anchor": "ls"
-                },
+                }
+              ],
+              "paragraph_index": 3,
+              "group_role": "numbered_item",
+              "is_continuation": false
+            },
+            {
+              "text": "aur title",
+              "bounds": [
+                181.5,
+                1005.0,
+                511.5,
+                1067.0
+              ],
+              "baseline_y": 1066.5,
+              "anchor": "ls",
+              "draw_origin": [
+                181.5,
+                1066.5
+              ],
+              "pixel_origin": [
+                363,
+                2133
+              ],
+              "font_size": 84,
+              "weight": "Extrabold",
+              "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
+              "font_metrics": {
+                "ascent": 90.0,
+                "descent": 25.5
+              },
+              "words": [
                 {
                   "text": "aur",
                   "bounds": [
-                    601.5,
-                    916.5,
-                    684.5,
-                    945.0
+                    181.5,
+                    1020.5,
+                    318.5,
+                    1067.0
                   ],
-                  "baseline_y": 944.5,
-                  "line_baseline_y": 944.5,
-                  "baseline_px": 1889,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 1066.5,
+                  "line_baseline_y": 1066.5,
+                  "baseline_px": 2133,
                   "draw_origin": [
-                    601.5,
-                    944.5
+                    181.5,
+                    1066.5
                   ],
                   "pixel_origin": [
-                    1203,
-                    1889
+                    363,
+                    2133
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "title",
                   "bounds": [
-                    694.5,
-                    907.0,
-                    800.5,
-                    945.0
+                    335.5,
+                    1005.0,
+                    511.5,
+                    1067.0
                   ],
-                  "baseline_y": 944.5,
-                  "line_baseline_y": 944.5,
-                  "baseline_px": 1889,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 1066.5,
+                  "line_baseline_y": 1066.5,
+                  "baseline_px": 2133,
                   "draw_origin": [
-                    694.5,
-                    944.5
+                    335.5,
+                    1066.5
                   ],
                   "pixel_origin": [
-                    1389,
-                    1889
+                    671,
+                    2133
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 3,
+              "group_role": "numbered_item",
+              "is_continuation": true
             }
           ],
           "display_override": {
@@ -2019,18 +2153,118 @@
             "kind": "line_breaks",
             "canonical_text": "Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title",
             "display_text": "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
-            "description": "User-requested heading and three separately spaced numbered entries, each on one line."
+            "description": "User-requested heading and three separate numbered items, using uniform 84px type with hanging indents on wrapped continuation lines; 80/76/72px fallback only if needed to fit."
+          },
+          "groups": [
+            {
+              "index": 0,
+              "text": "Bank 3 cheezein dekhta hai:",
+              "kind": "heading",
+              "prefix": "",
+              "first_line_x": 88,
+              "text_start_x": 88.0,
+              "continuation_x": 88.0,
+              "line_indices": [
+                0,
+                1
+              ],
+              "bounds": [
+                88.0,
+                303.0,
+                753.0,
+                464.0
+              ]
+            },
+            {
+              "index": 1,
+              "text": "1. Kamai aur ITR (income tax return)",
+              "kind": "numbered_item",
+              "prefix": "1. ",
+              "first_line_x": 88,
+              "text_start_x": 170.0,
+              "continuation_x": 170.0,
+              "line_indices": [
+                2,
+                3
+              ],
+              "bounds": [
+                88.0,
+                537.0,
+                988.5,
+                714.0
+              ]
+            },
+            {
+              "index": 2,
+              "text": "2. Purani EMIs",
+              "kind": "numbered_item",
+              "prefix": "2. ",
+              "first_line_x": 88,
+              "text_start_x": 182.5,
+              "continuation_x": 182.5,
+              "line_indices": [
+                4
+              ],
+              "bounds": [
+                88.0,
+                771.0,
+                662.0,
+                833.0
+              ]
+            },
+            {
+              "index": 3,
+              "text": "3. Property ke kagaz aur title",
+              "kind": "numbered_item",
+              "prefix": "3. ",
+              "first_line_x": 88,
+              "text_start_x": 181.5,
+              "continuation_x": 181.5,
+              "line_indices": [
+                5,
+                6
+              ],
+              "bounds": [
+                88.0,
+                907.0,
+                920.0,
+                1067.0
+              ]
+            }
+          ],
+          "layout_policy": {
+            "safe_box": [
+              88,
+              250,
+              992,
+              1120
+            ],
+            "font_steps": [
+              84,
+              80,
+              76,
+              72
+            ],
+            "line_height_factor": 1.18,
+            "group_gap": 36,
+            "weight": "Extrabold",
+            "valign": "center",
+            "numeric_fill": "#B8FF5A",
+            "hanging_indent": "number prefix including its trailing space",
+            "selected_font_size": 84,
+            "leading": 99,
+            "ink_height": 764.0
           }
         }
       ],
-      "bytes": 122265,
+      "bytes": 169716,
       "display_body": "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
       "display_override": {
         "requested_by_user": true,
         "kind": "line_breaks",
         "canonical_text": "Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title",
         "display_text": "Bank 3 cheezein dekhta hai:\n1. Kamai aur ITR (income tax return)\n2. Purani EMIs\n3. Property ke kagaz aur title",
-        "description": "User-requested heading and three separately spaced numbered entries, each on one line."
+        "description": "User-requested heading and three separate numbered items, using uniform 84px type with hanging indents on wrapped continuation lines; 80/76/72px fallback only if needed to fit."
       }
     },
     {
@@ -8677,6 +8911,7 @@
                     194.5,
                     176.5
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -8698,6 +8933,7 @@
                     242.5,
                     171.0
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -8719,6 +8955,7 @@
                     276.5,
                     171.0
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -8740,6 +8977,7 @@
                     346.0,
                     171.0
                   ],
+                  "fill": "#B8FF5A",
                   "baseline_y": 170.5,
                   "line_baseline_y": 170.5,
                   "baseline_px": 341,
@@ -8763,439 +9001,528 @@
           "display_text": "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
           "bounds": [
             88.0,
-            356.5,
-            988.0,
-            1002.0
+            352.5,
+            853.0,
+            1017.5
           ],
-          "font_size": 80,
+          "font_size": 84,
           "weight": "Extrabold",
           "lines": [
             {
               "text": "Par total byaaj:",
               "bounds": [
                 88.0,
-                356.5,
-                683.5,
-                434.5
+                352.5,
+                715.5,
+                434.0
               ],
-              "baseline_y": 415.5,
+              "baseline_y": 414.0,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                415.5
+                414.0
               ],
               "pixel_origin": [
                 176,
-                831
+                828
               ],
-              "font_size": 80,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 85.5,
-                "descent": 24.0
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "Par",
                   "bounds": [
                     88.0,
-                    358.0,
-                    219.5,
-                    416.0
+                    353.5,
+                    226.0,
+                    414.5
                   ],
-                  "baseline_y": 415.5,
-                  "line_baseline_y": 415.5,
-                  "baseline_px": 831,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 414.0,
+                  "line_baseline_y": 414.0,
+                  "baseline_px": 828,
                   "draw_origin": [
                     88.0,
-                    415.5
+                    414.0
                   ],
                   "pixel_origin": [
                     176,
-                    831
+                    828
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "total",
                   "bounds": [
-                    235.5,
-                    356.5,
-                    426.5,
-                    416.0
+                    243.0,
+                    352.5,
+                    444.5,
+                    414.5
                   ],
-                  "baseline_y": 415.5,
-                  "line_baseline_y": 415.5,
-                  "baseline_px": 831,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 414.0,
+                  "line_baseline_y": 414.0,
+                  "baseline_px": 828,
                   "draw_origin": [
-                    235.5,
-                    415.5
+                    243.0,
+                    414.0
                   ],
                   "pixel_origin": [
-                    471,
-                    831
+                    486,
+                    828
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "byaaj:",
                   "bounds": [
-                    442.5,
-                    356.5,
-                    683.5,
-                    434.5
+                    461.5,
+                    352.5,
+                    715.5,
+                    434.0
                   ],
-                  "baseline_y": 415.5,
-                  "line_baseline_y": 415.5,
-                  "baseline_px": 831,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 414.0,
+                  "line_baseline_y": 414.0,
+                  "baseline_px": 828,
                   "draw_origin": [
-                    442.5,
-                    415.5
+                    461.5,
+                    414.0
                   ],
                   "pixel_origin": [
-                    885,
-                    831
+                    923,
+                    828
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 0,
+              "group_role": "heading",
+              "is_continuation": false
             },
             {
-              "text": "Personal loan ₹13,77,250",
+              "text": "Personal loan",
               "bounds": [
                 88.0,
-                549.5,
-                988.0,
-                615.0
+                487.5,
+                651.0,
+                549.5
               ],
-              "baseline_y": 604.0,
+              "baseline_y": 549.0,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                604.0
+                549.0
               ],
               "pixel_origin": [
                 176,
-                1208
+                1098
               ],
-              "font_size": 74,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 79.0,
-                "descent": 22.5
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "Personal",
                   "bounds": [
                     88.0,
-                    549.5,
-                    410.5,
-                    604.5
+                    487.5,
+                    454.0,
+                    549.5
                   ],
-                  "baseline_y": 604.0,
-                  "line_baseline_y": 604.0,
-                  "baseline_px": 1208,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 549.0,
+                  "line_baseline_y": 549.0,
+                  "baseline_px": 1098,
                   "draw_origin": [
                     88.0,
-                    604.0
+                    549.0
                   ],
                   "pixel_origin": [
                     176,
-                    1208
+                    1098
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "loan",
                   "bounds": [
-                    425.5,
-                    549.5,
-                    584.0,
-                    604.5
+                    471.0,
+                    487.5,
+                    651.0,
+                    549.5
                   ],
-                  "baseline_y": 604.0,
-                  "line_baseline_y": 604.0,
-                  "baseline_px": 1208,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 549.0,
+                  "line_baseline_y": 549.0,
+                  "baseline_px": 1098,
                   "draw_origin": [
-                    425.5,
-                    604.0
+                    471.0,
+                    549.0
                   ],
                   "pixel_origin": [
-                    851,
-                    1208
-                  ],
-                  "anchor": "ls"
-                },
-                {
-                  "text": "₹13,77,250",
-                  "bounds": [
-                    599.0,
-                    550.5,
-                    988.0,
-                    615.0
-                  ],
-                  "baseline_y": 604.0,
-                  "line_baseline_y": 604.0,
-                  "baseline_px": 1208,
-                  "draw_origin": [
-                    599.0,
-                    604.0
-                  ],
-                  "pixel_origin": [
-                    1198,
-                    1208
+                    942,
+                    1098
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 1,
+              "group_role": "total_item",
+              "is_continuation": false
+            },
+            {
+              "text": "₹13,77,250",
+              "bounds": [
+                88.0,
+                587.0,
+                528.5,
+                660.5
+              ],
+              "baseline_y": 648.0,
+              "anchor": "ls",
+              "draw_origin": [
+                88.0,
+                648.0
+              ],
+              "pixel_origin": [
+                176,
+                1296
+              ],
+              "font_size": 84,
+              "weight": "Extrabold",
+              "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
+              "font_metrics": {
+                "ascent": 90.0,
+                "descent": 25.5
+              },
+              "words": [
+                {
+                  "text": "₹13,77,250",
+                  "bounds": [
+                    88.0,
+                    587.0,
+                    528.5,
+                    660.5
+                  ],
+                  "fill": "#B8FF5A",
+                  "baseline_y": 648.0,
+                  "line_baseline_y": 648.0,
+                  "baseline_px": 1296,
+                  "draw_origin": [
+                    88.0,
+                    648.0
+                  ],
+                  "pixel_origin": [
+                    176,
+                    1296
+                  ],
+                  "anchor": "ls"
+                }
+              ],
+              "paragraph_index": 1,
+              "group_role": "total_item",
+              "is_continuation": true
             },
             {
               "text": "LAP ₹31,37,623",
               "bounds": [
                 88.0,
-                735.5,
-                629.5,
-                800.0
+                722.0,
+                703.0,
+                795.5
               ],
-              "baseline_y": 789.0,
+              "baseline_y": 783.0,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                789.0
+                783.0
               ],
               "pixel_origin": [
                 176,
-                1578
+                1566
               ],
-              "font_size": 74,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 79.0,
-                "descent": 22.5
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "LAP",
                   "bounds": [
                     88.0,
-                    736.0,
-                    226.5,
-                    789.0
+                    722.5,
+                    245.5,
+                    783.0
                   ],
-                  "baseline_y": 789.0,
-                  "line_baseline_y": 789.0,
-                  "baseline_px": 1578,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 783.0,
+                  "line_baseline_y": 783.0,
+                  "baseline_px": 1566,
                   "draw_origin": [
                     88.0,
-                    789.0
+                    783.0
                   ],
                   "pixel_origin": [
                     176,
-                    1578
+                    1566
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "₹31,37,623",
                   "bounds": [
-                    241.5,
-                    735.5,
-                    629.5,
-                    800.0
+                    262.5,
+                    722.0,
+                    703.0,
+                    795.5
                   ],
-                  "baseline_y": 789.0,
-                  "line_baseline_y": 789.0,
-                  "baseline_px": 1578,
+                  "fill": "#B8FF5A",
+                  "baseline_y": 783.0,
+                  "line_baseline_y": 783.0,
+                  "baseline_px": 1566,
                   "draw_origin": [
-                    241.5,
-                    789.0
+                    262.5,
+                    783.0
                   ],
                   "pixel_origin": [
-                    483,
-                    1578
+                    525,
+                    1566
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 2,
+              "group_role": "total_item",
+              "is_continuation": false
             },
             {
-              "text": "Kam EMI ka matlab sasta loan nahi.",
+              "text": "Kam EMI ka matlab",
               "bounds": [
                 88.0,
-                962.5,
-                988.0,
-                1002.0
+                856.5,
+                853.0,
+                918.5
               ],
-              "baseline_y": 1001.5,
+              "baseline_y": 918.0,
               "anchor": "ls",
               "draw_origin": [
                 88.0,
-                1001.5
+                918.0
               ],
               "pixel_origin": [
                 176,
-                2003
+                1836
               ],
-              "font_size": 53,
+              "font_size": 84,
               "weight": "Extrabold",
               "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
               "font_metrics": {
-                "ascent": 56.5,
-                "descent": 16.0
+                "ascent": 90.0,
+                "descent": 25.5
               },
               "words": [
                 {
                   "text": "Kam",
                   "bounds": [
                     88.0,
-                    963.0,
-                    202.5,
-                    1002.0
+                    857.5,
+                    270.0,
+                    918.5
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 918.0,
+                  "line_baseline_y": 918.0,
+                  "baseline_px": 1836,
                   "draw_origin": [
                     88.0,
-                    1001.5
+                    918.0
                   ],
                   "pixel_origin": [
                     176,
-                    2003
+                    1836
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "EMI",
                   "bounds": [
-                    213.0,
-                    963.0,
-                    305.5,
-                    1001.5
+                    287.0,
+                    857.5,
+                    433.5,
+                    918.0
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 918.0,
+                  "line_baseline_y": 918.0,
+                  "baseline_px": 1836,
                   "draw_origin": [
-                    213.0,
-                    1001.5
+                    287.0,
+                    918.0
                   ],
                   "pixel_origin": [
-                    426,
-                    2003
+                    574,
+                    1836
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "ka",
                   "bounds": [
-                    316.0,
-                    963.0,
-                    376.5,
-                    1002.0
+                    450.5,
+                    857.5,
+                    546.0,
+                    918.5
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 918.0,
+                  "line_baseline_y": 918.0,
+                  "baseline_px": 1836,
                   "draw_origin": [
-                    316.0,
-                    1001.5
+                    450.5,
+                    918.0
                   ],
                   "pixel_origin": [
-                    632,
-                    2003
+                    901,
+                    1836
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "matlab",
                   "bounds": [
-                    387.0,
-                    962.5,
-                    569.5,
-                    1002.0
+                    563.0,
+                    856.5,
+                    853.0,
+                    918.5
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 918.0,
+                  "line_baseline_y": 918.0,
+                  "baseline_px": 1836,
                   "draw_origin": [
-                    387.0,
-                    1001.5
+                    563.0,
+                    918.0
                   ],
                   "pixel_origin": [
-                    774,
-                    2003
+                    1126,
+                    1836
                   ],
                   "anchor": "ls"
-                },
+                }
+              ],
+              "paragraph_index": 3,
+              "group_role": "closing",
+              "is_continuation": false
+            },
+            {
+              "text": "sasta loan nahi.",
+              "bounds": [
+                88.0,
+                955.5,
+                737.5,
+                1017.5
+              ],
+              "baseline_y": 1017.0,
+              "anchor": "ls",
+              "draw_origin": [
+                88.0,
+                1017.0
+              ],
+              "pixel_origin": [
+                176,
+                2034
+              ],
+              "font_size": 84,
+              "weight": "Extrabold",
+              "font_path": "brand/03_Fonts/Manrope-Extrabold.ttf",
+              "font_metrics": {
+                "ascent": 90.0,
+                "descent": 25.5
+              },
+              "words": [
                 {
                   "text": "sasta",
                   "bounds": [
-                    580.0,
-                    964.5,
-                    723.5,
-                    1002.0
+                    88.0,
+                    959.0,
+                    315.5,
+                    1017.5
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 1017.0,
+                  "line_baseline_y": 1017.0,
+                  "baseline_px": 2034,
                   "draw_origin": [
-                    580.0,
-                    1001.5
+                    88.0,
+                    1017.0
                   ],
                   "pixel_origin": [
-                    1160,
-                    2003
+                    176,
+                    2034
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "loan",
                   "bounds": [
-                    734.0,
-                    962.5,
-                    847.0,
-                    1002.0
+                    332.5,
+                    955.5,
+                    512.5,
+                    1017.5
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 1017.0,
+                  "line_baseline_y": 1017.0,
+                  "baseline_px": 2034,
                   "draw_origin": [
-                    734.0,
-                    1001.5
+                    332.5,
+                    1017.0
                   ],
                   "pixel_origin": [
-                    1468,
-                    2003
+                    665,
+                    2034
                   ],
                   "anchor": "ls"
                 },
                 {
                   "text": "nahi.",
                   "bounds": [
-                    857.5,
-                    962.5,
-                    988.0,
-                    1002.0
+                    529.5,
+                    955.5,
+                    737.5,
+                    1017.5
                   ],
-                  "baseline_y": 1001.5,
-                  "line_baseline_y": 1001.5,
-                  "baseline_px": 2003,
+                  "fill": "#F8F8F4",
+                  "baseline_y": 1017.0,
+                  "line_baseline_y": 1017.0,
+                  "baseline_px": 2034,
                   "draw_origin": [
-                    857.5,
-                    1001.5
+                    529.5,
+                    1017.0
                   ],
                   "pixel_origin": [
-                    1715,
-                    2003
+                    1059,
+                    2034
                   ],
                   "anchor": "ls"
                 }
-              ]
+              ],
+              "paragraph_index": 3,
+              "group_role": "closing",
+              "is_continuation": true
             }
           ],
           "display_override": {
@@ -9203,18 +9530,117 @@
             "kind": "explicit_user_text_layout",
             "canonical_text": "Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi.",
             "display_text": "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
-            "description": "User-requested heading, two separate loan/interest lines, and closing line; remove the middot only here."
+            "description": "User-requested heading, two separate loan/interest items, and closing paragraph, using uniform 84px type with 80/76/72px fallback only if needed; remove the middot only here."
+          },
+          "groups": [
+            {
+              "index": 0,
+              "text": "Par total byaaj:",
+              "kind": "heading",
+              "prefix": "",
+              "first_line_x": 88,
+              "text_start_x": 88.0,
+              "continuation_x": 88.0,
+              "line_indices": [
+                0
+              ],
+              "bounds": [
+                88.0,
+                352.5,
+                715.5,
+                434.0
+              ]
+            },
+            {
+              "index": 1,
+              "text": "Personal loan ₹13,77,250",
+              "kind": "total_item",
+              "prefix": "",
+              "first_line_x": 88,
+              "text_start_x": 88.0,
+              "continuation_x": 88.0,
+              "line_indices": [
+                1,
+                2
+              ],
+              "bounds": [
+                88.0,
+                487.5,
+                651.0,
+                660.5
+              ]
+            },
+            {
+              "index": 2,
+              "text": "LAP ₹31,37,623",
+              "kind": "total_item",
+              "prefix": "",
+              "first_line_x": 88,
+              "text_start_x": 88.0,
+              "continuation_x": 88.0,
+              "line_indices": [
+                3
+              ],
+              "bounds": [
+                88.0,
+                722.0,
+                703.0,
+                795.5
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Kam EMI ka matlab sasta loan nahi.",
+              "kind": "closing",
+              "prefix": "",
+              "first_line_x": 88,
+              "text_start_x": 88.0,
+              "continuation_x": 88.0,
+              "line_indices": [
+                4,
+                5
+              ],
+              "bounds": [
+                88.0,
+                856.5,
+                853.0,
+                1017.5
+              ]
+            }
+          ],
+          "layout_policy": {
+            "safe_box": [
+              88,
+              250,
+              992,
+              1120
+            ],
+            "font_steps": [
+              84,
+              80,
+              76,
+              72
+            ],
+            "line_height_factor": 1.18,
+            "group_gap": 36,
+            "weight": "Extrabold",
+            "valign": "center",
+            "numeric_fill": "#B8FF5A",
+            "hanging_indent": "number prefix including its trailing space",
+            "selected_font_size": 84,
+            "leading": 99,
+            "ink_height": 665.0
           }
         }
       ],
-      "bytes": 136227,
+      "bytes": 163284,
       "display_body": "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
       "display_override": {
         "requested_by_user": true,
         "kind": "explicit_user_text_layout",
         "canonical_text": "Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi.",
         "display_text": "Par total byaaj:\nPersonal loan ₹13,77,250\nLAP ₹31,37,623\nKam EMI ka matlab sasta loan nahi.",
-        "description": "User-requested heading, two separate loan/interest lines, and closing line; remove the middot only here."
+        "description": "User-requested heading, two separate loan/interest items, and closing paragraph, using uniform 84px type with 80/76/72px fallback only if needed; remove the middot only here."
       }
     },
     {
