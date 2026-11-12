@@ -1,0 +1,169 @@
+{
+  "N01": [
+    {
+      "start": 0.8,
+      "end": 4.0,
+      "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?"
+    },
+    {
+      "start": 4.0,
+      "end": 7.8,
+      "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai."
+    },
+    {
+      "start": 7.8,
+      "end": 11.0,
+      "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar."
+    },
+    {
+      "start": 11.0,
+      "end": 16.5,
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar."
+    },
+    {
+      "start": 16.5,
+      "end": 18.7,
+      "text": "Score achha hai. Jagah kam hai."
+    }
+  ],
+  "N04": [
+    {
+      "start": 0.8,
+      "end": 3.9,
+      "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh."
+    },
+    {
+      "start": 3.9,
+      "end": 5.8,
+      "text": "Bank kis pe bharosa karega?"
+    },
+    {
+      "start": 5.8,
+      "end": 8.9,
+      "text": "Zyada lender loan ITR ki kamai pe naapte hain."
+    },
+    {
+      "start": 8.9,
+      "end": 14.0,
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai."
+    },
+    {
+      "start": 14.0,
+      "end": 16.3,
+      "text": "Dono ki kahani ek honi chahiye."
+    }
+  ],
+  "N05": [
+    {
+      "start": 0.8,
+      "end": 3.4,
+      "text": "Bank ne CC limit kyun kam ki?"
+    },
+    {
+      "start": 3.4,
+      "end": 7.4,
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai."
+    },
+    {
+      "start": 7.4,
+      "end": 11.0,
+      "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh."
+    },
+    {
+      "start": 11.0,
+      "end": 13.5,
+      "text": "Bacha sattar lakh. Pachees percent margin kaato."
+    },
+    {
+      "start": 13.5,
+      "end": 17.4,
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi."
+    }
+  ],
+  "N08": [
+    {
+      "start": 0.8,
+      "end": 4.0,
+      "text": "Bank file reject kyun karta hai? Paanch reason."
+    },
+    {
+      "start": 4.0,
+      "end": 5.8,
+      "text": "Ek: purani EMI zyada."
+    },
+    {
+      "start": 5.8,
+      "end": 7.8,
+      "text": "Do: ITR mein kamai kam."
+    },
+    {
+      "start": 7.8,
+      "end": 9.8,
+      "text": "Teen: cheque ya EMI bounce."
+    },
+    {
+      "start": 9.8,
+      "end": 11.9,
+      "text": "Chaar: property ke kagaz adhure."
+    },
+    {
+      "start": 11.9,
+      "end": 15.0,
+      "text": "Paanch: chhupaya hua loan. Yeh sabse bada."
+    }
+  ],
+  "N11": [
+    {
+      "start": 0.8,
+      "end": 3.6,
+      "text": "Profit hai. Phir bhi bank bole capacity kam?"
+    },
+    {
+      "start": 3.6,
+      "end": 5.8,
+      "text": "Bank ek simple naap dekhta hai."
+    },
+    {
+      "start": 5.8,
+      "end": 10.3,
+      "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai."
+    },
+    {
+      "start": 10.3,
+      "end": 14.5,
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do."
+    },
+    {
+      "start": 14.5,
+      "end": 17.1,
+      "text": "Kai lender isse zyada cushion maangte hain."
+    }
+  ],
+  "N12": [
+    {
+      "start": 0.8,
+      "end": 2.8,
+      "text": "Naya project. CMA ya DPR?"
+    },
+    {
+      "start": 2.8,
+      "end": 7.4,
+      "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega."
+    },
+    {
+      "start": 7.4,
+      "end": 11.6,
+      "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal."
+    },
+    {
+      "start": 11.6,
+      "end": 14.8,
+      "text": "Naye project ke liye zyada lender dono maangte hain."
+    },
+    {
+      "start": 14.8,
+      "end": 17.4,
+      "text": "Pehle DPR, phir uske numbers se CMA."
+    }
+  ]
+}

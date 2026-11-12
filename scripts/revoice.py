@@ -54,7 +54,7 @@ def sarvam_voice(item, a, key, vlen, tmp):
     speaker, model, pace = voice_cfg(item, a)
     for n, sc in enumerate(item["voice_scenes"]):
         raw = os.path.join(tmp, f"s{n}.wav")
-        tts(sc["text"], speaker, model, pace, key, raw, item.get("voice_lang", "en-IN"))
+        tts(sc.get("say") or sc["text"], speaker, model, pace, key, raw, item.get("voice_lang", "en-IN"))
         slot = max(0.5, min(sc["end"], vlen) - sc["start"] - 0.3)
         speed = min(max(duration(raw) / slot, 1.0), 1.35)
         fit = os.path.join(tmp, f"f{n}.wav")
@@ -141,7 +141,7 @@ def main():
             with tempfile.TemporaryDirectory() as tmp:
                 for n, sc in enumerate(it["voice_scenes"]):
                     raw = os.path.join(tmp, f"m{n}.wav")
-                    tts(sc["text"], speaker, model, pace, key, raw, it.get("voice_lang", "en-IN"))
+                    tts(sc.get("say") or sc["text"], speaker, model, pace, key, raw, it.get("voice_lang", "en-IN"))
                     sc["natural"] = round(duration(raw), 2)
             it["voice_measured"] = f"sarvam {model} {speaker} pace {pace}"
             print("measured", it["id"], [sc["natural"] for sc in it["voice_scenes"]])

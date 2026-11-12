@@ -1,0 +1,354 @@
+{
+  "brief_source": "batch_nov16_29/BRIEF_SOURCE.txt",
+  "batch": "Nov 16–29: 4-series batch (14 items)",
+  "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "example_tag": "Example. Not an offer.",
+  "series_pending": false,
+  "cover_annotations": false,
+  "word_limit_scope": "main body only; excludes CTA, example tag, series tag, website, and mandatory footer",
+  "items": [
+    {
+      "id": "N01",
+      "publish_at": "2026-11-16T19:30:00+05:30",
+      "type": "reel",
+      "series": "BANK KYA DEKHTA HAI",
+      "slides": [],
+      "voice_lines": [
+        "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
+        "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
+        "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
+        "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
+        "Score achha hai. Jagah kam hai."
+      ],
+      "hook": "CIBIL 780. Phir bhi loan kam kyun mila?",
+      "broll": "hand writing numbers on paper, calculator.",
+      "number_card": "Income ₹1,00,000 · Existing EMIs ₹35,000 · Limit 50% = ₹50,000 · Room for new EMI ₹15,000 (Example. Not an offer.)",
+      "cta": "Loan lene wale dost ko bhejo",
+      "caption": "Achha CIBIL score sirf pehla darwaza hai. Uske baad lender dekhta hai ki kamai ka kitna hissa pehle se EMI mein ja raha hai (FOIR: fixed obligations to income ratio). Har lender ki limit alag hoti hai; 50% sirf example hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanEligibility #CredNest #MumbaiBusiness #HomeLoan"
+    },
+    {
+      "id": "N02",
+      "publish_at": "2026-11-17T19:30:00+05:30",
+      "type": "carousel",
+      "series": "MYTH YA SACH",
+      "slides": [
+        {
+          "number": 1,
+          "text": "Property de di. Loan pakka? Nahi."
+        },
+        {
+          "number": 2,
+          "text": "MYTH: \"Property girvi rakh di, ab bank mana nahi karega.\""
+        },
+        {
+          "number": 3,
+          "text": "SACH: Property sirf security hai. Bank pehle poochta hai: EMI kahan se aayegi?"
+        },
+        {
+          "number": 4,
+          "text": "Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title"
+        },
+        {
+          "number": 5,
+          "text": "Property loan ka size tay karti hai. Kamai loan ka milna tay karti hai.",
+          "cta": "Property wale dost ko bhejo"
+        }
+      ],
+      "voice_lines": [],
+      "hook": "Property de di. Loan pakka? Nahi.",
+      "caption": "Loan against property (LAP) mein property aur repayment do alag sawaal hain. Dono ka jawab file mein hona chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #CredNest #MumbaiProperty #MythVsFact"
+    },
+    {
+      "id": "N03",
+      "publish_at": "2026-11-18T19:30:00+05:30",
+      "type": "carousel",
+      "series": "EK CASE, EK HISAAB",
+      "slides": [
+        {
+          "number": 1,
+          "text": "5 EMI → 1 EMI. Poora hisaab dekho"
+        },
+        {
+          "number": 2,
+          "text": "Example: 5 alag loan. Total baaki ₹40 lakh. Mahine ki total EMI ₹1,45,000."
+        },
+        {
+          "number": 3,
+          "text": "Agar yahi ₹40 lakh property ke against ek loan ban jaye: 11% p.a., 15 saal."
+        },
+        {
+          "number": 4,
+          "text": "Nayi EMI: ₹45,464. Mahine ka bojh ₹99,536 kam."
+        },
+        {
+          "number": 5,
+          "text": "Dhyan rahe: 15 saal mein total byaaj ₹41,83,498 banta hai. EMI kam, par samay lamba. Jaldi prepay karna samajhdaari hai."
+        },
+        {
+          "number": 6,
+          "text": "Ek EMI tabhi sahi hai jab cash flow sambhle aur naya udhaar band ho.",
+          "cta": "DM \"EMI\" — hisaab ka format bhejenge"
+        }
+      ],
+      "voice_lines": [],
+      "hook": "5 EMI → 1 EMI. Poora hisaab dekho",
+      "caption": "Consolidation ka matlab hai kai loan ko ek loan mein badalna. EMI kam hoti hai kyunki rate kam aur tenure lamba hota hai; total byaaj badh sakta hai. Dono side dekh ke faisla lo. Rate aur tenure example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanConsolidation #LAP #EMI #CredNest #MumbaiBusiness"
+    },
+    {
+      "id": "N04",
+      "publish_at": "2026-11-19T19:30:00+05:30",
+      "type": "reel",
+      "series": "BANK KYA DEKHTA HAI",
+      "slides": [],
+      "voice_lines": [
+        "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
+        "Bank kis pe bharosa karega?",
+        "Zyada lender loan ITR ki kamai pe naapte hain.",
+        "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
+        "Dono ki kahani ek honi chahiye."
+      ],
+      "hook": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
+      "broll": "papers on a desk, hand flipping a bank passbook/statement.",
+      "cta": "Apne CA ko bhejo",
+      "caption": "Turnover aur income alag cheezein hain. Jab ITR aur bank statement alag kahani batate hain, lender sawaal poochta hai. File dene se pehle farak samjha do. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ITR #BusinessLoan #CredNest #MSME #LoanEligibility"
+    },
+    {
+      "id": "N05",
+      "publish_at": "2026-11-20T19:30:00+05:30",
+      "type": "reel",
+      "series": "BUSINESS KA PAISA",
+      "slides": [],
+      "voice_lines": [
+        "Bank ne CC limit kyun kam ki?",
+        "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
+        "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
+        "Bacha sattar lakh. Pachees percent margin kaato.",
+        "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi."
+      ],
+      "hook": "Bank ne CC limit kyun kam ki?",
+      "broll": "godown / shop shelves with stock, hand counting cartons.",
+      "number_card": "Stock ₹60L + Debtors ₹40L − Creditors ₹30L = ₹70L · Less 25% margin · Drawing power ₹52.5L (Limit ₹75L) (Example. Not an offer.)",
+      "cta": "Apne accountant ko bhejo",
+      "caption": "CC (cash credit) limit sanction hoti hai, par har mahine ka stock statement tay karta hai ki kitna nikal sakte ho. Isse drawing power kehte hain. Margin har lender ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CashCredit #WorkingCapital #MSME #CredNest #MumbaiBusiness"
+    },
+    {
+      "id": "N06",
+      "publish_at": "2026-11-21T19:30:00+05:30",
+      "type": "carousel",
+      "series": "EK CASE, EK HISAAB",
+      "slides": [
+        {
+          "number": 1,
+          "text": "Same ₹30 lakh. Do loan. EMI ka farak dekho"
+        },
+        {
+          "number": 2,
+          "text": "Personal loan: 16% p.a., 5 saal. EMI ₹72,954."
+        },
+        {
+          "number": 3,
+          "text": "Loan against property: 11% p.a., 15 saal. EMI ₹34,098."
+        },
+        {
+          "number": 4,
+          "text": "Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi."
+        },
+        {
+          "number": 5,
+          "text": "Sawaal yeh hai: aapko kam EMI chahiye ya kam total byaaj?",
+          "cta": "Save karo, loan lene se pehle kaam aayega"
+        }
+      ],
+      "voice_lines": [],
+      "hook": "Same ₹30 lakh. Do loan. EMI ka farak dekho",
+      "caption": "EMI aur total cost do alag numbers hain. LAP mein property girvi hoti hai, isliye rate kam aur tenure lamba milta hai. Rates example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #PersonalLoan #EMI #CredNest #LoanComparison"
+    },
+    {
+      "id": "N07",
+      "publish_at": "2026-11-22T19:30:00+05:30",
+      "type": "reserved",
+      "instruction": "Claude fills this on Sat 21 Nov from the best performer of N01–N06 (highest shares, then follows). Codex: leave the slot empty."
+    },
+    {
+      "id": "N08",
+      "publish_at": "2026-11-23T19:30:00+05:30",
+      "type": "reel",
+      "series": "BANK KYA DEKHTA HAI",
+      "slides": [],
+      "voice_lines": [
+        "Bank file reject kyun karta hai? Paanch reason.",
+        "Ek: purani EMI zyada.",
+        "Do: ITR mein kamai kam.",
+        "Teen: cheque ya EMI bounce.",
+        "Chaar: property ke kagaz adhure.",
+        "Paanch: chhupaya hua loan. Yeh sabse bada."
+      ],
+      "hook": "Bank file reject kyun karta hai? 5 reasons",
+      "broll": "file folder being closed, stamp, papers.",
+      "cta": "Save karo. File dene se pehle check karo",
+      "caption": "Zyada file lender ke paas jaane se pehle hi theek ki ja sakti hain. Sabse bada nuksan chhupaye hue loan se hota hai, kyunki credit report mein sab dikhta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanRejection #CIBIL #BusinessLoan #CredNest #LoanTips"
+    },
+    {
+      "id": "N09",
+      "publish_at": "2026-11-24T19:30:00+05:30",
+      "type": "carousel",
+      "series": "MYTH YA SACH",
+      "slides": [
+        {
+          "number": 1,
+          "text": "Settlement kar liya. CIBIL theek? Nahi."
+        },
+        {
+          "number": 2,
+          "text": "MYTH: \"Settlement ke baad loan khatam, record saaf.\""
+        },
+        {
+          "number": 3,
+          "text": "SACH: Credit report mein \"Settled\" likha aata hai, \"Closed\" nahi."
+        },
+        {
+          "number": 4,
+          "text": "Naya lender \"Settled\" ko aise padhta hai: poora paisa wapas nahi aaya."
+        },
+        {
+          "number": 5,
+          "text": "Settlement se pehle poocho: kya poora chukane ya loan ko dobara structure karne ka raasta hai?",
+          "cta": "Jise zaroorat ho, use bhejo"
+        }
+      ],
+      "voice_lines": [],
+      "hook": "Settlement kar liya. CIBIL theek? Nahi.",
+      "caption": "Settlement aur closure alag hain. Settlement ka asar aage ke loan pe pad sakta hai. Faisla lene se pehle apni credit report khud dekho. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanSettlement #CreditScore #CredNest #MythVsFact"
+    },
+    {
+      "id": "N10",
+      "publish_at": "2026-11-25T19:30:00+05:30",
+      "type": "carousel",
+      "series": "EK CASE, EK HISAAB",
+      "slides": [
+        {
+          "number": 1,
+          "text": "₹3 Cr ki property. Loan kitna banta hai?"
+        },
+        {
+          "number": 2,
+          "text": "Pehla naap, property: agar lender value ka 60% deta hai, to ceiling ₹1.8 Cr."
+        },
+        {
+          "number": 3,
+          "text": "Doosra naap, kamai: agar aap ₹1,20,000 ki EMI utha sakte ho (11% p.a., 15 saal)…"
+        },
+        {
+          "number": 4,
+          "text": "…to loan banta hai lagbhag ₹1.06 Cr. Bank dono mein se chhota number deta hai."
+        },
+        {
+          "number": 5,
+          "text": "Property ₹3 Cr. Ceiling ₹1.8 Cr. Mila ₹1.06 Cr. Wajah: kamai.",
+          "cta": "DM \"LAP\" — apna naap samjho"
+        }
+      ],
+      "voice_lines": [],
+      "hook": "₹3 Cr ki property. Loan kitna banta hai?",
+      "caption": "LAP mein do naap hote hain: property ki value ka hissa (LTV: loan to value) aur EMI bharne ki capacity. Jo chhota, wahi loan. 60% aur 11% example hain; har lender aur property type ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #MumbaiProperty #CredNest #LoanEligibility"
+    },
+    {
+      "id": "N11",
+      "publish_at": "2026-11-26T19:30:00+05:30",
+      "type": "reel",
+      "series": "BANK KYA DEKHTA HAI",
+      "slides": [],
+      "voice_lines": [
+        "Profit hai. Phir bhi bank bole capacity kam?",
+        "Bank ek simple naap dekhta hai.",
+        "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
+        "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
+        "Kai lender isse zyada cushion maangte hain."
+      ],
+      "hook": "Profit hai. Phir bhi bank bole capacity kam?",
+      "broll": "hand on calculator next to a ledger / laptop with spreadsheet.",
+      "number_card": "Cash available ₹30L ÷ Yearly repayment ₹25L = 1.2 (Example. Not an offer.)",
+      "cta": "Apne CA ko bhejo",
+      "caption": "Is naap ko DSCR kehte hain (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #DSCR #BusinessLoan #MSME #CredNest #TermLoan"
+    },
+    {
+      "id": "N12",
+      "publish_at": "2026-11-27T19:30:00+05:30",
+      "type": "reel",
+      "series": "BUSINESS KA PAISA",
+      "slides": [],
+      "voice_lines": [
+        "Naya project. CMA ya DPR?",
+        "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
+        "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
+        "Naye project ke liye zyada lender dono maangte hain.",
+        "Pehle DPR, phir uske numbers se CMA."
+      ],
+      "hook": "Naya project. CMA ya DPR? Bank pehle kya maangega",
+      "broll": "factory floor / machinery wide shot, then papers.",
+      "cta": "Follow karo. Kal ek naya hisaab",
+      "caption": "DPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ProjectFinance #CMA #DPR #MSME #CredNest"
+    },
+    {
+      "id": "N13",
+      "publish_at": "2026-11-28T19:30:00+05:30",
+      "type": "carousel",
+      "series": "EK CASE, EK HISAAB",
+      "slides": [
+        {
+          "number": 1,
+          "text": "Home loan pe top-up ya naya personal loan?"
+        },
+        {
+          "number": 2,
+          "text": "Zaroorat: ₹10 lakh."
+        },
+        {
+          "number": 3,
+          "text": "Home loan top-up: 9.5% p.a., 10 saal. EMI ₹12,940. Total byaaj ₹5,52,771."
+        },
+        {
+          "number": 4,
+          "text": "Personal loan: 15% p.a., 5 saal. EMI ₹23,790. Total byaaj ₹4,27,396."
+        },
+        {
+          "number": 5,
+          "text": "Top-up: EMI kam, samay lamba. Personal loan: EMI zyada, jaldi khatam. Top-up ko 5 saal mein chukao to dono faayde.",
+          "cta": "Home loan wale dost ko bhejo"
+        }
+      ],
+      "voice_lines": [],
+      "hook": "Home loan pe top-up ya naya personal loan?",
+      "caption": "Top-up tabhi milta hai jab home loan ka record achha ho aur property ki value mein jagah ho. Rates example hain, lender ke assessment pe depend karte hain. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #HomeLoan #TopUpLoan #PersonalLoan #EMI #CredNest"
+    },
+    {
+      "id": "N14",
+      "publish_at": "2026-11-29T19:30:00+05:30",
+      "type": "reserved",
+      "instruction": "Claude fills this on Sat 28 Nov from the best performer of N08–N13. Codex: leave the slot empty."
+    }
+  ],
+  "series_tags": {
+    "BANK KYA DEKHTA HAI": [
+      "N01",
+      "N04",
+      "N08",
+      "N11"
+    ],
+    "MYTH YA SACH": [
+      "N02",
+      "N09"
+    ],
+    "EK CASE, EK HISAAB": [
+      "N03",
+      "N06",
+      "N10",
+      "N13"
+    ],
+    "BUSINESS KA PAISA": [
+      "N05",
+      "N12"
+    ]
+  },
+  "base_revision": "e394c4d614a295123a321b1e189c111ec38e916c"
+}

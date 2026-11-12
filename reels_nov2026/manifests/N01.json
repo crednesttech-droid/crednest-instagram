@@ -1,0 +1,8717 @@
+{
+  "id": "N01",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 20.2,
+    "total_frames": 606,
+    "hook_duration": 0.8,
+    "end_card_duration": 1.5,
+    "timing_config_sha256": "242ecdfe4c5afe1293146b14495e82dec678a4149c5c00f4218ee7d4aa01dfed",
+    "audio": false,
+    "file_size_bytes": 5141430,
+    "safe_zone": [
+      250,
+      1500
+    ],
+    "caption_baseline": 1260,
+    "caption_anchor": "ls",
+    "end_card_start": 18.7,
+    "cover_frame_seconds": 0,
+    "cover_quality": 95,
+    "cover_color_profile": "sRGB"
+  },
+  "hook": "CIBIL 780. Phir bhi loan kam kyun mila?",
+  "series": "BANK KYA DEKHTA HAI",
+  "number_card": "Income ₹1,00,000 · Existing EMIs ₹35,000 · Limit 50% = ₹50,000 · Room for new EMI ₹15,000 (Example. Not an offer.)",
+  "cta": "Loan lene wale dost ko bhejo",
+  "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "cover_boxes": [
+    {
+      "label": "series_tag",
+      "text": "BANK KYA DEKHTA HAI",
+      "box": [
+        88,
+        284,
+        431,
+        307
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        284
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "CIBIL 780.",
+      "box": [
+        88,
+        478,
+        769,
+        581
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        478
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Phir bhi loan",
+      "box": [
+        88,
+        649,
+        940,
+        753
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        649
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "kam kyun",
+      "box": [
+        88,
+        820,
+        738,
+        955
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        820
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "mila?",
+      "box": [
+        88,
+        991,
+        459,
+        1095
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        991
+      ]
+    },
+    {
+      "label": "website",
+      "text": "crednest.io",
+      "box": [
+        88,
+        1435,
+        301,
+        1463
+      ],
+      "anchor": "lt",
+      "origin": [
+        88,
+        1435
+      ]
+    }
+  ],
+  "voice_scenes": [
+    {
+      "start": 0.8,
+      "end": 4.0,
+      "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
+      "words": [
+        {
+          "text": "CIBIL",
+          "start": 0.8,
+          "end": 1.133333,
+          "start_frame": 24,
+          "end_frame": 34
+        },
+        {
+          "text": "780",
+          "start": 1.133333,
+          "end": 1.466667,
+          "start_frame": 34,
+          "end_frame": 44
+        },
+        {
+          "text": "hai.",
+          "start": 1.466667,
+          "end": 1.833333,
+          "start_frame": 44,
+          "end_frame": 55
+        },
+        {
+          "text": "Phir",
+          "start": 1.833333,
+          "end": 2.166667,
+          "start_frame": 55,
+          "end_frame": 65
+        },
+        {
+          "text": "bhi",
+          "start": 2.166667,
+          "end": 2.5,
+          "start_frame": 65,
+          "end_frame": 75
+        },
+        {
+          "text": "loan",
+          "start": 2.5,
+          "end": 2.833333,
+          "start_frame": 75,
+          "end_frame": 85
+        },
+        {
+          "text": "kam",
+          "start": 2.833333,
+          "end": 3.2,
+          "start_frame": 85,
+          "end_frame": 96
+        },
+        {
+          "text": "kyun",
+          "start": 3.2,
+          "end": 3.533333,
+          "start_frame": 96,
+          "end_frame": 106
+        },
+        {
+          "text": "mila?",
+          "start": 3.533333,
+          "end": 4.0,
+          "start_frame": 106,
+          "end_frame": 120
+        }
+      ],
+      "stock": "calculator"
+    },
+    {
+      "start": 4.0,
+      "end": 7.8,
+      "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
+      "words": [
+        {
+          "text": "Kyunki",
+          "start": 4.0,
+          "end": 4.333333,
+          "start_frame": 120,
+          "end_frame": 130
+        },
+        {
+          "text": "bank",
+          "start": 4.333333,
+          "end": 4.666667,
+          "start_frame": 130,
+          "end_frame": 140
+        },
+        {
+          "text": "score",
+          "start": 4.666667,
+          "end": 5.0,
+          "start_frame": 140,
+          "end_frame": 150
+        },
+        {
+          "text": "ke",
+          "start": 5.0,
+          "end": 5.333333,
+          "start_frame": 150,
+          "end_frame": 160
+        },
+        {
+          "text": "baad",
+          "start": 5.333333,
+          "end": 5.666667,
+          "start_frame": 160,
+          "end_frame": 170
+        },
+        {
+          "text": "aapki",
+          "start": 5.666667,
+          "end": 6.0,
+          "start_frame": 170,
+          "end_frame": 180
+        },
+        {
+          "text": "EMI",
+          "start": 6.0,
+          "end": 6.333333,
+          "start_frame": 180,
+          "end_frame": 190
+        },
+        {
+          "text": "ka",
+          "start": 6.333333,
+          "end": 6.666667,
+          "start_frame": 190,
+          "end_frame": 200
+        },
+        {
+          "text": "bojh",
+          "start": 6.666667,
+          "end": 7.0,
+          "start_frame": 200,
+          "end_frame": 210
+        },
+        {
+          "text": "dekhta",
+          "start": 7.0,
+          "end": 7.333333,
+          "start_frame": 210,
+          "end_frame": 220
+        },
+        {
+          "text": "hai.",
+          "start": 7.333333,
+          "end": 7.8,
+          "start_frame": 220,
+          "end_frame": 234
+        }
+      ],
+      "stock": "signing"
+    },
+    {
+      "start": 7.8,
+      "end": 11.0,
+      "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
+      "words": [
+        {
+          "text": "Example:",
+          "start": 7.8,
+          "end": 8.133333,
+          "start_frame": 234,
+          "end_frame": 244
+        },
+        {
+          "text": "kamai",
+          "start": 8.133333,
+          "end": 8.466667,
+          "start_frame": 244,
+          "end_frame": 254
+        },
+        {
+          "text": "ek",
+          "start": 8.466667,
+          "end": 8.833333,
+          "start_frame": 254,
+          "end_frame": 265
+        },
+        {
+          "text": "lakh",
+          "start": 8.833333,
+          "end": 9.166667,
+          "start_frame": 265,
+          "end_frame": 275
+        },
+        {
+          "text": "mahina,",
+          "start": 9.166667,
+          "end": 9.5,
+          "start_frame": 275,
+          "end_frame": 285
+        },
+        {
+          "text": "purani",
+          "start": 9.5,
+          "end": 9.833333,
+          "start_frame": 285,
+          "end_frame": 295
+        },
+        {
+          "text": "EMI",
+          "start": 9.833333,
+          "end": 10.2,
+          "start_frame": 295,
+          "end_frame": 306
+        },
+        {
+          "text": "paintees",
+          "start": 10.2,
+          "end": 10.533333,
+          "start_frame": 306,
+          "end_frame": 316
+        },
+        {
+          "text": "hazaar.",
+          "start": 10.533333,
+          "end": 11.0,
+          "start_frame": 316,
+          "end_frame": 330
+        }
+      ],
+      "stock": "calculator"
+    },
+    {
+      "start": 11.0,
+      "end": 16.5,
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
+      "words": [
+        {
+          "text": "Agar",
+          "start": 11.0,
+          "end": 11.333333,
+          "start_frame": 330,
+          "end_frame": 340
+        },
+        {
+          "text": "bank",
+          "start": 11.333333,
+          "end": 11.666667,
+          "start_frame": 340,
+          "end_frame": 350
+        },
+        {
+          "text": "pachaas",
+          "start": 11.666667,
+          "end": 12.0,
+          "start_frame": 350,
+          "end_frame": 360
+        },
+        {
+          "text": "percent",
+          "start": 12.0,
+          "end": 12.333333,
+          "start_frame": 360,
+          "end_frame": 370
+        },
+        {
+          "text": "tak",
+          "start": 12.333333,
+          "end": 12.666667,
+          "start_frame": 370,
+          "end_frame": 380
+        },
+        {
+          "text": "EMI",
+          "start": 12.666667,
+          "end": 13.0,
+          "start_frame": 380,
+          "end_frame": 390
+        },
+        {
+          "text": "maanta",
+          "start": 13.0,
+          "end": 13.333333,
+          "start_frame": 390,
+          "end_frame": 400
+        },
+        {
+          "text": "hai,",
+          "start": 13.333333,
+          "end": 13.666667,
+          "start_frame": 400,
+          "end_frame": 410
+        },
+        {
+          "text": "to",
+          "start": 13.666667,
+          "end": 14.033333,
+          "start_frame": 410,
+          "end_frame": 421
+        },
+        {
+          "text": "nayi",
+          "start": 14.033333,
+          "end": 14.366667,
+          "start_frame": 421,
+          "end_frame": 431
+        },
+        {
+          "text": "EMI",
+          "start": 14.366667,
+          "end": 14.7,
+          "start_frame": 431,
+          "end_frame": 441
+        },
+        {
+          "text": "ki",
+          "start": 14.7,
+          "end": 15.033333,
+          "start_frame": 441,
+          "end_frame": 451
+        },
+        {
+          "text": "jagah",
+          "start": 15.033333,
+          "end": 15.366667,
+          "start_frame": 451,
+          "end_frame": 461
+        },
+        {
+          "text": "sirf",
+          "start": 15.366667,
+          "end": 15.7,
+          "start_frame": 461,
+          "end_frame": 471
+        },
+        {
+          "text": "pandrah",
+          "start": 15.7,
+          "end": 16.033333,
+          "start_frame": 471,
+          "end_frame": 481
+        },
+        {
+          "text": "hazaar.",
+          "start": 16.033333,
+          "end": 16.5,
+          "start_frame": 481,
+          "end_frame": 495
+        }
+      ],
+      "stock": "calculator"
+    },
+    {
+      "start": 16.5,
+      "end": 18.7,
+      "text": "Score achha hai. Jagah kam hai.",
+      "words": [
+        {
+          "text": "Score",
+          "start": 16.5,
+          "end": 16.833333,
+          "start_frame": 495,
+          "end_frame": 505
+        },
+        {
+          "text": "achha",
+          "start": 16.833333,
+          "end": 17.2,
+          "start_frame": 505,
+          "end_frame": 516
+        },
+        {
+          "text": "hai.",
+          "start": 17.2,
+          "end": 17.533333,
+          "start_frame": 516,
+          "end_frame": 526
+        },
+        {
+          "text": "Jagah",
+          "start": 17.533333,
+          "end": 17.866667,
+          "start_frame": 526,
+          "end_frame": 536
+        },
+        {
+          "text": "kam",
+          "start": 17.866667,
+          "end": 18.233333,
+          "start_frame": 536,
+          "end_frame": 547
+        },
+        {
+          "text": "hai.",
+          "start": 18.233333,
+          "end": 18.7,
+          "start_frame": 547,
+          "end_frame": 561
+        }
+      ],
+      "stock": "signing"
+    }
+  ],
+  "states": [
+    {
+      "kind": "hook",
+      "text": "CIBIL 780. Phir bhi loan kam kyun mila?",
+      "start_frame": 0,
+      "end_frame": 24,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "CIBIL 780.",
+          "box": [
+            88,
+            478,
+            769,
+            581
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            478
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Phir bhi loan",
+          "box": [
+            88,
+            649,
+            940,
+            753
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            649
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "kam kyun",
+          "box": [
+            88,
+            820,
+            738,
+            955
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            820
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "mila?",
+          "box": [
+            88,
+            991,
+            459,
+            1095
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            991
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1435,
+            301,
+            1463
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1435
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL",
+      "start_frame": 24,
+      "end_frame": 34,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780",
+      "start_frame": 34,
+      "end_frame": 44,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai.",
+      "start_frame": 44,
+      "end_frame": 55,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai. Phir",
+      "start_frame": 55,
+      "end_frame": 65,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            619,
+            1107,
+            775,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            619,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai. Phir bhi",
+      "start_frame": 65,
+      "end_frame": 75,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            619,
+            1107,
+            775,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            619,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            791,
+            1107,
+            913,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            791,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai. Phir bhi loan",
+      "start_frame": 75,
+      "end_frame": 85,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            619,
+            1107,
+            775,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            619,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            791,
+            1107,
+            913,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            791,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            88,
+            1203,
+            255,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai. Phir bhi loan kam",
+      "start_frame": 85,
+      "end_frame": 96,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            619,
+            1107,
+            775,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            619,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            791,
+            1107,
+            913,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            791,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            88,
+            1203,
+            255,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            271,
+            1204,
+            430,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            271,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai. Phir bhi loan kam kyun",
+      "start_frame": 96,
+      "end_frame": 106,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            619,
+            1107,
+            775,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            619,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            791,
+            1107,
+            913,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            791,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            88,
+            1203,
+            255,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            271,
+            1204,
+            430,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            271,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kyun",
+          "box": [
+            446,
+            1204,
+            633,
+            1279
+          ],
+          "anchor": "ls",
+          "origin": [
+            446,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
+      "start_frame": 106,
+      "end_frame": 120,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CIBIL",
+          "box": [
+            88,
+            1107,
+            284,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "780",
+          "box": [
+            300,
+            1107,
+            444,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            300,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            460,
+            1107,
+            603,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            460,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            619,
+            1107,
+            775,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            619,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            791,
+            1107,
+            913,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            791,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            88,
+            1203,
+            255,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            271,
+            1204,
+            430,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            271,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kyun",
+          "box": [
+            446,
+            1204,
+            633,
+            1279
+          ],
+          "anchor": "ls",
+          "origin": [
+            446,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mila?",
+          "box": [
+            649,
+            1203,
+            855,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            649,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki",
+      "start_frame": 120,
+      "end_frame": 130,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank",
+      "start_frame": 130,
+      "end_frame": 140,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score",
+      "start_frame": 140,
+      "end_frame": 150,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke",
+      "start_frame": 150,
+      "end_frame": 160,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad",
+      "start_frame": 160,
+      "end_frame": 170,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad aapki",
+      "start_frame": 170,
+      "end_frame": 180,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aapki",
+          "box": [
+            292,
+            1107,
+            497,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad aapki EMI",
+      "start_frame": 180,
+      "end_frame": 190,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aapki",
+          "box": [
+            292,
+            1107,
+            497,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            513,
+            1108,
+            649,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            513,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad aapki EMI ka",
+      "start_frame": 190,
+      "end_frame": 200,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aapki",
+          "box": [
+            292,
+            1107,
+            497,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            513,
+            1108,
+            649,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            513,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            665,
+            1108,
+            753,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            665,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad aapki EMI ka bojh",
+      "start_frame": 200,
+      "end_frame": 210,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aapki",
+          "box": [
+            292,
+            1107,
+            497,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            513,
+            1108,
+            649,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            513,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            665,
+            1108,
+            753,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            665,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bojh",
+          "box": [
+            769,
+            1107,
+            940,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            769,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta",
+      "start_frame": 210,
+      "end_frame": 220,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aapki",
+          "box": [
+            292,
+            1107,
+            497,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            513,
+            1108,
+            649,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            513,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            665,
+            1108,
+            753,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            665,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bojh",
+          "box": [
+            769,
+            1107,
+            940,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            769,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dekhta",
+          "box": [
+            88,
+            1204,
+            357,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
+      "start_frame": 220,
+      "end_frame": 234,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            1011,
+            350,
+            1087
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            366,
+            1012,
+            555,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            366,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "score",
+          "box": [
+            569,
+            1025,
+            785,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            569,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            801,
+            1012,
+            891,
+            1069
+          ],
+          "anchor": "ls",
+          "origin": [
+            801,
+            1068
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baad",
+          "box": [
+            88,
+            1108,
+            276,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aapki",
+          "box": [
+            292,
+            1107,
+            497,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            292,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            513,
+            1108,
+            649,
+            1164
+          ],
+          "anchor": "ls",
+          "origin": [
+            513,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            665,
+            1108,
+            753,
+            1165
+          ],
+          "anchor": "ls",
+          "origin": [
+            665,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bojh",
+          "box": [
+            769,
+            1107,
+            940,
+            1183
+          ],
+          "anchor": "ls",
+          "origin": [
+            769,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dekhta",
+          "box": [
+            88,
+            1204,
+            357,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            373,
+            1203,
+            516,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            373,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example:",
+      "start_frame": 234,
+      "end_frame": 244,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai",
+      "start_frame": 244,
+      "end_frame": 254,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek",
+      "start_frame": 254,
+      "end_frame": 265,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek lakh",
+      "start_frame": 265,
+      "end_frame": 275,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            659,
+            1062,
+            786,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            659,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek lakh mahina,",
+      "start_frame": 275,
+      "end_frame": 285,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            659,
+            1062,
+            786,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            659,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mahina,",
+          "box": [
+            88,
+            1137,
+            333,
+            1194
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek lakh mahina, purani",
+      "start_frame": 285,
+      "end_frame": 295,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            659,
+            1062,
+            786,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            659,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mahina,",
+          "box": [
+            88,
+            1137,
+            333,
+            1194
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "purani",
+          "box": [
+            345,
+            1137,
+            542,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            345,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek lakh mahina, purani EMI",
+      "start_frame": 295,
+      "end_frame": 306,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            659,
+            1062,
+            786,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            659,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mahina,",
+          "box": [
+            88,
+            1137,
+            333,
+            1194
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "purani",
+          "box": [
+            345,
+            1137,
+            542,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            345,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            554,
+            1139,
+            662,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            554,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek lakh mahina, purani EMI paintees",
+      "start_frame": 306,
+      "end_frame": 316,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            659,
+            1062,
+            786,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            659,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mahina,",
+          "box": [
+            88,
+            1137,
+            333,
+            1194
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "purani",
+          "box": [
+            345,
+            1137,
+            542,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            345,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            554,
+            1139,
+            662,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            554,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paintees",
+          "box": [
+            674,
+            1137,
+            944,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            674,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
+      "start_frame": 316,
+      "end_frame": 330,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1062,
+            370,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            382,
+            1061,
+            563,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            382,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            575,
+            1063,
+            649,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            575,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            659,
+            1062,
+            786,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            659,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mahina,",
+          "box": [
+            88,
+            1137,
+            333,
+            1194
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "purani",
+          "box": [
+            345,
+            1137,
+            542,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            345,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            554,
+            1139,
+            662,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            554,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paintees",
+          "box": [
+            674,
+            1137,
+            944,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            674,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hazaar.",
+          "box": [
+            88,
+            1215,
+            314,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar",
+      "start_frame": 330,
+      "end_frame": 340,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank",
+      "start_frame": 340,
+      "end_frame": 350,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas",
+      "start_frame": 350,
+      "end_frame": 360,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent",
+      "start_frame": 360,
+      "end_frame": 370,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak",
+      "start_frame": 370,
+      "end_frame": 380,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI",
+      "start_frame": 380,
+      "end_frame": 390,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta",
+      "start_frame": 390,
+      "end_frame": 400,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai,",
+      "start_frame": 400,
+      "end_frame": 410,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to",
+      "start_frame": 410,
+      "end_frame": 421,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi",
+      "start_frame": 421,
+      "end_frame": 431,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI",
+      "start_frame": 431,
+      "end_frame": 441,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            88,
+            1139,
+            196,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki",
+      "start_frame": 441,
+      "end_frame": 451,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            88,
+            1139,
+            196,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            208,
+            1137,
+            260,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            208,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah",
+      "start_frame": 451,
+      "end_frame": 461,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            88,
+            1139,
+            196,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            208,
+            1137,
+            260,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            208,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "jagah",
+          "box": [
+            271,
+            1137,
+            441,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            272,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf",
+      "start_frame": 461,
+      "end_frame": 471,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            88,
+            1139,
+            196,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            208,
+            1137,
+            260,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            208,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "jagah",
+          "box": [
+            271,
+            1137,
+            441,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            272,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            453,
+            1137,
+            555,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            453,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah",
+      "start_frame": 471,
+      "end_frame": 481,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            88,
+            1139,
+            196,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            208,
+            1137,
+            260,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            208,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "jagah",
+          "box": [
+            271,
+            1137,
+            441,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            272,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            453,
+            1137,
+            555,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            453,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pandrah",
+          "box": [
+            567,
+            1139,
+            821,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            567,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
+      "start_frame": 481,
+      "end_frame": 495,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Agar",
+          "box": [
+            88,
+            987,
+            231,
+            1048
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            243,
+            987,
+            393,
+            1033
+          ],
+          "anchor": "ls",
+          "origin": [
+            243,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachaas",
+          "box": [
+            403,
+            987,
+            659,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            403,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            671,
+            989,
+            915,
+            1047
+          ],
+          "anchor": "ls",
+          "origin": [
+            671,
+            1032
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tak",
+          "box": [
+            88,
+            1063,
+            188,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            198,
+            1063,
+            306,
+            1108
+          ],
+          "anchor": "ls",
+          "origin": [
+            198,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maanta",
+          "box": [
+            318,
+            1065,
+            550,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            318,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            562,
+            1061,
+            675,
+            1118
+          ],
+          "anchor": "ls",
+          "origin": [
+            562,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "to",
+          "box": [
+            687,
+            1065,
+            754,
+            1109
+          ],
+          "anchor": "ls",
+          "origin": [
+            687,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "nayi",
+          "box": [
+            766,
+            1061,
+            894,
+            1123
+          ],
+          "anchor": "ls",
+          "origin": [
+            766,
+            1108
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "EMI",
+          "box": [
+            88,
+            1139,
+            196,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            208,
+            1137,
+            260,
+            1184
+          ],
+          "anchor": "ls",
+          "origin": [
+            208,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "jagah",
+          "box": [
+            271,
+            1137,
+            441,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            272,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            453,
+            1137,
+            555,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            453,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pandrah",
+          "box": [
+            567,
+            1139,
+            821,
+            1199
+          ],
+          "anchor": "ls",
+          "origin": [
+            567,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hazaar.",
+          "box": [
+            88,
+            1215,
+            314,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Score",
+      "start_frame": 495,
+      "end_frame": 505,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Score",
+          "box": [
+            88,
+            1138,
+            269,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Score achha",
+      "start_frame": 505,
+      "end_frame": 516,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Score",
+          "box": [
+            88,
+            1138,
+            269,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "achha",
+          "box": [
+            281,
+            1139,
+            467,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            281,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Score achha hai.",
+      "start_frame": 516,
+      "end_frame": 526,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Score",
+          "box": [
+            88,
+            1138,
+            269,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "achha",
+          "box": [
+            281,
+            1139,
+            467,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            281,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            479,
+            1137,
+            592,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            479,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Score achha hai. Jagah",
+      "start_frame": 526,
+      "end_frame": 536,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Score",
+          "box": [
+            88,
+            1138,
+            269,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "achha",
+          "box": [
+            281,
+            1139,
+            467,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            281,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            479,
+            1137,
+            592,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            479,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Jagah",
+          "box": [
+            604,
+            1139,
+            786,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            604,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Score achha hai. Jagah kam",
+      "start_frame": 536,
+      "end_frame": 547,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Score",
+          "box": [
+            88,
+            1138,
+            269,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "achha",
+          "box": [
+            281,
+            1139,
+            467,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            281,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            479,
+            1137,
+            592,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            479,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Jagah",
+          "box": [
+            604,
+            1139,
+            786,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            604,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            798,
+            1139,
+            925,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            798,
+            1184
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Score achha hai. Jagah kam hai.",
+      "start_frame": 547,
+      "end_frame": 561,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            284
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Income ₹1,00,000 · Existing EMIs",
+          "box": [
+            116,
+            542,
+            879,
+            591
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            542
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "₹35,000 · Limit 50% = ₹50,000 ·",
+          "box": [
+            116,
+            601,
+            855,
+            644
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            601
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Room for new EMI ₹15,000",
+          "box": [
+            116,
+            660,
+            728,
+            703
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            660
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Example. Not an offer.)",
+          "box": [
+            116,
+            719,
+            675,
+            772
+          ],
+          "anchor": "lt",
+          "origin": [
+            116,
+            719
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Score",
+          "box": [
+            88,
+            1138,
+            269,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "achha",
+          "box": [
+            281,
+            1139,
+            467,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            281,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            479,
+            1137,
+            592,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            479,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Jagah",
+          "box": [
+            604,
+            1139,
+            786,
+            1200
+          ],
+          "anchor": "ls",
+          "origin": [
+            604,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            798,
+            1139,
+            925,
+            1185
+          ],
+          "anchor": "ls",
+          "origin": [
+            798,
+            1184
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            88,
+            1213,
+            201,
+            1261
+          ],
+          "anchor": "ls",
+          "origin": [
+            88,
+            1260
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "end_card",
+      "text": "Loan lene wale dost ko bhejo",
+      "start_frame": 561,
+      "end_frame": 606,
+      "boxes": [
+        {
+          "label": "cta",
+          "text": "Loan lene wale",
+          "box": [
+            88,
+            673,
+            813,
+            748
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            673
+          ]
+        },
+        {
+          "label": "cta",
+          "text": "dost ko bhejo",
+          "box": [
+            88,
+            795,
+            751,
+            893
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            795
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1125,
+            380,
+            1164
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1125
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+          "box": [
+            88,
+            1320,
+            980,
+            1349
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1320
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "approval and terms are at the lender's sole discretion.",
+          "box": [
+            88,
+            1357,
+            839,
+            1386
+          ],
+          "anchor": "lt",
+          "origin": [
+            88,
+            1357
+          ]
+        }
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "start": 0.0,
+      "end": 0.8,
+      "source_offset": 0.45,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge.",
+      "cache_key": "91094239763116325c4b06dbf75f4193ce7522dfe2cd36c822897cd97bdd1998",
+      "cache_config": {
+        "source_sha256": "5f449105d90ab66eba33a6c59abebb0b43f4fed0c79e5d164eec2a973d33c70b",
+        "source_size": 2266583,
+        "input_loop": -1,
+        "frames": 24,
+        "offset": 0.45,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    },
+    {
+      "start": 0.8,
+      "end": 4.0,
+      "source_offset": 1.25,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge.",
+      "cache_key": "1026a074ffc2addcf1c74c1a12b405d34349719af52477930f39a4b055547022",
+      "cache_config": {
+        "source_sha256": "5f449105d90ab66eba33a6c59abebb0b43f4fed0c79e5d164eec2a973d33c70b",
+        "source_size": 2266583,
+        "input_loop": -1,
+        "frames": 96,
+        "offset": 1.25,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    },
+    {
+      "start": 4.0,
+      "end": 7.8,
+      "source_offset": 2.0500000000000003,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names.",
+      "cache_key": "7a3340fe7a6e4c69f73621aae036fd3afa5d814dba0b1dfdd54994b6bc157596",
+      "cache_config": {
+        "source_sha256": "ed51a6dd1542a140bcc6a21dbc173299e3bf9b24fba2c272fb541bde6ac3163c",
+        "source_size": 11355194,
+        "input_loop": -1,
+        "frames": 114,
+        "offset": 2.05,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    },
+    {
+      "start": 7.8,
+      "end": 11.0,
+      "source_offset": 0.45,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge.",
+      "cache_key": "36582576869c84e7fc510d42fd710110966d96f75dd3e4b8db62563810ab05ba",
+      "cache_config": {
+        "source_sha256": "5f449105d90ab66eba33a6c59abebb0b43f4fed0c79e5d164eec2a973d33c70b",
+        "source_size": 2266583,
+        "input_loop": -1,
+        "frames": 96,
+        "offset": 0.45,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    },
+    {
+      "start": 11.0,
+      "end": 16.5,
+      "source_offset": 1.25,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge.",
+      "cache_key": "175c55b00f5d03e58a6f6f7ed0ffe0f7ad316da9aa24739fb067c00d3e576fc6",
+      "cache_config": {
+        "source_sha256": "5f449105d90ab66eba33a6c59abebb0b43f4fed0c79e5d164eec2a973d33c70b",
+        "source_size": 2266583,
+        "input_loop": -1,
+        "frames": 165,
+        "offset": 1.25,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    },
+    {
+      "start": 16.5,
+      "end": 18.7,
+      "source_offset": 2.0500000000000003,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names.",
+      "cache_key": "84f3cdf493ddff2c8bc4f917c1c3808eb899444f9ea0eddc2ea23e31baf5de83",
+      "cache_config": {
+        "source_sha256": "ed51a6dd1542a140bcc6a21dbc173299e3bf9b24fba2c272fb541bde6ac3163c",
+        "source_size": 11355194,
+        "input_loop": -1,
+        "frames": 66,
+        "offset": 2.05,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    },
+    {
+      "start": 18.7,
+      "end": 20.2,
+      "source_offset": 0.45,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names.",
+      "cache_key": "ddebe1073528dcfe9759bc294a8c21f165d5ccf38b4b64a19af901dfaae99edc",
+      "cache_config": {
+        "source_sha256": "ed51a6dd1542a140bcc6a21dbc173299e3bf9b24fba2c272fb541bde6ac3163c",
+        "source_size": 11355194,
+        "input_loop": -1,
+        "frames": 45,
+        "offset": 0.45,
+        "filters": "crop=trunc(ih*9/16/2)*2:ih:(iw-ow)/2:0,scale=1080:1920:flags=lanczos,fps=30,setsar=1,gblur=sigma=0.7,drawbox=x=0:y=0:w=iw:h=ih:color=0x0D2119@0.60:t=fill,format=yuv420p",
+        "codec": "libx264",
+        "preset": "veryfast",
+        "crf": 20,
+        "fps": 30,
+        "pixel_format": "yuv420p",
+        "color_primaries": "bt709",
+        "color_trc": "bt709",
+        "colorspace": "bt709"
+      }
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 310272,
+        "duration": "20.200000",
+        "bit_rate": "2032991",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "606",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\amrut\\.codex\\worktrees\\crednest-nov16-29\\crednest-pr3-approved\\media\\N01\\reel.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "20.200000",
+      "size": "5141430",
+      "bit_rate": "2036209",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "render_seconds": 28.87,
+  "first_frame_motion": {
+    "frames_compared": [
+      0,
+      1
+    ],
+    "mean_absolute_rgb_change": 1.708478,
+    "hook_text_unchanged": true,
+    "passed": true
+  }
+}
