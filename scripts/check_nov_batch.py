@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Independently validate the Nov 16-29 batch, including non-ready media.
 
-Unlike publish.py --check, this command checks review and needs_voice items.
+Unlike publish.py --check, this command also checks non-ready batch items and
+historical silent render manifests behind the approved voiced deliveries.
 It does not edit the queue, render media, publish, or change publishing state.
 Run: python scripts/check_nov_batch.py [--ffprobe /path/to/ffprobe]
 """
@@ -27,6 +28,7 @@ from PIL import Image, ImageChops, ImageCms, ImageDraw, ImageFont, ImageStat
 ROOT = Path(__file__).resolve().parents[1]
 IDS = [f"N{i:02d}" for i in range(1, 15)]
 RESERVED = {"N07", "N14"}
+APPROVED_CAROUSEL_IDS = {"N02", "N03", "N06", "N09", "N10", "N13"}
 AUTHORIZED_HOLD_IDS = (
     "CD04-preipo", "CD05-dscr", "D23-new", "CD06-bt-topup",
     "CD07-prepayment", "CD08-small-syndication", "CD09-lap-vs-pl",
@@ -500,7 +502,28 @@ def check_voice_scenes(audit, actual, canonical, item, speech_end):
         audit.check("voice_scenes.finish_at_speech_boundary", abs(previous_end - speech_end) <= FPS_TOLERANCE, {"actual": previous_end, "expected": speech_end}, item)
 
 
-def check_video(audit, root, path, item, ffprobe, plan):
+def check_editorial_status(audit, queued, kind, item):
+    if kind == "carousel":
+        audit.check("queue.approved_carousel_ready", item in APPROVED_CAROUSEL_IDS and queued.get("status") == "ready", queued.get("status"), item)
+    elif kind == "reel":
+        audit.check("queue.reel_delivery_status", queued.get("status") in {"ready", "needs_voice"}, queued.get("status"), item)
+
+
+def check_reel_audio(audit, queued, audio_streams, item):
+    """A ready delivery must be voiced; a needs_voice build must remain silent."""
+    if queued.get("status") == "ready":
+        audit.check("reel.ready_has_one_aac_audio_stream", len(audio_streams) == 1 and audio_streams[0].get("codec_name") == "aac", [stream.get("codec_name") for stream in audio_streams], item)
+        voice = queued.get("voice")
+        # Preserve whichever Sarvam speaker the approved voice pass selected.
+        audit.check("reel.ready_sarvam_voice_provenance", isinstance(voice, str) and re.fullmatch(r"sarvam bulbul:v3 [A-Za-z][A-Za-z0-9_-]*", voice) is not None, voice, item)
+        audit.check("reel.ready_audio_mix_provenance", queued.get("audio") == "voice -14 LUFS + ducked music bed", queued.get("audio"), item)
+    elif queued.get("status") == "needs_voice":
+        audit.check("reel.needs_voice_has_no_audio_stream", not audio_streams, len(audio_streams), item)
+    else:
+        audit.error("reel.audio_delivery_status", queued.get("status"), item)
+
+
+def check_video(audit, root, path, item, ffprobe, plan, queued):
     if not audit.check("reel.exists", path.is_file(), item=item):
         return None
     if not audit.check("ffprobe.available", bool(ffprobe), item=item):
@@ -512,16 +535,21 @@ def check_video(audit, root, path, item, ffprobe, plan):
         video = [stream for stream in probe.get("streams", []) if stream.get("codec_type") == "video"]
         audio = [stream for stream in probe.get("streams", []) if stream.get("codec_type") == "audio"]
         audit.check("reel.single_video_stream", len(video) == 1, len(video), item)
-        audit.check("reel.no_audio_stream", not audio, len(audio), item)
+        check_reel_audio(audit, queued, audio, item)
         if video:
             stream = video[0]
             audit.check("reel.h264", stream.get("codec_name") == "h264", stream.get("codec_name"), item)
             audit.check("reel.geometry", (stream.get("width"), stream.get("height")) == (1080, 1920), [stream.get("width"), stream.get("height")], item)
+            audit.check("reel.frame_rate_30fps", stream.get("r_frame_rate") == "30/1", stream.get("r_frame_rate"), item)
             if plan:
                 audit.check("reel.actual_frame_count_matches_configuration", str(stream.get("nb_frames")) == str(plan["total_frames"]), {"actual": stream.get("nb_frames"), "configured": plan["total_frames"]}, item)
-        duration = float(probe["format"]["duration"])
+        container_duration = float(probe["format"]["duration"])
+        # AAC priming/padding can extend the container. The visual timeline is
+        # still governed by the unchanged H.264 video stream and frame count.
+        duration = float(video[0]["duration"]) if video else container_duration
+        audit.check("reel.container_padding_less_than_one_frame", abs(container_duration - duration) < 1 / FPS, {"video_duration": duration, "container_duration": container_duration}, item)
         audit.check("reel.duration_within_repository_limit", 0 < duration <= 90.001, duration, item)
-        audit.items.setdefault(item, {})["video"] = {"path": path.relative_to(root).as_posix(), "bytes": path.stat().st_size, "sha256": file_hash(path), "duration": duration, "streams": [{key: stream.get(key) for key in ("codec_type", "codec_name", "width", "height", "pix_fmt", "r_frame_rate")} for stream in probe.get("streams", [])]}
+        audit.items.setdefault(item, {})["video"] = {"path": path.relative_to(root).as_posix(), "bytes": path.stat().st_size, "sha256": file_hash(path), "duration": duration, "container_duration": container_duration, "streams": [{key: stream.get(key) for key in ("codec_type", "codec_name", "width", "height", "pix_fmt", "r_frame_rate")} for stream in probe.get("streams", [])]}
         return duration
     except Exception as exc:
         audit.error("reel.ffprobe", str(exc), item)
@@ -844,6 +872,29 @@ def regression_controls(root, carousel_manifest, config, canonical, baseline):
         negative = Audit()
         check_pronunciation(negative, bad, ident)
         controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"] == target for check in negative.checks)})
+    positive = Audit()
+    check_editorial_status(positive, {"status": "ready"}, "carousel", "N02")
+    controls.append({"scenario": "owner_approved_ready_carousel_passes", "passed": all(check["passed"] for check in positive.checks)})
+    negative = Audit()
+    check_editorial_status(negative, {"status": "review"}, "carousel", "N02")
+    controls.append({"scenario": "approved_carousel_regression_to_review_is_rejected", "passed": any(not check["passed"] for check in negative.checks)})
+    voiced = {"status": "ready", "voice": "sarvam bulbul:v3 example-speaker", "audio": "voice -14 LUFS + ducked music bed"}
+    positive = Audit()
+    check_reel_audio(positive, voiced, [{"codec_name": "aac"}], "N01")
+    controls.append({"scenario": "ready_aac_reel_with_sarvam_provenance_passes_without_fixed_speaker", "passed": all(check["passed"] for check in positive.checks)})
+    for streams, scenario in (([], "ready_silent_reel_is_rejected"), ([{"codec_name": "mp3"}], "ready_non_aac_audio_is_rejected")):
+        negative = Audit()
+        check_reel_audio(negative, voiced, streams, "N01")
+        controls.append({"scenario": scenario, "passed": any(not check["passed"] and check["check"] == "reel.ready_has_one_aac_audio_stream" for check in negative.checks)})
+    negative = Audit()
+    check_reel_audio(negative, {**voiced, "voice": ""}, [{"codec_name": "aac"}], "N01")
+    controls.append({"scenario": "ready_audio_without_sarvam_provenance_is_rejected", "passed": any(not check["passed"] and check["check"] == "reel.ready_sarvam_voice_provenance" for check in negative.checks)})
+    positive = Audit()
+    check_reel_audio(positive, {"status": "needs_voice"}, [], "N01")
+    controls.append({"scenario": "needs_voice_silent_build_remains_supported", "passed": all(check["passed"] for check in positive.checks)})
+    negative = Audit()
+    check_reel_audio(negative, {"status": "needs_voice"}, [{"codec_name": "aac"}], "N01")
+    controls.append({"scenario": "needs_voice_status_with_muxed_audio_is_rejected", "passed": any(not check["passed"] for check in negative.checks)})
     return controls
 
 
@@ -932,8 +983,7 @@ def main():
         hashtags = re.findall(r"#[\w]+", actual.get("caption", ""))
         audit.check("caption.at_most_5_hashtags", len(hashtags) <= 5, hashtags, ident)
         audit.check("caption.instagram_length", len(actual.get("caption", "")) <= 2200, len(actual.get("caption", "")), ident)
-        status = "needs_voice" if item["type"] == "reel" else "review"
-        audit.check("queue.correct_review_status", actual.get("status") == status, actual.get("status"), ident)
+        check_editorial_status(audit, actual, item["type"], ident)
         if item["type"] == "carousel":
             expected_paths = [f"media/{ident}/{slide['number']:02d}.jpg" for slide in item["slides"]]
             audit.check("queue.exact_slide_paths_order", actual.get("media") == expected_paths, actual.get("media"), ident)
@@ -945,7 +995,7 @@ def main():
             audit.check("queue.exact_reel_path", actual.get("media") == [relative], actual.get("media"), ident)
             audit.check("queue.exact_cover_path", actual.get("cover") == cover, actual.get("cover"), ident)
             plan = plans.get(ident)
-            duration = check_video(audit, root, safe_path(root, relative), ident, ffprobe, plan)
+            duration = check_video(audit, root, safe_path(root, relative), ident, ffprobe, plan, actual)
             check_jpeg(audit, safe_path(root, cover), cover, (1080, 1920), ident)
             check_first_frames(audit, safe_path(root, relative), safe_path(root, cover), ident, ffmpeg)
             if plan:
@@ -973,8 +1023,8 @@ def main():
         "timing_configuration_sha256": file_hash(timings_path) if timings_path.is_file() else None,
         "baseline_commit": baseline_commit,
         "authorized_original_hold_ids": list(AUTHORIZED_HOLD_IDS),
-        "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
-        "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
+        "scope": "14 batch queue slots: 6 approved ready carousels, 6 ready voiced or needs_voice silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
+        "limits": "Text is checked against renderer manifests and bounds, not OCR. Historical render manifests describe silent visual builds; ready delivered reels separately require AAC audio and Sarvam provenance. Spoken audio quality requires the accompanying listening review.",
         "summary": {"checks": len(audit.checks), "passed": len(audit.checks) - len(failed), "failed": len(failed)},
         "errors": failed,
         "items": audit.items,

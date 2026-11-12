@@ -1,6 +1,6 @@
 {
   "status": "OK",
-  "checked_at": "2026-11-12T12:06:54.691099+00:00",
+  "checked_at": "2026-11-12T12:32:55.111109+00:00",
   "canonical_sha256": "007be784abf98ef9f479528e34b08bc3bc47af9986154aa615ba462ff648eb33",
   "timing_configuration_sha256": "badd87d41b0b253c3d6fc5ed00a2af95000e3c9b7494b2cbbb01fc6105f60f4a",
   "baseline_commit": "e394c4d614a295123a321b1e189c111ec38e916c",
@@ -21,11 +21,11 @@
     "N1128-cc-full-story",
     "N1129-cma"
   ],
-  "scope": "14 batch queue slots: 6 carousels, 6 silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
-  "limits": "Text is checked against renderer manifests and bounds, not OCR. Faceless footage and visual quality require the accompanying human/visual review. Word timing describes silent captions; later voice synthesis still needs listening checks.",
+  "scope": "14 batch queue slots: 6 approved ready carousels, 6 ready voiced or needs_voice silent reels, 2 reserved; exactly 15 authorized original status-only holds; all other original fields, order and publishing state protected",
+  "limits": "Text is checked against renderer manifests and bounds, not OCR. Historical render manifests describe silent visual builds; ready delivered reels separately require AAC audio and Sarvam provenance. Spoken audio quality requires the accompanying listening review.",
   "summary": {
-    "checks": 4369,
-    "passed": 4369,
+    "checks": 4401,
+    "passed": 4401,
     "failed": 0
   },
   "errors": [],
@@ -33,12 +33,13 @@
     "N01": {
       "type": "reel",
       "publish_at": "2026-11-16T19:30:00+05:30",
-      "status": "needs_voice",
+      "status": "ready",
       "video": {
         "path": "media/N01/reel.mp4",
-        "bytes": 5141430,
-        "sha256": "9b824557564a7a21ed1e4658d0eb03b76de1337e86b47a35ec79336caaf2dc5a",
+        "bytes": 5651909,
+        "sha256": "970256d644b2f528423f14dfba74671c582a4a61b9002340848c5f695dcd235f",
         "duration": 20.2,
+        "container_duration": 20.2,
         "streams": [
           {
             "codec_type": "video",
@@ -47,6 +48,14 @@
             "height": 1920,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "pix_fmt": null,
+            "r_frame_rate": "0/0"
           }
         ]
       },
@@ -66,7 +75,7 @@
     "N02": {
       "type": "carousel",
       "publish_at": "2026-11-17T19:30:00+05:30",
-      "status": "review",
+      "status": "ready",
       "files": [
         {
           "path": "media/N02/01.jpg",
@@ -123,7 +132,7 @@
     "N03": {
       "type": "carousel",
       "publish_at": "2026-11-18T19:30:00+05:30",
-      "status": "review",
+      "status": "ready",
       "files": [
         {
           "path": "media/N03/01.jpg",
@@ -190,12 +199,13 @@
     "N04": {
       "type": "reel",
       "publish_at": "2026-11-19T19:30:00+05:30",
-      "status": "needs_voice",
+      "status": "ready",
       "video": {
         "path": "media/N04/reel.mp4",
-        "bytes": 3515382,
-        "sha256": "99513aa8e9917d5a56a457e9c7b6c4f7444d9d332ea0d57c5a3ed2c531bd8e97",
+        "bytes": 3962846,
+        "sha256": "709066a95796dc07f18f888146d2f979ac6d5dac9d373df18f994390c7ca393f",
         "duration": 17.8,
+        "container_duration": 17.8,
         "streams": [
           {
             "codec_type": "video",
@@ -204,6 +214,14 @@
             "height": 1920,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "pix_fmt": null,
+            "r_frame_rate": "0/0"
           }
         ]
       },
@@ -223,12 +241,13 @@
     "N05": {
       "type": "reel",
       "publish_at": "2026-11-20T19:30:00+05:30",
-      "status": "needs_voice",
+      "status": "ready",
       "video": {
         "path": "media/N05/reel.mp4",
-        "bytes": 6250884,
-        "sha256": "74c992e711ceaf62591899076fb70ad80762fcdb255c290762dca3f2fba14db4",
+        "bytes": 6730051,
+        "sha256": "270426c467dd4de4d93fd28c8068297c31d268874ac3aba4198aadec4a8a6f96",
         "duration": 18.9,
+        "container_duration": 18.9,
         "streams": [
           {
             "codec_type": "video",
@@ -237,6 +256,14 @@
             "height": 1920,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "pix_fmt": null,
+            "r_frame_rate": "0/0"
           }
         ]
       },
@@ -256,7 +283,7 @@
     "N06": {
       "type": "carousel",
       "publish_at": "2026-11-21T19:30:00+05:30",
-      "status": "review",
+      "status": "ready",
       "files": [
         {
           "path": "media/N06/01.jpg",
@@ -318,12 +345,13 @@
     "N08": {
       "type": "reel",
       "publish_at": "2026-11-23T19:30:00+05:30",
-      "status": "needs_voice",
+      "status": "ready",
       "video": {
         "path": "media/N08/reel.mp4",
-        "bytes": 3551497,
-        "sha256": "9fe53bfda4bb46916fe25c37034913252baf56cd09d752224e5f4e3f64010274",
+        "bytes": 3973618,
+        "sha256": "dde34dfc9a21b0b5d2f46328c147848fe9d50a7132e8a4534547fc4f8e482162",
         "duration": 16.5,
+        "container_duration": 16.5,
         "streams": [
           {
             "codec_type": "video",
@@ -332,6 +360,14 @@
             "height": 1920,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "pix_fmt": null,
+            "r_frame_rate": "0/0"
           }
         ]
       },
@@ -351,7 +387,7 @@
     "N09": {
       "type": "carousel",
       "publish_at": "2026-11-24T19:30:00+05:30",
-      "status": "review",
+      "status": "ready",
       "files": [
         {
           "path": "media/N09/01.jpg",
@@ -408,7 +444,7 @@
     "N10": {
       "type": "carousel",
       "publish_at": "2026-11-25T19:30:00+05:30",
-      "status": "review",
+      "status": "ready",
       "files": [
         {
           "path": "media/N10/01.jpg",
@@ -465,12 +501,13 @@
     "N11": {
       "type": "reel",
       "publish_at": "2026-11-26T19:30:00+05:30",
-      "status": "needs_voice",
+      "status": "ready",
       "video": {
         "path": "media/N11/reel.mp4",
-        "bytes": 5129628,
-        "sha256": "5068dbd42b76c5ce09ba001ba8f3569bfb30da739b5584a272209174fc9baeee",
+        "bytes": 5598043,
+        "sha256": "38e11382d56d1f6f0225e756d154bdf0af95bbacb2d8f4f00e47e934699bc006",
         "duration": 18.6,
+        "container_duration": 18.6,
         "streams": [
           {
             "codec_type": "video",
@@ -479,6 +516,14 @@
             "height": 1920,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "pix_fmt": null,
+            "r_frame_rate": "0/0"
           }
         ]
       },
@@ -498,12 +543,13 @@
     "N12": {
       "type": "reel",
       "publish_at": "2026-11-27T19:30:00+05:30",
-      "status": "needs_voice",
+      "status": "ready",
       "video": {
         "path": "media/N12/reel.mp4",
-        "bytes": 4466361,
-        "sha256": "348a17b0b4bf1ce17b0be19cfca730f6131913be3829bc86d5dc08fd1f72ced5",
+        "bytes": 4945109,
+        "sha256": "378919a92d7736432cec23d07576d5d5814114b218c0443286c697aad056fa30",
         "duration": 18.9,
+        "container_duration": 18.9,
         "streams": [
           {
             "codec_type": "video",
@@ -512,6 +558,14 @@
             "height": 1920,
             "pix_fmt": "yuv420p",
             "r_frame_rate": "30/1"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "width": null,
+            "height": null,
+            "pix_fmt": null,
+            "r_frame_rate": "0/0"
           }
         ]
       },
@@ -531,7 +585,7 @@
     "N13": {
       "type": "carousel",
       "publish_at": "2026-11-28T19:30:00+05:30",
-      "status": "review",
+      "status": "ready",
       "files": [
         {
           "path": "media/N13/01.jpg",
@@ -686,6 +740,38 @@
     },
     {
       "scenario": "visually_equivalent_nukta_codepoint_change_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "owner_approved_ready_carousel_passes",
+      "passed": true
+    },
+    {
+      "scenario": "approved_carousel_regression_to_review_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "ready_aac_reel_with_sarvam_provenance_passes_without_fixed_speaker",
+      "passed": true
+    },
+    {
+      "scenario": "ready_silent_reel_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "ready_non_aac_audio_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "ready_audio_without_sarvam_provenance_is_rejected",
+      "passed": true
+    },
+    {
+      "scenario": "needs_voice_silent_build_remains_supported",
+      "passed": true
+    },
+    {
+      "scenario": "needs_voice_status_with_muxed_audio_is_rejected",
       "passed": true
     }
   ],
@@ -1374,10 +1460,10 @@
       "detail": 488
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.reel_delivery_status",
       "passed": true,
       "id": "N01",
-      "detail": "needs_voice"
+      "detail": "ready"
     },
     {
       "check": "voice_scenes.exact_owner_say_lines",
@@ -1429,7 +1515,7 @@
       "check": "reel.under_8mb",
       "passed": true,
       "id": "N01",
-      "detail": 5141430
+      "detail": 5651909
     },
     {
       "check": "reel.single_video_stream",
@@ -1438,10 +1524,24 @@
       "detail": 1
     },
     {
-      "check": "reel.no_audio_stream",
+      "check": "reel.ready_has_one_aac_audio_stream",
       "passed": true,
       "id": "N01",
-      "detail": 0
+      "detail": [
+        "aac"
+      ]
+    },
+    {
+      "check": "reel.ready_sarvam_voice_provenance",
+      "passed": true,
+      "id": "N01",
+      "detail": "sarvam bulbul:v3 shubh"
+    },
+    {
+      "check": "reel.ready_audio_mix_provenance",
+      "passed": true,
+      "id": "N01",
+      "detail": "voice -14 LUFS + ducked music bed"
     },
     {
       "check": "reel.h264",
@@ -1459,12 +1559,27 @@
       ]
     },
     {
+      "check": "reel.frame_rate_30fps",
+      "passed": true,
+      "id": "N01",
+      "detail": "30/1"
+    },
+    {
       "check": "reel.actual_frame_count_matches_configuration",
       "passed": true,
       "id": "N01",
       "detail": {
         "actual": "606",
         "configured": 606
+      }
+    },
+    {
+      "check": "reel.container_padding_less_than_one_frame",
+      "passed": true,
+      "id": "N01",
+      "detail": {
+        "video_duration": 20.2,
+        "container_duration": 20.2
       }
     },
     {
@@ -1825,10 +1940,10 @@
       "detail": 383
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.approved_carousel_ready",
       "passed": true,
       "id": "N02",
-      "detail": "review"
+      "detail": "ready"
     },
     {
       "check": "queue.exact_slide_paths_order",
@@ -2113,10 +2228,10 @@
       "detail": 511
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.approved_carousel_ready",
       "passed": true,
       "id": "N03",
-      "detail": "review"
+      "detail": "ready"
     },
     {
       "check": "queue.exact_slide_paths_order",
@@ -2446,10 +2561,10 @@
       "detail": 411
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.reel_delivery_status",
       "passed": true,
       "id": "N04",
-      "detail": "needs_voice"
+      "detail": "ready"
     },
     {
       "check": "voice_scenes.exact_owner_say_lines",
@@ -2501,7 +2616,7 @@
       "check": "reel.under_8mb",
       "passed": true,
       "id": "N04",
-      "detail": 3515382
+      "detail": 3962846
     },
     {
       "check": "reel.single_video_stream",
@@ -2510,10 +2625,24 @@
       "detail": 1
     },
     {
-      "check": "reel.no_audio_stream",
+      "check": "reel.ready_has_one_aac_audio_stream",
       "passed": true,
       "id": "N04",
-      "detail": 0
+      "detail": [
+        "aac"
+      ]
+    },
+    {
+      "check": "reel.ready_sarvam_voice_provenance",
+      "passed": true,
+      "id": "N04",
+      "detail": "sarvam bulbul:v3 shubh"
+    },
+    {
+      "check": "reel.ready_audio_mix_provenance",
+      "passed": true,
+      "id": "N04",
+      "detail": "voice -14 LUFS + ducked music bed"
     },
     {
       "check": "reel.h264",
@@ -2531,12 +2660,27 @@
       ]
     },
     {
+      "check": "reel.frame_rate_30fps",
+      "passed": true,
+      "id": "N04",
+      "detail": "30/1"
+    },
+    {
       "check": "reel.actual_frame_count_matches_configuration",
       "passed": true,
       "id": "N04",
       "detail": {
         "actual": "534",
         "configured": 534
+      }
+    },
+    {
+      "check": "reel.container_padding_less_than_one_frame",
+      "passed": true,
+      "id": "N04",
+      "detail": {
+        "video_duration": 17.8,
+        "container_duration": 17.8
       }
     },
     {
@@ -2897,10 +3041,10 @@
       "detail": 446
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.reel_delivery_status",
       "passed": true,
       "id": "N05",
-      "detail": "needs_voice"
+      "detail": "ready"
     },
     {
       "check": "voice_scenes.exact_owner_say_lines",
@@ -2952,7 +3096,7 @@
       "check": "reel.under_8mb",
       "passed": true,
       "id": "N05",
-      "detail": 6250884
+      "detail": 6730051
     },
     {
       "check": "reel.single_video_stream",
@@ -2961,10 +3105,24 @@
       "detail": 1
     },
     {
-      "check": "reel.no_audio_stream",
+      "check": "reel.ready_has_one_aac_audio_stream",
       "passed": true,
       "id": "N05",
-      "detail": 0
+      "detail": [
+        "aac"
+      ]
+    },
+    {
+      "check": "reel.ready_sarvam_voice_provenance",
+      "passed": true,
+      "id": "N05",
+      "detail": "sarvam bulbul:v3 shubh"
+    },
+    {
+      "check": "reel.ready_audio_mix_provenance",
+      "passed": true,
+      "id": "N05",
+      "detail": "voice -14 LUFS + ducked music bed"
     },
     {
       "check": "reel.h264",
@@ -2982,12 +3140,27 @@
       ]
     },
     {
+      "check": "reel.frame_rate_30fps",
+      "passed": true,
+      "id": "N05",
+      "detail": "30/1"
+    },
+    {
       "check": "reel.actual_frame_count_matches_configuration",
       "passed": true,
       "id": "N05",
       "detail": {
         "actual": "567",
         "configured": 567
+      }
+    },
+    {
+      "check": "reel.container_padding_less_than_one_frame",
+      "passed": true,
+      "id": "N05",
+      "detail": {
+        "video_duration": 18.9,
+        "container_duration": 18.9
       }
     },
     {
@@ -3348,10 +3521,10 @@
       "detail": 452
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.approved_carousel_ready",
       "passed": true,
       "id": "N06",
-      "detail": "review"
+      "detail": "ready"
     },
     {
       "check": "queue.exact_slide_paths_order",
@@ -3669,10 +3842,10 @@
       "detail": 419
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.reel_delivery_status",
       "passed": true,
       "id": "N08",
-      "detail": "needs_voice"
+      "detail": "ready"
     },
     {
       "check": "voice_scenes.exact_owner_say_lines",
@@ -3724,7 +3897,7 @@
       "check": "reel.under_8mb",
       "passed": true,
       "id": "N08",
-      "detail": 3551497
+      "detail": 3973618
     },
     {
       "check": "reel.single_video_stream",
@@ -3733,10 +3906,24 @@
       "detail": 1
     },
     {
-      "check": "reel.no_audio_stream",
+      "check": "reel.ready_has_one_aac_audio_stream",
       "passed": true,
       "id": "N08",
-      "detail": 0
+      "detail": [
+        "aac"
+      ]
+    },
+    {
+      "check": "reel.ready_sarvam_voice_provenance",
+      "passed": true,
+      "id": "N08",
+      "detail": "sarvam bulbul:v3 shubh"
+    },
+    {
+      "check": "reel.ready_audio_mix_provenance",
+      "passed": true,
+      "id": "N08",
+      "detail": "voice -14 LUFS + ducked music bed"
     },
     {
       "check": "reel.h264",
@@ -3754,12 +3941,27 @@
       ]
     },
     {
+      "check": "reel.frame_rate_30fps",
+      "passed": true,
+      "id": "N08",
+      "detail": "30/1"
+    },
+    {
       "check": "reel.actual_frame_count_matches_configuration",
       "passed": true,
       "id": "N08",
       "detail": {
         "actual": "495",
         "configured": 495
+      }
+    },
+    {
+      "check": "reel.container_padding_less_than_one_frame",
+      "passed": true,
+      "id": "N08",
+      "detail": {
+        "video_duration": 16.5,
+        "container_duration": 16.5
       }
     },
     {
@@ -4158,10 +4360,10 @@
       "detail": 398
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.approved_carousel_ready",
       "passed": true,
       "id": "N09",
-      "detail": "review"
+      "detail": "ready"
     },
     {
       "check": "queue.exact_slide_paths_order",
@@ -4446,10 +4648,10 @@
       "detail": 472
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.approved_carousel_ready",
       "passed": true,
       "id": "N10",
-      "detail": "review"
+      "detail": "ready"
     },
     {
       "check": "queue.exact_slide_paths_order",
@@ -4734,10 +4936,10 @@
       "detail": 433
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.reel_delivery_status",
       "passed": true,
       "id": "N11",
-      "detail": "needs_voice"
+      "detail": "ready"
     },
     {
       "check": "voice_scenes.exact_owner_say_lines",
@@ -4789,7 +4991,7 @@
       "check": "reel.under_8mb",
       "passed": true,
       "id": "N11",
-      "detail": 5129628
+      "detail": 5598043
     },
     {
       "check": "reel.single_video_stream",
@@ -4798,10 +5000,24 @@
       "detail": 1
     },
     {
-      "check": "reel.no_audio_stream",
+      "check": "reel.ready_has_one_aac_audio_stream",
       "passed": true,
       "id": "N11",
-      "detail": 0
+      "detail": [
+        "aac"
+      ]
+    },
+    {
+      "check": "reel.ready_sarvam_voice_provenance",
+      "passed": true,
+      "id": "N11",
+      "detail": "sarvam bulbul:v3 shubh"
+    },
+    {
+      "check": "reel.ready_audio_mix_provenance",
+      "passed": true,
+      "id": "N11",
+      "detail": "voice -14 LUFS + ducked music bed"
     },
     {
       "check": "reel.h264",
@@ -4819,12 +5035,27 @@
       ]
     },
     {
+      "check": "reel.frame_rate_30fps",
+      "passed": true,
+      "id": "N11",
+      "detail": "30/1"
+    },
+    {
       "check": "reel.actual_frame_count_matches_configuration",
       "passed": true,
       "id": "N11",
       "detail": {
         "actual": "558",
         "configured": 558
+      }
+    },
+    {
+      "check": "reel.container_padding_less_than_one_frame",
+      "passed": true,
+      "id": "N11",
+      "detail": {
+        "video_duration": 18.6,
+        "container_duration": 18.6
       }
     },
     {
@@ -5185,10 +5416,10 @@
       "detail": 397
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.reel_delivery_status",
       "passed": true,
       "id": "N12",
-      "detail": "needs_voice"
+      "detail": "ready"
     },
     {
       "check": "voice_scenes.exact_owner_say_lines",
@@ -5240,7 +5471,7 @@
       "check": "reel.under_8mb",
       "passed": true,
       "id": "N12",
-      "detail": 4466361
+      "detail": 4945109
     },
     {
       "check": "reel.single_video_stream",
@@ -5249,10 +5480,24 @@
       "detail": 1
     },
     {
-      "check": "reel.no_audio_stream",
+      "check": "reel.ready_has_one_aac_audio_stream",
       "passed": true,
       "id": "N12",
-      "detail": 0
+      "detail": [
+        "aac"
+      ]
+    },
+    {
+      "check": "reel.ready_sarvam_voice_provenance",
+      "passed": true,
+      "id": "N12",
+      "detail": "sarvam bulbul:v3 shubh"
+    },
+    {
+      "check": "reel.ready_audio_mix_provenance",
+      "passed": true,
+      "id": "N12",
+      "detail": "voice -14 LUFS + ducked music bed"
     },
     {
       "check": "reel.h264",
@@ -5270,12 +5515,27 @@
       ]
     },
     {
+      "check": "reel.frame_rate_30fps",
+      "passed": true,
+      "id": "N12",
+      "detail": "30/1"
+    },
+    {
       "check": "reel.actual_frame_count_matches_configuration",
       "passed": true,
       "id": "N12",
       "detail": {
         "actual": "567",
         "configured": 567
+      }
+    },
+    {
+      "check": "reel.container_padding_less_than_one_frame",
+      "passed": true,
+      "id": "N12",
+      "detail": {
+        "video_duration": 18.9,
+        "container_duration": 18.9
       }
     },
     {
@@ -5636,10 +5896,10 @@
       "detail": 410
     },
     {
-      "check": "queue.correct_review_status",
+      "check": "queue.approved_carousel_ready",
       "passed": true,
       "id": "N13",
-      "detail": "review"
+      "detail": "ready"
     },
     {
       "check": "queue.exact_slide_paths_order",
@@ -36240,6 +36500,38 @@
     },
     {
       "check": "regression_control.visually_equivalent_nukta_codepoint_change_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.owner_approved_ready_carousel_passes",
+      "passed": true
+    },
+    {
+      "check": "regression_control.approved_carousel_regression_to_review_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.ready_aac_reel_with_sarvam_provenance_passes_without_fixed_speaker",
+      "passed": true
+    },
+    {
+      "check": "regression_control.ready_silent_reel_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.ready_non_aac_audio_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.ready_audio_without_sarvam_provenance_is_rejected",
+      "passed": true
+    },
+    {
+      "check": "regression_control.needs_voice_silent_build_remains_supported",
+      "passed": true
+    },
+    {
+      "check": "regression_control.needs_voice_status_with_muxed_audio_is_rejected",
       "passed": true
     }
   ]
