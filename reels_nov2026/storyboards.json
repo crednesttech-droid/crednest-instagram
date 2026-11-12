@@ -1,0 +1,2193 @@
+{
+  "standard": "scripts/build_reels_v2.py safe zones, Manrope, exact-copy word reveal and silent FFmpeg composition",
+  "duration": 14.0,
+  "fps": 30,
+  "hook_end": 0.8,
+  "end_card_start": 12.5,
+  "caption_baseline": 1260,
+  "safe_zone": [
+    250,
+    1500
+  ],
+  "timing_basis": "Silent storyboard word timing; actual voice alignment belongs to the later Sarvam pass.",
+  "reels": {
+    "N01": {
+      "hook": "CIBIL 780. Phir bhi loan kam kyun mila?",
+      "series": "BANK KYA DEKHTA HAI",
+      "number_card": "Income ₹1,00,000 · Existing EMIs ₹35,000 · Limit 50% = ₹50,000 · Room for new EMI ₹15,000 (Example. Not an offer.)",
+      "cta": "Loan lene wale dost ko bhejo",
+      "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "voice_scenes": [
+        {
+          "start": 0.8,
+          "end": 2.866667,
+          "text": "CIBIL 780 hai. Phir bhi loan kam kyun mila?",
+          "words": [
+            {
+              "text": "CIBIL",
+              "start": 0.8,
+              "end": 1.0,
+              "start_frame": 24,
+              "end_frame": 30
+            },
+            {
+              "text": "780",
+              "start": 1.0,
+              "end": 1.233333,
+              "start_frame": 30,
+              "end_frame": 37
+            },
+            {
+              "text": "hai.",
+              "start": 1.233333,
+              "end": 1.433333,
+              "start_frame": 37,
+              "end_frame": 43
+            },
+            {
+              "text": "Phir",
+              "start": 1.433333,
+              "end": 1.666667,
+              "start_frame": 43,
+              "end_frame": 50
+            },
+            {
+              "text": "bhi",
+              "start": 1.666667,
+              "end": 1.866667,
+              "start_frame": 50,
+              "end_frame": 56
+            },
+            {
+              "text": "loan",
+              "start": 1.866667,
+              "end": 2.1,
+              "start_frame": 56,
+              "end_frame": 63
+            },
+            {
+              "text": "kam",
+              "start": 2.1,
+              "end": 2.3,
+              "start_frame": 63,
+              "end_frame": 69
+            },
+            {
+              "text": "kyun",
+              "start": 2.3,
+              "end": 2.533333,
+              "start_frame": 69,
+              "end_frame": 76
+            },
+            {
+              "text": "mila?",
+              "start": 2.533333,
+              "end": 2.866667,
+              "start_frame": 76,
+              "end_frame": 86
+            }
+          ],
+          "stock": "calculator"
+        },
+        {
+          "start": 2.866667,
+          "end": 5.4,
+          "text": "Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.",
+          "words": [
+            {
+              "text": "Kyunki",
+              "start": 2.866667,
+              "end": 3.1,
+              "start_frame": 86,
+              "end_frame": 93
+            },
+            {
+              "text": "bank",
+              "start": 3.1,
+              "end": 3.3,
+              "start_frame": 93,
+              "end_frame": 99
+            },
+            {
+              "text": "score",
+              "start": 3.3,
+              "end": 3.533333,
+              "start_frame": 99,
+              "end_frame": 106
+            },
+            {
+              "text": "ke",
+              "start": 3.533333,
+              "end": 3.733333,
+              "start_frame": 106,
+              "end_frame": 112
+            },
+            {
+              "text": "baad",
+              "start": 3.733333,
+              "end": 3.966667,
+              "start_frame": 112,
+              "end_frame": 119
+            },
+            {
+              "text": "aapki",
+              "start": 3.966667,
+              "end": 4.166667,
+              "start_frame": 119,
+              "end_frame": 125
+            },
+            {
+              "text": "EMI",
+              "start": 4.166667,
+              "end": 4.4,
+              "start_frame": 125,
+              "end_frame": 132
+            },
+            {
+              "text": "ka",
+              "start": 4.4,
+              "end": 4.6,
+              "start_frame": 132,
+              "end_frame": 138
+            },
+            {
+              "text": "bojh",
+              "start": 4.6,
+              "end": 4.833333,
+              "start_frame": 138,
+              "end_frame": 145
+            },
+            {
+              "text": "dekhta",
+              "start": 4.833333,
+              "end": 5.033333,
+              "start_frame": 145,
+              "end_frame": 151
+            },
+            {
+              "text": "hai.",
+              "start": 5.033333,
+              "end": 5.4,
+              "start_frame": 151,
+              "end_frame": 162
+            }
+          ],
+          "stock": "signing"
+        },
+        {
+          "start": 5.4,
+          "end": 7.466667,
+          "text": "Example: kamai ek lakh mahina, purani EMI paintees hazaar.",
+          "words": [
+            {
+              "text": "Example:",
+              "start": 5.4,
+              "end": 5.6,
+              "start_frame": 162,
+              "end_frame": 168
+            },
+            {
+              "text": "kamai",
+              "start": 5.6,
+              "end": 5.833333,
+              "start_frame": 168,
+              "end_frame": 175
+            },
+            {
+              "text": "ek",
+              "start": 5.833333,
+              "end": 6.033333,
+              "start_frame": 175,
+              "end_frame": 181
+            },
+            {
+              "text": "lakh",
+              "start": 6.033333,
+              "end": 6.266667,
+              "start_frame": 181,
+              "end_frame": 188
+            },
+            {
+              "text": "mahina,",
+              "start": 6.266667,
+              "end": 6.466667,
+              "start_frame": 188,
+              "end_frame": 194
+            },
+            {
+              "text": "purani",
+              "start": 6.466667,
+              "end": 6.7,
+              "start_frame": 194,
+              "end_frame": 201
+            },
+            {
+              "text": "EMI",
+              "start": 6.7,
+              "end": 6.9,
+              "start_frame": 201,
+              "end_frame": 207
+            },
+            {
+              "text": "paintees",
+              "start": 6.9,
+              "end": 7.133333,
+              "start_frame": 207,
+              "end_frame": 214
+            },
+            {
+              "text": "hazaar.",
+              "start": 7.133333,
+              "end": 7.466667,
+              "start_frame": 214,
+              "end_frame": 224
+            }
+          ],
+          "stock": "calculator"
+        },
+        {
+          "start": 7.466667,
+          "end": 11.133333,
+          "text": "Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.",
+          "words": [
+            {
+              "text": "Agar",
+              "start": 7.466667,
+              "end": 7.7,
+              "start_frame": 224,
+              "end_frame": 231
+            },
+            {
+              "text": "bank",
+              "start": 7.7,
+              "end": 7.9,
+              "start_frame": 231,
+              "end_frame": 237
+            },
+            {
+              "text": "pachaas",
+              "start": 7.9,
+              "end": 8.133333,
+              "start_frame": 237,
+              "end_frame": 244
+            },
+            {
+              "text": "percent",
+              "start": 8.133333,
+              "end": 8.333333,
+              "start_frame": 244,
+              "end_frame": 250
+            },
+            {
+              "text": "tak",
+              "start": 8.333333,
+              "end": 8.566667,
+              "start_frame": 250,
+              "end_frame": 257
+            },
+            {
+              "text": "EMI",
+              "start": 8.566667,
+              "end": 8.8,
+              "start_frame": 257,
+              "end_frame": 264
+            },
+            {
+              "text": "maanta",
+              "start": 8.8,
+              "end": 9.0,
+              "start_frame": 264,
+              "end_frame": 270
+            },
+            {
+              "text": "hai,",
+              "start": 9.0,
+              "end": 9.233333,
+              "start_frame": 270,
+              "end_frame": 277
+            },
+            {
+              "text": "to",
+              "start": 9.233333,
+              "end": 9.466667,
+              "start_frame": 277,
+              "end_frame": 284
+            },
+            {
+              "text": "nayi",
+              "start": 9.466667,
+              "end": 9.666667,
+              "start_frame": 284,
+              "end_frame": 290
+            },
+            {
+              "text": "EMI",
+              "start": 9.666667,
+              "end": 9.9,
+              "start_frame": 290,
+              "end_frame": 297
+            },
+            {
+              "text": "ki",
+              "start": 9.9,
+              "end": 10.133333,
+              "start_frame": 297,
+              "end_frame": 304
+            },
+            {
+              "text": "jagah",
+              "start": 10.133333,
+              "end": 10.333333,
+              "start_frame": 304,
+              "end_frame": 310
+            },
+            {
+              "text": "sirf",
+              "start": 10.333333,
+              "end": 10.566667,
+              "start_frame": 310,
+              "end_frame": 317
+            },
+            {
+              "text": "pandrah",
+              "start": 10.566667,
+              "end": 10.766667,
+              "start_frame": 317,
+              "end_frame": 323
+            },
+            {
+              "text": "hazaar.",
+              "start": 10.766667,
+              "end": 11.133333,
+              "start_frame": 323,
+              "end_frame": 334
+            }
+          ],
+          "stock": "calculator"
+        },
+        {
+          "start": 11.133333,
+          "end": 12.5,
+          "text": "Score achha hai. Jagah kam hai.",
+          "words": [
+            {
+              "text": "Score",
+              "start": 11.133333,
+              "end": 11.333333,
+              "start_frame": 334,
+              "end_frame": 340
+            },
+            {
+              "text": "achha",
+              "start": 11.333333,
+              "end": 11.533333,
+              "start_frame": 340,
+              "end_frame": 346
+            },
+            {
+              "text": "hai.",
+              "start": 11.533333,
+              "end": 11.733333,
+              "start_frame": 346,
+              "end_frame": 352
+            },
+            {
+              "text": "Jagah",
+              "start": 11.733333,
+              "end": 11.966667,
+              "start_frame": 352,
+              "end_frame": 359
+            },
+            {
+              "text": "kam",
+              "start": 11.966667,
+              "end": 12.166667,
+              "start_frame": 359,
+              "end_frame": 365
+            },
+            {
+              "text": "hai.",
+              "start": 12.166667,
+              "end": 12.5,
+              "start_frame": 365,
+              "end_frame": 375
+            }
+          ],
+          "stock": "signing"
+        }
+      ]
+    },
+    "N04": {
+      "hook": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
+      "series": "BANK KYA DEKHTA HAI",
+      "number_card": null,
+      "cta": "Apne CA ko bhejo",
+      "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "voice_scenes": [
+        {
+          "start": 0.8,
+          "end": 3.2,
+          "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
+          "words": [
+            {
+              "text": "ITR",
+              "start": 0.8,
+              "end": 1.066667,
+              "start_frame": 24,
+              "end_frame": 32
+            },
+            {
+              "text": "mein",
+              "start": 1.066667,
+              "end": 1.3,
+              "start_frame": 32,
+              "end_frame": 39
+            },
+            {
+              "text": "baarah",
+              "start": 1.3,
+              "end": 1.566667,
+              "start_frame": 39,
+              "end_frame": 47
+            },
+            {
+              "text": "lakh.",
+              "start": 1.566667,
+              "end": 1.8,
+              "start_frame": 47,
+              "end_frame": 54
+            },
+            {
+              "text": "Bank",
+              "start": 1.8,
+              "end": 2.066667,
+              "start_frame": 54,
+              "end_frame": 62
+            },
+            {
+              "text": "statement",
+              "start": 2.066667,
+              "end": 2.3,
+              "start_frame": 62,
+              "end_frame": 69
+            },
+            {
+              "text": "mein",
+              "start": 2.3,
+              "end": 2.566667,
+              "start_frame": 69,
+              "end_frame": 77
+            },
+            {
+              "text": "chaalees",
+              "start": 2.566667,
+              "end": 2.8,
+              "start_frame": 77,
+              "end_frame": 84
+            },
+            {
+              "text": "lakh.",
+              "start": 2.8,
+              "end": 3.2,
+              "start_frame": 84,
+              "end_frame": 96
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 3.2,
+          "end": 4.533333,
+          "text": "Bank kis pe bharosa karega?",
+          "words": [
+            {
+              "text": "Bank",
+              "start": 3.2,
+              "end": 3.433333,
+              "start_frame": 96,
+              "end_frame": 103
+            },
+            {
+              "text": "kis",
+              "start": 3.433333,
+              "end": 3.666667,
+              "start_frame": 103,
+              "end_frame": 110
+            },
+            {
+              "text": "pe",
+              "start": 3.666667,
+              "end": 3.933333,
+              "start_frame": 110,
+              "end_frame": 118
+            },
+            {
+              "text": "bharosa",
+              "start": 3.933333,
+              "end": 4.166667,
+              "start_frame": 118,
+              "end_frame": 125
+            },
+            {
+              "text": "karega?",
+              "start": 4.166667,
+              "end": 4.533333,
+              "start_frame": 125,
+              "end_frame": 136
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 4.533333,
+          "end": 6.9,
+          "text": "Zyada lender loan ITR ki kamai pe naapte hain.",
+          "words": [
+            {
+              "text": "Zyada",
+              "start": 4.533333,
+              "end": 4.766667,
+              "start_frame": 136,
+              "end_frame": 143
+            },
+            {
+              "text": "lender",
+              "start": 4.766667,
+              "end": 5.033333,
+              "start_frame": 143,
+              "end_frame": 151
+            },
+            {
+              "text": "loan",
+              "start": 5.033333,
+              "end": 5.266667,
+              "start_frame": 151,
+              "end_frame": 158
+            },
+            {
+              "text": "ITR",
+              "start": 5.266667,
+              "end": 5.533333,
+              "start_frame": 158,
+              "end_frame": 166
+            },
+            {
+              "text": "ki",
+              "start": 5.533333,
+              "end": 5.766667,
+              "start_frame": 166,
+              "end_frame": 173
+            },
+            {
+              "text": "kamai",
+              "start": 5.766667,
+              "end": 6.033333,
+              "start_frame": 173,
+              "end_frame": 181
+            },
+            {
+              "text": "pe",
+              "start": 6.033333,
+              "end": 6.266667,
+              "start_frame": 181,
+              "end_frame": 188
+            },
+            {
+              "text": "naapte",
+              "start": 6.266667,
+              "end": 6.533333,
+              "start_frame": 188,
+              "end_frame": 196
+            },
+            {
+              "text": "hain.",
+              "start": 6.533333,
+              "end": 6.9,
+              "start_frame": 196,
+              "end_frame": 207
+            }
+          ],
+          "stock": "signing"
+        },
+        {
+          "start": 6.9,
+          "end": 10.9,
+          "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
+          "words": [
+            {
+              "text": "Statement",
+              "start": 6.9,
+              "end": 7.166667,
+              "start_frame": 207,
+              "end_frame": 215
+            },
+            {
+              "text": "sirf",
+              "start": 7.166667,
+              "end": 7.4,
+              "start_frame": 215,
+              "end_frame": 222
+            },
+            {
+              "text": "yeh",
+              "start": 7.4,
+              "end": 7.666667,
+              "start_frame": 222,
+              "end_frame": 230
+            },
+            {
+              "text": "dikhata",
+              "start": 7.666667,
+              "end": 7.933333,
+              "start_frame": 230,
+              "end_frame": 238
+            },
+            {
+              "text": "hai",
+              "start": 7.933333,
+              "end": 8.2,
+              "start_frame": 238,
+              "end_frame": 246
+            },
+            {
+              "text": "ki",
+              "start": 8.2,
+              "end": 8.433333,
+              "start_frame": 246,
+              "end_frame": 253
+            },
+            {
+              "text": "paisa",
+              "start": 8.433333,
+              "end": 8.7,
+              "start_frame": 253,
+              "end_frame": 261
+            },
+            {
+              "text": "aaya.",
+              "start": 8.7,
+              "end": 8.966667,
+              "start_frame": 261,
+              "end_frame": 269
+            },
+            {
+              "text": "Kamai",
+              "start": 8.966667,
+              "end": 9.233333,
+              "start_frame": 269,
+              "end_frame": 277
+            },
+            {
+              "text": "kitni",
+              "start": 9.233333,
+              "end": 9.466667,
+              "start_frame": 277,
+              "end_frame": 284
+            },
+            {
+              "text": "thi,",
+              "start": 9.466667,
+              "end": 9.733333,
+              "start_frame": 284,
+              "end_frame": 292
+            },
+            {
+              "text": "yeh",
+              "start": 9.733333,
+              "end": 10.0,
+              "start_frame": 292,
+              "end_frame": 300
+            },
+            {
+              "text": "ITR",
+              "start": 10.0,
+              "end": 10.266667,
+              "start_frame": 300,
+              "end_frame": 308
+            },
+            {
+              "text": "batata",
+              "start": 10.266667,
+              "end": 10.5,
+              "start_frame": 308,
+              "end_frame": 315
+            },
+            {
+              "text": "hai.",
+              "start": 10.5,
+              "end": 10.9,
+              "start_frame": 315,
+              "end_frame": 327
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 10.9,
+          "end": 12.5,
+          "text": "Dono ki kahani ek honi chahiye.",
+          "words": [
+            {
+              "text": "Dono",
+              "start": 10.9,
+              "end": 11.133333,
+              "start_frame": 327,
+              "end_frame": 334
+            },
+            {
+              "text": "ki",
+              "start": 11.133333,
+              "end": 11.4,
+              "start_frame": 334,
+              "end_frame": 342
+            },
+            {
+              "text": "kahani",
+              "start": 11.4,
+              "end": 11.633333,
+              "start_frame": 342,
+              "end_frame": 349
+            },
+            {
+              "text": "ek",
+              "start": 11.633333,
+              "end": 11.866667,
+              "start_frame": 349,
+              "end_frame": 356
+            },
+            {
+              "text": "honi",
+              "start": 11.866667,
+              "end": 12.133333,
+              "start_frame": 356,
+              "end_frame": 364
+            },
+            {
+              "text": "chahiye.",
+              "start": 12.133333,
+              "end": 12.5,
+              "start_frame": 364,
+              "end_frame": 375
+            }
+          ],
+          "stock": "signing"
+        }
+      ]
+    },
+    "N05": {
+      "hook": "Bank ne CC limit kyun kam ki?",
+      "series": "BUSINESS KA PAISA",
+      "number_card": "Stock ₹60L + Debtors ₹40L − Creditors ₹30L = ₹70L · Less 25% margin · Drawing power ₹52.5L (Limit ₹75L) (Example. Not an offer.)",
+      "cta": "Apne accountant ko bhejo",
+      "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "voice_scenes": [
+        {
+          "start": 0.8,
+          "end": 2.533333,
+          "text": "Bank ne CC limit kyun kam ki?",
+          "words": [
+            {
+              "text": "Bank",
+              "start": 0.8,
+              "end": 1.033333,
+              "start_frame": 24,
+              "end_frame": 31
+            },
+            {
+              "text": "ne",
+              "start": 1.033333,
+              "end": 1.266667,
+              "start_frame": 31,
+              "end_frame": 38
+            },
+            {
+              "text": "CC",
+              "start": 1.266667,
+              "end": 1.5,
+              "start_frame": 38,
+              "end_frame": 45
+            },
+            {
+              "text": "limit",
+              "start": 1.5,
+              "end": 1.7,
+              "start_frame": 45,
+              "end_frame": 51
+            },
+            {
+              "text": "kyun",
+              "start": 1.7,
+              "end": 1.933333,
+              "start_frame": 51,
+              "end_frame": 58
+            },
+            {
+              "text": "kam",
+              "start": 1.933333,
+              "end": 2.166667,
+              "start_frame": 58,
+              "end_frame": 65
+            },
+            {
+              "text": "ki?",
+              "start": 2.166667,
+              "end": 2.533333,
+              "start_frame": 65,
+              "end_frame": 76
+            }
+          ],
+          "stock": "warehouse"
+        },
+        {
+          "start": 2.533333,
+          "end": 5.533333,
+          "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
+          "words": [
+            {
+              "text": "Kyunki",
+              "start": 2.533333,
+              "end": 2.766667,
+              "start_frame": 76,
+              "end_frame": 83
+            },
+            {
+              "text": "limit",
+              "start": 2.766667,
+              "end": 3.0,
+              "start_frame": 83,
+              "end_frame": 90
+            },
+            {
+              "text": "kagaz",
+              "start": 3.0,
+              "end": 3.266667,
+              "start_frame": 90,
+              "end_frame": 98
+            },
+            {
+              "text": "pe",
+              "start": 3.266667,
+              "end": 3.5,
+              "start_frame": 98,
+              "end_frame": 105
+            },
+            {
+              "text": "hoti",
+              "start": 3.5,
+              "end": 3.733333,
+              "start_frame": 105,
+              "end_frame": 112
+            },
+            {
+              "text": "hai.",
+              "start": 3.733333,
+              "end": 3.966667,
+              "start_frame": 112,
+              "end_frame": 119
+            },
+            {
+              "text": "Paisa",
+              "start": 3.966667,
+              "end": 4.2,
+              "start_frame": 119,
+              "end_frame": 126
+            },
+            {
+              "text": "drawing",
+              "start": 4.2,
+              "end": 4.433333,
+              "start_frame": 126,
+              "end_frame": 133
+            },
+            {
+              "text": "power",
+              "start": 4.433333,
+              "end": 4.666667,
+              "start_frame": 133,
+              "end_frame": 140
+            },
+            {
+              "text": "se",
+              "start": 4.666667,
+              "end": 4.933333,
+              "start_frame": 140,
+              "end_frame": 148
+            },
+            {
+              "text": "milta",
+              "start": 4.933333,
+              "end": 5.166667,
+              "start_frame": 148,
+              "end_frame": 155
+            },
+            {
+              "text": "hai.",
+              "start": 5.166667,
+              "end": 5.533333,
+              "start_frame": 155,
+              "end_frame": 166
+            }
+          ],
+          "stock": "warehouse"
+        },
+        {
+          "start": 5.533333,
+          "end": 8.033333,
+          "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
+          "words": [
+            {
+              "text": "Example:",
+              "start": 5.533333,
+              "end": 5.766667,
+              "start_frame": 166,
+              "end_frame": 173
+            },
+            {
+              "text": "stock",
+              "start": 5.766667,
+              "end": 6.0,
+              "start_frame": 173,
+              "end_frame": 180
+            },
+            {
+              "text": "saath",
+              "start": 6.0,
+              "end": 6.233333,
+              "start_frame": 180,
+              "end_frame": 187
+            },
+            {
+              "text": "lakh,",
+              "start": 6.233333,
+              "end": 6.466667,
+              "start_frame": 187,
+              "end_frame": 194
+            },
+            {
+              "text": "debtors",
+              "start": 6.466667,
+              "end": 6.733333,
+              "start_frame": 194,
+              "end_frame": 202
+            },
+            {
+              "text": "chaalees",
+              "start": 6.733333,
+              "end": 6.966667,
+              "start_frame": 202,
+              "end_frame": 209
+            },
+            {
+              "text": "lakh,",
+              "start": 6.966667,
+              "end": 7.2,
+              "start_frame": 209,
+              "end_frame": 216
+            },
+            {
+              "text": "creditors",
+              "start": 7.2,
+              "end": 7.433333,
+              "start_frame": 216,
+              "end_frame": 223
+            },
+            {
+              "text": "tees",
+              "start": 7.433333,
+              "end": 7.666667,
+              "start_frame": 223,
+              "end_frame": 230
+            },
+            {
+              "text": "lakh.",
+              "start": 7.666667,
+              "end": 8.033333,
+              "start_frame": 230,
+              "end_frame": 241
+            }
+          ],
+          "stock": "packing_box"
+        },
+        {
+          "start": 8.033333,
+          "end": 9.766667,
+          "text": "Bacha sattar lakh. Pachees percent margin kaato.",
+          "words": [
+            {
+              "text": "Bacha",
+              "start": 8.033333,
+              "end": 8.266667,
+              "start_frame": 241,
+              "end_frame": 248
+            },
+            {
+              "text": "sattar",
+              "start": 8.266667,
+              "end": 8.5,
+              "start_frame": 248,
+              "end_frame": 255
+            },
+            {
+              "text": "lakh.",
+              "start": 8.5,
+              "end": 8.733333,
+              "start_frame": 255,
+              "end_frame": 262
+            },
+            {
+              "text": "Pachees",
+              "start": 8.733333,
+              "end": 8.933333,
+              "start_frame": 262,
+              "end_frame": 268
+            },
+            {
+              "text": "percent",
+              "start": 8.933333,
+              "end": 9.166667,
+              "start_frame": 268,
+              "end_frame": 275
+            },
+            {
+              "text": "margin",
+              "start": 9.166667,
+              "end": 9.4,
+              "start_frame": 275,
+              "end_frame": 282
+            },
+            {
+              "text": "kaato.",
+              "start": 9.4,
+              "end": 9.766667,
+              "start_frame": 282,
+              "end_frame": 293
+            }
+          ],
+          "stock": "warehouse"
+        },
+        {
+          "start": 9.766667,
+          "end": 12.5,
+          "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.",
+          "words": [
+            {
+              "text": "Drawing",
+              "start": 9.766667,
+              "end": 10.0,
+              "start_frame": 293,
+              "end_frame": 300
+            },
+            {
+              "text": "power",
+              "start": 10.0,
+              "end": 10.233333,
+              "start_frame": 300,
+              "end_frame": 307
+            },
+            {
+              "text": "saadhe",
+              "start": 10.233333,
+              "end": 10.466667,
+              "start_frame": 307,
+              "end_frame": 314
+            },
+            {
+              "text": "baavan",
+              "start": 10.466667,
+              "end": 10.7,
+              "start_frame": 314,
+              "end_frame": 321
+            },
+            {
+              "text": "lakh.",
+              "start": 10.7,
+              "end": 10.933333,
+              "start_frame": 321,
+              "end_frame": 328
+            },
+            {
+              "text": "Limit",
+              "start": 10.933333,
+              "end": 11.2,
+              "start_frame": 328,
+              "end_frame": 336
+            },
+            {
+              "text": "pachhattar",
+              "start": 11.2,
+              "end": 11.433333,
+              "start_frame": 336,
+              "end_frame": 343
+            },
+            {
+              "text": "lakh",
+              "start": 11.433333,
+              "end": 11.666667,
+              "start_frame": 343,
+              "end_frame": 350
+            },
+            {
+              "text": "hone",
+              "start": 11.666667,
+              "end": 11.9,
+              "start_frame": 350,
+              "end_frame": 357
+            },
+            {
+              "text": "par",
+              "start": 11.9,
+              "end": 12.133333,
+              "start_frame": 357,
+              "end_frame": 364
+            },
+            {
+              "text": "bhi.",
+              "start": 12.133333,
+              "end": 12.5,
+              "start_frame": 364,
+              "end_frame": 375
+            }
+          ],
+          "stock": "warehouse"
+        }
+      ]
+    },
+    "N08": {
+      "hook": "Bank file reject kyun karta hai? 5 reasons",
+      "series": "BANK KYA DEKHTA HAI",
+      "number_card": null,
+      "cta": "Save karo. File dene se pehle check karo",
+      "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "voice_scenes": [
+        {
+          "start": 0.8,
+          "end": 3.566667,
+          "text": "Bank file reject kyun karta hai? Paanch reason.",
+          "words": [
+            {
+              "text": "Bank",
+              "start": 0.8,
+              "end": 1.133333,
+              "start_frame": 24,
+              "end_frame": 34
+            },
+            {
+              "text": "file",
+              "start": 1.133333,
+              "end": 1.466667,
+              "start_frame": 34,
+              "end_frame": 44
+            },
+            {
+              "text": "reject",
+              "start": 1.466667,
+              "end": 1.8,
+              "start_frame": 44,
+              "end_frame": 54
+            },
+            {
+              "text": "kyun",
+              "start": 1.8,
+              "end": 2.133333,
+              "start_frame": 54,
+              "end_frame": 64
+            },
+            {
+              "text": "karta",
+              "start": 2.133333,
+              "end": 2.433333,
+              "start_frame": 64,
+              "end_frame": 73
+            },
+            {
+              "text": "hai?",
+              "start": 2.433333,
+              "end": 2.766667,
+              "start_frame": 73,
+              "end_frame": 83
+            },
+            {
+              "text": "Paanch",
+              "start": 2.766667,
+              "end": 3.1,
+              "start_frame": 83,
+              "end_frame": 93
+            },
+            {
+              "text": "reason.",
+              "start": 3.1,
+              "end": 3.566667,
+              "start_frame": 93,
+              "end_frame": 107
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 3.566667,
+          "end": 4.933333,
+          "text": "Ek: purani EMI zyada.",
+          "words": [
+            {
+              "text": "Ek:",
+              "start": 3.566667,
+              "end": 3.866667,
+              "start_frame": 107,
+              "end_frame": 116
+            },
+            {
+              "text": "purani",
+              "start": 3.866667,
+              "end": 4.166667,
+              "start_frame": 116,
+              "end_frame": 125
+            },
+            {
+              "text": "EMI",
+              "start": 4.166667,
+              "end": 4.5,
+              "start_frame": 125,
+              "end_frame": 135
+            },
+            {
+              "text": "zyada.",
+              "start": 4.5,
+              "end": 4.933333,
+              "start_frame": 135,
+              "end_frame": 148
+            }
+          ],
+          "stock": "calculator"
+        },
+        {
+          "start": 4.933333,
+          "end": 6.666667,
+          "text": "Do: ITR mein kamai kam.",
+          "words": [
+            {
+              "text": "Do:",
+              "start": 4.933333,
+              "end": 5.266667,
+              "start_frame": 148,
+              "end_frame": 158
+            },
+            {
+              "text": "ITR",
+              "start": 5.266667,
+              "end": 5.566667,
+              "start_frame": 158,
+              "end_frame": 167
+            },
+            {
+              "text": "mein",
+              "start": 5.566667,
+              "end": 5.9,
+              "start_frame": 167,
+              "end_frame": 177
+            },
+            {
+              "text": "kamai",
+              "start": 5.9,
+              "end": 6.2,
+              "start_frame": 177,
+              "end_frame": 186
+            },
+            {
+              "text": "kam.",
+              "start": 6.2,
+              "end": 6.666667,
+              "start_frame": 186,
+              "end_frame": 200
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 6.666667,
+          "end": 8.366667,
+          "text": "Teen: cheque ya EMI bounce.",
+          "words": [
+            {
+              "text": "Teen:",
+              "start": 6.666667,
+              "end": 6.966667,
+              "start_frame": 200,
+              "end_frame": 209
+            },
+            {
+              "text": "cheque",
+              "start": 6.966667,
+              "end": 7.3,
+              "start_frame": 209,
+              "end_frame": 219
+            },
+            {
+              "text": "ya",
+              "start": 7.3,
+              "end": 7.6,
+              "start_frame": 219,
+              "end_frame": 228
+            },
+            {
+              "text": "EMI",
+              "start": 7.6,
+              "end": 7.933333,
+              "start_frame": 228,
+              "end_frame": 238
+            },
+            {
+              "text": "bounce.",
+              "start": 7.933333,
+              "end": 8.366667,
+              "start_frame": 238,
+              "end_frame": 251
+            }
+          ],
+          "stock": "signing"
+        },
+        {
+          "start": 8.366667,
+          "end": 10.1,
+          "text": "Chaar: property ke kagaz adhure.",
+          "words": [
+            {
+              "text": "Chaar:",
+              "start": 8.366667,
+              "end": 8.7,
+              "start_frame": 251,
+              "end_frame": 261
+            },
+            {
+              "text": "property",
+              "start": 8.7,
+              "end": 9.0,
+              "start_frame": 261,
+              "end_frame": 270
+            },
+            {
+              "text": "ke",
+              "start": 9.0,
+              "end": 9.333333,
+              "start_frame": 270,
+              "end_frame": 280
+            },
+            {
+              "text": "kagaz",
+              "start": 9.333333,
+              "end": 9.633333,
+              "start_frame": 280,
+              "end_frame": 289
+            },
+            {
+              "text": "adhure.",
+              "start": 9.633333,
+              "end": 10.1,
+              "start_frame": 289,
+              "end_frame": 303
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 10.1,
+          "end": 12.5,
+          "text": "Paanch: chhupaya hua loan. Yeh sabse bada.",
+          "words": [
+            {
+              "text": "Paanch:",
+              "start": 10.1,
+              "end": 10.433333,
+              "start_frame": 303,
+              "end_frame": 313
+            },
+            {
+              "text": "chhupaya",
+              "start": 10.433333,
+              "end": 10.733333,
+              "start_frame": 313,
+              "end_frame": 322
+            },
+            {
+              "text": "hua",
+              "start": 10.733333,
+              "end": 11.066667,
+              "start_frame": 322,
+              "end_frame": 332
+            },
+            {
+              "text": "loan.",
+              "start": 11.066667,
+              "end": 11.4,
+              "start_frame": 332,
+              "end_frame": 342
+            },
+            {
+              "text": "Yeh",
+              "start": 11.4,
+              "end": 11.733333,
+              "start_frame": 342,
+              "end_frame": 352
+            },
+            {
+              "text": "sabse",
+              "start": 11.733333,
+              "end": 12.033333,
+              "start_frame": 352,
+              "end_frame": 361
+            },
+            {
+              "text": "bada.",
+              "start": 12.033333,
+              "end": 12.5,
+              "start_frame": 361,
+              "end_frame": 375
+            }
+          ],
+          "stock": "signing"
+        }
+      ]
+    },
+    "N11": {
+      "hook": "Profit hai. Phir bhi bank bole capacity kam?",
+      "series": "BANK KYA DEKHTA HAI",
+      "number_card": "Cash available ₹30L ÷ Yearly repayment ₹25L = 1.2 (Example. Not an offer.)",
+      "cta": "Apne CA ko bhejo",
+      "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "voice_scenes": [
+        {
+          "start": 0.8,
+          "end": 2.833333,
+          "text": "Profit hai. Phir bhi bank bole capacity kam?",
+          "words": [
+            {
+              "text": "Profit",
+              "start": 0.8,
+              "end": 1.033333,
+              "start_frame": 24,
+              "end_frame": 31
+            },
+            {
+              "text": "hai.",
+              "start": 1.033333,
+              "end": 1.266667,
+              "start_frame": 31,
+              "end_frame": 38
+            },
+            {
+              "text": "Phir",
+              "start": 1.266667,
+              "end": 1.5,
+              "start_frame": 38,
+              "end_frame": 45
+            },
+            {
+              "text": "bhi",
+              "start": 1.5,
+              "end": 1.733333,
+              "start_frame": 45,
+              "end_frame": 52
+            },
+            {
+              "text": "bank",
+              "start": 1.733333,
+              "end": 2.0,
+              "start_frame": 52,
+              "end_frame": 60
+            },
+            {
+              "text": "bole",
+              "start": 2.0,
+              "end": 2.233333,
+              "start_frame": 60,
+              "end_frame": 67
+            },
+            {
+              "text": "capacity",
+              "start": 2.233333,
+              "end": 2.466667,
+              "start_frame": 67,
+              "end_frame": 74
+            },
+            {
+              "text": "kam?",
+              "start": 2.466667,
+              "end": 2.833333,
+              "start_frame": 74,
+              "end_frame": 85
+            }
+          ],
+          "stock": "calculator"
+        },
+        {
+          "start": 2.833333,
+          "end": 4.366667,
+          "text": "Bank ek simple naap dekhta hai.",
+          "words": [
+            {
+              "text": "Bank",
+              "start": 2.833333,
+              "end": 3.066667,
+              "start_frame": 85,
+              "end_frame": 92
+            },
+            {
+              "text": "ek",
+              "start": 3.066667,
+              "end": 3.3,
+              "start_frame": 92,
+              "end_frame": 99
+            },
+            {
+              "text": "simple",
+              "start": 3.3,
+              "end": 3.533333,
+              "start_frame": 99,
+              "end_frame": 106
+            },
+            {
+              "text": "naap",
+              "start": 3.533333,
+              "end": 3.766667,
+              "start_frame": 106,
+              "end_frame": 113
+            },
+            {
+              "text": "dekhta",
+              "start": 3.766667,
+              "end": 4.0,
+              "start_frame": 113,
+              "end_frame": 120
+            },
+            {
+              "text": "hai.",
+              "start": 4.0,
+              "end": 4.366667,
+              "start_frame": 120,
+              "end_frame": 131
+            }
+          ],
+          "stock": "spreadsheet"
+        },
+        {
+          "start": 4.366667,
+          "end": 7.666667,
+          "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
+          "words": [
+            {
+              "text": "Saal",
+              "start": 4.366667,
+              "end": 4.6,
+              "start_frame": 131,
+              "end_frame": 138
+            },
+            {
+              "text": "mein",
+              "start": 4.6,
+              "end": 4.866667,
+              "start_frame": 138,
+              "end_frame": 146
+            },
+            {
+              "text": "loan",
+              "start": 4.866667,
+              "end": 5.1,
+              "start_frame": 146,
+              "end_frame": 153
+            },
+            {
+              "text": "chukane",
+              "start": 5.1,
+              "end": 5.333333,
+              "start_frame": 153,
+              "end_frame": 160
+            },
+            {
+              "text": "ke",
+              "start": 5.333333,
+              "end": 5.6,
+              "start_frame": 160,
+              "end_frame": 168
+            },
+            {
+              "text": "liye",
+              "start": 5.6,
+              "end": 5.833333,
+              "start_frame": 168,
+              "end_frame": 175
+            },
+            {
+              "text": "kitna",
+              "start": 5.833333,
+              "end": 6.066667,
+              "start_frame": 175,
+              "end_frame": 182
+            },
+            {
+              "text": "cash",
+              "start": 6.066667,
+              "end": 6.3,
+              "start_frame": 182,
+              "end_frame": 189
+            },
+            {
+              "text": "bacha,",
+              "start": 6.3,
+              "end": 6.566667,
+              "start_frame": 189,
+              "end_frame": 197
+            },
+            {
+              "text": "aur",
+              "start": 6.566667,
+              "end": 6.8,
+              "start_frame": 197,
+              "end_frame": 204
+            },
+            {
+              "text": "kitna",
+              "start": 6.8,
+              "end": 7.033333,
+              "start_frame": 204,
+              "end_frame": 211
+            },
+            {
+              "text": "chukana",
+              "start": 7.033333,
+              "end": 7.3,
+              "start_frame": 211,
+              "end_frame": 219
+            },
+            {
+              "text": "hai.",
+              "start": 7.3,
+              "end": 7.666667,
+              "start_frame": 219,
+              "end_frame": 230
+            }
+          ],
+          "stock": "calculator"
+        },
+        {
+          "start": 7.666667,
+          "end": 10.733333,
+          "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
+          "words": [
+            {
+              "text": "Example:",
+              "start": 7.666667,
+              "end": 7.9,
+              "start_frame": 230,
+              "end_frame": 237
+            },
+            {
+              "text": "cash",
+              "start": 7.9,
+              "end": 8.166667,
+              "start_frame": 237,
+              "end_frame": 245
+            },
+            {
+              "text": "tees",
+              "start": 8.166667,
+              "end": 8.4,
+              "start_frame": 245,
+              "end_frame": 252
+            },
+            {
+              "text": "lakh,",
+              "start": 8.4,
+              "end": 8.633333,
+              "start_frame": 252,
+              "end_frame": 259
+            },
+            {
+              "text": "chukana",
+              "start": 8.633333,
+              "end": 8.9,
+              "start_frame": 259,
+              "end_frame": 267
+            },
+            {
+              "text": "pachees",
+              "start": 8.9,
+              "end": 9.133333,
+              "start_frame": 267,
+              "end_frame": 274
+            },
+            {
+              "text": "lakh.",
+              "start": 9.133333,
+              "end": 9.366667,
+              "start_frame": 274,
+              "end_frame": 281
+            },
+            {
+              "text": "Naap",
+              "start": 9.366667,
+              "end": 9.633333,
+              "start_frame": 281,
+              "end_frame": 289
+            },
+            {
+              "text": "aaya",
+              "start": 9.633333,
+              "end": 9.866667,
+              "start_frame": 289,
+              "end_frame": 296
+            },
+            {
+              "text": "ek",
+              "start": 9.866667,
+              "end": 10.1,
+              "start_frame": 296,
+              "end_frame": 303
+            },
+            {
+              "text": "point",
+              "start": 10.1,
+              "end": 10.366667,
+              "start_frame": 303,
+              "end_frame": 311
+            },
+            {
+              "text": "do.",
+              "start": 10.366667,
+              "end": 10.733333,
+              "start_frame": 311,
+              "end_frame": 322
+            }
+          ],
+          "stock": "spreadsheet"
+        },
+        {
+          "start": 10.733333,
+          "end": 12.5,
+          "text": "Kai lender isse zyada cushion maangte hain.",
+          "words": [
+            {
+              "text": "Kai",
+              "start": 10.733333,
+              "end": 10.966667,
+              "start_frame": 322,
+              "end_frame": 329
+            },
+            {
+              "text": "lender",
+              "start": 10.966667,
+              "end": 11.2,
+              "start_frame": 329,
+              "end_frame": 336
+            },
+            {
+              "text": "isse",
+              "start": 11.2,
+              "end": 11.433333,
+              "start_frame": 336,
+              "end_frame": 343
+            },
+            {
+              "text": "zyada",
+              "start": 11.433333,
+              "end": 11.666667,
+              "start_frame": 343,
+              "end_frame": 350
+            },
+            {
+              "text": "cushion",
+              "start": 11.666667,
+              "end": 11.9,
+              "start_frame": 350,
+              "end_frame": 357
+            },
+            {
+              "text": "maangte",
+              "start": 11.9,
+              "end": 12.133333,
+              "start_frame": 357,
+              "end_frame": 364
+            },
+            {
+              "text": "hain.",
+              "start": 12.133333,
+              "end": 12.5,
+              "start_frame": 364,
+              "end_frame": 375
+            }
+          ],
+          "stock": "calculator"
+        }
+      ]
+    },
+    "N12": {
+      "hook": "Naya project. CMA ya DPR? Bank pehle kya maangega",
+      "series": "BUSINESS KA PAISA",
+      "number_card": null,
+      "cta": "Follow karo. Kal ek naya hisaab",
+      "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "voice_scenes": [
+        {
+          "start": 0.8,
+          "end": 2.066667,
+          "text": "Naya project. CMA ya DPR?",
+          "words": [
+            {
+              "text": "Naya",
+              "start": 0.8,
+              "end": 1.033333,
+              "start_frame": 24,
+              "end_frame": 31
+            },
+            {
+              "text": "project.",
+              "start": 1.033333,
+              "end": 1.266667,
+              "start_frame": 31,
+              "end_frame": 38
+            },
+            {
+              "text": "CMA",
+              "start": 1.266667,
+              "end": 1.466667,
+              "start_frame": 38,
+              "end_frame": 44
+            },
+            {
+              "text": "ya",
+              "start": 1.466667,
+              "end": 1.7,
+              "start_frame": 44,
+              "end_frame": 51
+            },
+            {
+              "text": "DPR?",
+              "start": 1.7,
+              "end": 2.066667,
+              "start_frame": 51,
+              "end_frame": 62
+            }
+          ],
+          "stock": "machinery"
+        },
+        {
+          "start": 2.066667,
+          "end": 5.366667,
+          "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
+          "words": [
+            {
+              "text": "DPR",
+              "start": 2.066667,
+              "end": 2.3,
+              "start_frame": 62,
+              "end_frame": 69
+            },
+            {
+              "text": "batata",
+              "start": 2.3,
+              "end": 2.566667,
+              "start_frame": 69,
+              "end_frame": 77
+            },
+            {
+              "text": "hai",
+              "start": 2.566667,
+              "end": 2.8,
+              "start_frame": 77,
+              "end_frame": 84
+            },
+            {
+              "text": "project",
+              "start": 2.8,
+              "end": 3.033333,
+              "start_frame": 84,
+              "end_frame": 91
+            },
+            {
+              "text": "kya",
+              "start": 3.033333,
+              "end": 3.3,
+              "start_frame": 91,
+              "end_frame": 99
+            },
+            {
+              "text": "hai,",
+              "start": 3.3,
+              "end": 3.533333,
+              "start_frame": 99,
+              "end_frame": 106
+            },
+            {
+              "text": "kitne",
+              "start": 3.533333,
+              "end": 3.766667,
+              "start_frame": 106,
+              "end_frame": 113
+            },
+            {
+              "text": "ka",
+              "start": 3.766667,
+              "end": 4.0,
+              "start_frame": 113,
+              "end_frame": 120
+            },
+            {
+              "text": "hai,",
+              "start": 4.0,
+              "end": 4.266667,
+              "start_frame": 120,
+              "end_frame": 128
+            },
+            {
+              "text": "paisa",
+              "start": 4.266667,
+              "end": 4.5,
+              "start_frame": 128,
+              "end_frame": 135
+            },
+            {
+              "text": "kaise",
+              "start": 4.5,
+              "end": 4.733333,
+              "start_frame": 135,
+              "end_frame": 142
+            },
+            {
+              "text": "wapas",
+              "start": 4.733333,
+              "end": 5.0,
+              "start_frame": 142,
+              "end_frame": 150
+            },
+            {
+              "text": "aayega.",
+              "start": 5.0,
+              "end": 5.366667,
+              "start_frame": 150,
+              "end_frame": 161
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 5.366667,
+          "end": 8.433333,
+          "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
+          "words": [
+            {
+              "text": "CMA",
+              "start": 5.366667,
+              "end": 5.6,
+              "start_frame": 161,
+              "end_frame": 168
+            },
+            {
+              "text": "batata",
+              "start": 5.6,
+              "end": 5.866667,
+              "start_frame": 168,
+              "end_frame": 176
+            },
+            {
+              "text": "hai",
+              "start": 5.866667,
+              "end": 6.1,
+              "start_frame": 176,
+              "end_frame": 183
+            },
+            {
+              "text": "business",
+              "start": 6.1,
+              "end": 6.333333,
+              "start_frame": 183,
+              "end_frame": 190
+            },
+            {
+              "text": "ke",
+              "start": 6.333333,
+              "end": 6.6,
+              "start_frame": 190,
+              "end_frame": 198
+            },
+            {
+              "text": "numbers:",
+              "start": 6.6,
+              "end": 6.833333,
+              "start_frame": 198,
+              "end_frame": 205
+            },
+            {
+              "text": "pichhle",
+              "start": 6.833333,
+              "end": 7.066667,
+              "start_frame": 205,
+              "end_frame": 212
+            },
+            {
+              "text": "saal",
+              "start": 7.066667,
+              "end": 7.333333,
+              "start_frame": 212,
+              "end_frame": 220
+            },
+            {
+              "text": "aur",
+              "start": 7.333333,
+              "end": 7.566667,
+              "start_frame": 220,
+              "end_frame": 227
+            },
+            {
+              "text": "aane",
+              "start": 7.566667,
+              "end": 7.8,
+              "start_frame": 227,
+              "end_frame": 234
+            },
+            {
+              "text": "wale",
+              "start": 7.8,
+              "end": 8.066667,
+              "start_frame": 234,
+              "end_frame": 242
+            },
+            {
+              "text": "saal.",
+              "start": 8.066667,
+              "end": 8.433333,
+              "start_frame": 242,
+              "end_frame": 253
+            }
+          ],
+          "stock": "spreadsheet"
+        },
+        {
+          "start": 8.433333,
+          "end": 10.733333,
+          "text": "Naye project ke liye zyada lender dono maangte hain.",
+          "words": [
+            {
+              "text": "Naye",
+              "start": 8.433333,
+              "end": 8.666667,
+              "start_frame": 253,
+              "end_frame": 260
+            },
+            {
+              "text": "project",
+              "start": 8.666667,
+              "end": 8.9,
+              "start_frame": 260,
+              "end_frame": 267
+            },
+            {
+              "text": "ke",
+              "start": 8.9,
+              "end": 9.166667,
+              "start_frame": 267,
+              "end_frame": 275
+            },
+            {
+              "text": "liye",
+              "start": 9.166667,
+              "end": 9.4,
+              "start_frame": 275,
+              "end_frame": 282
+            },
+            {
+              "text": "zyada",
+              "start": 9.4,
+              "end": 9.633333,
+              "start_frame": 282,
+              "end_frame": 289
+            },
+            {
+              "text": "lender",
+              "start": 9.633333,
+              "end": 9.866667,
+              "start_frame": 289,
+              "end_frame": 296
+            },
+            {
+              "text": "dono",
+              "start": 9.866667,
+              "end": 10.133333,
+              "start_frame": 296,
+              "end_frame": 304
+            },
+            {
+              "text": "maangte",
+              "start": 10.133333,
+              "end": 10.366667,
+              "start_frame": 304,
+              "end_frame": 311
+            },
+            {
+              "text": "hain.",
+              "start": 10.366667,
+              "end": 10.733333,
+              "start_frame": 311,
+              "end_frame": 322
+            }
+          ],
+          "stock": "document_review"
+        },
+        {
+          "start": 10.733333,
+          "end": 12.5,
+          "text": "Pehle DPR, phir uske numbers se CMA.",
+          "words": [
+            {
+              "text": "Pehle",
+              "start": 10.733333,
+              "end": 10.966667,
+              "start_frame": 322,
+              "end_frame": 329
+            },
+            {
+              "text": "DPR,",
+              "start": 10.966667,
+              "end": 11.2,
+              "start_frame": 329,
+              "end_frame": 336
+            },
+            {
+              "text": "phir",
+              "start": 11.2,
+              "end": 11.433333,
+              "start_frame": 336,
+              "end_frame": 343
+            },
+            {
+              "text": "uske",
+              "start": 11.433333,
+              "end": 11.666667,
+              "start_frame": 343,
+              "end_frame": 350
+            },
+            {
+              "text": "numbers",
+              "start": 11.666667,
+              "end": 11.9,
+              "start_frame": 350,
+              "end_frame": 357
+            },
+            {
+              "text": "se",
+              "start": 11.9,
+              "end": 12.133333,
+              "start_frame": 357,
+              "end_frame": 364
+            },
+            {
+              "text": "CMA.",
+              "start": 12.133333,
+              "end": 12.5,
+              "start_frame": 364,
+              "end_frame": 375
+            }
+          ],
+          "stock": "signing"
+        }
+      ]
+    }
+  }
+}

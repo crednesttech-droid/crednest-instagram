@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "rendered_images": 31,
+  "canvas": [
+    1080,
+    1350
+  ],
+  "jpeg_quality": 95,
+  "icc": "embedded sRGB",
+  "max_file_bytes": 221563,
+  "total_bytes": 4981545,
+  "max_main_body_words": 21,
+  "minimum_main_body_font_size": 80,
+  "text_and_bounds_checks": "Canonical body retained exactly; wrapped lines reconstruct logical text; every element inside canvas.",
+  "visual_review": "All 31 slides and six covers inspected in contact sheets; no clipping or accidental extra copy."
+}

@@ -1,0 +1,144 @@
+Repo: crednest-instagram. This brief is for Codex. All copy below is final. Do not invent, add or reword text.
+```
+Build the 14 Instagram feed items in this brief for @crednest.io.
+
+RULES
+1. Use the copy in this brief exactly. Do not add, remove or reword any on-image text, caption or voice line.
+2. Brand kit: brand/ folder (lime, dark green, cream). Same fonts as existing media/.
+3. COVER (slide 1 / reel frame 1): ONLY the hook, in the largest font that fits, plus the small series tag on top
+   and "crednest.io" at the bottom. No bullet list, no phone number, no disclaimer, no "Watch now" on the cover.
+4. Carousels: 1080x1350 JPEG, sRGB, quality 90+, under 8 MB each. One idea per slide, max 25 words per slide.
+   Any slide that shows a number carries the small tag "Example. Not an offer."
+   Last slide: the CTA line given, then the small footer
+   "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion."
+5. Reels: 1080x1920, 9–14 seconds, built with build_reels_v2.py standard (safe zones, shared caption baseline).
+   - Frame 1 (0.0s) shows the hook text already on screen, with motion from the first frame. No logo intro.
+   - Background: licensed Pexels B-roll of the kind named in each item (hands, calculator, shop, papers). No faces.
+   - Burned-in captions follow the voice lines word by word.
+   - End card (last 1.5s): CTA line + crednest.io. Footer disclaimer small on the end card only.
+   - Deliver SILENT video. Put the voice lines in queue.json as "voice_scenes" and set status "needs_voice".
+     Do NOT generate any voice or music. Claude adds audio later with scripts/revoice.py.
+6. Carousels and photos: set status "review". Never set "ready". Do not touch state/published.json or other items.
+7. Captions: exactly as given. Hashtags: only the ones given (max 5).
+8. Number rule for this batch (replaces the old "no figures" rule): example rupee figures, EMIs and rates are allowed
+   ONLY where written in this brief and ONLY with the "Example. Not an offer." tag. Still banned: approval promises,
+   timelines, "guaranteed", "instant", lender or bank names, client names or results.
+9. Schedule: one item per day, 16–29 Nov 2026, publish time 19:30 IST. Paths: media/<id>/01.jpg … or media/<id>/reel.mp4.
+
+Before opening the PR run: python scripts/publish.py --check (must say OK).
+Open a PR titled "Nov 16–29: 4-series batch (14 items)" with a preview of every cover.
+```
+Every caption ends with this block (shown below as [END]):
+```
+Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.
+
+CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.
+```
+Formula used for every EMI below: EMI = P × r × (1+r)^n ÷ ((1+r)^n − 1), where P = loan, r = yearly rate ÷ 12, n = months.
+- Hook (frame 1): CIBIL 780. Phir bhi loan kam kyun mila?
+- B-roll: hand writing numbers on paper, calculator.
+- Voice / captions: 
+  1. CIBIL 780 hai. Phir bhi loan kam kyun mila?
+  2. Kyunki bank score ke baad aapki EMI ka bojh dekhta hai.
+  3. Example: kamai ek lakh mahina, purani EMI paintees hazaar.
+  4. Agar bank pachaas percent tak EMI maanta hai, to nayi EMI ki jagah sirf pandrah hazaar.
+  5. Score achha hai. Jagah kam hai.
+- On-screen number card: Income ₹1,00,000 · Existing EMIs ₹35,000 · Limit 50% = ₹50,000 · Room for new EMI ₹15,000 (Example. Not an offer.)
+- End card CTA: Loan lene wale dost ko bhejo
+- Caption: Achha CIBIL score sirf pehla darwaza hai. Uske baad lender dekhta hai ki kamai ka kitna hissa pehle se EMI mein ja raha hai (FOIR: fixed obligations to income ratio). Har lender ki limit alag hoti hai; 50% sirf example hai. [END] #CIBIL #LoanEligibility #CredNest #MumbaiBusiness #HomeLoan
+- S1 cover: Property de di. Loan pakka? Nahi.
+- S2: MYTH: "Property girvi rakh di, ab bank mana nahi karega."
+- S3: SACH: Property sirf security hai. Bank pehle poochta hai: EMI kahan se aayegi?
+- S4: Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title
+- S5: Property loan ka size tay karti hai. Kamai loan ka milna tay karti hai. · CTA: Property wale dost ko bhejo
+- Caption: Loan against property (LAP) mein property aur repayment do alag sawaal hain. Dono ka jawab file mein hona chahiye. [END] #LoanAgainstProperty #LAP #CredNest #MumbaiProperty #MythVsFact
+- S1 cover: 5 EMI → 1 EMI. Poora hisaab dekho
+- S2: Example: 5 alag loan. Total baaki ₹40 lakh. Mahine ki total EMI ₹1,45,000.
+- S3: Agar yahi ₹40 lakh property ke against ek loan ban jaye: 11% p.a., 15 saal.
+- S4: Nayi EMI: ₹45,464. Mahine ka bojh ₹99,536 kam.
+- S5: Dhyan rahe: 15 saal mein total byaaj ₹41,83,498 banta hai. EMI kam, par samay lamba. Jaldi prepay karna samajhdaari hai.
+- S6: Ek EMI tabhi sahi hai jab cash flow sambhle aur naya udhaar band ho. · CTA: DM "EMI" — hisaab ka format bhejenge
+- Caption: Consolidation ka matlab hai kai loan ko ek loan mein badalna. EMI kam hoti hai kyunki rate kam aur tenure lamba hota hai; total byaaj badh sakta hai. Dono side dekh ke faisla lo. Rate aur tenure example hain, lender ke assessment pe depend karte hain. [END] #LoanConsolidation #LAP #EMI #CredNest #MumbaiBusiness
+- Hook: ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?
+- B-roll: papers on a desk, hand flipping a bank passbook/statement.
+- Voice / captions: 
+  1. ITR mein baarah lakh. Bank statement mein chaalees lakh.
+  2. Bank kis pe bharosa karega?
+  3. Zyada lender loan ITR ki kamai pe naapte hain.
+  4. Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.
+  5. Dono ki kahani ek honi chahiye.
+- End card CTA: Apne CA ko bhejo
+- Caption: Turnover aur income alag cheezein hain. Jab ITR aur bank statement alag kahani batate hain, lender sawaal poochta hai. File dene se pehle farak samjha do. [END] #ITR #BusinessLoan #CredNest #MSME #LoanEligibility
+- Hook: Bank ne CC limit kyun kam ki?
+- B-roll: godown / shop shelves with stock, hand counting cartons.
+- Voice / captions: 
+  1. Bank ne CC limit kyun kam ki?
+  2. Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.
+  3. Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.
+  4. Bacha sattar lakh. Pachees percent margin kaato.
+  5. Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.
+- On-screen number card: Stock ₹60L + Debtors ₹40L − Creditors ₹30L = ₹70L · Less 25% margin · Drawing power ₹52.5L (Limit ₹75L) (Example. Not an offer.)
+- End card CTA: Apne accountant ko bhejo
+- Caption: CC (cash credit) limit sanction hoti hai, par har mahine ka stock statement tay karta hai ki kitna nikal sakte ho. Isse drawing power kehte hain. Margin har lender ka alag hota hai. [END] #CashCredit #WorkingCapital #MSME #CredNest #MumbaiBusiness
+- S1 cover: Same ₹30 lakh. Do loan. EMI ka farak dekho
+- S2: Personal loan: 16% p.a., 5 saal. EMI ₹72,954.
+- S3: Loan against property: 11% p.a., 15 saal. EMI ₹34,098.
+- S4: Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi.
+- S5: Sawaal yeh hai: aapko kam EMI chahiye ya kam total byaaj? · CTA: Save karo, loan lene se pehle kaam aayega
+- Caption: EMI aur total cost do alag numbers hain. LAP mein property girvi hoti hai, isliye rate kam aur tenure lamba milta hai. Rates example hain, lender ke assessment pe depend karte hain. [END] #LoanAgainstProperty #PersonalLoan #EMI #CredNest #LoanComparison
+- Claude fills this on Sat 21 Nov from the best performer of N01–N06 (highest shares, then follows). Codex: leave the slot empty.
+- Hook: Bank file reject kyun karta hai? 5 reasons
+- B-roll: file folder being closed, stamp, papers.
+- Voice / captions: 
+  1. Bank file reject kyun karta hai? Paanch reason.
+  2. Ek: purani EMI zyada.
+  3. Do: ITR mein kamai kam.
+  4. Teen: cheque ya EMI bounce.
+  5. Chaar: property ke kagaz adhure.
+  6. Paanch: chhupaya hua loan. Yeh sabse bada.
+- End card CTA: Save karo. File dene se pehle check karo
+- Caption: Zyada file lender ke paas jaane se pehle hi theek ki ja sakti hain. Sabse bada nuksan chhupaye hue loan se hota hai, kyunki credit report mein sab dikhta hai. [END] #LoanRejection #CIBIL #BusinessLoan #CredNest #LoanTips
+- S1 cover: Settlement kar liya. CIBIL theek? Nahi.
+- S2: MYTH: "Settlement ke baad loan khatam, record saaf."
+- S3: SACH: Credit report mein "Settled" likha aata hai, "Closed" nahi.
+- S4: Naya lender "Settled" ko aise padhta hai: poora paisa wapas nahi aaya.
+- S5: Settlement se pehle poocho: kya poora chukane ya loan ko dobara structure karne ka raasta hai? · CTA: Jise zaroorat ho, use bhejo
+- Caption: Settlement aur closure alag hain. Settlement ka asar aage ke loan pe pad sakta hai. Faisla lene se pehle apni credit report khud dekho. [END] #CIBIL #LoanSettlement #CreditScore #CredNest #MythVsFact
+- S1 cover: ₹3 Cr ki property. Loan kitna banta hai?
+- S2: Pehla naap, property: agar lender value ka 60% deta hai, to ceiling ₹1.8 Cr.
+- S3: Doosra naap, kamai: agar aap ₹1,20,000 ki EMI utha sakte ho (11% p.a., 15 saal)…
+- S4: …to loan banta hai lagbhag ₹1.06 Cr. Bank dono mein se chhota number deta hai.
+- S5: Property ₹3 Cr. Ceiling ₹1.8 Cr. Mila ₹1.06 Cr. Wajah: kamai. · CTA: DM "LAP" — apna naap samjho
+- Caption: LAP mein do naap hote hain: property ki value ka hissa (LTV: loan to value) aur EMI bharne ki capacity. Jo chhota, wahi loan. 60% aur 11% example hain; har lender aur property type ka alag hota hai. [END] #LoanAgainstProperty #LAP #MumbaiProperty #CredNest #LoanEligibility
+- Hook: Profit hai. Phir bhi bank bole capacity kam?
+- B-roll: hand on calculator next to a ledger / laptop with spreadsheet.
+- Voice / captions: 
+  1. Profit hai. Phir bhi bank bole capacity kam?
+  2. Bank ek simple naap dekhta hai.
+  3. Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.
+  4. Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.
+  5. Kai lender isse zyada cushion maangte hain.
+- On-screen number card: Cash available ₹30L ÷ Yearly repayment ₹25L = 1.2 (Example. Not an offer.)
+- End card CTA: Apne CA ko bhejo
+- Caption: Is naap ko DSCR kehte hain (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai. [END] #DSCR #BusinessLoan #MSME #CredNest #TermLoan
+- Hook: Naya project. CMA ya DPR? Bank pehle kya maangega
+- B-roll: factory floor / machinery wide shot, then papers.
+- Voice / captions: 
+  1. Naya project. CMA ya DPR?
+  2. DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.
+  3. CMA batata hai business ke numbers: pichhle saal aur aane wale saal.
+  4. Naye project ke liye zyada lender dono maangte hain.
+  5. Pehle DPR, phir uske numbers se CMA.
+- End card CTA: Follow karo. Kal ek naya hisaab
+- Caption: DPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye. [END] #ProjectFinance #CMA #DPR #MSME #CredNest
+- S1 cover: Home loan pe top-up ya naya personal loan?
+- S2: Zaroorat: ₹10 lakh.
+- S3: Home loan top-up: 9.5% p.a., 10 saal. EMI ₹12,940. Total byaaj ₹5,52,771.
+- S4: Personal loan: 15% p.a., 5 saal. EMI ₹23,790. Total byaaj ₹4,27,396.
+- S5: Top-up: EMI kam, samay lamba. Personal loan: EMI zyada, jaldi khatam. Top-up ko 5 saal mein chukao to dono faayde. · CTA: Home loan wale dost ko bhejo
+- Caption: Top-up tabhi milta hai jab home loan ka record achha ho aur property ki value mein jagah ho. Rates example hain, lender ke assessment pe depend karte hain. [END] #HomeLoan #TopUpLoan #PersonalLoan #EMI #CredNest
+- Claude fills this on Sat 28 Nov from the best performer of N08–N13. Codex: leave the slot empty.
+1. Run the workflow "Re-voice reels (Sarvam)", mode voice, for N01, N04, N05, N08, N11, N12.
+2. Voice lines are Hinglish, so test N01 alone first with the Hindi language setting and two speakers; pick the more natural one, then run the rest.
+3. Numbers are written as words in the voice lines so the voice reads them correctly.
+4. Music bed stays ducked under the voice (existing revoice.py setting). Verify duration, audio and end card on each reel before setting "ready".

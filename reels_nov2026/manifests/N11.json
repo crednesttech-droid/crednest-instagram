@@ -1,0 +1,4673 @@
+{
+  "id": "N11",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 14.0,
+    "audio": false,
+    "file_size_bytes": 3935476,
+    "safe_zone": [
+      250,
+      1500
+    ],
+    "caption_baseline": 1260,
+    "end_card_start": 12.5,
+    "cover_frame_seconds": 0,
+    "cover_quality": 95,
+    "cover_color_profile": "sRGB"
+  },
+  "hook": "Profit hai. Phir bhi bank bole capacity kam?",
+  "series": "BANK KYA DEKHTA HAI",
+  "number_card": "Cash available ₹30L ÷ Yearly repayment ₹25L = 1.2 (Example. Not an offer.)",
+  "cta": "Apne CA ko bhejo",
+  "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "cover_boxes": [
+    {
+      "label": "series_tag",
+      "text": "BANK KYA DEKHTA HAI",
+      "box": [
+        88,
+        284,
+        431,
+        307
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Profit hai.",
+      "box": [
+        88,
+        488,
+        747,
+        589
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Phir bhi bank",
+      "box": [
+        88,
+        654,
+        954,
+        755
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "bole capacity",
+      "box": [
+        88,
+        820,
+        987,
+        954
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "kam?",
+      "box": [
+        88,
+        986,
+        444,
+        1087
+      ]
+    },
+    {
+      "label": "website",
+      "text": "crednest.io",
+      "box": [
+        88,
+        1435,
+        301,
+        1463
+      ]
+    }
+  ],
+  "voice_scenes": [
+    {
+      "start": 0.8,
+      "end": 2.833333,
+      "text": "Profit hai. Phir bhi bank bole capacity kam?",
+      "words": [
+        {
+          "text": "Profit",
+          "start": 0.8,
+          "end": 1.033333,
+          "start_frame": 24,
+          "end_frame": 31
+        },
+        {
+          "text": "hai.",
+          "start": 1.033333,
+          "end": 1.266667,
+          "start_frame": 31,
+          "end_frame": 38
+        },
+        {
+          "text": "Phir",
+          "start": 1.266667,
+          "end": 1.5,
+          "start_frame": 38,
+          "end_frame": 45
+        },
+        {
+          "text": "bhi",
+          "start": 1.5,
+          "end": 1.733333,
+          "start_frame": 45,
+          "end_frame": 52
+        },
+        {
+          "text": "bank",
+          "start": 1.733333,
+          "end": 2.0,
+          "start_frame": 52,
+          "end_frame": 60
+        },
+        {
+          "text": "bole",
+          "start": 2.0,
+          "end": 2.233333,
+          "start_frame": 60,
+          "end_frame": 67
+        },
+        {
+          "text": "capacity",
+          "start": 2.233333,
+          "end": 2.466667,
+          "start_frame": 67,
+          "end_frame": 74
+        },
+        {
+          "text": "kam?",
+          "start": 2.466667,
+          "end": 2.833333,
+          "start_frame": 74,
+          "end_frame": 85
+        }
+      ],
+      "stock": "calculator"
+    },
+    {
+      "start": 2.833333,
+      "end": 4.366667,
+      "text": "Bank ek simple naap dekhta hai.",
+      "words": [
+        {
+          "text": "Bank",
+          "start": 2.833333,
+          "end": 3.066667,
+          "start_frame": 85,
+          "end_frame": 92
+        },
+        {
+          "text": "ek",
+          "start": 3.066667,
+          "end": 3.3,
+          "start_frame": 92,
+          "end_frame": 99
+        },
+        {
+          "text": "simple",
+          "start": 3.3,
+          "end": 3.533333,
+          "start_frame": 99,
+          "end_frame": 106
+        },
+        {
+          "text": "naap",
+          "start": 3.533333,
+          "end": 3.766667,
+          "start_frame": 106,
+          "end_frame": 113
+        },
+        {
+          "text": "dekhta",
+          "start": 3.766667,
+          "end": 4.0,
+          "start_frame": 113,
+          "end_frame": 120
+        },
+        {
+          "text": "hai.",
+          "start": 4.0,
+          "end": 4.366667,
+          "start_frame": 120,
+          "end_frame": 131
+        }
+      ],
+      "stock": "spreadsheet"
+    },
+    {
+      "start": 4.366667,
+      "end": 7.666667,
+      "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
+      "words": [
+        {
+          "text": "Saal",
+          "start": 4.366667,
+          "end": 4.6,
+          "start_frame": 131,
+          "end_frame": 138
+        },
+        {
+          "text": "mein",
+          "start": 4.6,
+          "end": 4.866667,
+          "start_frame": 138,
+          "end_frame": 146
+        },
+        {
+          "text": "loan",
+          "start": 4.866667,
+          "end": 5.1,
+          "start_frame": 146,
+          "end_frame": 153
+        },
+        {
+          "text": "chukane",
+          "start": 5.1,
+          "end": 5.333333,
+          "start_frame": 153,
+          "end_frame": 160
+        },
+        {
+          "text": "ke",
+          "start": 5.333333,
+          "end": 5.6,
+          "start_frame": 160,
+          "end_frame": 168
+        },
+        {
+          "text": "liye",
+          "start": 5.6,
+          "end": 5.833333,
+          "start_frame": 168,
+          "end_frame": 175
+        },
+        {
+          "text": "kitna",
+          "start": 5.833333,
+          "end": 6.066667,
+          "start_frame": 175,
+          "end_frame": 182
+        },
+        {
+          "text": "cash",
+          "start": 6.066667,
+          "end": 6.3,
+          "start_frame": 182,
+          "end_frame": 189
+        },
+        {
+          "text": "bacha,",
+          "start": 6.3,
+          "end": 6.566667,
+          "start_frame": 189,
+          "end_frame": 197
+        },
+        {
+          "text": "aur",
+          "start": 6.566667,
+          "end": 6.8,
+          "start_frame": 197,
+          "end_frame": 204
+        },
+        {
+          "text": "kitna",
+          "start": 6.8,
+          "end": 7.033333,
+          "start_frame": 204,
+          "end_frame": 211
+        },
+        {
+          "text": "chukana",
+          "start": 7.033333,
+          "end": 7.3,
+          "start_frame": 211,
+          "end_frame": 219
+        },
+        {
+          "text": "hai.",
+          "start": 7.3,
+          "end": 7.666667,
+          "start_frame": 219,
+          "end_frame": 230
+        }
+      ],
+      "stock": "calculator"
+    },
+    {
+      "start": 7.666667,
+      "end": 10.733333,
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
+      "words": [
+        {
+          "text": "Example:",
+          "start": 7.666667,
+          "end": 7.9,
+          "start_frame": 230,
+          "end_frame": 237
+        },
+        {
+          "text": "cash",
+          "start": 7.9,
+          "end": 8.166667,
+          "start_frame": 237,
+          "end_frame": 245
+        },
+        {
+          "text": "tees",
+          "start": 8.166667,
+          "end": 8.4,
+          "start_frame": 245,
+          "end_frame": 252
+        },
+        {
+          "text": "lakh,",
+          "start": 8.4,
+          "end": 8.633333,
+          "start_frame": 252,
+          "end_frame": 259
+        },
+        {
+          "text": "chukana",
+          "start": 8.633333,
+          "end": 8.9,
+          "start_frame": 259,
+          "end_frame": 267
+        },
+        {
+          "text": "pachees",
+          "start": 8.9,
+          "end": 9.133333,
+          "start_frame": 267,
+          "end_frame": 274
+        },
+        {
+          "text": "lakh.",
+          "start": 9.133333,
+          "end": 9.366667,
+          "start_frame": 274,
+          "end_frame": 281
+        },
+        {
+          "text": "Naap",
+          "start": 9.366667,
+          "end": 9.633333,
+          "start_frame": 281,
+          "end_frame": 289
+        },
+        {
+          "text": "aaya",
+          "start": 9.633333,
+          "end": 9.866667,
+          "start_frame": 289,
+          "end_frame": 296
+        },
+        {
+          "text": "ek",
+          "start": 9.866667,
+          "end": 10.1,
+          "start_frame": 296,
+          "end_frame": 303
+        },
+        {
+          "text": "point",
+          "start": 10.1,
+          "end": 10.366667,
+          "start_frame": 303,
+          "end_frame": 311
+        },
+        {
+          "text": "do.",
+          "start": 10.366667,
+          "end": 10.733333,
+          "start_frame": 311,
+          "end_frame": 322
+        }
+      ],
+      "stock": "spreadsheet"
+    },
+    {
+      "start": 10.733333,
+      "end": 12.5,
+      "text": "Kai lender isse zyada cushion maangte hain.",
+      "words": [
+        {
+          "text": "Kai",
+          "start": 10.733333,
+          "end": 10.966667,
+          "start_frame": 322,
+          "end_frame": 329
+        },
+        {
+          "text": "lender",
+          "start": 10.966667,
+          "end": 11.2,
+          "start_frame": 329,
+          "end_frame": 336
+        },
+        {
+          "text": "isse",
+          "start": 11.2,
+          "end": 11.433333,
+          "start_frame": 336,
+          "end_frame": 343
+        },
+        {
+          "text": "zyada",
+          "start": 11.433333,
+          "end": 11.666667,
+          "start_frame": 343,
+          "end_frame": 350
+        },
+        {
+          "text": "cushion",
+          "start": 11.666667,
+          "end": 11.9,
+          "start_frame": 350,
+          "end_frame": 357
+        },
+        {
+          "text": "maangte",
+          "start": 11.9,
+          "end": 12.133333,
+          "start_frame": 357,
+          "end_frame": 364
+        },
+        {
+          "text": "hain.",
+          "start": 12.133333,
+          "end": 12.5,
+          "start_frame": 364,
+          "end_frame": 375
+        }
+      ],
+      "stock": "calculator"
+    }
+  ],
+  "states": [
+    {
+      "kind": "hook",
+      "text": "Profit hai. Phir bhi bank bole capacity kam?",
+      "start_frame": 0,
+      "end_frame": 24,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Profit hai.",
+          "box": [
+            88,
+            488,
+            747,
+            589
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Phir bhi bank",
+          "box": [
+            88,
+            654,
+            954,
+            755
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "bole capacity",
+          "box": [
+            88,
+            820,
+            987,
+            954
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "kam?",
+          "box": [
+            88,
+            986,
+            444,
+            1087
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1435,
+            301,
+            1463
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit",
+      "start_frame": 24,
+      "end_frame": 31,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai.",
+      "start_frame": 31,
+      "end_frame": 38,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai. Phir",
+      "start_frame": 38,
+      "end_frame": 45,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            483,
+            1068,
+            639,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai. Phir bhi",
+      "start_frame": 45,
+      "end_frame": 52,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            483,
+            1068,
+            639,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            655,
+            1068,
+            777,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai. Phir bhi bank",
+      "start_frame": 52,
+      "end_frame": 60,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            483,
+            1068,
+            639,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            655,
+            1068,
+            777,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            793,
+            1068,
+            982,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai. Phir bhi bank bole",
+      "start_frame": 60,
+      "end_frame": 67,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            483,
+            1068,
+            639,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            655,
+            1068,
+            777,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            793,
+            1068,
+            982,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bole",
+          "box": [
+            88,
+            1164,
+            256,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai. Phir bhi bank bole capacity",
+      "start_frame": 67,
+      "end_frame": 74,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            483,
+            1068,
+            639,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            655,
+            1068,
+            777,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            793,
+            1068,
+            982,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bole",
+          "box": [
+            88,
+            1164,
+            256,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "capacity",
+          "box": [
+            272,
+            1164,
+            604,
+            1240
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Profit hai. Phir bhi bank bole capacity kam?",
+      "start_frame": 74,
+      "end_frame": 85,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Profit",
+          "box": [
+            88,
+            1068,
+            308,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            324,
+            1068,
+            467,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Phir",
+          "box": [
+            483,
+            1068,
+            639,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi",
+          "box": [
+            655,
+            1068,
+            777,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bank",
+          "box": [
+            793,
+            1068,
+            982,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bole",
+          "box": [
+            88,
+            1164,
+            256,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "capacity",
+          "box": [
+            272,
+            1164,
+            604,
+            1240
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam?",
+          "box": [
+            619,
+            1164,
+            822,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank",
+      "start_frame": 85,
+      "end_frame": 92,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ek",
+      "start_frame": 92,
+      "end_frame": 99,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            292,
+            1068,
+            384,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ek simple",
+      "start_frame": 99,
+      "end_frame": 106,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            292,
+            1068,
+            384,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "simple",
+          "box": [
+            398,
+            1068,
+            654,
+            1144
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ek simple naap",
+      "start_frame": 106,
+      "end_frame": 113,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            292,
+            1068,
+            384,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "simple",
+          "box": [
+            398,
+            1068,
+            654,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "naap",
+          "box": [
+            670,
+            1068,
+            859,
+            1130
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ek simple naap dekhta",
+      "start_frame": 113,
+      "end_frame": 120,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            292,
+            1068,
+            384,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "simple",
+          "box": [
+            398,
+            1068,
+            654,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "naap",
+          "box": [
+            670,
+            1068,
+            859,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dekhta",
+          "box": [
+            88,
+            1164,
+            357,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ek simple naap dekhta hai.",
+      "start_frame": 120,
+      "end_frame": 131,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            292,
+            1068,
+            384,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "simple",
+          "box": [
+            398,
+            1068,
+            654,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "naap",
+          "box": [
+            670,
+            1068,
+            859,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dekhta",
+          "box": [
+            88,
+            1164,
+            357,
+            1221
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            373,
+            1164,
+            516,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal",
+      "start_frame": 131,
+      "end_frame": 138,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein",
+      "start_frame": 138,
+      "end_frame": 146,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan",
+      "start_frame": 146,
+      "end_frame": 153,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane",
+      "start_frame": 153,
+      "end_frame": 160,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke",
+      "start_frame": 160,
+      "end_frame": 168,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye",
+      "start_frame": 168,
+      "end_frame": 175,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna",
+      "start_frame": 175,
+      "end_frame": 182,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna cash",
+      "start_frame": 182,
+      "end_frame": 189,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            559,
+            972,
+            742,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna cash bacha,",
+      "start_frame": 189,
+      "end_frame": 197,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            559,
+            972,
+            742,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bacha,",
+          "box": [
+            88,
+            1068,
+            347,
+            1136
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna cash bacha, aur",
+      "start_frame": 197,
+      "end_frame": 204,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            559,
+            972,
+            742,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bacha,",
+          "box": [
+            88,
+            1068,
+            347,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            363,
+            1068,
+            490,
+            1112
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna",
+      "start_frame": 204,
+      "end_frame": 211,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            559,
+            972,
+            742,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bacha,",
+          "box": [
+            88,
+            1068,
+            347,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            363,
+            1068,
+            490,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            506,
+            1068,
+            702,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana",
+      "start_frame": 211,
+      "end_frame": 219,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            559,
+            972,
+            742,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bacha,",
+          "box": [
+            88,
+            1068,
+            347,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            363,
+            1068,
+            490,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            506,
+            1068,
+            702,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1164,
+            416,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Saal mein loan chukane ke liye kitna cash bacha, aur kitna chukana hai.",
+      "start_frame": 219,
+      "end_frame": 230,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Saal",
+          "box": [
+            88,
+            876,
+            253,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            269,
+            876,
+            460,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            476,
+            876,
+            643,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukane",
+          "box": [
+            659,
+            876,
+            989,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            88,
+            972,
+            178,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            194,
+            972,
+            331,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            347,
+            972,
+            543,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            559,
+            972,
+            742,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bacha,",
+          "box": [
+            88,
+            1068,
+            347,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            363,
+            1068,
+            490,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitna",
+          "box": [
+            506,
+            1068,
+            702,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1164,
+            416,
+            1221
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            432,
+            1164,
+            575,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example:",
+      "start_frame": 230,
+      "end_frame": 237,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash",
+      "start_frame": 237,
+      "end_frame": 245,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees",
+      "start_frame": 245,
+      "end_frame": 252,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh,",
+      "start_frame": 252,
+      "end_frame": 259,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana",
+      "start_frame": 259,
+      "end_frame": 267,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees",
+      "start_frame": 267,
+      "end_frame": 274,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees lakh.",
+      "start_frame": 274,
+      "end_frame": 281,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            631,
+            1108,
+            778,
+            1155
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap",
+      "start_frame": 281,
+      "end_frame": 289,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            631,
+            1108,
+            778,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naap",
+          "box": [
+            790,
+            1108,
+            946,
+            1168
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya",
+      "start_frame": 289,
+      "end_frame": 296,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            631,
+            1108,
+            778,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naap",
+          "box": [
+            790,
+            1108,
+            946,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya",
+          "box": [
+            88,
+            1184,
+            231,
+            1234
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek",
+      "start_frame": 296,
+      "end_frame": 303,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            631,
+            1108,
+            778,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naap",
+          "box": [
+            790,
+            1108,
+            946,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya",
+          "box": [
+            88,
+            1184,
+            231,
+            1234
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            243,
+            1184,
+            317,
+            1230
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point",
+      "start_frame": 303,
+      "end_frame": 311,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            631,
+            1108,
+            778,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naap",
+          "box": [
+            790,
+            1108,
+            946,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya",
+          "box": [
+            88,
+            1184,
+            231,
+            1234
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            243,
+            1184,
+            317,
+            1230
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "point",
+          "box": [
+            327,
+            1184,
+            490,
+            1246
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: cash tees lakh, chukana pachees lakh. Naap aaya ek point do.",
+      "start_frame": 311,
+      "end_frame": 322,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cash",
+          "box": [
+            382,
+            1032,
+            527,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            539,
+            1032,
+            677,
+            1076
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            689,
+            1032,
+            836,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chukana",
+          "box": [
+            88,
+            1108,
+            347,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachees",
+          "box": [
+            359,
+            1108,
+            619,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            631,
+            1108,
+            778,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naap",
+          "box": [
+            790,
+            1108,
+            946,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya",
+          "box": [
+            88,
+            1184,
+            231,
+            1234
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            243,
+            1184,
+            317,
+            1230
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "point",
+          "box": [
+            327,
+            1184,
+            490,
+            1246
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "do.",
+          "box": [
+            502,
+            1184,
+            600,
+            1230
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai",
+      "start_frame": 322,
+      "end_frame": 329,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai lender",
+      "start_frame": 329,
+      "end_frame": 336,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            195,
+            1108,
+            393,
+            1155
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai lender isse",
+      "start_frame": 336,
+      "end_frame": 343,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            195,
+            1108,
+            393,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "isse",
+          "box": [
+            405,
+            1108,
+            529,
+            1156
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai lender isse zyada",
+      "start_frame": 343,
+      "end_frame": 350,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            195,
+            1108,
+            393,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "isse",
+          "box": [
+            405,
+            1108,
+            529,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            541,
+            1108,
+            720,
+            1168
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai lender isse zyada cushion",
+      "start_frame": 350,
+      "end_frame": 357,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            195,
+            1108,
+            393,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "isse",
+          "box": [
+            405,
+            1108,
+            529,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            541,
+            1108,
+            720,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cushion",
+          "box": [
+            732,
+            1108,
+            976,
+            1156
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai lender isse zyada cushion maangte",
+      "start_frame": 357,
+      "end_frame": 364,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            195,
+            1108,
+            393,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "isse",
+          "box": [
+            405,
+            1108,
+            529,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            541,
+            1108,
+            720,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cushion",
+          "box": [
+            732,
+            1108,
+            976,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maangte",
+          "box": [
+            88,
+            1184,
+            361,
+            1243
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kai lender isse zyada cushion maangte hain.",
+      "start_frame": 364,
+      "end_frame": 375,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Cash available ₹30L ÷ Yearly",
+          "box": [
+            116,
+            572,
+            771,
+            620
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "repayment ₹25L = 1.2 (Example. Not",
+          "box": [
+            116,
+            631,
+            956,
+            684
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "an offer.)",
+          "box": [
+            116,
+            690,
+            335,
+            741
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kai",
+          "box": [
+            88,
+            1108,
+            183,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            195,
+            1108,
+            393,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "isse",
+          "box": [
+            405,
+            1108,
+            529,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            541,
+            1108,
+            720,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "cushion",
+          "box": [
+            732,
+            1108,
+            976,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maangte",
+          "box": [
+            88,
+            1184,
+            361,
+            1243
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hain.",
+          "box": [
+            373,
+            1184,
+            525,
+            1232
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "end_card",
+      "text": "Apne CA ko bhejo",
+      "start_frame": 375,
+      "end_frame": 420,
+      "boxes": [
+        {
+          "label": "cta",
+          "text": "Apne CA ko bhejo",
+          "box": [
+            88,
+            734,
+            944,
+            832
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1125,
+            380,
+            1164
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+          "box": [
+            88,
+            1320,
+            980,
+            1349
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "approval and terms are at the lender's sole discretion.",
+          "box": [
+            88,
+            1357,
+            839,
+            1386
+          ]
+        }
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "start": 0.0,
+      "end": 0.8,
+      "source_offset": 0.45,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge."
+    },
+    {
+      "start": 0.8,
+      "end": 2.833333,
+      "source_offset": 1.25,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge."
+    },
+    {
+      "start": 2.833333,
+      "end": 4.366667,
+      "source_offset": 2.0500000000000003,
+      "name": "spreadsheet",
+      "source_id": "8480291",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-laptop-8480291/",
+      "crop_notes": "Vertical hands typing generic spreadsheet. No face in first/mid/end sampled frames. Center frame; any small laptop-brand details obscured by normal crop/overlay."
+    },
+    {
+      "start": 4.366667,
+      "end": 7.666667,
+      "source_offset": 0.45,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge."
+    },
+    {
+      "start": 7.666667,
+      "end": 10.733333,
+      "source_offset": 1.25,
+      "name": "spreadsheet",
+      "source_id": "8480291",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-laptop-8480291/",
+      "crop_notes": "Vertical hands typing generic spreadsheet. No face in first/mid/end sampled frames. Center frame; any small laptop-brand details obscured by normal crop/overlay."
+    },
+    {
+      "start": 10.733333,
+      "end": 12.5,
+      "source_offset": 2.0500000000000003,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge."
+    },
+    {
+      "start": 12.5,
+      "end": 14.0,
+      "source_offset": 0.45,
+      "name": "calculator",
+      "source_id": "7821801",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-calculator-at-work-7821801/",
+      "crop_notes": "Hands, calculator and paper charts; face outside full frame in sampled frames. Center crop focuses calculator; avoid laptop outer edge."
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 215040,
+        "duration": "14.000000",
+        "bit_rate": "2245427",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "420",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\amrut\\Documents\\Codex\\2026-11-12\\crednest-instagram-nov16-29\\media\\N11\\reel.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "14.000000",
+      "size": "3935476",
+      "bit_rate": "2248843",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "render_seconds": 16.54,
+  "first_frame_motion": {
+    "frames_compared": [
+      0,
+      1
+    ],
+    "mean_absolute_rgb_change": 1.681715,
+    "hook_text_unchanged": true,
+    "passed": true
+  }
+}

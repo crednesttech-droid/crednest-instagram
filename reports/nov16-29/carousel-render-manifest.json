@@ -1,0 +1,3275 @@
+{
+  "canvas": [
+    1080,
+    1350
+  ],
+  "color_space": "sRGB",
+  "jpeg_quality": 95,
+  "supersampling": 2,
+  "slides": [
+    {
+      "id": "N02",
+      "slide": 1,
+      "path": "media/N02/01.jpg",
+      "body": "Property de di. Loan pakka? Nahi.",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 6,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "series",
+          "text": "MYTH YA SACH",
+          "bounds": [
+            88.0,
+            112.0,
+            291.0,
+            133.0
+          ],
+          "font_size": 28,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "MYTH YA SACH",
+              "bounds": [
+                88.0,
+                112.0,
+                291.0,
+                133.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Property de di. Loan pakka? Nahi.",
+          "bounds": [
+            88.0,
+            364.0,
+            987.0,
+            1036.0
+          ],
+          "font_size": 171,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Property",
+              "bounds": [
+                88.0,
+                364.0,
+                831.0,
+                529.0
+              ]
+            },
+            {
+              "text": "de di. Loan",
+              "bounds": [
+                88.0,
+                545.0,
+                987.0,
+                674.0
+              ]
+            },
+            {
+              "text": "pakka?",
+              "bounds": [
+                88.0,
+                726.0,
+                679.0,
+                893.5
+              ]
+            },
+            {
+              "text": "Nahi.",
+              "bounds": [
+                88.0,
+                907.0,
+                526.0,
+                1036.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "website",
+          "text": "crednest.io",
+          "bounds": [
+            88.0,
+            1235.0,
+            268.0,
+            1259.5
+          ],
+          "font_size": 32,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "crednest.io",
+              "bounds": [
+                88.0,
+                1235.0,
+                268.0,
+                1259.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 119256
+    },
+    {
+      "id": "N02",
+      "slide": 2,
+      "path": "media/N02/02.jpg",
+      "body": "MYTH: \"Property girvi rakh di, ab bank mana nahi karega.\"",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 10,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "body",
+          "text": "MYTH: \"Property girvi rakh di, ab bank mana nahi karega.\"",
+          "bounds": [
+            88.0,
+            358.0,
+            974.5,
+            1012.0
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "MYTH:",
+              "bounds": [
+                88.0,
+                358.0,
+                458.5,
+                442.0
+              ]
+            },
+            {
+              "text": "\"Property girvi",
+              "bounds": [
+                88.0,
+                493.0,
+                928.0,
+                608.5
+              ]
+            },
+            {
+              "text": "rakh di, ab bank",
+              "bounds": [
+                88.0,
+                628.0,
+                974.5,
+                730.5
+              ]
+            },
+            {
+              "text": "mana nahi",
+              "bounds": [
+                88.0,
+                763.0,
+                676.5,
+                850.5
+              ]
+            },
+            {
+              "text": "karega.\"",
+              "bounds": [
+                88.0,
+                898.0,
+                572.0,
+                1012.0
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 123598
+    },
+    {
+      "id": "N02",
+      "slide": 3,
+      "path": "media/N02/03.jpg",
+      "body": "SACH: Property sirf security hai. Bank pehle poochta hai: EMI kahan se aayegi?",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 13,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "body",
+          "text": "SACH: Property sirf security hai. Bank pehle poochta hai: EMI kahan se aayegi?",
+          "bounds": [
+            88.0,
+            290.0,
+            986.0,
+            1080.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "SACH: Property",
+              "bounds": [
+                88.0,
+                290.0,
+                986.0,
+                403.5
+              ]
+            },
+            {
+              "text": "sirf security",
+              "bounds": [
+                88.0,
+                425.0,
+                778.0,
+                538.5
+              ]
+            },
+            {
+              "text": "hai. Bank pehle",
+              "bounds": [
+                88.0,
+                560.0,
+                948.5,
+                673.5
+              ]
+            },
+            {
+              "text": "poochta hai:",
+              "bounds": [
+                88.0,
+                695.0,
+                806.5,
+                808.5
+              ]
+            },
+            {
+              "text": "EMI kahan se",
+              "bounds": [
+                88.0,
+                830.0,
+                818.0,
+                916.0
+              ]
+            },
+            {
+              "text": "aayegi?",
+              "bounds": [
+                88.0,
+                965.0,
+                532.0,
+                1080.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 161266
+    },
+    {
+      "id": "N02",
+      "slide": 4,
+      "path": "media/N02/04.jpg",
+      "body": "Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 21,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Bank 3 cheezein dekhta hai: 1. Kamai aur ITR (income tax return) 2. Purani EMIs 3. Property ke kagaz aur title",
+          "bounds": [
+            88.0,
+            256.0,
+            990.0,
+            1113.5
+          ],
+          "font_size": 108,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Bank 3 cheezein",
+              "bounds": [
+                88.0,
+                256.0,
+                941.5,
+                337.5
+              ]
+            },
+            {
+              "text": "dekhta hai: 1.",
+              "bounds": [
+                88.0,
+                381.0,
+                788.5,
+                462.5
+              ]
+            },
+            {
+              "text": "Kamai aur ITR",
+              "bounds": [
+                88.0,
+                506.0,
+                806.5,
+                587.5
+              ]
+            },
+            {
+              "text": "(income tax",
+              "bounds": [
+                88.0,
+                631.0,
+                727.0,
+                744.5
+              ]
+            },
+            {
+              "text": "return) 2. Purani",
+              "bounds": [
+                88.0,
+                756.0,
+                966.5,
+                869.5
+              ]
+            },
+            {
+              "text": "EMIs 3. Property",
+              "bounds": [
+                88.0,
+                881.0,
+                946.5,
+                985.0
+              ]
+            },
+            {
+              "text": "ke kagaz aur title",
+              "bounds": [
+                88.0,
+                1006.0,
+                990.0,
+                1113.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 203997
+    },
+    {
+      "id": "N02",
+      "slide": 5,
+      "path": "media/N02/05.jpg",
+      "body": "Property loan ka size tay karti hai. Kamai loan ka milna tay karti hai.",
+      "cta": "Property wale dost ko bhejo",
+      "example_tag": null,
+      "footer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "main_body_words": 14,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "body",
+          "text": "Property loan ka size tay karti hai. Kamai loan ka milna tay karti hai.",
+          "bounds": [
+            88.0,
+            280.5,
+            942.5,
+            834.5
+          ],
+          "font_size": 103,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Property loan ka",
+              "bounds": [
+                88.0,
+                280.5,
+                914.0,
+                381.5
+              ]
+            },
+            {
+              "text": "size tay karti hai.",
+              "bounds": [
+                88.0,
+                399.5,
+                942.5,
+                500.5
+              ]
+            },
+            {
+              "text": "Kamai loan ka",
+              "bounds": [
+                88.0,
+                518.5,
+                780.0,
+                596.5
+              ]
+            },
+            {
+              "text": "milna tay karti",
+              "bounds": [
+                88.0,
+                637.5,
+                809.5,
+                738.5
+              ]
+            },
+            {
+              "text": "hai.",
+              "bounds": [
+                88.0,
+                756.5,
+                277.0,
+                834.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "cta",
+          "text": "Property wale dost ko bhejo",
+          "bounds": [
+            120.0,
+            993.0,
+            739.0,
+            1038.0
+          ],
+          "font_size": 46,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "Property wale dost ko bhejo",
+              "bounds": [
+                120.0,
+                993.0,
+                739.0,
+                1038.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "footer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+          "bounds": [
+            88.0,
+            1182.0,
+            890.0,
+            1240.5
+          ],
+          "font_size": 27,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+              "bounds": [
+                88.0,
+                1182.0,
+                890.0,
+                1208.5
+              ]
+            },
+            {
+              "text": "approval and terms are at the lender's sole discretion.",
+              "bounds": [
+                88.0,
+                1214.0,
+                763.5,
+                1240.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 185480
+    },
+    {
+      "id": "N03",
+      "slide": 1,
+      "path": "media/N03/01.jpg",
+      "body": "5 EMI → 1 EMI. Poora hisaab dekho",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 7,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "series",
+          "text": "EK CASE, EK HISAAB",
+          "bounds": [
+            88.0,
+            112.0,
+            358.5,
+            136.5
+          ],
+          "font_size": 28,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "EK CASE, EK HISAAB",
+              "bounds": [
+                88.0,
+                112.0,
+                358.5,
+                136.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "5 EMI → 1 EMI. Poora hisaab dekho",
+          "bounds": [
+            88.0,
+            356.5,
+            992.0,
+            1043.5
+          ],
+          "font_size": 175,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "5 EMI → 1",
+              "bounds": [
+                88.0,
+                356.5,
+                859.0,
+                485.5
+              ]
+            },
+            {
+              "text": "EMI. Poora",
+              "bounds": [
+                88.0,
+                542.5,
+                992.0,
+                671.5
+              ]
+            },
+            {
+              "text": "hisaab",
+              "bounds": [
+                88.0,
+                728.5,
+                660.0,
+                860.5
+              ]
+            },
+            {
+              "text": "dekho",
+              "bounds": [
+                88.0,
+                914.5,
+                621.5,
+                1043.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "website",
+          "text": "crednest.io",
+          "bounds": [
+            88.0,
+            1235.0,
+            268.0,
+            1259.5
+          ],
+          "font_size": 32,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "crednest.io",
+              "bounds": [
+                88.0,
+                1235.0,
+                268.0,
+                1259.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 124409
+    },
+    {
+      "id": "N03",
+      "slide": 2,
+      "path": "media/N03/02.jpg",
+      "body": "Example: 5 alag loan. Total baaki ₹40 lakh. Mahine ki total EMI ₹1,45,000.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 13,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Example: 5 alag loan. Total baaki ₹40 lakh. Mahine ki total EMI ₹1,45,000.",
+          "bounds": [
+            88.0,
+            364.0,
+            971.5,
+            1006.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Example: 5 alag",
+              "bounds": [
+                88.0,
+                364.0,
+                971.5,
+                479.5
+              ]
+            },
+            {
+              "text": "loan. Total",
+              "bounds": [
+                88.0,
+                499.0,
+                693.5,
+                586.5
+              ]
+            },
+            {
+              "text": "baaki ₹40 lakh.",
+              "bounds": [
+                88.0,
+                634.0,
+                939.0,
+                721.5
+              ]
+            },
+            {
+              "text": "Mahine ki total",
+              "bounds": [
+                88.0,
+                769.0,
+                930.5,
+                856.5
+              ]
+            },
+            {
+              "text": "EMI ₹1,45,000.",
+              "bounds": [
+                88.0,
+                904.0,
+                923.0,
+                1006.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 170507
+    },
+    {
+      "id": "N03",
+      "slide": 3,
+      "path": "media/N03/03.jpg",
+      "body": "Agar yahi ₹40 lakh property ke against ek loan ban jaye: 11% p.a., 15 saal.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 15,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Agar yahi ₹40 lakh property ke against ek loan ban jaye: 11% p.a., 15 saal.",
+          "bounds": [
+            88.0,
+            304.0,
+            877.0,
+            1066.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Agar yahi ₹40",
+              "bounds": [
+                88.0,
+                304.0,
+                865.0,
+                419.5
+              ]
+            },
+            {
+              "text": "lakh property",
+              "bounds": [
+                88.0,
+                439.0,
+                853.0,
+                552.5
+              ]
+            },
+            {
+              "text": "ke against ek",
+              "bounds": [
+                88.0,
+                574.0,
+                836.5,
+                689.5
+              ]
+            },
+            {
+              "text": "loan ban jaye:",
+              "bounds": [
+                88.0,
+                709.0,
+                877.0,
+                822.5
+              ]
+            },
+            {
+              "text": "11% p.a., 15",
+              "bounds": [
+                88.0,
+                844.0,
+                715.0,
+                957.5
+              ]
+            },
+            {
+              "text": "saal.",
+              "bounds": [
+                88.0,
+                979.0,
+                358.0,
+                1066.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 157823
+    },
+    {
+      "id": "N03",
+      "slide": 4,
+      "path": "media/N03/04.jpg",
+      "body": "Nayi EMI: ₹45,464. Mahine ka bojh ₹99,536 kam.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 8,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Nayi EMI: ₹45,464. Mahine ka bojh ₹99,536 kam.",
+          "bounds": [
+            88.0,
+            431.0,
+            940.0,
+            938.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Nayi EMI:",
+              "bounds": [
+                88.0,
+                431.0,
+                608.0,
+                544.5
+              ]
+            },
+            {
+              "text": "₹45,464.",
+              "bounds": [
+                88.0,
+                566.0,
+                589.0,
+                668.5
+              ]
+            },
+            {
+              "text": "Mahine ka bojh",
+              "bounds": [
+                88.0,
+                701.0,
+                940.0,
+                814.5
+              ]
+            },
+            {
+              "text": "₹99,536 kam.",
+              "bounds": [
+                88.0,
+                836.0,
+                848.0,
+                938.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 134558
+    },
+    {
+      "id": "N03",
+      "slide": 5,
+      "path": "media/N03/05.jpg",
+      "body": "Dhyan rahe: 15 saal mein total byaaj ₹41,83,498 banta hai. EMI kam, par samay lamba. Jaldi prepay karna samajhdaari hai.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 20,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Dhyan rahe: 15 saal mein total byaaj ₹41,83,498 banta hai. EMI kam, par samay lamba. Jaldi prepay karna samajhdaari hai.",
+          "bounds": [
+            88.0,
+            305.0,
+            988.0,
+            1065.0
+          ],
+          "font_size": 96,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Dhyan rahe: 15 saal",
+              "bounds": [
+                88.0,
+                305.0,
+                988.0,
+                399.0
+              ]
+            },
+            {
+              "text": "mein total byaaj",
+              "bounds": [
+                88.0,
+                416.0,
+                847.0,
+                510.0
+              ]
+            },
+            {
+              "text": "₹41,83,498 banta",
+              "bounds": [
+                88.0,
+                527.0,
+                901.0,
+                611.5
+              ]
+            },
+            {
+              "text": "hai. EMI kam, par",
+              "bounds": [
+                88.0,
+                638.0,
+                871.5,
+                732.0
+              ]
+            },
+            {
+              "text": "samay lamba. Jaldi",
+              "bounds": [
+                88.0,
+                749.0,
+                974.5,
+                843.0
+              ]
+            },
+            {
+              "text": "prepay karna",
+              "bounds": [
+                88.0,
+                860.0,
+                701.0,
+                952.5
+              ]
+            },
+            {
+              "text": "samajhdaari hai.",
+              "bounds": [
+                88.0,
+                971.0,
+                865.5,
+                1065.0
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 200005
+    },
+    {
+      "id": "N03",
+      "slide": 6,
+      "path": "media/N03/06.jpg",
+      "body": "Ek EMI tabhi sahi hai jab cash flow sambhle aur naya udhaar band ho.",
+      "cta": "DM \"EMI\" — hisaab ka format bhejenge",
+      "example_tag": null,
+      "footer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "main_body_words": 14,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "body",
+          "text": "Ek EMI tabhi sahi hai jab cash flow sambhle aur naya udhaar band ho.",
+          "bounds": [
+            88.0,
+            341.0,
+            975.0,
+            774.5
+          ],
+          "font_size": 103,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Ek EMI tabhi sahi",
+              "bounds": [
+                88.0,
+                341.0,
+                926.0,
+                419.0
+              ]
+            },
+            {
+              "text": "hai jab cash flow",
+              "bounds": [
+                88.0,
+                460.0,
+                922.0,
+                561.0
+              ]
+            },
+            {
+              "text": "sambhle aur naya",
+              "bounds": [
+                88.0,
+                579.0,
+                975.0,
+                680.0
+              ]
+            },
+            {
+              "text": "udhaar band ho.",
+              "bounds": [
+                88.0,
+                698.0,
+                904.5,
+                774.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "cta",
+          "text": "DM \"EMI\" — hisaab ka format bhejenge",
+          "bounds": [
+            120.0,
+            967.0,
+            747.5,
+            1064.5
+          ],
+          "font_size": 46,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "DM \"EMI\" — hisaab ka format",
+              "bounds": [
+                120.0,
+                967.0,
+                747.5,
+                1001.5
+              ]
+            },
+            {
+              "text": "bhejenge",
+              "bounds": [
+                120.0,
+                1019.0,
+                331.0,
+                1064.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "footer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+          "bounds": [
+            88.0,
+            1182.0,
+            890.0,
+            1240.5
+          ],
+          "font_size": 27,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+              "bounds": [
+                88.0,
+                1182.0,
+                890.0,
+                1208.5
+              ]
+            },
+            {
+              "text": "approval and terms are at the lender's sole discretion.",
+              "bounds": [
+                88.0,
+                1214.0,
+                763.5,
+                1240.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 210187
+    },
+    {
+      "id": "N06",
+      "slide": 1,
+      "path": "media/N06/01.jpg",
+      "body": "Same ₹30 lakh. Do loan. EMI ka farak dekho",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 9,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "series",
+          "text": "EK CASE, EK HISAAB",
+          "bounds": [
+            88.0,
+            112.0,
+            358.5,
+            136.5
+          ],
+          "font_size": 28,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "EK CASE, EK HISAAB",
+              "bounds": [
+                88.0,
+                112.0,
+                358.5,
+                136.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Same ₹30 lakh. Do loan. EMI ka farak dekho",
+          "bounds": [
+            88.0,
+            301.0,
+            867.5,
+            1099.0
+          ],
+          "font_size": 160,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Same ₹30",
+              "bounds": [
+                88.0,
+                301.0,
+                867.5,
+                421.5
+              ]
+            },
+            {
+              "text": "lakh. Do",
+              "bounds": [
+                88.0,
+                471.0,
+                716.5,
+                591.5
+              ]
+            },
+            {
+              "text": "loan. EMI",
+              "bounds": [
+                88.0,
+                641.0,
+                794.0,
+                761.5
+              ]
+            },
+            {
+              "text": "ka farak",
+              "bounds": [
+                88.0,
+                811.0,
+                709.0,
+                931.5
+              ]
+            },
+            {
+              "text": "dekho",
+              "bounds": [
+                88.0,
+                981.0,
+                576.5,
+                1099.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "website",
+          "text": "crednest.io",
+          "bounds": [
+            88.0,
+            1235.0,
+            268.0,
+            1259.5
+          ],
+          "font_size": 32,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "crednest.io",
+              "bounds": [
+                88.0,
+                1235.0,
+                268.0,
+                1259.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 139755
+    },
+    {
+      "id": "N06",
+      "slide": 2,
+      "path": "media/N06/02.jpg",
+      "body": "Personal loan: 16% p.a., 5 saal. EMI ₹72,954.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 8,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Personal loan: 16% p.a., 5 saal. EMI ₹72,954.",
+          "bounds": [
+            88.0,
+            499.0,
+            975.0,
+            871.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Personal loan:",
+              "bounds": [
+                88.0,
+                499.0,
+                907.0,
+                586.5
+              ]
+            },
+            {
+              "text": "16% p.a., 5 saal.",
+              "bounds": [
+                88.0,
+                634.0,
+                975.0,
+                747.5
+              ]
+            },
+            {
+              "text": "EMI ₹72,954.",
+              "bounds": [
+                88.0,
+                769.0,
+                805.0,
+                871.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 123812
+    },
+    {
+      "id": "N06",
+      "slide": 3,
+      "path": "media/N06/03.jpg",
+      "body": "Loan against property: 11% p.a., 15 saal. EMI ₹34,098.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 9,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Loan against property: 11% p.a., 15 saal. EMI ₹34,098.",
+          "bounds": [
+            88.0,
+            431.0,
+            863.5,
+            938.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Loan against",
+              "bounds": [
+                88.0,
+                431.0,
+                819.0,
+                546.5
+              ]
+            },
+            {
+              "text": "property: 11%",
+              "bounds": [
+                88.0,
+                566.0,
+                863.5,
+                679.5
+              ]
+            },
+            {
+              "text": "p.a., 15 saal.",
+              "bounds": [
+                88.0,
+                701.0,
+                775.5,
+                814.5
+              ]
+            },
+            {
+              "text": "EMI ₹34,098.",
+              "bounds": [
+                88.0,
+                836.0,
+                822.5,
+                938.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 122783
+    },
+    {
+      "id": "N06",
+      "slide": 4,
+      "path": "media/N06/04.jpg",
+      "body": "Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 15,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Par total byaaj: personal loan ₹13,77,250 · LAP ₹31,37,623. Kam EMI ka matlab sasta loan nahi.",
+          "bounds": [
+            88.0,
+            315.0,
+            985.5,
+            1055.5
+          ],
+          "font_size": 113,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Par total byaaj:",
+              "bounds": [
+                88.0,
+                315.0,
+                931.0,
+                426.0
+              ]
+            },
+            {
+              "text": "personal loan",
+              "bounds": [
+                88.0,
+                446.0,
+                843.0,
+                557.0
+              ]
+            },
+            {
+              "text": "₹13,77,250 · LAP",
+              "bounds": [
+                88.0,
+                577.0,
+                970.0,
+                677.0
+              ]
+            },
+            {
+              "text": "₹31,37,623. Kam",
+              "bounds": [
+                88.0,
+                708.0,
+                985.5,
+                808.0
+              ]
+            },
+            {
+              "text": "EMI ka matlab",
+              "bounds": [
+                88.0,
+                839.0,
+                848.0,
+                924.5
+              ]
+            },
+            {
+              "text": "sasta loan nahi.",
+              "bounds": [
+                88.0,
+                970.0,
+                961.0,
+                1055.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 205281
+    },
+    {
+      "id": "N06",
+      "slide": 5,
+      "path": "media/N06/05.jpg",
+      "body": "Sawaal yeh hai: aapko kam EMI chahiye ya kam total byaaj?",
+      "cta": "Save karo, loan lene se pehle kaam aayega",
+      "example_tag": null,
+      "footer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "main_body_words": 11,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "body",
+          "text": "Sawaal yeh hai: aapko kam EMI chahiye ya kam total byaaj?",
+          "bounds": [
+            88.0,
+            328.5,
+            872.0,
+            786.5
+          ],
+          "font_size": 103,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Sawaal yeh hai:",
+              "bounds": [
+                88.0,
+                328.5,
+                872.0,
+                429.5
+              ]
+            },
+            {
+              "text": "aapko kam EMI",
+              "bounds": [
+                88.0,
+                447.5,
+                826.5,
+                547.0
+              ]
+            },
+            {
+              "text": "chahiye ya kam",
+              "bounds": [
+                88.0,
+                566.5,
+                861.5,
+                667.5
+              ]
+            },
+            {
+              "text": "total byaaj?",
+              "bounds": [
+                88.0,
+                685.5,
+                686.5,
+                786.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "cta",
+          "text": "Save karo, loan lene se pehle kaam aayega",
+          "bounds": [
+            120.0,
+            971.0,
+            887.5,
+            1060.0
+          ],
+          "font_size": 46,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "Save karo, loan lene se pehle kaam",
+              "bounds": [
+                120.0,
+                971.0,
+                887.5,
+                1016.0
+              ]
+            },
+            {
+              "text": "aayega",
+              "bounds": [
+                120.0,
+                1023.0,
+                281.0,
+                1060.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "footer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+          "bounds": [
+            88.0,
+            1182.0,
+            890.0,
+            1240.5
+          ],
+          "font_size": 27,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+              "bounds": [
+                88.0,
+                1182.0,
+                890.0,
+                1208.5
+              ]
+            },
+            {
+              "text": "approval and terms are at the lender's sole discretion.",
+              "bounds": [
+                88.0,
+                1214.0,
+                763.5,
+                1240.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 188658
+    },
+    {
+      "id": "N09",
+      "slide": 1,
+      "path": "media/N09/01.jpg",
+      "body": "Settlement kar liya. CIBIL theek? Nahi.",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 6,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "series",
+          "text": "MYTH YA SACH",
+          "bounds": [
+            88.0,
+            112.0,
+            291.0,
+            133.0
+          ],
+          "font_size": 28,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "MYTH YA SACH",
+              "bounds": [
+                88.0,
+                112.0,
+                291.0,
+                133.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Settlement kar liya. CIBIL theek? Nahi.",
+          "bounds": [
+            88.0,
+            302.0,
+            989.0,
+            1097.5
+          ],
+          "font_size": 159,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Settlement",
+              "bounds": [
+                88.0,
+                302.0,
+                989.0,
+                421.5
+              ]
+            },
+            {
+              "text": "kar liya.",
+              "bounds": [
+                88.0,
+                471.0,
+                694.0,
+                626.5
+              ]
+            },
+            {
+              "text": "CIBIL",
+              "bounds": [
+                88.0,
+                640.0,
+                488.0,
+                759.5
+              ]
+            },
+            {
+              "text": "theek?",
+              "bounds": [
+                88.0,
+                809.0,
+                630.0,
+                928.5
+              ]
+            },
+            {
+              "text": "Nahi.",
+              "bounds": [
+                88.0,
+                978.0,
+                495.5,
+                1097.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "website",
+          "text": "crednest.io",
+          "bounds": [
+            88.0,
+            1235.0,
+            268.0,
+            1259.5
+          ],
+          "font_size": 32,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "crednest.io",
+              "bounds": [
+                88.0,
+                1235.0,
+                268.0,
+                1259.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 131350
+    },
+    {
+      "id": "N09",
+      "slide": 2,
+      "path": "media/N09/02.jpg",
+      "body": "MYTH: \"Settlement ke baad loan khatam, record saaf.\"",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 8,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "body",
+          "text": "MYTH: \"Settlement ke baad loan khatam, record saaf.\"",
+          "bounds": [
+            88.0,
+            371.0,
+            961.5,
+            998.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "MYTH:",
+              "bounds": [
+                88.0,
+                371.0,
+                458.5,
+                455.0
+              ]
+            },
+            {
+              "text": "\"Settlement ke",
+              "bounds": [
+                88.0,
+                506.0,
+                961.5,
+                593.5
+              ]
+            },
+            {
+              "text": "baad loan",
+              "bounds": [
+                88.0,
+                641.0,
+                639.5,
+                728.5
+              ]
+            },
+            {
+              "text": "khatam, record",
+              "bounds": [
+                88.0,
+                776.0,
+                957.5,
+                877.0
+              ]
+            },
+            {
+              "text": "saaf.\"",
+              "bounds": [
+                88.0,
+                911.0,
+                425.5,
+                998.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 121339
+    },
+    {
+      "id": "N09",
+      "slide": 3,
+      "path": "media/N09/03.jpg",
+      "body": "SACH: Credit report mein \"Settled\" likha aata hai, \"Closed\" nahi.",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 10,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "body",
+          "text": "SACH: Credit report mein \"Settled\" likha aata hai, \"Closed\" nahi.",
+          "bounds": [
+            88.0,
+            371.0,
+            928.5,
+            998.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "SACH: Credit",
+              "bounds": [
+                88.0,
+                371.0,
+                844.5,
+                458.5
+              ]
+            },
+            {
+              "text": "report mein",
+              "bounds": [
+                88.0,
+                506.0,
+                759.5,
+                619.5
+              ]
+            },
+            {
+              "text": "\"Settled\" likha",
+              "bounds": [
+                88.0,
+                641.0,
+                928.5,
+                728.5
+              ]
+            },
+            {
+              "text": "aata hai,",
+              "bounds": [
+                88.0,
+                776.0,
+                577.5,
+                878.5
+              ]
+            },
+            {
+              "text": "\"Closed\" nahi.",
+              "bounds": [
+                88.0,
+                911.0,
+                912.0,
+                998.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 135107
+    },
+    {
+      "id": "N09",
+      "slide": 4,
+      "path": "media/N09/04.jpg",
+      "body": "Naya lender \"Settled\" ko aise padhta hai: poora paisa wapas nahi aaya.",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 12,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "body",
+          "text": "Naya lender \"Settled\" ko aise padhta hai: poora paisa wapas nahi aaya.",
+          "bounds": [
+            88.0,
+            301.0,
+            990.0,
+            1068.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Naya lender",
+              "bounds": [
+                88.0,
+                301.0,
+                766.5,
+                414.5
+              ]
+            },
+            {
+              "text": "\"Settled\" ko",
+              "bounds": [
+                88.0,
+                436.0,
+                790.5,
+                523.5
+              ]
+            },
+            {
+              "text": "aise padhta",
+              "bounds": [
+                88.0,
+                571.0,
+                752.5,
+                684.5
+              ]
+            },
+            {
+              "text": "hai: poora paisa",
+              "bounds": [
+                88.0,
+                706.0,
+                990.0,
+                819.5
+              ]
+            },
+            {
+              "text": "wapas nahi",
+              "bounds": [
+                88.0,
+                841.0,
+                726.5,
+                954.5
+              ]
+            },
+            {
+              "text": "aaya.",
+              "bounds": [
+                88.0,
+                976.0,
+                393.5,
+                1068.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 156663
+    },
+    {
+      "id": "N09",
+      "slide": 5,
+      "path": "media/N09/05.jpg",
+      "body": "Settlement se pehle poocho: kya poora chukane ya loan ko dobara structure karne ka raasta hai?",
+      "cta": "Jise zaroorat ho, use bhejo",
+      "example_tag": null,
+      "footer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "main_body_words": 16,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "body",
+          "text": "Settlement se pehle poocho: kya poora chukane ya loan ko dobara structure karne ka raasta hai?",
+          "bounds": [
+            88.0,
+            250.0,
+            939.0,
+            864.5
+          ],
+          "font_size": 94,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Settlement se",
+              "bounds": [
+                88.0,
+                250.0,
+                748.0,
+                319.5
+              ]
+            },
+            {
+              "text": "pehle poocho: kya",
+              "bounds": [
+                88.0,
+                359.0,
+                931.0,
+                450.5
+              ]
+            },
+            {
+              "text": "poora chukane ya",
+              "bounds": [
+                88.0,
+                468.0,
+                903.5,
+                558.0
+              ]
+            },
+            {
+              "text": "loan ko dobara",
+              "bounds": [
+                88.0,
+                577.0,
+                764.0,
+                646.5
+              ]
+            },
+            {
+              "text": "structure karne ka",
+              "bounds": [
+                88.0,
+                686.0,
+                939.0,
+                754.0
+              ]
+            },
+            {
+              "text": "raasta hai?",
+              "bounds": [
+                88.0,
+                795.0,
+                599.5,
+                864.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "cta",
+          "text": "Jise zaroorat ho, use bhejo",
+          "bounds": [
+            120.0,
+            993.0,
+            716.0,
+            1038.0
+          ],
+          "font_size": 46,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "Jise zaroorat ho, use bhejo",
+              "bounds": [
+                120.0,
+                993.0,
+                716.0,
+                1038.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "footer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+          "bounds": [
+            88.0,
+            1182.0,
+            890.0,
+            1240.5
+          ],
+          "font_size": 27,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+              "bounds": [
+                88.0,
+                1182.0,
+                890.0,
+                1208.5
+              ]
+            },
+            {
+              "text": "approval and terms are at the lender's sole discretion.",
+              "bounds": [
+                88.0,
+                1214.0,
+                763.5,
+                1240.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 220112
+    },
+    {
+      "id": "N10",
+      "slide": 1,
+      "path": "media/N10/01.jpg",
+      "body": "₹3 Cr ki property. Loan kitna banta hai?",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 8,
+      "theme": "lime",
+      "elements": [
+        {
+          "role": "series",
+          "text": "EK CASE, EK HISAAB",
+          "bounds": [
+            88.0,
+            112.0,
+            358.5,
+            136.5
+          ],
+          "font_size": 28,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "EK CASE, EK HISAAB",
+              "bounds": [
+                88.0,
+                112.0,
+                358.5,
+                136.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "₹3 Cr ki property. Loan kitna banta hai?",
+          "bounds": [
+            88.0,
+            355.0,
+            989.0,
+            1045.0
+          ],
+          "font_size": 175,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "₹3 Cr ki",
+              "bounds": [
+                88.0,
+                355.0,
+                721.5,
+                487.0
+              ]
+            },
+            {
+              "text": "property.",
+              "bounds": [
+                88.0,
+                541.0,
+                899.5,
+                704.0
+              ]
+            },
+            {
+              "text": "Loan kitna",
+              "bounds": [
+                88.0,
+                727.0,
+                980.0,
+                859.0
+              ]
+            },
+            {
+              "text": "banta hai?",
+              "bounds": [
+                88.0,
+                913.0,
+                989.0,
+                1045.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "website",
+          "text": "crednest.io",
+          "bounds": [
+            88.0,
+            1235.0,
+            268.0,
+            1259.5
+          ],
+          "font_size": 32,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "crednest.io",
+              "bounds": [
+                88.0,
+                1235.0,
+                268.0,
+                1259.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 188814
+    },
+    {
+      "id": "N10",
+      "slide": 2,
+      "path": "media/N10/02.jpg",
+      "body": "Pehla naap, property: agar lender value ka 60% deta hai, to ceiling ₹1.8 Cr.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 14,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Pehla naap, property: agar lender value ka 60% deta hai, to ceiling ₹1.8 Cr.",
+          "bounds": [
+            88.0,
+            304.0,
+            948.0,
+            1066.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Pehla naap,",
+              "bounds": [
+                88.0,
+                304.0,
+                751.0,
+                417.5
+              ]
+            },
+            {
+              "text": "property: agar",
+              "bounds": [
+                88.0,
+                439.0,
+                909.5,
+                549.5
+              ]
+            },
+            {
+              "text": "lender value ka",
+              "bounds": [
+                88.0,
+                574.0,
+                948.0,
+                661.5
+              ]
+            },
+            {
+              "text": "60% deta hai,",
+              "bounds": [
+                88.0,
+                709.0,
+                863.0,
+                811.5
+              ]
+            },
+            {
+              "text": "to ceiling ₹1.8",
+              "bounds": [
+                88.0,
+                844.0,
+                880.5,
+                959.5
+              ]
+            },
+            {
+              "text": "Cr.",
+              "bounds": [
+                88.0,
+                979.0,
+                259.5,
+                1066.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 172979
+    },
+    {
+      "id": "N10",
+      "slide": 3,
+      "path": "media/N10/03.jpg",
+      "body": "Doosra naap, kamai: agar aap ₹1,20,000 ki EMI utha sakte ho (11% p.a., 15 saal)…",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 15,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Doosra naap, kamai: agar aap ₹1,20,000 ki EMI utha sakte ho (11% p.a., 15 saal)…",
+          "bounds": [
+            88.0,
+            286.0,
+            978.5,
+            1083.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Doosra naap,",
+              "bounds": [
+                88.0,
+                286.0,
+                835.5,
+                398.0
+              ]
+            },
+            {
+              "text": "kamai: agar aap",
+              "bounds": [
+                88.0,
+                421.0,
+                978.5,
+                536.5
+              ]
+            },
+            {
+              "text": "₹1,20,000 ki",
+              "bounds": [
+                88.0,
+                556.0,
+                789.5,
+                658.5
+              ]
+            },
+            {
+              "text": "EMI utha sakte",
+              "bounds": [
+                88.0,
+                691.0,
+                921.0,
+                777.0
+              ]
+            },
+            {
+              "text": "ho (11% p.a., 15",
+              "bounds": [
+                88.0,
+                826.0,
+                938.0,
+                953.5
+              ]
+            },
+            {
+              "text": "saal)…",
+              "bounds": [
+                88.0,
+                961.0,
+                460.0,
+                1083.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 167307
+    },
+    {
+      "id": "N10",
+      "slide": 4,
+      "path": "media/N10/04.jpg",
+      "body": "…to loan banta hai lagbhag ₹1.06 Cr. Bank dono mein se chhota number deta hai.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 15,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "…to loan banta hai lagbhag ₹1.06 Cr. Bank dono mein se chhota number deta hai.",
+          "bounds": [
+            88.0,
+            304.0,
+            963.5,
+            1066.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "…to loan banta",
+              "bounds": [
+                88.0,
+                304.0,
+                925.0,
+                391.5
+              ]
+            },
+            {
+              "text": "hai lagbhag",
+              "bounds": [
+                88.0,
+                439.0,
+                748.0,
+                554.5
+              ]
+            },
+            {
+              "text": "₹1.06 Cr. Bank",
+              "bounds": [
+                88.0,
+                574.0,
+                899.5,
+                661.5
+              ]
+            },
+            {
+              "text": "dono mein se",
+              "bounds": [
+                88.0,
+                709.0,
+                845.0,
+                796.5
+              ]
+            },
+            {
+              "text": "chhota number",
+              "bounds": [
+                88.0,
+                844.0,
+                963.5,
+                930.0
+              ]
+            },
+            {
+              "text": "deta hai.",
+              "bounds": [
+                88.0,
+                979.0,
+                586.0,
+                1066.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 174116
+    },
+    {
+      "id": "N10",
+      "slide": 5,
+      "path": "media/N10/05.jpg",
+      "body": "Property ₹3 Cr. Ceiling ₹1.8 Cr. Mila ₹1.06 Cr. Wajah: kamai.",
+      "cta": "DM \"LAP\" — apna naap samjho",
+      "example_tag": "Example. Not an offer.",
+      "footer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "main_body_words": 11,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Property ₹3 Cr. Ceiling ₹1.8 Cr. Mila ₹1.06 Cr. Wajah: kamai.",
+          "bounds": [
+            88.0,
+            328.5,
+            854.5,
+            786.5
+          ],
+          "font_size": 103,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Property ₹3 Cr.",
+              "bounds": [
+                88.0,
+                328.5,
+                854.5,
+                429.5
+              ]
+            },
+            {
+              "text": "Ceiling ₹1.8 Cr.",
+              "bounds": [
+                88.0,
+                447.5,
+                851.0,
+                550.0
+              ]
+            },
+            {
+              "text": "Mila ₹1.06 Cr.",
+              "bounds": [
+                88.0,
+                566.5,
+                769.0,
+                644.5
+              ]
+            },
+            {
+              "text": "Wajah: kamai.",
+              "bounds": [
+                88.0,
+                685.5,
+                799.0,
+                786.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "cta",
+          "text": "DM \"LAP\" — apna naap samjho",
+          "bounds": [
+            120.0,
+            993.0,
+            785.5,
+            1038.0
+          ],
+          "font_size": 46,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "DM \"LAP\" — apna naap samjho",
+              "bounds": [
+                120.0,
+                993.0,
+                785.5,
+                1038.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "footer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+          "bounds": [
+            88.0,
+            1182.0,
+            890.0,
+            1240.5
+          ],
+          "font_size": 27,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+              "bounds": [
+                88.0,
+                1182.0,
+                890.0,
+                1208.5
+              ]
+            },
+            {
+              "text": "approval and terms are at the lender's sole discretion.",
+              "bounds": [
+                88.0,
+                1214.0,
+                763.5,
+                1240.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 179537
+    },
+    {
+      "id": "N13",
+      "slide": 1,
+      "path": "media/N13/01.jpg",
+      "body": "Home loan pe top-up ya naya personal loan?",
+      "cta": null,
+      "example_tag": null,
+      "footer": null,
+      "main_body_words": 8,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "series",
+          "text": "EK CASE, EK HISAAB",
+          "bounds": [
+            88.0,
+            112.0,
+            358.5,
+            136.5
+          ],
+          "font_size": 28,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "EK CASE, EK HISAAB",
+              "bounds": [
+                88.0,
+                112.0,
+                358.5,
+                136.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Home loan pe top-up ya naya personal loan?",
+          "bounds": [
+            88.0,
+            302.0,
+            918.0,
+            1097.5
+          ],
+          "font_size": 159,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Home loan",
+              "bounds": [
+                88.0,
+                302.0,
+                918.0,
+                421.5
+              ]
+            },
+            {
+              "text": "pe top-up",
+              "bounds": [
+                88.0,
+                471.0,
+                851.5,
+                619.5
+              ]
+            },
+            {
+              "text": "ya naya",
+              "bounds": [
+                88.0,
+                640.0,
+                679.5,
+                767.0
+              ]
+            },
+            {
+              "text": "personal",
+              "bounds": [
+                88.0,
+                809.0,
+                776.0,
+                964.5
+              ]
+            },
+            {
+              "text": "loan?",
+              "bounds": [
+                88.0,
+                978.0,
+                517.5,
+                1097.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "website",
+          "text": "crednest.io",
+          "bounds": [
+            88.0,
+            1235.0,
+            268.0,
+            1259.5
+          ],
+          "font_size": 32,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "crednest.io",
+              "bounds": [
+                88.0,
+                1235.0,
+                268.0,
+                1259.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 147895
+    },
+    {
+      "id": "N13",
+      "slide": 2,
+      "path": "media/N13/02.jpg",
+      "body": "Zaroorat: ₹10 lakh.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 3,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Zaroorat: ₹10 lakh.",
+          "bounds": [
+            88.0,
+            574.0,
+            862.0,
+            796.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Zaroorat: ₹10",
+              "bounds": [
+                88.0,
+                574.0,
+                862.0,
+                661.5
+              ]
+            },
+            {
+              "text": "lakh.",
+              "bounds": [
+                88.0,
+                709.0,
+                365.0,
+                796.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 73207
+    },
+    {
+      "id": "N13",
+      "slide": 3,
+      "path": "media/N13/03.jpg",
+      "body": "Home loan top-up: 9.5% p.a., 10 saal. EMI ₹12,940. Total byaaj ₹5,52,771.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 12,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Home loan top-up: 9.5% p.a., 10 saal. EMI ₹12,940. Total byaaj ₹5,52,771.",
+          "bounds": [
+            88.0,
+            296.0,
+            826.0,
+            1073.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Home loan",
+              "bounds": [
+                88.0,
+                296.0,
+                694.0,
+                383.5
+              ]
+            },
+            {
+              "text": "top-up: 9.5%",
+              "bounds": [
+                88.0,
+                431.0,
+                826.0,
+                544.5
+              ]
+            },
+            {
+              "text": "p.a., 10 saal.",
+              "bounds": [
+                88.0,
+                566.0,
+                785.0,
+                679.5
+              ]
+            },
+            {
+              "text": "EMI ₹12,940.",
+              "bounds": [
+                88.0,
+                701.0,
+                804.0,
+                803.5
+              ]
+            },
+            {
+              "text": "Total byaaj",
+              "bounds": [
+                88.0,
+                836.0,
+                716.5,
+                949.5
+              ]
+            },
+            {
+              "text": "₹5,52,771.",
+              "bounds": [
+                88.0,
+                971.0,
+                656.0,
+                1073.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 149613
+    },
+    {
+      "id": "N13",
+      "slide": 4,
+      "path": "media/N13/04.jpg",
+      "body": "Personal loan: 15% p.a., 5 saal. EMI ₹23,790. Total byaaj ₹4,27,396.",
+      "cta": null,
+      "example_tag": "Example. Not an offer.",
+      "footer": null,
+      "main_body_words": 11,
+      "theme": "dark",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Personal loan: 15% p.a., 5 saal. EMI ₹23,790. Total byaaj ₹4,27,396.",
+          "bounds": [
+            88.0,
+            364.0,
+            971.5,
+            1006.5
+          ],
+          "font_size": 116,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Personal loan:",
+              "bounds": [
+                88.0,
+                364.0,
+                907.0,
+                451.5
+              ]
+            },
+            {
+              "text": "15% p.a., 5 saal.",
+              "bounds": [
+                88.0,
+                499.0,
+                971.5,
+                612.5
+              ]
+            },
+            {
+              "text": "EMI ₹23,790.",
+              "bounds": [
+                88.0,
+                634.0,
+                811.5,
+                736.5
+              ]
+            },
+            {
+              "text": "Total byaaj",
+              "bounds": [
+                88.0,
+                769.0,
+                716.5,
+                882.5
+              ]
+            },
+            {
+              "text": "₹4,27,396.",
+              "bounds": [
+                88.0,
+                904.0,
+                687.5,
+                1006.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 170568
+    },
+    {
+      "id": "N13",
+      "slide": 5,
+      "path": "media/N13/05.jpg",
+      "body": "Top-up: EMI kam, samay lamba. Personal loan: EMI zyada, jaldi khatam. Top-up ko 5 saal mein chukao to dono faayde.",
+      "cta": "Home loan wale dost ko bhejo",
+      "example_tag": "Example. Not an offer.",
+      "footer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+      "main_body_words": 20,
+      "theme": "paper",
+      "elements": [
+        {
+          "role": "example_tag",
+          "text": "Example. Not an offer.",
+          "bounds": [
+            88.0,
+            152.0,
+            346.0,
+            176.5
+          ],
+          "font_size": 25,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "Example. Not an offer.",
+              "bounds": [
+                88.0,
+                152.0,
+                346.0,
+                176.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "body",
+          "text": "Top-up: EMI kam, samay lamba. Personal loan: EMI zyada, jaldi khatam. Top-up ko 5 saal mein chukao to dono faayde.",
+          "bounds": [
+            88.0,
+            286.5,
+            990.0,
+            828.5
+          ],
+          "font_size": 80,
+          "weight": "Extrabold",
+          "lines": [
+            {
+              "text": "Top-up: EMI kam,",
+              "bounds": [
+                88.0,
+                286.5,
+                761.0,
+                363.0
+              ]
+            },
+            {
+              "text": "samay lamba. Personal",
+              "bounds": [
+                88.0,
+                379.5,
+                990.0,
+                457.5
+              ]
+            },
+            {
+              "text": "loan: EMI zyada, jaldi",
+              "bounds": [
+                88.0,
+                472.5,
+                899.5,
+                550.5
+              ]
+            },
+            {
+              "text": "khatam. Top-up ko 5",
+              "bounds": [
+                88.0,
+                565.5,
+                883.0,
+                642.0
+              ]
+            },
+            {
+              "text": "saal mein chukao to",
+              "bounds": [
+                88.0,
+                658.5,
+                867.5,
+                718.0
+              ]
+            },
+            {
+              "text": "dono faayde.",
+              "bounds": [
+                88.0,
+                751.5,
+                598.5,
+                828.5
+              ]
+            }
+          ]
+        },
+        {
+          "role": "cta",
+          "text": "Home loan wale dost ko bhejo",
+          "bounds": [
+            120.0,
+            993.0,
+            779.0,
+            1038.0
+          ],
+          "font_size": 46,
+          "weight": "Bold",
+          "lines": [
+            {
+              "text": "Home loan wale dost ko bhejo",
+              "bounds": [
+                120.0,
+                993.0,
+                779.0,
+                1038.0
+              ]
+            }
+          ]
+        },
+        {
+          "role": "footer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+          "bounds": [
+            88.0,
+            1182.0,
+            890.0,
+            1240.5
+          ],
+          "font_size": 27,
+          "weight": "Medium",
+          "lines": [
+            {
+              "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+              "bounds": [
+                88.0,
+                1182.0,
+                890.0,
+                1208.5
+              ]
+            },
+            {
+              "text": "approval and terms are at the lender's sole discretion.",
+              "bounds": [
+                88.0,
+                1214.0,
+                763.5,
+                1240.5
+              ]
+            }
+          ]
+        }
+      ],
+      "bytes": 221563
+    }
+  ]
+}

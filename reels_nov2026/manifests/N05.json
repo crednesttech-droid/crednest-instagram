@@ -1,0 +1,5528 @@
+{
+  "id": "N05",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 14.0,
+    "audio": false,
+    "file_size_bytes": 4510394,
+    "safe_zone": [
+      250,
+      1500
+    ],
+    "caption_baseline": 1260,
+    "end_card_start": 12.5,
+    "cover_frame_seconds": 0,
+    "cover_quality": 95,
+    "cover_color_profile": "sRGB"
+  },
+  "hook": "Bank ne CC limit kyun kam ki?",
+  "series": "BUSINESS KA PAISA",
+  "number_card": "Stock ₹60L + Debtors ₹40L − Creditors ₹30L = ₹70L · Less 25% margin · Drawing power ₹52.5L (Limit ₹75L) (Example. Not an offer.)",
+  "cta": "Apne accountant ko bhejo",
+  "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "cover_boxes": [
+    {
+      "label": "series_tag",
+      "text": "BUSINESS KA PAISA",
+      "box": [
+        88,
+        284,
+        391,
+        307
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Bank ne CC",
+      "box": [
+        88,
+        564,
+        863,
+        667
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "limit kyun",
+      "box": [
+        88,
+        735,
+        764,
+        872
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "kam ki?",
+      "box": [
+        88,
+        906,
+        600,
+        1010
+      ]
+    },
+    {
+      "label": "website",
+      "text": "crednest.io",
+      "box": [
+        88,
+        1435,
+        301,
+        1463
+      ]
+    }
+  ],
+  "voice_scenes": [
+    {
+      "start": 0.8,
+      "end": 2.533333,
+      "text": "Bank ne CC limit kyun kam ki?",
+      "words": [
+        {
+          "text": "Bank",
+          "start": 0.8,
+          "end": 1.033333,
+          "start_frame": 24,
+          "end_frame": 31
+        },
+        {
+          "text": "ne",
+          "start": 1.033333,
+          "end": 1.266667,
+          "start_frame": 31,
+          "end_frame": 38
+        },
+        {
+          "text": "CC",
+          "start": 1.266667,
+          "end": 1.5,
+          "start_frame": 38,
+          "end_frame": 45
+        },
+        {
+          "text": "limit",
+          "start": 1.5,
+          "end": 1.7,
+          "start_frame": 45,
+          "end_frame": 51
+        },
+        {
+          "text": "kyun",
+          "start": 1.7,
+          "end": 1.933333,
+          "start_frame": 51,
+          "end_frame": 58
+        },
+        {
+          "text": "kam",
+          "start": 1.933333,
+          "end": 2.166667,
+          "start_frame": 58,
+          "end_frame": 65
+        },
+        {
+          "text": "ki?",
+          "start": 2.166667,
+          "end": 2.533333,
+          "start_frame": 65,
+          "end_frame": 76
+        }
+      ],
+      "stock": "warehouse"
+    },
+    {
+      "start": 2.533333,
+      "end": 5.533333,
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
+      "words": [
+        {
+          "text": "Kyunki",
+          "start": 2.533333,
+          "end": 2.766667,
+          "start_frame": 76,
+          "end_frame": 83
+        },
+        {
+          "text": "limit",
+          "start": 2.766667,
+          "end": 3.0,
+          "start_frame": 83,
+          "end_frame": 90
+        },
+        {
+          "text": "kagaz",
+          "start": 3.0,
+          "end": 3.266667,
+          "start_frame": 90,
+          "end_frame": 98
+        },
+        {
+          "text": "pe",
+          "start": 3.266667,
+          "end": 3.5,
+          "start_frame": 98,
+          "end_frame": 105
+        },
+        {
+          "text": "hoti",
+          "start": 3.5,
+          "end": 3.733333,
+          "start_frame": 105,
+          "end_frame": 112
+        },
+        {
+          "text": "hai.",
+          "start": 3.733333,
+          "end": 3.966667,
+          "start_frame": 112,
+          "end_frame": 119
+        },
+        {
+          "text": "Paisa",
+          "start": 3.966667,
+          "end": 4.2,
+          "start_frame": 119,
+          "end_frame": 126
+        },
+        {
+          "text": "drawing",
+          "start": 4.2,
+          "end": 4.433333,
+          "start_frame": 126,
+          "end_frame": 133
+        },
+        {
+          "text": "power",
+          "start": 4.433333,
+          "end": 4.666667,
+          "start_frame": 133,
+          "end_frame": 140
+        },
+        {
+          "text": "se",
+          "start": 4.666667,
+          "end": 4.933333,
+          "start_frame": 140,
+          "end_frame": 148
+        },
+        {
+          "text": "milta",
+          "start": 4.933333,
+          "end": 5.166667,
+          "start_frame": 148,
+          "end_frame": 155
+        },
+        {
+          "text": "hai.",
+          "start": 5.166667,
+          "end": 5.533333,
+          "start_frame": 155,
+          "end_frame": 166
+        }
+      ],
+      "stock": "warehouse"
+    },
+    {
+      "start": 5.533333,
+      "end": 8.033333,
+      "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
+      "words": [
+        {
+          "text": "Example:",
+          "start": 5.533333,
+          "end": 5.766667,
+          "start_frame": 166,
+          "end_frame": 173
+        },
+        {
+          "text": "stock",
+          "start": 5.766667,
+          "end": 6.0,
+          "start_frame": 173,
+          "end_frame": 180
+        },
+        {
+          "text": "saath",
+          "start": 6.0,
+          "end": 6.233333,
+          "start_frame": 180,
+          "end_frame": 187
+        },
+        {
+          "text": "lakh,",
+          "start": 6.233333,
+          "end": 6.466667,
+          "start_frame": 187,
+          "end_frame": 194
+        },
+        {
+          "text": "debtors",
+          "start": 6.466667,
+          "end": 6.733333,
+          "start_frame": 194,
+          "end_frame": 202
+        },
+        {
+          "text": "chaalees",
+          "start": 6.733333,
+          "end": 6.966667,
+          "start_frame": 202,
+          "end_frame": 209
+        },
+        {
+          "text": "lakh,",
+          "start": 6.966667,
+          "end": 7.2,
+          "start_frame": 209,
+          "end_frame": 216
+        },
+        {
+          "text": "creditors",
+          "start": 7.2,
+          "end": 7.433333,
+          "start_frame": 216,
+          "end_frame": 223
+        },
+        {
+          "text": "tees",
+          "start": 7.433333,
+          "end": 7.666667,
+          "start_frame": 223,
+          "end_frame": 230
+        },
+        {
+          "text": "lakh.",
+          "start": 7.666667,
+          "end": 8.033333,
+          "start_frame": 230,
+          "end_frame": 241
+        }
+      ],
+      "stock": "packing_box"
+    },
+    {
+      "start": 8.033333,
+      "end": 9.766667,
+      "text": "Bacha sattar lakh. Pachees percent margin kaato.",
+      "words": [
+        {
+          "text": "Bacha",
+          "start": 8.033333,
+          "end": 8.266667,
+          "start_frame": 241,
+          "end_frame": 248
+        },
+        {
+          "text": "sattar",
+          "start": 8.266667,
+          "end": 8.5,
+          "start_frame": 248,
+          "end_frame": 255
+        },
+        {
+          "text": "lakh.",
+          "start": 8.5,
+          "end": 8.733333,
+          "start_frame": 255,
+          "end_frame": 262
+        },
+        {
+          "text": "Pachees",
+          "start": 8.733333,
+          "end": 8.933333,
+          "start_frame": 262,
+          "end_frame": 268
+        },
+        {
+          "text": "percent",
+          "start": 8.933333,
+          "end": 9.166667,
+          "start_frame": 268,
+          "end_frame": 275
+        },
+        {
+          "text": "margin",
+          "start": 9.166667,
+          "end": 9.4,
+          "start_frame": 275,
+          "end_frame": 282
+        },
+        {
+          "text": "kaato.",
+          "start": 9.4,
+          "end": 9.766667,
+          "start_frame": 282,
+          "end_frame": 293
+        }
+      ],
+      "stock": "warehouse"
+    },
+    {
+      "start": 9.766667,
+      "end": 12.5,
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.",
+      "words": [
+        {
+          "text": "Drawing",
+          "start": 9.766667,
+          "end": 10.0,
+          "start_frame": 293,
+          "end_frame": 300
+        },
+        {
+          "text": "power",
+          "start": 10.0,
+          "end": 10.233333,
+          "start_frame": 300,
+          "end_frame": 307
+        },
+        {
+          "text": "saadhe",
+          "start": 10.233333,
+          "end": 10.466667,
+          "start_frame": 307,
+          "end_frame": 314
+        },
+        {
+          "text": "baavan",
+          "start": 10.466667,
+          "end": 10.7,
+          "start_frame": 314,
+          "end_frame": 321
+        },
+        {
+          "text": "lakh.",
+          "start": 10.7,
+          "end": 10.933333,
+          "start_frame": 321,
+          "end_frame": 328
+        },
+        {
+          "text": "Limit",
+          "start": 10.933333,
+          "end": 11.2,
+          "start_frame": 328,
+          "end_frame": 336
+        },
+        {
+          "text": "pachhattar",
+          "start": 11.2,
+          "end": 11.433333,
+          "start_frame": 336,
+          "end_frame": 343
+        },
+        {
+          "text": "lakh",
+          "start": 11.433333,
+          "end": 11.666667,
+          "start_frame": 343,
+          "end_frame": 350
+        },
+        {
+          "text": "hone",
+          "start": 11.666667,
+          "end": 11.9,
+          "start_frame": 350,
+          "end_frame": 357
+        },
+        {
+          "text": "par",
+          "start": 11.9,
+          "end": 12.133333,
+          "start_frame": 357,
+          "end_frame": 364
+        },
+        {
+          "text": "bhi.",
+          "start": 12.133333,
+          "end": 12.5,
+          "start_frame": 364,
+          "end_frame": 375
+        }
+      ],
+      "stock": "warehouse"
+    }
+  ],
+  "states": [
+    {
+      "kind": "hook",
+      "text": "Bank ne CC limit kyun kam ki?",
+      "start_frame": 0,
+      "end_frame": 24,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Bank ne CC",
+          "box": [
+            88,
+            564,
+            863,
+            667
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "limit kyun",
+          "box": [
+            88,
+            735,
+            764,
+            872
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "kam ki?",
+          "box": [
+            88,
+            906,
+            600,
+            1010
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1435,
+            301,
+            1463
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank",
+      "start_frame": 24,
+      "end_frame": 31,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ne",
+      "start_frame": 31,
+      "end_frame": 38,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ne",
+          "box": [
+            292,
+            1068,
+            389,
+            1112
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ne CC",
+      "start_frame": 38,
+      "end_frame": 45,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ne",
+          "box": [
+            292,
+            1068,
+            389,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CC",
+          "box": [
+            405,
+            1068,
+            521,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ne CC limit",
+      "start_frame": 45,
+      "end_frame": 51,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ne",
+          "box": [
+            292,
+            1068,
+            389,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CC",
+          "box": [
+            405,
+            1068,
+            521,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            537,
+            1068,
+            712,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ne CC limit kyun",
+      "start_frame": 51,
+      "end_frame": 58,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ne",
+          "box": [
+            292,
+            1068,
+            389,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CC",
+          "box": [
+            405,
+            1068,
+            521,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            537,
+            1068,
+            712,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kyun",
+          "box": [
+            728,
+            1068,
+            915,
+            1143
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ne CC limit kyun kam",
+      "start_frame": 58,
+      "end_frame": 65,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ne",
+          "box": [
+            292,
+            1068,
+            389,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CC",
+          "box": [
+            405,
+            1068,
+            521,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            537,
+            1068,
+            712,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kyun",
+          "box": [
+            728,
+            1068,
+            915,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            88,
+            1164,
+            247,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank ne CC limit kyun kam ki?",
+      "start_frame": 65,
+      "end_frame": 76,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ne",
+          "box": [
+            292,
+            1068,
+            389,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CC",
+          "box": [
+            405,
+            1068,
+            521,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            537,
+            1068,
+            712,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kyun",
+          "box": [
+            728,
+            1068,
+            915,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kam",
+          "box": [
+            88,
+            1164,
+            247,
+            1221
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki?",
+          "box": [
+            263,
+            1164,
+            373,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki",
+      "start_frame": 76,
+      "end_frame": 83,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit",
+      "start_frame": 83,
+      "end_frame": 90,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz",
+      "start_frame": 90,
+      "end_frame": 98,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe",
+      "start_frame": 98,
+      "end_frame": 105,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti",
+      "start_frame": 105,
+      "end_frame": 112,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai.",
+      "start_frame": 112,
+      "end_frame": 119,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa",
+      "start_frame": 119,
+      "end_frame": 126,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Paisa",
+          "box": [
+            420,
+            1068,
+            627,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing",
+      "start_frame": 126,
+      "end_frame": 133,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Paisa",
+          "box": [
+            420,
+            1068,
+            627,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "drawing",
+          "box": [
+            643,
+            1068,
+            954,
+            1145
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power",
+      "start_frame": 133,
+      "end_frame": 140,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Paisa",
+          "box": [
+            420,
+            1068,
+            627,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "drawing",
+          "box": [
+            643,
+            1068,
+            954,
+            1145
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            88,
+            1164,
+            328,
+            1226
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se",
+      "start_frame": 140,
+      "end_frame": 148,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Paisa",
+          "box": [
+            420,
+            1068,
+            627,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "drawing",
+          "box": [
+            643,
+            1068,
+            954,
+            1145
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            88,
+            1164,
+            328,
+            1226
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "se",
+          "box": [
+            344,
+            1164,
+            434,
+            1208
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta",
+      "start_frame": 148,
+      "end_frame": 155,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Paisa",
+          "box": [
+            420,
+            1068,
+            627,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "drawing",
+          "box": [
+            643,
+            1068,
+            954,
+            1145
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            88,
+            1164,
+            328,
+            1226
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "se",
+          "box": [
+            344,
+            1164,
+            434,
+            1208
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "milta",
+          "box": [
+            450,
+            1164,
+            647,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Kyunki limit kagaz pe hoti hai. Paisa drawing power se milta hai.",
+      "start_frame": 155,
+      "end_frame": 166,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kyunki",
+          "box": [
+            88,
+            972,
+            350,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "limit",
+          "box": [
+            366,
+            972,
+            541,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kagaz",
+          "box": [
+            557,
+            972,
+            781,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            797,
+            972,
+            893,
+            1034
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hoti",
+          "box": [
+            88,
+            1068,
+            245,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            261,
+            1068,
+            404,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Paisa",
+          "box": [
+            420,
+            1068,
+            627,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "drawing",
+          "box": [
+            643,
+            1068,
+            954,
+            1145
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            88,
+            1164,
+            328,
+            1226
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "se",
+          "box": [
+            344,
+            1164,
+            434,
+            1208
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "milta",
+          "box": [
+            450,
+            1164,
+            647,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            663,
+            1164,
+            806,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example:",
+      "start_frame": 166,
+      "end_frame": 173,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock",
+      "start_frame": 173,
+      "end_frame": 180,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath",
+      "start_frame": 180,
+      "end_frame": 187,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh,",
+      "start_frame": 187,
+      "end_frame": 194,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh, debtors",
+      "start_frame": 194,
+      "end_frame": 202,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "debtors",
+          "box": [
+            88,
+            1108,
+            331,
+            1154
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh, debtors chaalees",
+      "start_frame": 202,
+      "end_frame": 209,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "debtors",
+          "box": [
+            88,
+            1108,
+            331,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            343,
+            1108,
+            618,
+            1155
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh, debtors chaalees lakh,",
+      "start_frame": 209,
+      "end_frame": 216,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "debtors",
+          "box": [
+            88,
+            1108,
+            331,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            343,
+            1108,
+            618,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            630,
+            1108,
+            777,
+            1164
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh, debtors chaalees lakh, creditors",
+      "start_frame": 216,
+      "end_frame": 223,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "debtors",
+          "box": [
+            88,
+            1108,
+            331,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            343,
+            1108,
+            618,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            630,
+            1108,
+            777,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "creditors",
+          "box": [
+            88,
+            1184,
+            372,
+            1232
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees",
+      "start_frame": 223,
+      "end_frame": 230,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "debtors",
+          "box": [
+            88,
+            1108,
+            331,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            343,
+            1108,
+            618,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            630,
+            1108,
+            777,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "creditors",
+          "box": [
+            88,
+            1184,
+            372,
+            1232
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            384,
+            1184,
+            522,
+            1228
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Example: stock saath lakh, debtors chaalees lakh, creditors tees lakh.",
+      "start_frame": 230,
+      "end_frame": 241,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Example:",
+          "box": [
+            88,
+            1032,
+            370,
+            1093
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "stock",
+          "box": [
+            382,
+            1032,
+            555,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saath",
+          "box": [
+            565,
+            1032,
+            738,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            750,
+            1032,
+            897,
+            1088
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "debtors",
+          "box": [
+            88,
+            1108,
+            331,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            343,
+            1108,
+            618,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh,",
+          "box": [
+            630,
+            1108,
+            777,
+            1164
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "creditors",
+          "box": [
+            88,
+            1184,
+            372,
+            1232
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "tees",
+          "box": [
+            384,
+            1184,
+            522,
+            1228
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            534,
+            1184,
+            681,
+            1231
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha",
+      "start_frame": 241,
+      "end_frame": 248,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha sattar",
+      "start_frame": 248,
+      "end_frame": 255,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sattar",
+          "box": [
+            287,
+            1108,
+            475,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha sattar lakh.",
+      "start_frame": 255,
+      "end_frame": 262,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sattar",
+          "box": [
+            287,
+            1108,
+            475,
+            1152
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            487,
+            1108,
+            634,
+            1155
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha sattar lakh. Pachees",
+      "start_frame": 262,
+      "end_frame": 268,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sattar",
+          "box": [
+            287,
+            1108,
+            475,
+            1152
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            487,
+            1108,
+            634,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pachees",
+          "box": [
+            646,
+            1108,
+            907,
+            1154
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha sattar lakh. Pachees percent",
+      "start_frame": 268,
+      "end_frame": 275,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sattar",
+          "box": [
+            287,
+            1108,
+            475,
+            1152
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            487,
+            1108,
+            634,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pachees",
+          "box": [
+            646,
+            1108,
+            907,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            88,
+            1184,
+            332,
+            1242
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha sattar lakh. Pachees percent margin",
+      "start_frame": 275,
+      "end_frame": 282,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sattar",
+          "box": [
+            287,
+            1108,
+            475,
+            1152
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            487,
+            1108,
+            634,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pachees",
+          "box": [
+            646,
+            1108,
+            907,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            88,
+            1184,
+            332,
+            1242
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "margin",
+          "box": [
+            344,
+            1184,
+            559,
+            1247
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bacha sattar lakh. Pachees percent margin kaato.",
+      "start_frame": 282,
+      "end_frame": 293,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bacha",
+          "box": [
+            88,
+            1108,
+            275,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sattar",
+          "box": [
+            287,
+            1108,
+            475,
+            1152
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            487,
+            1108,
+            634,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pachees",
+          "box": [
+            646,
+            1108,
+            907,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "percent",
+          "box": [
+            88,
+            1184,
+            332,
+            1242
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "margin",
+          "box": [
+            344,
+            1184,
+            559,
+            1247
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kaato.",
+          "box": [
+            571,
+            1184,
+            764,
+            1230
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing",
+      "start_frame": 293,
+      "end_frame": 300,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power",
+      "start_frame": 300,
+      "end_frame": 307,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe",
+      "start_frame": 307,
+      "end_frame": 314,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan",
+      "start_frame": 314,
+      "end_frame": 321,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh.",
+      "start_frame": 321,
+      "end_frame": 328,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh. Limit",
+      "start_frame": 328,
+      "end_frame": 336,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Limit",
+          "box": [
+            480,
+            1108,
+            635,
+            1156
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar",
+      "start_frame": 336,
+      "end_frame": 343,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Limit",
+          "box": [
+            480,
+            1108,
+            635,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachhattar",
+          "box": [
+            647,
+            1108,
+            990,
+            1168
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh",
+      "start_frame": 343,
+      "end_frame": 350,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Limit",
+          "box": [
+            480,
+            1108,
+            635,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachhattar",
+          "box": [
+            647,
+            1108,
+            990,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            88,
+            1184,
+            215,
+            1231
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone",
+      "start_frame": 350,
+      "end_frame": 357,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Limit",
+          "box": [
+            480,
+            1108,
+            635,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachhattar",
+          "box": [
+            647,
+            1108,
+            990,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            88,
+            1184,
+            215,
+            1231
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hone",
+          "box": [
+            227,
+            1184,
+            382,
+            1230
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par",
+      "start_frame": 357,
+      "end_frame": 364,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Limit",
+          "box": [
+            480,
+            1108,
+            635,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachhattar",
+          "box": [
+            647,
+            1108,
+            990,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            88,
+            1184,
+            215,
+            1231
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hone",
+          "box": [
+            227,
+            1184,
+            382,
+            1230
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "par",
+          "box": [
+            394,
+            1184,
+            495,
+            1234
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Drawing power saadhe baavan lakh. Limit pachhattar lakh hone par bhi.",
+      "start_frame": 364,
+      "end_frame": 375,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Stock ₹60L + Debtors ₹40L −",
+          "box": [
+            116,
+            512,
+            780,
+            549
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "Creditors ₹30L = ₹70L · Less 25%",
+          "box": [
+            116,
+            571,
+            884,
+            608
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "margin · Drawing power ₹52.5L",
+          "box": [
+            116,
+            630,
+            828,
+            679
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "(Limit ₹75L) (Example. Not an",
+          "box": [
+            116,
+            689,
+            804,
+            742
+          ]
+        },
+        {
+          "label": "number_card",
+          "text": "offer.)",
+          "box": [
+            116,
+            748,
+            267,
+            799
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Drawing",
+          "box": [
+            88,
+            1032,
+            340,
+            1095
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "power",
+          "box": [
+            352,
+            1032,
+            544,
+            1082
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saadhe",
+          "box": [
+            556,
+            1032,
+            778,
+            1078
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baavan",
+          "box": [
+            88,
+            1108,
+            309,
+            1154
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            321,
+            1108,
+            468,
+            1155
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Limit",
+          "box": [
+            480,
+            1108,
+            635,
+            1156
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pachhattar",
+          "box": [
+            647,
+            1108,
+            990,
+            1168
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh",
+          "box": [
+            88,
+            1184,
+            215,
+            1231
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hone",
+          "box": [
+            227,
+            1184,
+            382,
+            1230
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "par",
+          "box": [
+            394,
+            1184,
+            495,
+            1234
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bhi.",
+          "box": [
+            507,
+            1184,
+            623,
+            1232
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "end_card",
+      "text": "Apne accountant ko bhejo",
+      "start_frame": 375,
+      "end_frame": 420,
+      "boxes": [
+        {
+          "label": "cta",
+          "text": "Apne accountant",
+          "box": [
+            88,
+            673,
+            938,
+            770
+          ]
+        },
+        {
+          "label": "cta",
+          "text": "ko bhejo",
+          "box": [
+            88,
+            795,
+            506,
+            893
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1125,
+            380,
+            1164
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+          "box": [
+            88,
+            1320,
+            980,
+            1349
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "approval and terms are at the lender's sole discretion.",
+          "box": [
+            88,
+            1357,
+            839,
+            1386
+          ]
+        }
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "start": 0.0,
+      "end": 0.8,
+      "source_offset": 0.45,
+      "name": "warehouse",
+      "source_id": "4294436",
+      "page_url": "https://www.pexels.com/video/a-footage-inside-the-warehouse-4294436/",
+      "crop_notes": "Stocked warehouse racks, no people apparent in first/mid/end sampled frames. Center crop shows vanishing aisle; generic warehouse, country unverified."
+    },
+    {
+      "start": 0.8,
+      "end": 2.533333,
+      "source_offset": 1.25,
+      "name": "warehouse",
+      "source_id": "4294436",
+      "page_url": "https://www.pexels.com/video/a-footage-inside-the-warehouse-4294436/",
+      "crop_notes": "Stocked warehouse racks, no people apparent in first/mid/end sampled frames. Center crop shows vanishing aisle; generic warehouse, country unverified."
+    },
+    {
+      "start": 2.533333,
+      "end": 5.533333,
+      "source_offset": 2.0500000000000003,
+      "name": "warehouse",
+      "source_id": "4294436",
+      "page_url": "https://www.pexels.com/video/a-footage-inside-the-warehouse-4294436/",
+      "crop_notes": "Stocked warehouse racks, no people apparent in first/mid/end sampled frames. Center crop shows vanishing aisle; generic warehouse, country unverified."
+    },
+    {
+      "start": 5.533333,
+      "end": 8.033333,
+      "source_offset": 0.45,
+      "name": "packing_box",
+      "source_id": "7205557",
+      "page_url": "https://www.pexels.com/video/a-person-packing-a-box-7205557/",
+      "crop_notes": "Vertical hands sealing unbranded brown carton. No face in first/mid/end sampled frames. Full vertical frame usable."
+    },
+    {
+      "start": 8.033333,
+      "end": 9.766667,
+      "source_offset": 1.25,
+      "name": "warehouse",
+      "source_id": "4294436",
+      "page_url": "https://www.pexels.com/video/a-footage-inside-the-warehouse-4294436/",
+      "crop_notes": "Stocked warehouse racks, no people apparent in first/mid/end sampled frames. Center crop shows vanishing aisle; generic warehouse, country unverified."
+    },
+    {
+      "start": 9.766667,
+      "end": 12.5,
+      "source_offset": 2.0500000000000003,
+      "name": "warehouse",
+      "source_id": "4294436",
+      "page_url": "https://www.pexels.com/video/a-footage-inside-the-warehouse-4294436/",
+      "crop_notes": "Stocked warehouse racks, no people apparent in first/mid/end sampled frames. Center crop shows vanishing aisle; generic warehouse, country unverified."
+    },
+    {
+      "start": 12.5,
+      "end": 14.0,
+      "source_offset": 0.45,
+      "name": "warehouse",
+      "source_id": "4294436",
+      "page_url": "https://www.pexels.com/video/a-footage-inside-the-warehouse-4294436/",
+      "crop_notes": "Stocked warehouse racks, no people apparent in first/mid/end sampled frames. Center crop shows vanishing aisle; generic warehouse, country unverified."
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 215040,
+        "duration": "14.000000",
+        "bit_rate": "2573974",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "420",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\amrut\\Documents\\Codex\\2026-11-12\\crednest-instagram-nov16-29\\media\\N05\\reel.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "14.000000",
+      "size": "4510394",
+      "bit_rate": "2577368",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "render_seconds": 26.73,
+  "first_frame_motion": {
+    "frames_compared": [
+      0,
+      1
+    ],
+    "mean_absolute_rgb_change": 3.561863,
+    "hook_text_unchanged": true,
+    "passed": true
+  }
+}

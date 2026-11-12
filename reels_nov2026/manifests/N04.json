@@ -1,0 +1,3993 @@
+{
+  "id": "N04",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 14.0,
+    "audio": false,
+    "file_size_bytes": 2848432,
+    "safe_zone": [
+      250,
+      1500
+    ],
+    "caption_baseline": 1260,
+    "end_card_start": 12.5,
+    "cover_frame_seconds": 0,
+    "cover_quality": 95,
+    "cover_color_profile": "sRGB"
+  },
+  "hook": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
+  "series": "BANK KYA DEKHTA HAI",
+  "number_card": null,
+  "cta": "Apne CA ko bhejo",
+  "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "cover_boxes": [
+    {
+      "label": "series_tag",
+      "text": "BANK KYA DEKHTA HAI",
+      "box": [
+        88,
+        284,
+        431,
+        307
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "ITR ₹12 lakh.",
+      "box": [
+        88,
+        468,
+        782,
+        554
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Bank statement",
+      "box": [
+        88,
+        609,
+        988,
+        693
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "₹40 lakh. Bank",
+      "box": [
+        88,
+        750,
+        908,
+        836
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "kis pe bharosa",
+      "box": [
+        88,
+        891,
+        897,
+        1004
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "karega?",
+      "box": [
+        88,
+        1032,
+        539,
+        1145
+      ]
+    },
+    {
+      "label": "website",
+      "text": "crednest.io",
+      "box": [
+        88,
+        1435,
+        301,
+        1463
+      ]
+    }
+  ],
+  "voice_scenes": [
+    {
+      "start": 0.8,
+      "end": 3.2,
+      "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
+      "words": [
+        {
+          "text": "ITR",
+          "start": 0.8,
+          "end": 1.066667,
+          "start_frame": 24,
+          "end_frame": 32
+        },
+        {
+          "text": "mein",
+          "start": 1.066667,
+          "end": 1.3,
+          "start_frame": 32,
+          "end_frame": 39
+        },
+        {
+          "text": "baarah",
+          "start": 1.3,
+          "end": 1.566667,
+          "start_frame": 39,
+          "end_frame": 47
+        },
+        {
+          "text": "lakh.",
+          "start": 1.566667,
+          "end": 1.8,
+          "start_frame": 47,
+          "end_frame": 54
+        },
+        {
+          "text": "Bank",
+          "start": 1.8,
+          "end": 2.066667,
+          "start_frame": 54,
+          "end_frame": 62
+        },
+        {
+          "text": "statement",
+          "start": 2.066667,
+          "end": 2.3,
+          "start_frame": 62,
+          "end_frame": 69
+        },
+        {
+          "text": "mein",
+          "start": 2.3,
+          "end": 2.566667,
+          "start_frame": 69,
+          "end_frame": 77
+        },
+        {
+          "text": "chaalees",
+          "start": 2.566667,
+          "end": 2.8,
+          "start_frame": 77,
+          "end_frame": 84
+        },
+        {
+          "text": "lakh.",
+          "start": 2.8,
+          "end": 3.2,
+          "start_frame": 84,
+          "end_frame": 96
+        }
+      ],
+      "stock": "document_review"
+    },
+    {
+      "start": 3.2,
+      "end": 4.533333,
+      "text": "Bank kis pe bharosa karega?",
+      "words": [
+        {
+          "text": "Bank",
+          "start": 3.2,
+          "end": 3.433333,
+          "start_frame": 96,
+          "end_frame": 103
+        },
+        {
+          "text": "kis",
+          "start": 3.433333,
+          "end": 3.666667,
+          "start_frame": 103,
+          "end_frame": 110
+        },
+        {
+          "text": "pe",
+          "start": 3.666667,
+          "end": 3.933333,
+          "start_frame": 110,
+          "end_frame": 118
+        },
+        {
+          "text": "bharosa",
+          "start": 3.933333,
+          "end": 4.166667,
+          "start_frame": 118,
+          "end_frame": 125
+        },
+        {
+          "text": "karega?",
+          "start": 4.166667,
+          "end": 4.533333,
+          "start_frame": 125,
+          "end_frame": 136
+        }
+      ],
+      "stock": "document_review"
+    },
+    {
+      "start": 4.533333,
+      "end": 6.9,
+      "text": "Zyada lender loan ITR ki kamai pe naapte hain.",
+      "words": [
+        {
+          "text": "Zyada",
+          "start": 4.533333,
+          "end": 4.766667,
+          "start_frame": 136,
+          "end_frame": 143
+        },
+        {
+          "text": "lender",
+          "start": 4.766667,
+          "end": 5.033333,
+          "start_frame": 143,
+          "end_frame": 151
+        },
+        {
+          "text": "loan",
+          "start": 5.033333,
+          "end": 5.266667,
+          "start_frame": 151,
+          "end_frame": 158
+        },
+        {
+          "text": "ITR",
+          "start": 5.266667,
+          "end": 5.533333,
+          "start_frame": 158,
+          "end_frame": 166
+        },
+        {
+          "text": "ki",
+          "start": 5.533333,
+          "end": 5.766667,
+          "start_frame": 166,
+          "end_frame": 173
+        },
+        {
+          "text": "kamai",
+          "start": 5.766667,
+          "end": 6.033333,
+          "start_frame": 173,
+          "end_frame": 181
+        },
+        {
+          "text": "pe",
+          "start": 6.033333,
+          "end": 6.266667,
+          "start_frame": 181,
+          "end_frame": 188
+        },
+        {
+          "text": "naapte",
+          "start": 6.266667,
+          "end": 6.533333,
+          "start_frame": 188,
+          "end_frame": 196
+        },
+        {
+          "text": "hain.",
+          "start": 6.533333,
+          "end": 6.9,
+          "start_frame": 196,
+          "end_frame": 207
+        }
+      ],
+      "stock": "signing"
+    },
+    {
+      "start": 6.9,
+      "end": 10.9,
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
+      "words": [
+        {
+          "text": "Statement",
+          "start": 6.9,
+          "end": 7.166667,
+          "start_frame": 207,
+          "end_frame": 215
+        },
+        {
+          "text": "sirf",
+          "start": 7.166667,
+          "end": 7.4,
+          "start_frame": 215,
+          "end_frame": 222
+        },
+        {
+          "text": "yeh",
+          "start": 7.4,
+          "end": 7.666667,
+          "start_frame": 222,
+          "end_frame": 230
+        },
+        {
+          "text": "dikhata",
+          "start": 7.666667,
+          "end": 7.933333,
+          "start_frame": 230,
+          "end_frame": 238
+        },
+        {
+          "text": "hai",
+          "start": 7.933333,
+          "end": 8.2,
+          "start_frame": 238,
+          "end_frame": 246
+        },
+        {
+          "text": "ki",
+          "start": 8.2,
+          "end": 8.433333,
+          "start_frame": 246,
+          "end_frame": 253
+        },
+        {
+          "text": "paisa",
+          "start": 8.433333,
+          "end": 8.7,
+          "start_frame": 253,
+          "end_frame": 261
+        },
+        {
+          "text": "aaya.",
+          "start": 8.7,
+          "end": 8.966667,
+          "start_frame": 261,
+          "end_frame": 269
+        },
+        {
+          "text": "Kamai",
+          "start": 8.966667,
+          "end": 9.233333,
+          "start_frame": 269,
+          "end_frame": 277
+        },
+        {
+          "text": "kitni",
+          "start": 9.233333,
+          "end": 9.466667,
+          "start_frame": 277,
+          "end_frame": 284
+        },
+        {
+          "text": "thi,",
+          "start": 9.466667,
+          "end": 9.733333,
+          "start_frame": 284,
+          "end_frame": 292
+        },
+        {
+          "text": "yeh",
+          "start": 9.733333,
+          "end": 10.0,
+          "start_frame": 292,
+          "end_frame": 300
+        },
+        {
+          "text": "ITR",
+          "start": 10.0,
+          "end": 10.266667,
+          "start_frame": 300,
+          "end_frame": 308
+        },
+        {
+          "text": "batata",
+          "start": 10.266667,
+          "end": 10.5,
+          "start_frame": 308,
+          "end_frame": 315
+        },
+        {
+          "text": "hai.",
+          "start": 10.5,
+          "end": 10.9,
+          "start_frame": 315,
+          "end_frame": 327
+        }
+      ],
+      "stock": "document_review"
+    },
+    {
+      "start": 10.9,
+      "end": 12.5,
+      "text": "Dono ki kahani ek honi chahiye.",
+      "words": [
+        {
+          "text": "Dono",
+          "start": 10.9,
+          "end": 11.133333,
+          "start_frame": 327,
+          "end_frame": 334
+        },
+        {
+          "text": "ki",
+          "start": 11.133333,
+          "end": 11.4,
+          "start_frame": 334,
+          "end_frame": 342
+        },
+        {
+          "text": "kahani",
+          "start": 11.4,
+          "end": 11.633333,
+          "start_frame": 342,
+          "end_frame": 349
+        },
+        {
+          "text": "ek",
+          "start": 11.633333,
+          "end": 11.866667,
+          "start_frame": 349,
+          "end_frame": 356
+        },
+        {
+          "text": "honi",
+          "start": 11.866667,
+          "end": 12.133333,
+          "start_frame": 356,
+          "end_frame": 364
+        },
+        {
+          "text": "chahiye.",
+          "start": 12.133333,
+          "end": 12.5,
+          "start_frame": 364,
+          "end_frame": 375
+        }
+      ],
+      "stock": "signing"
+    }
+  ],
+  "states": [
+    {
+      "kind": "hook",
+      "text": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
+      "start_frame": 0,
+      "end_frame": 24,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "ITR ₹12 lakh.",
+          "box": [
+            88,
+            468,
+            782,
+            554
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Bank statement",
+          "box": [
+            88,
+            609,
+            988,
+            693
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "₹40 lakh. Bank",
+          "box": [
+            88,
+            750,
+            908,
+            836
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "kis pe bharosa",
+          "box": [
+            88,
+            891,
+            897,
+            1004
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "karega?",
+          "box": [
+            88,
+            1032,
+            539,
+            1145
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1435,
+            301,
+            1463
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR",
+      "start_frame": 24,
+      "end_frame": 32,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein",
+      "start_frame": 32,
+      "end_frame": 39,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah",
+      "start_frame": 39,
+      "end_frame": 47,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah lakh.",
+      "start_frame": 47,
+      "end_frame": 54,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            716,
+            972,
+            902,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah lakh. Bank",
+      "start_frame": 54,
+      "end_frame": 62,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            716,
+            972,
+            902,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah lakh. Bank statement",
+      "start_frame": 62,
+      "end_frame": 69,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            716,
+            972,
+            902,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "statement",
+          "box": [
+            292,
+            1068,
+            700,
+            1122
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah lakh. Bank statement mein",
+      "start_frame": 69,
+      "end_frame": 77,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            716,
+            972,
+            902,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "statement",
+          "box": [
+            292,
+            1068,
+            700,
+            1122
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            716,
+            1068,
+            907,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah lakh. Bank statement mein chaalees",
+      "start_frame": 77,
+      "end_frame": 84,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            716,
+            972,
+            902,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "statement",
+          "box": [
+            292,
+            1068,
+            700,
+            1122
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            716,
+            1068,
+            907,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            88,
+            1164,
+            433,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "ITR mein baarah lakh. Bank statement mein chaalees lakh.",
+      "start_frame": 84,
+      "end_frame": 96,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            88,
+            972,
+            211,
+            1028
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            227,
+            972,
+            418,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "baarah",
+          "box": [
+            434,
+            972,
+            700,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            716,
+            972,
+            902,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "statement",
+          "box": [
+            292,
+            1068,
+            700,
+            1122
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "mein",
+          "box": [
+            716,
+            1068,
+            907,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chaalees",
+          "box": [
+            88,
+            1164,
+            433,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lakh.",
+          "box": [
+            449,
+            1164,
+            635,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank",
+      "start_frame": 96,
+      "end_frame": 103,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank kis",
+      "start_frame": 103,
+      "end_frame": 110,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kis",
+          "box": [
+            292,
+            1068,
+            401,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank kis pe",
+      "start_frame": 110,
+      "end_frame": 118,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kis",
+          "box": [
+            292,
+            1068,
+            401,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            417,
+            1068,
+            513,
+            1130
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank kis pe bharosa",
+      "start_frame": 118,
+      "end_frame": 125,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kis",
+          "box": [
+            292,
+            1068,
+            401,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            417,
+            1068,
+            513,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bharosa",
+          "box": [
+            529,
+            1068,
+            842,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Bank kis pe bharosa karega?",
+      "start_frame": 125,
+      "end_frame": 136,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Bank",
+          "box": [
+            88,
+            1068,
+            278,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kis",
+          "box": [
+            292,
+            1068,
+            401,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            417,
+            1068,
+            513,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "bharosa",
+          "box": [
+            529,
+            1068,
+            842,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "karega?",
+          "box": [
+            88,
+            1164,
+            393,
+            1241
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada",
+      "start_frame": 136,
+      "end_frame": 143,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender",
+      "start_frame": 143,
+      "end_frame": 151,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan",
+      "start_frame": 151,
+      "end_frame": 158,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan ITR",
+      "start_frame": 158,
+      "end_frame": 166,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            787,
+            1068,
+            910,
+            1124
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan ITR ki",
+      "start_frame": 166,
+      "end_frame": 173,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            787,
+            1068,
+            910,
+            1124
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            926,
+            1068,
+            992,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan ITR ki kamai",
+      "start_frame": 173,
+      "end_frame": 181,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            787,
+            1068,
+            910,
+            1124
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            926,
+            1068,
+            992,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            88,
+            1164,
+            315,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan ITR ki kamai pe",
+      "start_frame": 181,
+      "end_frame": 188,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            787,
+            1068,
+            910,
+            1124
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            926,
+            1068,
+            992,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            88,
+            1164,
+            315,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            331,
+            1164,
+            427,
+            1226
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan ITR ki kamai pe naapte",
+      "start_frame": 188,
+      "end_frame": 196,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            787,
+            1068,
+            910,
+            1124
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            926,
+            1068,
+            992,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            88,
+            1164,
+            315,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            331,
+            1164,
+            427,
+            1226
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "naapte",
+          "box": [
+            443,
+            1164,
+            714,
+            1236
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Zyada lender loan ITR ki kamai pe naapte hain.",
+      "start_frame": 196,
+      "end_frame": 207,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Zyada",
+          "box": [
+            88,
+            1068,
+            324,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            340,
+            1068,
+            588,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "loan",
+          "box": [
+            604,
+            1068,
+            771,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            787,
+            1068,
+            910,
+            1124
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            926,
+            1068,
+            992,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kamai",
+          "box": [
+            88,
+            1164,
+            315,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pe",
+          "box": [
+            331,
+            1164,
+            427,
+            1226
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "naapte",
+          "box": [
+            443,
+            1164,
+            714,
+            1236
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hain.",
+          "box": [
+            730,
+            1164,
+            923,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement",
+      "start_frame": 207,
+      "end_frame": 215,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf",
+      "start_frame": 215,
+      "end_frame": 222,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh",
+      "start_frame": 222,
+      "end_frame": 230,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata",
+      "start_frame": 230,
+      "end_frame": 238,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai",
+      "start_frame": 238,
+      "end_frame": 246,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki",
+      "start_frame": 246,
+      "end_frame": 253,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa",
+      "start_frame": 253,
+      "end_frame": 261,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya.",
+      "start_frame": 261,
+      "end_frame": 269,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai",
+      "start_frame": 269,
+      "end_frame": 277,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni",
+      "start_frame": 277,
+      "end_frame": 284,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitni",
+          "box": [
+            560,
+            1068,
+            734,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi,",
+      "start_frame": 284,
+      "end_frame": 292,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitni",
+          "box": [
+            560,
+            1068,
+            734,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "thi,",
+          "box": [
+            750,
+            1068,
+            883,
+            1137
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh",
+      "start_frame": 292,
+      "end_frame": 300,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitni",
+          "box": [
+            560,
+            1068,
+            734,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "thi,",
+          "box": [
+            750,
+            1068,
+            883,
+            1137
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            88,
+            1164,
+            229,
+            1239
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR",
+      "start_frame": 300,
+      "end_frame": 308,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitni",
+          "box": [
+            560,
+            1068,
+            734,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "thi,",
+          "box": [
+            750,
+            1068,
+            883,
+            1137
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            88,
+            1164,
+            229,
+            1239
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            245,
+            1164,
+            368,
+            1220
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata",
+      "start_frame": 308,
+      "end_frame": 315,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitni",
+          "box": [
+            560,
+            1068,
+            734,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "thi,",
+          "box": [
+            750,
+            1068,
+            883,
+            1137
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            88,
+            1164,
+            229,
+            1239
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            245,
+            1164,
+            368,
+            1220
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            384,
+            1164,
+            638,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Statement sirf yeh dikhata hai ki paisa aaya. Kamai kitni thi, yeh ITR batata hai.",
+      "start_frame": 315,
+      "end_frame": 327,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Statement",
+          "box": [
+            88,
+            876,
+            505,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "sirf",
+          "box": [
+            521,
+            876,
+            649,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            665,
+            876,
+            806,
+            951
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dikhata",
+          "box": [
+            88,
+            972,
+            378,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            394,
+            972,
+            512,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            528,
+            972,
+            594,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            610,
+            972,
+            815,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aaya.",
+          "box": [
+            88,
+            1068,
+            292,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Kamai",
+          "box": [
+            308,
+            1068,
+            544,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitni",
+          "box": [
+            560,
+            1068,
+            734,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "thi,",
+          "box": [
+            750,
+            1068,
+            883,
+            1137
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "yeh",
+          "box": [
+            88,
+            1164,
+            229,
+            1239
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ITR",
+          "box": [
+            245,
+            1164,
+            368,
+            1220
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            384,
+            1164,
+            638,
+            1221
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai.",
+          "box": [
+            654,
+            1164,
+            797,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Dono",
+      "start_frame": 327,
+      "end_frame": 334,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Dono",
+          "box": [
+            88,
+            1068,
+            291,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Dono ki",
+      "start_frame": 334,
+      "end_frame": 342,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Dono",
+          "box": [
+            88,
+            1068,
+            291,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            307,
+            1068,
+            373,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Dono ki kahani",
+      "start_frame": 342,
+      "end_frame": 349,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Dono",
+          "box": [
+            88,
+            1068,
+            291,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            307,
+            1068,
+            373,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kahani",
+          "box": [
+            389,
+            1068,
+            645,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Dono ki kahani ek",
+      "start_frame": 349,
+      "end_frame": 356,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Dono",
+          "box": [
+            88,
+            1068,
+            291,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            307,
+            1068,
+            373,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kahani",
+          "box": [
+            389,
+            1068,
+            645,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            661,
+            1068,
+            753,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Dono ki kahani ek honi",
+      "start_frame": 356,
+      "end_frame": 364,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Dono",
+          "box": [
+            88,
+            1068,
+            291,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            307,
+            1068,
+            373,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kahani",
+          "box": [
+            389,
+            1068,
+            645,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            661,
+            1068,
+            753,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "honi",
+          "box": [
+            767,
+            1068,
+            939,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Dono ki kahani ek honi chahiye.",
+      "start_frame": 364,
+      "end_frame": 375,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BANK KYA DEKHTA HAI",
+          "box": [
+            88,
+            284,
+            431,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Dono",
+          "box": [
+            88,
+            1068,
+            291,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ki",
+          "box": [
+            307,
+            1068,
+            373,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kahani",
+          "box": [
+            389,
+            1068,
+            645,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ek",
+          "box": [
+            661,
+            1068,
+            753,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "honi",
+          "box": [
+            767,
+            1068,
+            939,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "chahiye.",
+          "box": [
+            88,
+            1164,
+            417,
+            1240
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "end_card",
+      "text": "Apne CA ko bhejo",
+      "start_frame": 375,
+      "end_frame": 420,
+      "boxes": [
+        {
+          "label": "cta",
+          "text": "Apne CA ko bhejo",
+          "box": [
+            88,
+            734,
+            944,
+            832
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1125,
+            380,
+            1164
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+          "box": [
+            88,
+            1320,
+            980,
+            1349
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "approval and terms are at the lender's sole discretion.",
+          "box": [
+            88,
+            1357,
+            839,
+            1386
+          ]
+        }
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "start": 0.0,
+      "end": 0.8,
+      "source_offset": 0.45,
+      "name": "document_review",
+      "source_id": "8440643",
+      "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+    },
+    {
+      "start": 0.8,
+      "end": 3.2,
+      "source_offset": 1.25,
+      "name": "document_review",
+      "source_id": "8440643",
+      "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+    },
+    {
+      "start": 3.2,
+      "end": 4.533333,
+      "source_offset": 2.0500000000000003,
+      "name": "document_review",
+      "source_id": "8440643",
+      "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+    },
+    {
+      "start": 4.533333,
+      "end": 6.9,
+      "source_offset": 0.45,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+    },
+    {
+      "start": 6.9,
+      "end": 10.9,
+      "source_offset": 1.25,
+      "name": "document_review",
+      "source_id": "8440643",
+      "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+    },
+    {
+      "start": 10.9,
+      "end": 12.5,
+      "source_offset": 2.0500000000000003,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+    },
+    {
+      "start": 12.5,
+      "end": 14.0,
+      "source_offset": 0.45,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 215040,
+        "duration": "14.000000",
+        "bit_rate": "1624328",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "420",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\amrut\\Documents\\Codex\\2026-11-12\\crednest-instagram-nov16-29\\media\\N04\\reel.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "14.000000",
+      "size": "2848432",
+      "bit_rate": "1627675",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "render_seconds": 22.1,
+  "first_frame_motion": {
+    "frames_compared": [
+      0,
+      1
+    ],
+    "mean_absolute_rgb_change": 1.849066,
+    "hook_text_unchanged": true,
+    "passed": true
+  }
+}

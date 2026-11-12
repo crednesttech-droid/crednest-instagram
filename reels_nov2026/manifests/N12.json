@@ -1,0 +1,4163 @@
+{
+  "id": "N12",
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 14.0,
+    "audio": false,
+    "file_size_bytes": 3398782,
+    "safe_zone": [
+      250,
+      1500
+    ],
+    "caption_baseline": 1260,
+    "end_card_start": 12.5,
+    "cover_frame_seconds": 0,
+    "cover_quality": 95,
+    "cover_color_profile": "sRGB"
+  },
+  "hook": "Naya project. CMA ya DPR? Bank pehle kya maangega",
+  "series": "BUSINESS KA PAISA",
+  "number_card": null,
+  "cta": "Follow karo. Kal ek naya hisaab",
+  "disclaimer": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "cover_boxes": [
+    {
+      "label": "series_tag",
+      "text": "BUSINESS KA PAISA",
+      "box": [
+        88,
+        284,
+        391,
+        307
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Naya project.",
+      "box": [
+        88,
+        420,
+        950,
+        548
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "CMA ya DPR?",
+      "box": [
+        88,
+        580,
+        931,
+        708
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "Bank pehle",
+      "box": [
+        88,
+        740,
+        792,
+        869
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "kya",
+      "box": [
+        88,
+        900,
+        311,
+        1027
+      ]
+    },
+    {
+      "label": "hook",
+      "text": "maangega",
+      "box": [
+        88,
+        1060,
+        763,
+        1165
+      ]
+    },
+    {
+      "label": "website",
+      "text": "crednest.io",
+      "box": [
+        88,
+        1435,
+        301,
+        1463
+      ]
+    }
+  ],
+  "voice_scenes": [
+    {
+      "start": 0.8,
+      "end": 2.066667,
+      "text": "Naya project. CMA ya DPR?",
+      "words": [
+        {
+          "text": "Naya",
+          "start": 0.8,
+          "end": 1.033333,
+          "start_frame": 24,
+          "end_frame": 31
+        },
+        {
+          "text": "project.",
+          "start": 1.033333,
+          "end": 1.266667,
+          "start_frame": 31,
+          "end_frame": 38
+        },
+        {
+          "text": "CMA",
+          "start": 1.266667,
+          "end": 1.466667,
+          "start_frame": 38,
+          "end_frame": 44
+        },
+        {
+          "text": "ya",
+          "start": 1.466667,
+          "end": 1.7,
+          "start_frame": 44,
+          "end_frame": 51
+        },
+        {
+          "text": "DPR?",
+          "start": 1.7,
+          "end": 2.066667,
+          "start_frame": 51,
+          "end_frame": 62
+        }
+      ],
+      "stock": "machinery"
+    },
+    {
+      "start": 2.066667,
+      "end": 5.366667,
+      "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
+      "words": [
+        {
+          "text": "DPR",
+          "start": 2.066667,
+          "end": 2.3,
+          "start_frame": 62,
+          "end_frame": 69
+        },
+        {
+          "text": "batata",
+          "start": 2.3,
+          "end": 2.566667,
+          "start_frame": 69,
+          "end_frame": 77
+        },
+        {
+          "text": "hai",
+          "start": 2.566667,
+          "end": 2.8,
+          "start_frame": 77,
+          "end_frame": 84
+        },
+        {
+          "text": "project",
+          "start": 2.8,
+          "end": 3.033333,
+          "start_frame": 84,
+          "end_frame": 91
+        },
+        {
+          "text": "kya",
+          "start": 3.033333,
+          "end": 3.3,
+          "start_frame": 91,
+          "end_frame": 99
+        },
+        {
+          "text": "hai,",
+          "start": 3.3,
+          "end": 3.533333,
+          "start_frame": 99,
+          "end_frame": 106
+        },
+        {
+          "text": "kitne",
+          "start": 3.533333,
+          "end": 3.766667,
+          "start_frame": 106,
+          "end_frame": 113
+        },
+        {
+          "text": "ka",
+          "start": 3.766667,
+          "end": 4.0,
+          "start_frame": 113,
+          "end_frame": 120
+        },
+        {
+          "text": "hai,",
+          "start": 4.0,
+          "end": 4.266667,
+          "start_frame": 120,
+          "end_frame": 128
+        },
+        {
+          "text": "paisa",
+          "start": 4.266667,
+          "end": 4.5,
+          "start_frame": 128,
+          "end_frame": 135
+        },
+        {
+          "text": "kaise",
+          "start": 4.5,
+          "end": 4.733333,
+          "start_frame": 135,
+          "end_frame": 142
+        },
+        {
+          "text": "wapas",
+          "start": 4.733333,
+          "end": 5.0,
+          "start_frame": 142,
+          "end_frame": 150
+        },
+        {
+          "text": "aayega.",
+          "start": 5.0,
+          "end": 5.366667,
+          "start_frame": 150,
+          "end_frame": 161
+        }
+      ],
+      "stock": "document_review"
+    },
+    {
+      "start": 5.366667,
+      "end": 8.433333,
+      "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
+      "words": [
+        {
+          "text": "CMA",
+          "start": 5.366667,
+          "end": 5.6,
+          "start_frame": 161,
+          "end_frame": 168
+        },
+        {
+          "text": "batata",
+          "start": 5.6,
+          "end": 5.866667,
+          "start_frame": 168,
+          "end_frame": 176
+        },
+        {
+          "text": "hai",
+          "start": 5.866667,
+          "end": 6.1,
+          "start_frame": 176,
+          "end_frame": 183
+        },
+        {
+          "text": "business",
+          "start": 6.1,
+          "end": 6.333333,
+          "start_frame": 183,
+          "end_frame": 190
+        },
+        {
+          "text": "ke",
+          "start": 6.333333,
+          "end": 6.6,
+          "start_frame": 190,
+          "end_frame": 198
+        },
+        {
+          "text": "numbers:",
+          "start": 6.6,
+          "end": 6.833333,
+          "start_frame": 198,
+          "end_frame": 205
+        },
+        {
+          "text": "pichhle",
+          "start": 6.833333,
+          "end": 7.066667,
+          "start_frame": 205,
+          "end_frame": 212
+        },
+        {
+          "text": "saal",
+          "start": 7.066667,
+          "end": 7.333333,
+          "start_frame": 212,
+          "end_frame": 220
+        },
+        {
+          "text": "aur",
+          "start": 7.333333,
+          "end": 7.566667,
+          "start_frame": 220,
+          "end_frame": 227
+        },
+        {
+          "text": "aane",
+          "start": 7.566667,
+          "end": 7.8,
+          "start_frame": 227,
+          "end_frame": 234
+        },
+        {
+          "text": "wale",
+          "start": 7.8,
+          "end": 8.066667,
+          "start_frame": 234,
+          "end_frame": 242
+        },
+        {
+          "text": "saal.",
+          "start": 8.066667,
+          "end": 8.433333,
+          "start_frame": 242,
+          "end_frame": 253
+        }
+      ],
+      "stock": "spreadsheet"
+    },
+    {
+      "start": 8.433333,
+      "end": 10.733333,
+      "text": "Naye project ke liye zyada lender dono maangte hain.",
+      "words": [
+        {
+          "text": "Naye",
+          "start": 8.433333,
+          "end": 8.666667,
+          "start_frame": 253,
+          "end_frame": 260
+        },
+        {
+          "text": "project",
+          "start": 8.666667,
+          "end": 8.9,
+          "start_frame": 260,
+          "end_frame": 267
+        },
+        {
+          "text": "ke",
+          "start": 8.9,
+          "end": 9.166667,
+          "start_frame": 267,
+          "end_frame": 275
+        },
+        {
+          "text": "liye",
+          "start": 9.166667,
+          "end": 9.4,
+          "start_frame": 275,
+          "end_frame": 282
+        },
+        {
+          "text": "zyada",
+          "start": 9.4,
+          "end": 9.633333,
+          "start_frame": 282,
+          "end_frame": 289
+        },
+        {
+          "text": "lender",
+          "start": 9.633333,
+          "end": 9.866667,
+          "start_frame": 289,
+          "end_frame": 296
+        },
+        {
+          "text": "dono",
+          "start": 9.866667,
+          "end": 10.133333,
+          "start_frame": 296,
+          "end_frame": 304
+        },
+        {
+          "text": "maangte",
+          "start": 10.133333,
+          "end": 10.366667,
+          "start_frame": 304,
+          "end_frame": 311
+        },
+        {
+          "text": "hain.",
+          "start": 10.366667,
+          "end": 10.733333,
+          "start_frame": 311,
+          "end_frame": 322
+        }
+      ],
+      "stock": "document_review"
+    },
+    {
+      "start": 10.733333,
+      "end": 12.5,
+      "text": "Pehle DPR, phir uske numbers se CMA.",
+      "words": [
+        {
+          "text": "Pehle",
+          "start": 10.733333,
+          "end": 10.966667,
+          "start_frame": 322,
+          "end_frame": 329
+        },
+        {
+          "text": "DPR,",
+          "start": 10.966667,
+          "end": 11.2,
+          "start_frame": 329,
+          "end_frame": 336
+        },
+        {
+          "text": "phir",
+          "start": 11.2,
+          "end": 11.433333,
+          "start_frame": 336,
+          "end_frame": 343
+        },
+        {
+          "text": "uske",
+          "start": 11.433333,
+          "end": 11.666667,
+          "start_frame": 343,
+          "end_frame": 350
+        },
+        {
+          "text": "numbers",
+          "start": 11.666667,
+          "end": 11.9,
+          "start_frame": 350,
+          "end_frame": 357
+        },
+        {
+          "text": "se",
+          "start": 11.9,
+          "end": 12.133333,
+          "start_frame": 357,
+          "end_frame": 364
+        },
+        {
+          "text": "CMA.",
+          "start": 12.133333,
+          "end": 12.5,
+          "start_frame": 364,
+          "end_frame": 375
+        }
+      ],
+      "stock": "signing"
+    }
+  ],
+  "states": [
+    {
+      "kind": "hook",
+      "text": "Naya project. CMA ya DPR? Bank pehle kya maangega",
+      "start_frame": 0,
+      "end_frame": 24,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Naya project.",
+          "box": [
+            88,
+            420,
+            950,
+            548
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "CMA ya DPR?",
+          "box": [
+            88,
+            580,
+            931,
+            708
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "Bank pehle",
+          "box": [
+            88,
+            740,
+            792,
+            869
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "kya",
+          "box": [
+            88,
+            900,
+            311,
+            1027
+          ]
+        },
+        {
+          "label": "hook",
+          "text": "maangega",
+          "box": [
+            88,
+            1060,
+            763,
+            1165
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1435,
+            301,
+            1463
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naya",
+      "start_frame": 24,
+      "end_frame": 31,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naya",
+          "box": [
+            88,
+            1068,
+            279,
+            1143
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naya project.",
+      "start_frame": 31,
+      "end_frame": 38,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naya",
+          "box": [
+            88,
+            1068,
+            279,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project.",
+          "box": [
+            295,
+            1068,
+            600,
+            1144
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naya project. CMA",
+      "start_frame": 38,
+      "end_frame": 44,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naya",
+          "box": [
+            88,
+            1068,
+            279,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project.",
+          "box": [
+            295,
+            1068,
+            600,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            616,
+            1068,
+            794,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naya project. CMA ya",
+      "start_frame": 44,
+      "end_frame": 51,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naya",
+          "box": [
+            88,
+            1068,
+            279,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project.",
+          "box": [
+            295,
+            1068,
+            600,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            616,
+            1068,
+            794,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ya",
+          "box": [
+            810,
+            1068,
+            899,
+            1130
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naya project. CMA ya DPR?",
+      "start_frame": 51,
+      "end_frame": 62,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naya",
+          "box": [
+            88,
+            1068,
+            279,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project.",
+          "box": [
+            295,
+            1068,
+            600,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            616,
+            1068,
+            794,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ya",
+          "box": [
+            810,
+            1068,
+            899,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR?",
+          "box": [
+            88,
+            1164,
+            290,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR",
+      "start_frame": 62,
+      "end_frame": 69,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata",
+      "start_frame": 69,
+      "end_frame": 77,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai",
+      "start_frame": 77,
+      "end_frame": 84,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project",
+      "start_frame": 84,
+      "end_frame": 91,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya",
+      "start_frame": 91,
+      "end_frame": 99,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai,",
+      "start_frame": 99,
+      "end_frame": 106,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne",
+      "start_frame": 106,
+      "end_frame": 113,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne ka",
+      "start_frame": 113,
+      "end_frame": 120,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            609,
+            972,
+            697,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne ka hai,",
+      "start_frame": 120,
+      "end_frame": 128,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            609,
+            972,
+            697,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            713,
+            972,
+            856,
+            1041
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne ka hai, paisa",
+      "start_frame": 128,
+      "end_frame": 135,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            609,
+            972,
+            697,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            713,
+            972,
+            856,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            88,
+            1068,
+            293,
+            1144
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise",
+      "start_frame": 135,
+      "end_frame": 142,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            609,
+            972,
+            697,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            713,
+            972,
+            856,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            88,
+            1068,
+            293,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kaise",
+          "box": [
+            309,
+            1068,
+            510,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas",
+      "start_frame": 142,
+      "end_frame": 150,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            609,
+            972,
+            697,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            713,
+            972,
+            856,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            88,
+            1068,
+            293,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kaise",
+          "box": [
+            309,
+            1068,
+            510,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "wapas",
+          "box": [
+            526,
+            1068,
+            771,
+            1130
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "DPR batata hai project kya hai, kitne ka hai, paisa kaise wapas aayega.",
+      "start_frame": 150,
+      "end_frame": 161,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR",
+          "box": [
+            88,
+            876,
+            246,
+            932
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            262,
+            876,
+            516,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            532,
+            876,
+            650,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            666,
+            876,
+            946,
+            952
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kya",
+          "box": [
+            88,
+            972,
+            220,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            236,
+            972,
+            379,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kitne",
+          "box": [
+            395,
+            972,
+            593,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ka",
+          "box": [
+            609,
+            972,
+            697,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai,",
+          "box": [
+            713,
+            972,
+            856,
+            1041
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "paisa",
+          "box": [
+            88,
+            1068,
+            293,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "kaise",
+          "box": [
+            309,
+            1068,
+            510,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "wapas",
+          "box": [
+            526,
+            1068,
+            771,
+            1130
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aayega.",
+          "box": [
+            88,
+            1164,
+            388,
+            1227
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA",
+      "start_frame": 161,
+      "end_frame": 168,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata",
+      "start_frame": 168,
+      "end_frame": 176,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai",
+      "start_frame": 176,
+      "end_frame": 183,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business",
+      "start_frame": 183,
+      "end_frame": 190,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke",
+      "start_frame": 190,
+      "end_frame": 198,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers:",
+      "start_frame": 198,
+      "end_frame": 205,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers: pichhle",
+      "start_frame": 205,
+      "end_frame": 212,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pichhle",
+          "box": [
+            88,
+            1068,
+            375,
+            1144
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers: pichhle saal",
+      "start_frame": 212,
+      "end_frame": 220,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pichhle",
+          "box": [
+            88,
+            1068,
+            375,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saal",
+          "box": [
+            391,
+            1068,
+            547,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers: pichhle saal aur",
+      "start_frame": 220,
+      "end_frame": 227,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pichhle",
+          "box": [
+            88,
+            1068,
+            375,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saal",
+          "box": [
+            391,
+            1068,
+            547,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            563,
+            1068,
+            690,
+            1112
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers: pichhle saal aur aane",
+      "start_frame": 227,
+      "end_frame": 234,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pichhle",
+          "box": [
+            88,
+            1068,
+            375,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saal",
+          "box": [
+            391,
+            1068,
+            547,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            563,
+            1068,
+            690,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aane",
+          "box": [
+            706,
+            1068,
+            893,
+            1112
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale",
+      "start_frame": 234,
+      "end_frame": 242,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pichhle",
+          "box": [
+            88,
+            1068,
+            375,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saal",
+          "box": [
+            391,
+            1068,
+            547,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            563,
+            1068,
+            690,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aane",
+          "box": [
+            706,
+            1068,
+            893,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "wale",
+          "box": [
+            88,
+            1164,
+            266,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "CMA batata hai business ke numbers: pichhle saal aur aane wale saal.",
+      "start_frame": 242,
+      "end_frame": 253,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA",
+          "box": [
+            88,
+            876,
+            266,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "batata",
+          "box": [
+            282,
+            876,
+            536,
+            933
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hai",
+          "box": [
+            552,
+            876,
+            670,
+            934
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "business",
+          "box": [
+            88,
+            972,
+            436,
+            1030
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            452,
+            972,
+            542,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers:",
+          "box": [
+            558,
+            972,
+            928,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "pichhle",
+          "box": [
+            88,
+            1068,
+            375,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saal",
+          "box": [
+            391,
+            1068,
+            547,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aur",
+          "box": [
+            563,
+            1068,
+            690,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "aane",
+          "box": [
+            706,
+            1068,
+            893,
+            1112
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "wale",
+          "box": [
+            88,
+            1164,
+            266,
+            1222
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "saal.",
+          "box": [
+            282,
+            1164,
+            463,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye",
+      "start_frame": 253,
+      "end_frame": 260,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project",
+      "start_frame": 260,
+      "end_frame": 267,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke",
+      "start_frame": 267,
+      "end_frame": 275,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke liye",
+      "start_frame": 275,
+      "end_frame": 282,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            699,
+            972,
+            836,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke liye zyada",
+      "start_frame": 282,
+      "end_frame": 289,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            699,
+            972,
+            836,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            88,
+            1068,
+            313,
+            1143
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke liye zyada lender",
+      "start_frame": 289,
+      "end_frame": 296,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            699,
+            972,
+            836,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            88,
+            1068,
+            313,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            329,
+            1068,
+            577,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke liye zyada lender dono",
+      "start_frame": 296,
+      "end_frame": 304,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            699,
+            972,
+            836,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            88,
+            1068,
+            313,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            329,
+            1068,
+            577,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dono",
+          "box": [
+            593,
+            1068,
+            790,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke liye zyada lender dono maangte",
+      "start_frame": 304,
+      "end_frame": 311,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            699,
+            972,
+            836,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            88,
+            1068,
+            313,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            329,
+            1068,
+            577,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dono",
+          "box": [
+            593,
+            1068,
+            790,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maangte",
+          "box": [
+            88,
+            1164,
+            430,
+            1237
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Naye project ke liye zyada lender dono maangte hain.",
+      "start_frame": 311,
+      "end_frame": 322,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Naye",
+          "box": [
+            88,
+            972,
+            281,
+            1047
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "project",
+          "box": [
+            297,
+            972,
+            577,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "ke",
+          "box": [
+            593,
+            972,
+            683,
+            1029
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "liye",
+          "box": [
+            699,
+            972,
+            836,
+            1048
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "zyada",
+          "box": [
+            88,
+            1068,
+            313,
+            1143
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "lender",
+          "box": [
+            329,
+            1068,
+            577,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "dono",
+          "box": [
+            593,
+            1068,
+            790,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "maangte",
+          "box": [
+            88,
+            1164,
+            430,
+            1237
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "hain.",
+          "box": [
+            446,
+            1164,
+            639,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle",
+      "start_frame": 322,
+      "end_frame": 329,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle DPR,",
+      "start_frame": 329,
+      "end_frame": 336,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR,",
+          "box": [
+            322,
+            1068,
+            505,
+            1136
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle DPR, phir",
+      "start_frame": 336,
+      "end_frame": 343,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR,",
+          "box": [
+            322,
+            1068,
+            505,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "phir",
+          "box": [
+            521,
+            1068,
+            675,
+            1144
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle DPR, phir uske",
+      "start_frame": 343,
+      "end_frame": 350,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR,",
+          "box": [
+            322,
+            1068,
+            505,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "phir",
+          "box": [
+            521,
+            1068,
+            675,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "uske",
+          "box": [
+            691,
+            1068,
+            874,
+            1125
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle DPR, phir uske numbers",
+      "start_frame": 350,
+      "end_frame": 357,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR,",
+          "box": [
+            322,
+            1068,
+            505,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "phir",
+          "box": [
+            521,
+            1068,
+            675,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "uske",
+          "box": [
+            691,
+            1068,
+            874,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers",
+          "box": [
+            88,
+            1164,
+            430,
+            1221
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle DPR, phir uske numbers se",
+      "start_frame": 357,
+      "end_frame": 364,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR,",
+          "box": [
+            322,
+            1068,
+            505,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "phir",
+          "box": [
+            521,
+            1068,
+            675,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "uske",
+          "box": [
+            691,
+            1068,
+            874,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers",
+          "box": [
+            88,
+            1164,
+            430,
+            1221
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "se",
+          "box": [
+            446,
+            1164,
+            536,
+            1208
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "voice",
+      "text": "Pehle DPR, phir uske numbers se CMA.",
+      "start_frame": 364,
+      "end_frame": 375,
+      "boxes": [
+        {
+          "label": "series_tag",
+          "text": "BUSINESS KA PAISA",
+          "box": [
+            88,
+            284,
+            391,
+            307
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "Pehle",
+          "box": [
+            88,
+            1068,
+            306,
+            1126
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "DPR,",
+          "box": [
+            322,
+            1068,
+            505,
+            1136
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "phir",
+          "box": [
+            521,
+            1068,
+            675,
+            1144
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "uske",
+          "box": [
+            691,
+            1068,
+            874,
+            1125
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "numbers",
+          "box": [
+            88,
+            1164,
+            430,
+            1221
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "se",
+          "box": [
+            446,
+            1164,
+            536,
+            1208
+          ]
+        },
+        {
+          "label": "voice_caption",
+          "text": "CMA.",
+          "box": [
+            552,
+            1164,
+            755,
+            1222
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "end_card",
+      "text": "Follow karo. Kal ek naya hisaab",
+      "start_frame": 375,
+      "end_frame": 420,
+      "boxes": [
+        {
+          "label": "cta",
+          "text": "Follow karo. Kal ek",
+          "box": [
+            88,
+            673,
+            991,
+            748
+          ]
+        },
+        {
+          "label": "cta",
+          "text": "naya hisaab",
+          "box": [
+            88,
+            795,
+            672,
+            893
+          ]
+        },
+        {
+          "label": "website",
+          "text": "crednest.io",
+          "box": [
+            88,
+            1125,
+            380,
+            1164
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan",
+          "box": [
+            88,
+            1320,
+            980,
+            1349
+          ]
+        },
+        {
+          "label": "disclaimer",
+          "text": "approval and terms are at the lender's sole discretion.",
+          "box": [
+            88,
+            1357,
+            839,
+            1386
+          ]
+        }
+      ]
+    }
+  ],
+  "broll": [
+    {
+      "start": 0.0,
+      "end": 0.8,
+      "source_offset": 0.45,
+      "name": "machinery",
+      "source_id": "30243440",
+      "page_url": "https://www.pexels.com/video/industrial-machinery-in-automated-factory-30243440/",
+      "crop_notes": "Industrial pipes/machinery, no person in 1s sampled frame; inspect remaining segment before use. Generic location, no Indian claim."
+    },
+    {
+      "start": 0.8,
+      "end": 2.066667,
+      "source_offset": 1.25,
+      "name": "machinery",
+      "source_id": "30243440",
+      "page_url": "https://www.pexels.com/video/industrial-machinery-in-automated-factory-30243440/",
+      "crop_notes": "Industrial pipes/machinery, no person in 1s sampled frame; inspect remaining segment before use. Generic location, no Indian claim."
+    },
+    {
+      "start": 2.066667,
+      "end": 5.366667,
+      "source_offset": 2.0500000000000003,
+      "name": "document_review",
+      "source_id": "8440643",
+      "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+    },
+    {
+      "start": 5.366667,
+      "end": 8.433333,
+      "source_offset": 0.45,
+      "name": "spreadsheet",
+      "source_id": "8480291",
+      "page_url": "https://www.pexels.com/video/a-man-using-a-laptop-8480291/",
+      "crop_notes": "Vertical hands typing generic spreadsheet. No face in first/mid/end sampled frames. Center frame; any small laptop-brand details obscured by normal crop/overlay."
+    },
+    {
+      "start": 8.433333,
+      "end": 10.733333,
+      "source_offset": 1.25,
+      "name": "document_review",
+      "source_id": "8440643",
+      "page_url": "https://www.pexels.com/video/people-signing-a-document-8440643/",
+      "crop_notes": "Overhead hands reviewing forms/laptop. Crop desk center and avoid far-right top edge. No face in sampled frames; document text should be defocused under overlay."
+    },
+    {
+      "start": 10.733333,
+      "end": 12.5,
+      "source_offset": 2.0500000000000003,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+    },
+    {
+      "start": 12.5,
+      "end": 14.0,
+      "source_offset": 0.45,
+      "name": "signing",
+      "source_id": "7685212",
+      "page_url": "https://www.pexels.com/video/person-signing-on-the-documents-7685212/",
+      "crop_notes": "Close-up hands and generic forms. Crop center/right to retain pen and hands; no face in sampled frames. Detail soft enough to prevent reading names."
+    }
+  ],
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1080,
+        "coded_height": 1920,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 215040,
+        "duration": "14.000000",
+        "bit_rate": "1938772",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "420",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc61.19.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\amrut\\Documents\\Codex\\2026-11-12\\crednest-instagram-nov16-29\\media\\N12\\reel.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "14.000000",
+      "size": "3398782",
+      "bit_rate": "1942161",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100"
+      }
+    }
+  },
+  "render_seconds": 17.31,
+  "first_frame_motion": {
+    "frames_compared": [
+      0,
+      1
+    ],
+    "mean_absolute_rgb_change": 3.213388,
+    "hook_text_unchanged": true,
+    "passed": true
+  }
+}
