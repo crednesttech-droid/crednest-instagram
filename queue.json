@@ -1524,7 +1524,6 @@
   "voice_model": "bulbul:v3",
   "voice_speaker": "shubh",
   "voice_pace": 1.0,
-  "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
   "audio": "voice -14 LUFS + ducked music bed",
   "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN."
  },
