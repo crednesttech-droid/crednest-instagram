@@ -1478,7 +1478,7 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.\n\nChaar red flags: sanction se pehle fee, \"no CIBIL check\" ka promise, bina papers 10 minute approval, aur OTP maangna. Chaaron mein se ek bhi dikhe to lender pehle verify karo. Kisi loan dhoondhne wale ko share karo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanFraud #LoanScam #FraudAlert #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "alt_text": "Motion-graphics reel on dark green: Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
   "voice_scenes": [
@@ -1519,7 +1519,7 @@
     "say": "Doubt हो तो WhatsApp करो, Hi भेजो।"
    }
   ],
-  "voice": "sarvam bulbul:v4-flash sunny_en_social",
+  "voice": "sarvam bulbul:v3 shubh",
   "voice_lang": "hi-IN",
   "voice_model": "bulbul:v3",
   "voice_speaker": "shubh",
@@ -1707,7 +1707,7 @@
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "needs_voice",
+  "status": "ready",
   "alt_text": "Motion-graphics reel on dark green: Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
   "voice_scenes": [
    {
@@ -1745,7 +1745,7 @@
   "voice_model": "bulbul:v3",
   "voice_speaker": "shubh",
   "voice_pace": 1.0,
-  "voice": "sarvam bulbul:v4-flash sunny_en_social",
+  "voice": "sarvam bulbul:v3 shubh",
   "audio": "voice -14 LUFS + ducked music bed",
   "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN."
  },
@@ -3715,7 +3715,7 @@
    "media/N07/reel.mp4"
   ],
   "caption": "₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.\n\nMachine ka faisla EMI se nahi, cash flow se hota hai. Machine kitne saal kaam karegi, extra kamai kab se aayegi, aur maintenance kaun uthayega: ye teen jawab pehle likho. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#MachineryLoan #EquipmentFinance #Manufacturing #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
   "cover": "media/N07/cover.jpg",
@@ -3761,7 +3761,9 @@
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
-  "alt_text": "Motion-graphics reel on dark green: ₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle."
+  "alt_text": "Motion-graphics reel on dark green: ₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "id": "N08",
@@ -3978,7 +3980,7 @@
    "media/N14/reel.mp4"
   ],
   "caption": "Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?\n\nAccounting profit aur repayment ka cash alag cheez hai. Lender depreciation, existing EMI aur debtors ka hisaab laga ke cash dekhta hai. Isliye profit aur eligibility ka number alag aata hai. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#BusinessLoan #CashFlow #ProfitVsCash #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
   "cover": "media/N14/cover.jpg",
@@ -4024,6 +4026,8 @@
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
-  "alt_text": "Motion-graphics reel on dark green: Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?"
+  "alt_text": "Motion-graphics reel on dark green: Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  }
 ]
