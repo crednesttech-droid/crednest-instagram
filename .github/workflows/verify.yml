@@ -26,3 +26,23 @@ jobs:
           print("IG_USER_ID matches token:", ok)
           sys.exit(0 if ok else 1)
           PY
+      - name: Check comment and DM permissions (read-only, posts nothing)
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse
+          tok = os.environ["IG_ACCESS_TOKEN"].strip(); uid = os.environ["IG_USER_ID"].strip()
+          def get(path, **p):
+              p["access_token"] = tok
+              try:
+                  with urllib.request.urlopen(f"https://graph.instagram.com/v23.0/{path}?{urllib.parse.urlencode(p)}", timeout=30) as r:
+                      return True, json.load(r)
+              except urllib.error.HTTPError as e:
+                  return False, e.read().decode()[:300]
+          ok, media = get(f"{uid}/media", fields="id", limit=1)
+          mid = media["data"][0]["id"] if ok and media.get("data") else None
+          ok_c, res_c = get(f"{mid}/comments", fields="id,text", limit=1) if mid else (False, "no media")
+          print("COMMENTS read (instagram_business_manage_comments):", "OK" if ok_c else f"FAIL {res_c}")
+          ok_d, res_d = get("me/conversations", platform="instagram", fields="id", limit=1)
+          print("DMs read (instagram_business_manage_messages):", "OK" if ok_d else f"FAIL {res_d}")
+          if ok_d: print("  conversations visible:", len(res_d.get("data", [])))
+          PY
