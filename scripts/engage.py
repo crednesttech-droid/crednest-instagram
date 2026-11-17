@@ -93,6 +93,10 @@ def handle_comments(api, cfg, state, my_name, fill, dry):
                     api.call("POST", f"{cid}/replies", message=msg); rec["reply"] = "sent"
                 except Exception as e:
                     rec["reply"] = f"failed: {str(e)[:200]}"
+            if any(str(rec.get(k, "")).startswith("failed") for k in ("dm", "reply")) and \
+               not any(rec.get(k) == "sent" for k in ("dm", "reply")):
+                print(f"retry later: comment {cid} ({rec.get('reply')})")   # e.g. token lacks a permission
+                continue
             state[cid] = rec
             done += 1
             print(f"[{kind}] comment {cid}: {rec.get('dm', '-')} / {rec.get('reply', '-')}")
