@@ -10,6 +10,8 @@ Runs inside every autopilot run (every 15 min). For comments from the last N day
 For DMs: a new inbound message in a NEW chat (we never wrote in it) gets the welcome auto-reply
 (at most once per cooldown); existing chats are only flagged, and every new DM is flagged to the Inbox issue so a human answers within the day.
 
+Privacy: the repo is public, so state and the Inbox issue hold no usernames and no message text.
+
 Instagram rules: one private reply per comment within 7 days; DM replies only inside the
 24-hour window after the person's last message. Handled ids live in state/engaged.json.
 
@@ -65,12 +67,12 @@ def handle_comments(api, cfg, state, my_name, fill, dry):
             if cid in state or who.lower() == my_name or done >= cfg.get("max_per_run", 25):
                 continue
             kind = classify(text, cfg)
-            rec = {"username": who, "media": m["id"], "kind": kind, "at": datetime.now(P.IST).isoformat()}
+            rec = {"media": m["id"], "kind": kind, "at": datetime.now(P.IST).isoformat()}   # no usernames: repo is public
             if dry:
-                print(f"would handle [{kind}] @{who}: '{text[:50]}' on {m.get('permalink')}")
+                print(f"would handle [{kind}] comment {cid} on {m.get('permalink')}")
                 continue
             if kind == "human":
-                inbox(f"COMMENT needs you: @{who}: \"{text[:150]}\" {m.get('permalink')}")
+                inbox(f"Comment needs you (possible complaint) on {m.get('permalink')}")
             elif kind in ("keyword", "question"):
                 dm = fill(cfg["private_reply"] if kind == "keyword" else cfg["question_private_reply"])
                 pub = cfg["public_reply"] if kind == "keyword" else cfg["question_public_reply"]
@@ -83,7 +85,7 @@ def handle_comments(api, cfg, state, my_name, fill, dry):
                     except Exception as e:
                         rec[step] = f"failed: {str(e)[:200]}"
                 if kind == "question":
-                    inbox(f"QUESTION (auto-replied, follow up on WhatsApp): @{who}: \"{text[:150]}\" {m.get('permalink')}")
+                    inbox(f"Question comment (auto-replied with WhatsApp DM) on {m.get('permalink')}")
             elif kind == "thanks":
                 msg = cfg["thanks_replies"][n_thanks % len(cfg["thanks_replies"])]
                 n_thanks += 1
@@ -93,7 +95,7 @@ def handle_comments(api, cfg, state, my_name, fill, dry):
                     rec["reply"] = f"failed: {str(e)[:200]}"
             state[cid] = rec
             done += 1
-            print(f"[{kind}] @{who}: {rec.get('dm', '-')} / {rec.get('reply', '-')}")
+            print(f"[{kind}] comment {cid}: {rec.get('dm', '-')} / {rec.get('reply', '-')}")
     return len(media), done
 
 
@@ -122,8 +124,8 @@ def handle_dms(api, cfg, state, my_id, fill, dry):
             continue
         who = frm.get("username") or frm.get("id")
         if dry:
-            print(f"would auto-reply DM from @{who}: '{(last.get('message') or '')[:50]}'"); continue
-        rec = {"kind": "dm", "username": who, "at": datetime.now(P.IST).isoformat()}
+            print("would auto-reply a new DM"); continue
+        rec = {"kind": "dm", "at": datetime.now(P.IST).isoformat()}   # no usernames: repo is public
         conv_key = f"conv:{cv['id']}"
         last_auto = state.get(conv_key, {}).get("auto_at")
         we_wrote = any(str((m.get("from") or {}).get("id")) == str(my_id) for m in msgs)
@@ -139,7 +141,7 @@ def handle_dms(api, cfg, state, my_id, fill, dry):
                 rec["reply"] = f"failed: {str(e)[:200]}"
         else:
             rec["reply"] = "cooldown"
-        inbox(f"DM needs you: @{who}: \"{(last.get('message') or '[attachment]')[:150]}\" (auto-reply: {rec['reply']})")
+        inbox(f"New Instagram DM waiting (auto-reply: {rec['reply']}). Open the Instagram app or Business Suite inbox.")
         state[f"dm:{last['id']}"] = rec
         n += 1
     return n
@@ -159,6 +161,8 @@ def main():
     posts, done = handle_comments(api, cfg, state, my_name, fill, a.dry_run)
     dms = handle_dms(api, cfg, state, my_id, fill, a.dry_run)
     if not a.dry_run:
+        cutoff = (datetime.now(P.IST) - timedelta(days=90)).isoformat()   # retention per legal/privacy.html
+        state = {k: v for k, v in state.items() if (v.get("at") or v.get("auto_at") or cutoff) >= cutoff}
         os.makedirs(os.path.dirname(STATE), exist_ok=True)
         json.dump(state, open(STATE, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(f"engage: checked {posts} posts, handled {done} comment(s), {dms} DM(s)")
