@@ -21,6 +21,7 @@ C = dict(lime=(184, 255, 90), ink=(7, 21, 15), dark=(13, 33, 25), forest=(49, 87
 FONT = os.path.join(ROOT, "brand", "03_Fonts", "Manrope-{}.ttf")
 DISCLAIMER = "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion."
 X0, TOP, BOTTOM = 90, 270, 1500          # safe zone: 250 px top, 420 px bottom
+ICON = Image.open(os.path.join(ROOT, "brand", "04_Logos", "CredNest_Icon_Source_Transparent_120.png")).convert("RGBA")
 _fc = {}
 
 
@@ -86,15 +87,26 @@ def background(img, t, mode):
         d.line([(0, y), (W, y - 300)], fill=col, width=1)
 
 
-def header(d, spec, t, total, ink=False):
+def lockup(img, x, y, size=72, ink=False):
+    """Brand-kit lockup: original icon (never recoloured, <=120 px) + Manrope ExtraBold wordmark."""
+    icon = ICON.resize((size, size), Image.LANCZOS) if size != 120 else ICON
+    img.paste(icon, (x, y), icon)
+    d = ImageDraw.Draw(img)
+    f = font("Extrabold", int(size * 50 / 72))
+    d.text((x + int(size * 92 / 72), y + size // 2), "CredNest", font=f, anchor="lm",
+           fill=C["ink"] if ink else C["paper"])
+
+
+def header(img, d, spec, t, total, ink=False):
     tag_col = C["forest"] if ink else C["lime"]
-    d.text((X0, TOP + 8), spec["series"], font=font("Bold", 34), fill=tag_col)
+    lockup(img, X0, TOP, 64, ink)
+    d.text((X0, TOP + 96), spec["series"], font=font("Bold", 34), fill=tag_col)
     if t >= 2.0:
         lab = "Illustrative example"
         f = font("Medium", 28)
-        d.text((W - X0 - f.getlength(lab), TOP + 12), lab, font=f, fill=C["forest"] if ink else C["light"])
+        d.text((W - X0 - f.getlength(lab), TOP + 100), lab, font=f, fill=C["forest"] if ink else C["light"])
     # progress bar
-    y = TOP + 64
+    y = TOP + 152
     d.rectangle([X0, y, W - X0, y + 6], fill=(217, 224, 217) if ink else (31, 60, 47))
     d.rectangle([X0, y, X0 + int((W - 2 * X0) * min(1, t / total)), y + 6], fill=C["forest"] if ink else C["lime"])
 
@@ -129,7 +141,7 @@ def scene_frame(spec, sc, local, t, total):
     img = Image.new("RGB", (W, H))
     background(img, t, mode)
     d = ImageDraw.Draw(img)
-    header(d, spec, t, total, ink)
+    header(img, d, spec, t, total, ink)
     a = ease(local / 0.35)                     # entrance progress
     dy = int((1 - a) * 60)
 
@@ -139,7 +151,7 @@ def scene_frame(spec, sc, local, t, total):
                                 for part in (sc["big"], sc.get("big2", "")) for l in part.split("\n")):
             size -= 4
         f = font("Extrabold", size)
-        y = 470
+        y = 520
         for part, col in ((sc["big"], C["white"]), (sc.get("big2", ""), C["lime"])):
             if not part:
                 continue
@@ -152,21 +164,21 @@ def scene_frame(spec, sc, local, t, total):
     elif kind == "beat":
         if sc.get("num"):
             fn = font("Extrabold", 300)
-            d.text((X0 - int((1 - a) * 200), 420), sc["num"], font=fn, fill=C["lime"])
+            d.text((X0 - int((1 - a) * 200), 470), sc["num"], font=fn, fill=C["lime"])
         f = font("Extrabold", 100)
         lines = wrap(sc["big"], f, W - 2 * X0)
-        y = draw_lines(d, lines, f, X0, 790 + dy, C["white"], hi=sc.get("hi", ()), hi_fill=C["lime"], lh=1.1)
+        y = draw_lines(d, lines, f, X0, 830 + dy, C["white"], hi=sc.get("hi", ()), hi_fill=C["lime"], lh=1.1)
         if sc.get("sub"):
             d.text((X0, y + 18 + dy), sc["sub"], font=font("Semibold", 52), fill=C["mint"])
         if local > 1.6:   # second change inside the beat
             u = ease((local - 1.6) / 0.4)
-            d.rectangle([X0, 760, X0 + int(260 * u), 772], fill=C["lime"])
+            d.rectangle([X0, 800, X0 + int(260 * u), 812], fill=C["lime"])
         caption(d, sc["text"], local, sc["end"] - sc["start"])
         footer(d)
     elif kind == "timeline":
         f = font("Extrabold", 92)
-        draw_lines(d, wrap(sc["big"], f, W - 2 * X0), f, X0, 440 + dy, C["white"], hi=sc.get("hi", ()), hi_fill=C["lime"])
-        y0, x1, x2 = 720, X0, W - X0
+        draw_lines(d, wrap(sc["big"], f, W - 2 * X0), f, X0, 500 + dy, C["white"], hi=sc.get("hi", ()), hi_fill=C["lime"])
+        y0, x1, x2 = 760, X0, W - X0
         span = x2 - x1
         u = ease(local / 1.2)
         d.text((x1, y0 - 70), "Supplier ko payment", font=font("Semibold", 38), fill=C["light"])
@@ -176,9 +188,9 @@ def scene_frame(spec, sc, local, t, total):
         if local > 1.0:
             g = ease((local - 1.0) / 0.6)
             d.rectangle([x1 + span // 2, y0 + 190, x1 + span // 2 + int(span / 2 * g), y0 + 230], fill=C["lime"])
-            d.text((x1 + span // 2, y0 + 300), "30 din ka gap", font=font("Extrabold", 54), fill=C["lime"])
+            d.text((x1 + span // 2, y0 + 290), "30 din ka gap", font=font("Extrabold", 54), fill=C["lime"])
         for lab, xx in (("0", x1), ("30", x1 + span // 2), ("60 din", x2 - 120)):
-            d.text((xx, y0 + 250), lab, font=font("Medium", 32), fill=C["light"])
+            d.text((xx, y0 + 245), lab, font=font("Medium", 32), fill=C["light"])
         caption(d, sc["text"], local, sc["end"] - sc["start"])
         footer(d)
     elif kind == "takeaway":

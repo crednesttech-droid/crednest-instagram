@@ -1478,43 +1478,43 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.\n\nChaar red flags: sanction se pehle fee, \"no CIBIL check\" ka promise, bina papers 10 minute approval, aur OTP maangna. Chaaron mein se ek bhi dikhe to lender pehle verify karo. Kisi loan dhoondhne wale ko share karo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanFraud #LoanScam #FraudAlert #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "alt_text": "Motion-graphics reel on dark green: Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.0,
+    "end": 2.5,
     "text": "Loan se pehle ₹15,000 file charge? Ruk jao.",
     "say": "Loan से पहले पंद्रह हज़ार file charge? रुक जाओ।"
    },
    {
-    "start": 3.0,
-    "end": 6.4,
+    "start": 2.5,
+    "end": 5.45,
     "text": "Red flag ek: sanction se pehle fee.",
     "say": "Red flag एक: sanction से पहले fee."
    },
    {
-    "start": 6.4,
-    "end": 9.8,
+    "start": 5.45,
+    "end": 8.16,
     "text": "Do: no CIBIL check ka promise.",
     "say": "दो: no CIBIL check का promise."
    },
    {
-    "start": 9.8,
-    "end": 13.2,
+    "start": 8.16,
+    "end": 10.75,
     "text": "Teen: bina papers das minute approval.",
     "say": "तीन: बिना papers दस minute approval."
    },
    {
-    "start": 13.2,
-    "end": 16.6,
+    "start": 10.75,
+    "end": 13.77,
     "text": "Chaar: OTP maangna. Kabhi mat do.",
     "say": "चार: OTP माँगना। कभी मत दो।"
    },
    {
-    "start": 16.6,
-    "end": 20.0,
+    "start": 13.77,
+    "end": 16.57,
     "text": "Doubt ho to WhatsApp karo, Hi bhejo.",
     "say": "Doubt हो तो WhatsApp करो, Hi भेजो।"
    }
@@ -1706,36 +1706,36 @@
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "ready",
+  "status": "needs_voice",
   "alt_text": "Motion-graphics reel on dark green: Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.0,
+    "end": 2.5,
     "text": "Customer saath din, supplier tees din?",
     "say": "Customer साठ दिन, supplier तीस दिन?"
    },
    {
-    "start": 3.0,
-    "end": 6.6,
+    "start": 2.5,
+    "end": 4.93,
     "text": "Beech ke tees din ka paisa kahan se aayega?",
     "say": "बीच के तीस दिन का पैसा कहाँ से आएगा?"
    },
    {
-    "start": 6.6,
-    "end": 10.0,
+    "start": 4.93,
+    "end": 7.01,
     "text": "Yahi gap aapka working capital hai.",
     "say": "यही gap आपका working capital है।"
    },
    {
-    "start": 10.0,
-    "end": 14.2,
+    "start": 7.01,
+    "end": 10.45,
     "text": "Pehle collections tight karo, phir limit ka size tay karo.",
     "say": "पहले collections tight करो, फिर limit का size तय करो।"
    },
    {
-    "start": 14.2,
-    "end": 17.2,
+    "start": 10.45,
+    "end": 13.25,
     "text": "WhatsApp karo, Hi bhejo.",
     "say": "WhatsApp करो, Hi भेजो।"
    }
@@ -3714,7 +3714,7 @@
    "media/N07/reel.mp4"
   ],
   "caption": "₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.\n\nMachine ka faisla EMI se nahi, cash flow se hota hai. Machine kitne saal kaam karegi, extra kamai kab se aayegi, aur maintenance kaun uthayega: ye teen jawab pehle likho. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#MachineryLoan #EquipmentFinance #Manufacturing #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
   "cover": "media/N07/cover.jpg",
@@ -3728,31 +3728,31 @@
    },
    {
     "start": 2.8,
-    "end": 6.6,
+    "end": 6.08,
     "text": "Pehla sawaal: machine kitne saal kaam karegi?",
     "say": "पहला सवाल: machine कितने साल काम करेगी?"
    },
    {
-    "start": 6.6,
-    "end": 10.4,
+    "start": 6.08,
+    "end": 8.95,
     "text": "Doosra: extra kamai kab se shuru hogi?",
     "say": "दूसरा: extra कमाई कब से शुरू होगी?"
    },
    {
-    "start": 10.4,
-    "end": 14.6,
+    "start": 8.95,
+    "end": 11.86,
     "text": "Teesra: maintenance aur insurance kaun uthayega?",
     "say": "तीसरा: maintenance और insurance कौन उठाएगा?"
    },
    {
-    "start": 14.6,
-    "end": 17.8,
+    "start": 11.86,
+    "end": 14.59,
     "text": "Teeno jawab likho, phir lender se baat karo.",
     "say": "तीनों जवाब लिखो, फिर lender से बात करो।"
    },
    {
-    "start": 17.8,
-    "end": 21.0,
+    "start": 14.59,
+    "end": 17.39,
     "text": "Checklist chahiye? Comment karo CHECKLIST.",
     "say": "Checklist चाहिए? Comment करो CHECKLIST."
    }
@@ -3979,7 +3979,7 @@
    "media/N14/reel.mp4"
   ],
   "caption": "Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?\n\nAccounting profit aur repayment ka cash alag cheez hai. Lender depreciation, existing EMI aur debtors ka hisaab laga ke cash dekhta hai. Isliye profit aur eligibility ka number alag aata hai. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#BusinessLoan #CashFlow #ProfitVsCash #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
   "cover": "media/N14/cover.jpg",
@@ -3993,31 +3993,31 @@
    },
    {
     "start": 3.0,
-    "end": 6.6,
+    "end": 5.58,
     "text": "Kyunki bank profit nahi, cash dekhta hai.",
     "say": "क्योंकि bank profit नहीं, cash देखता है।"
    },
    {
-    "start": 6.6,
-    "end": 10.4,
+    "start": 5.58,
+    "end": 8.36,
     "text": "Debtors mein atka paisa cash nahi hai.",
     "say": "Debtors में अटका पैसा cash नहीं है।"
    },
    {
-    "start": 10.4,
-    "end": 14.2,
+    "start": 8.36,
+    "end": 11.66,
     "text": "Purani EMI pehle hi cash kha rahi hai.",
     "say": "पुरानी EMI पहले ही cash खा रही है।"
    },
    {
-    "start": 14.2,
-    "end": 17.4,
+    "start": 11.66,
+    "end": 13.88,
     "text": "File mein cash ka hisaab saaf rakho.",
     "say": "File में cash का हिसाब साफ़ रखो।"
    },
    {
-    "start": 17.4,
-    "end": 20.6,
+    "start": 13.88,
+    "end": 16.68,
     "text": "Checklist ke liye comment karo CHECKLIST.",
     "say": "Checklist के लिए comment करो CHECKLIST."
    }
