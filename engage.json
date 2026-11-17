@@ -1,9 +1,61 @@
 {
- "keywords": ["checklist", "check list", "cash", "loan", "details", "info", "interested", "dm"],
+ "keywords": [
+  "checklist",
+  "check list",
+  "cash",
+  "loan",
+  "details",
+  "info",
+  "interested",
+  "dm"
+ ],
  "lookback_days": 7,
  "max_per_run": 25,
  "private_reply": "Hi! Here is CredNest's free credit-pack checklist: {checklist_url}\n\nWant a second look at your file? WhatsApp us and send \"Hi\": {whatsapp_url}\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
- "public_reply": "Sent you a DM with the checklist. Please check your message requests 📩",
+ "public_reply": "DM bhej diya hai ✅ Message requests mein check karo 📩",
  "whatsapp_url": "https://wa.me/919819999057?text=Hi%20CredNest%2C%20I%20came%20from%20Instagram",
- "checklist_path": "lead/credit-pack-checklist.pdf"
+ "checklist_path": "lead/credit-pack-checklist.pdf",
+ "auto_reply_all_comments": true,
+ "question_words": [
+  "kya",
+  "kaise",
+  "kitna",
+  "kitni",
+  "kab",
+  "kyun",
+  "kaun",
+  "kahan",
+  "how",
+  "what",
+  "which",
+  "when",
+  "why",
+  "eligible",
+  "eligibility",
+  "rate",
+  "emi",
+  "help",
+  "?"
+ ],
+ "question_private_reply": "Hi! Aapka sawaal dekha 🙏 Detail mein baat karne ke liye WhatsApp karo aur \"Hi\" bhejo: {whatsapp_url}\n\nTab tak yeh free credit-pack checklist dekh lo: {checklist_url}\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+ "question_public_reply": "Achha sawaal! DM mein detail bheja hai 📩",
+ "thanks_replies": [
+  "Thank you 🙏 Kisi ko kaam aaye to share karo!",
+  "Shukriya! 🙌 Free checklist chahiye to CHECKLIST comment karo.",
+  "🙏 Aise aur loan tips ke liye follow karo @crednest.io"
+ ],
+ "human_words": [
+  "fraud",
+  "scam",
+  "cheat",
+  "complaint",
+  "worst",
+  "refund",
+  "legal",
+  "police",
+  "harass",
+  "fake"
+ ],
+ "dm_auto_reply": "Hi! CredNest yahan 👋 Aapka message mil gaya.\n\nFast reply ke liye WhatsApp karo aur \"Hi\" bhejo: {whatsapp_url}\nFree credit-pack checklist: {checklist_url}\n\nAmrut ya team 1 working day ke andar yahin reply karegi.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+ "dm_reply_cooldown_hours": 12
 }

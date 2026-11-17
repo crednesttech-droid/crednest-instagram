@@ -34,6 +34,8 @@ jobs:
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
       ALERTS_FILE: /tmp/autopilot-alerts.txt
+      INBOX_FILE: /tmp/autopilot-inbox.txt
+      STATUS_FILE: /tmp/autopilot-status.txt
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -53,7 +55,7 @@ jobs:
         if: steps.gate.outputs.go == 'yes' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
         run: |
           if [ -n "${{ inputs.only }}" ]; then python scripts/publish.py --only "${{ inputs.only }}"; else python scripts/publish.py; fi
-      - name: Comment -> DM leads (keyword comments get the checklist)
+      - name: Auto-reply comments and DMs (keyword -> checklist DM, question -> WhatsApp DM, rest -> thanks)
         if: steps.gate.outputs.go == 'yes' && !(github.event_name == 'workflow_dispatch' && inputs.dry_run)
         continue-on-error: true
         run: python scripts/engage.py
@@ -94,3 +96,17 @@ jobs:
             gh label create autopilot-alert --color B60205 2>/dev/null || true
             gh issue create --title "Autopilot alert" --label autopilot-alert --body "$body"
           fi
+      - name: Notify Amrut (Inbox items + WhatsApp Status kit as GitHub issue comments -> email/app push)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          post() {  # $1 file, $2 label, $3 title
+            [ -s "$1" ] || return 0
+            n=$(gh issue list --label "$2" --state open --json number --jq '.[0].number')
+            if [ -z "$n" ]; then gh label create "$2" --color 0E8A16 2>/dev/null || true
+              gh issue create --title "$3" --label "$2" --body "$(cat "$1")"
+            else gh issue comment "$n" --body "$(cat "$1")"; fi
+          }
+          post "$INBOX_FILE" inbox "Inbox: comments and DMs that need Amrut"
+          post "$STATUS_FILE" whatsapp-status "WhatsApp Status kit (share each new post)"

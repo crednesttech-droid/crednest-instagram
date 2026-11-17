@@ -27,6 +27,7 @@ LATE_ALERT = timedelta(minutes=45)  # publishing later than this raises an alert
 DUP_WINDOW = timedelta(hours=72)    # caption match on the live profile inside this window = already posted
 SLOTS = ((12, 30), (19, 30))        # IST feed slots used for backfill
 ALERTS = os.environ.get("ALERTS_FILE", os.path.join(ROOT, ".alerts.txt"))
+STATUS = os.environ.get("STATUS_FILE", os.path.join(ROOT, ".status_kit.txt"))
 CAPTION_MAX, HASHTAG_MAX = 2200, 30
 
 
@@ -214,6 +215,19 @@ def publish_item(api, it):
     return api.publish(cid)
 
 
+def status_kit(api, it, mid):
+    """WhatsApp Status kit for Amrut: link + one line, posted to the 'whatsapp-status' issue."""
+    try:
+        link = api.call("GET", mid, fields="permalink").get("permalink", "")
+    except Exception:
+        link = ""
+    hook = it.get("topic") or (it.get("caption") or "").split("\n")[0]
+    kind = "reel" if it["type"] == "reel" else "post"
+    with open(STATUS, "a", encoding="utf-8") as f:
+        f.write(f"**{hook}**\n\nStatus line: Aaj ka {kind}: \"{hook}\" Dekho aur follow karo @crednest.io\n\n"
+                f"Instagram app > this {kind} > Share > WhatsApp > My Status: {link}\n")
+
+
 def due(queue, state, now):
     out = []
     for it in queue:
@@ -301,6 +315,9 @@ def main():
     final = []
     for it in items:
         req = it.get("requires")
+        if req and byid.get(req, {}).get("status") == "ready" and req not in state and not a.only:
+            print(f"WAIT {it['id']}: linked post {req} is not live yet")
+            continue
         if req and byid.get(req, {}).get("status") != "ready":
             print(f"SKIP {it['id']}: linked post {req} is not ready")
             state[it["id"]] = {"skipped": now.isoformat(), "reason": f"{req} not ready"}
@@ -329,6 +346,8 @@ def main():
             done = datetime.now(IST)
             state[it["id"]] = {"media_id": mid, "published": done.isoformat()}
             print(f"PUBLISHED {it['id']} -> {mid}")
+            if it["type"] != "story":
+                status_kit(api, it, mid)
             late = done - when(it)
             if not a.only and late > LATE_ALERT:
                 alert(f"LATE {it['id']}: due {it['publish_at']}, posted {done:%d %b %H:%M} IST ({int(late.total_seconds() // 60)} min late)")

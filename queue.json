@@ -4028,5 +4028,233 @@
   "alt_text": "Motion-graphics reel on dark green: Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?",
   "voice": "sarvam bulbul:v3 shubh",
   "audio": "voice -14 LUFS + ducked music bed"
+ },
+ {
+  "id": "CD10-red-flags-teaser",
+  "type": "story",
+  "publish_at": "2026-11-30T19:50:00+05:30",
+  "media": [
+   "media/CD10-red-flags-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "CD10-red-flags",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1201-debtor-days-teaser",
+  "type": "story",
+  "publish_at": "2026-12-01T19:50:00+05:30",
+  "media": [
+   "media/N1201-debtor-days-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1201-debtor-days",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1203-bg-lc-teaser",
+  "type": "story",
+  "publish_at": "2026-12-03T19:50:00+05:30",
+  "media": [
+   "media/N1203-bg-lc-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1203-bg-lc",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1204-rbi-policy-teaser",
+  "type": "story",
+  "publish_at": "2026-12-04T12:50:00+05:30",
+  "media": [
+   "media/N1204-rbi-policy-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1204-rbi-policy",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1206-lap-res-com-teaser",
+  "type": "story",
+  "publish_at": "2026-12-06T12:50:00+05:30",
+  "media": [
+   "media/N1206-lap-res-com-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1206-lap-res-com",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1207-credit-pack-teaser",
+  "type": "story",
+  "publish_at": "2026-12-07T12:50:00+05:30",
+  "media": [
+   "media/N1207-credit-pack-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1207-credit-pack",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1208-od-tl-teaser",
+  "type": "story",
+  "publish_at": "2026-12-08T19:50:00+05:30",
+  "media": [
+   "media/N1208-od-tl-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1208-od-tl",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N03-teaser",
+  "type": "story",
+  "publish_at": "2026-11-18T19:50:00+05:30",
+  "media": [
+   "media/N03-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N03",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N04-teaser",
+  "type": "story",
+  "publish_at": "2026-11-19T19:50:00+05:30",
+  "media": [
+   "media/N04-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N04",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N05-teaser",
+  "type": "story",
+  "publish_at": "2026-11-20T19:50:00+05:30",
+  "media": [
+   "media/N05-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N05",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N06-teaser",
+  "type": "story",
+  "publish_at": "2026-11-21T19:50:00+05:30",
+  "media": [
+   "media/N06-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N06",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N07-teaser",
+  "type": "story",
+  "publish_at": "2026-11-22T19:50:00+05:30",
+  "media": [
+   "media/N07-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N07",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N08-teaser",
+  "type": "story",
+  "publish_at": "2026-11-23T19:50:00+05:30",
+  "media": [
+   "media/N08-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N08",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N09-teaser",
+  "type": "story",
+  "publish_at": "2026-11-24T19:50:00+05:30",
+  "media": [
+   "media/N09-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N09",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N10-teaser",
+  "type": "story",
+  "publish_at": "2026-11-25T19:50:00+05:30",
+  "media": [
+   "media/N10-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N10",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N11-teaser",
+  "type": "story",
+  "publish_at": "2026-11-26T19:50:00+05:30",
+  "media": [
+   "media/N11-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N11",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N12-teaser",
+  "type": "story",
+  "publish_at": "2026-11-27T19:50:00+05:30",
+  "media": [
+   "media/N12-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N12",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N13-teaser",
+  "type": "story",
+  "publish_at": "2026-11-28T19:50:00+05:30",
+  "media": [
+   "media/N13-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N13",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N14-teaser",
+  "type": "story",
+  "publish_at": "2026-11-29T19:50:00+05:30",
+  "media": [
+   "media/N14-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N14",
+  "source": "auto teaser (scripts/make_teasers.py)"
  }
 ]
