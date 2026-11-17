@@ -1478,39 +1478,45 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.\n\nChaar red flags: sanction se pehle fee, \"no CIBIL check\" ka promise, bina papers 10 minute approval, aur OTP maangna. Chaaron mein se ek bhi dikhe to lender pehle verify karo. Kisi loan dhoondhne wale ko share karo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanFraud #LoanScam #FraudAlert #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
-  "status": "needs_content",
-  "source": "Content v3 (Claude, 18 Nov 2026): built from audit top performers",
-  "alt_text": "Reel cover on paper: Loan offer or a scam?",
+  "status": "needs_voice",
+  "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
+  "alt_text": "Motion-graphics reel on dark green: Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.0,
-    "text": "Loan se pehle ₹15,000 file charge? Ruk jao."
+    "end": 3.0,
+    "text": "Loan se pehle ₹15,000 file charge? Ruk jao.",
+    "say": "Loan से पहले पंद्रह हज़ार file charge? रुक जाओ।"
    },
    {
-    "start": 2.0,
-    "end": 6.0,
-    "text": "Red flag ek: sanction se pehle fee."
+    "start": 3.0,
+    "end": 6.4,
+    "text": "Red flag ek: sanction se pehle fee.",
+    "say": "Red flag एक: sanction से पहले fee."
    },
    {
-    "start": 6.0,
-    "end": 10.0,
-    "text": "Do: no CIBIL check ka promise."
+    "start": 6.4,
+    "end": 9.8,
+    "text": "Do: no CIBIL check ka promise.",
+    "say": "दो: no CIBIL check का promise."
    },
    {
-    "start": 10.0,
-    "end": 14.0,
-    "text": "Teen: bina papers 10 minute approval."
+    "start": 9.8,
+    "end": 13.2,
+    "text": "Teen: bina papers das minute approval.",
+    "say": "तीन: बिना papers दस minute approval."
    },
    {
-    "start": 14.0,
-    "end": 17.5,
-    "text": "Chaar: OTP maangna. Kabhi mat do."
+    "start": 13.2,
+    "end": 16.6,
+    "text": "Chaar: OTP maangna. Kabhi mat do.",
+    "say": "चार: OTP माँगना। कभी मत दो।"
    },
    {
-    "start": 17.5,
+    "start": 16.6,
     "end": 20.0,
-    "text": "Share karo. Lender pehle verify karo."
+    "text": "Doubt ho to WhatsApp karo, Hi bhejo.",
+    "say": "Doubt हो तो WhatsApp करो, Hi भेजो।"
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_en_social",
@@ -1520,7 +1526,7 @@
   "voice_pace": 1.0,
   "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
   "audio": "voice -14 LUFS + ducked music bed",
-  "editor_note": "Rebuild without any 'Capital Desk' text on cover or frames (user banned that series name). Hindi-English voice: Shubh."
+  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN."
  },
  {
   "id": "CR01-lap-emi",
@@ -1696,38 +1702,43 @@
   "publish_at": "2026-12-01T19:30:00+05:30",
   "caption": "Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?\n\nYahi 30 din ka gap working capital hai, aur isi ko fund karna padta hai. Pehle collections tight karo, phir limit ka size tay karo. Days example hain.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#WorkingCapital #DebtorDays #CashFlow #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
-  "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
+  "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "media": [
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "needs_content",
-  "alt_text": "Capital Desk reel: “Working capital gap? It starts at your debtor days” over muted stock footage, ending on a WhatsApp card.",
+  "status": "needs_voice",
+  "alt_text": "Motion-graphics reel on dark green: Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.0,
-    "text": "Customer 60 din, supplier 30 din?"
+    "end": 3.0,
+    "text": "Customer saath din, supplier tees din?",
+    "say": "Customer साठ दिन, supplier तीस दिन?"
    },
    {
-    "start": 2.0,
-    "end": 6.5,
-    "text": "Beech ke 30 din ka paisa kahan se aayega?"
+    "start": 3.0,
+    "end": 6.6,
+    "text": "Beech ke tees din ka paisa kahan se aayega?",
+    "say": "बीच के तीस दिन का पैसा कहाँ से आएगा?"
    },
    {
-    "start": 6.5,
-    "end": 11.0,
-    "text": "Yahi gap aapka working capital hai."
+    "start": 6.6,
+    "end": 10.0,
+    "text": "Yahi gap aapka working capital hai.",
+    "say": "यही gap आपका working capital है।"
    },
    {
-    "start": 11.0,
-    "end": 15.5,
-    "text": "Pehle collections tight karo, phir limit ka size tay karo."
+    "start": 10.0,
+    "end": 14.2,
+    "text": "Pehle collections tight karo, phir limit ka size tay karo.",
+    "say": "पहले collections tight करो, फिर limit का size तय करो।"
    },
    {
-    "start": 15.5,
-    "end": 18.0,
-    "text": "WhatsApp karo, Hi bhejo."
+    "start": 14.2,
+    "end": 17.2,
+    "text": "WhatsApp karo, Hi bhejo.",
+    "say": "WhatsApp करो, Hi भेजो।"
    }
   ],
   "voice_lang": "hi-IN",
@@ -1736,7 +1747,7 @@
   "voice_pace": 1.0,
   "voice": "sarvam bulbul:v4-flash sunny_en_social",
   "audio": "voice -14 LUFS + ducked music bed",
-  "editor_note": "Rebuild: current file is branded 'Capital Desk' (banned). Hook frame 1 = 'Customer 60 din. Supplier 30 din.' Hindi-English voice: Shubh."
+  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN."
  },
  {
   "id": "N1202-purpose",
@@ -3704,46 +3715,53 @@
    "media/N07/reel.mp4"
   ],
   "caption": "₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.\n\nMachine ka faisla EMI se nahi, cash flow se hota hai. Machine kitne saal kaam karegi, extra kamai kab se aayegi, aur maintenance kaun uthayega: ye teen jawab pehle likho. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#MachineryLoan #EquipmentFinance #Manufacturing #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "needs_content",
-  "source": "Content v3 (Claude, 18 Nov 2026): built from audit top performers",
-  "editor_note": "Built from the 24 Oct machinery carousel (86 shares, top organic). Hook frame 1 = '₹80 lakh ki machine. Loan lo ya lease?'",
+  "status": "needs_voice",
+  "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
+  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
   "cover": "media/N07/cover.jpg",
   "topic": "₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.0,
-    "text": "₹80 lakh ki machine. Loan lo ya lease?"
+    "end": 2.8,
+    "text": "₹80 lakh ki machine. Loan lo ya lease?",
+    "say": "अस्सी लाख की machine. Loan लो या lease?"
    },
    {
-    "start": 2.0,
-    "end": 6.5,
-    "text": "Pehla sawaal: machine kitne saal kaam karegi?"
+    "start": 2.8,
+    "end": 6.6,
+    "text": "Pehla sawaal: machine kitne saal kaam karegi?",
+    "say": "पहला सवाल: machine कितने साल काम करेगी?"
    },
    {
-    "start": 6.5,
-    "end": 11.0,
-    "text": "Doosra: extra kamai kab se shuru hogi?"
+    "start": 6.6,
+    "end": 10.4,
+    "text": "Doosra: extra kamai kab se shuru hogi?",
+    "say": "दूसरा: extra कमाई कब से शुरू होगी?"
    },
    {
-    "start": 11.0,
-    "end": 15.5,
-    "text": "Teesra: maintenance aur insurance kaun uthayega?"
+    "start": 10.4,
+    "end": 14.6,
+    "text": "Teesra: maintenance aur insurance kaun uthayega?",
+    "say": "तीसरा: maintenance और insurance कौन उठाएगा?"
    },
    {
-    "start": 15.5,
-    "end": 19.0,
-    "text": "Jawab likho, phir lender se baat karo."
+    "start": 14.6,
+    "end": 17.8,
+    "text": "Teeno jawab likho, phir lender se baat karo.",
+    "say": "तीनों जवाब लिखो, फिर lender से बात करो।"
    },
    {
-    "start": 19.0,
+    "start": 17.8,
     "end": 21.0,
-    "text": "Comment CHECKLIST."
+    "text": "Checklist chahiye? Comment karo CHECKLIST.",
+    "say": "Checklist चाहिए? Comment करो CHECKLIST."
    }
   ],
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
-  "voice_lang": "hi-IN"
+  "voice_lang": "hi-IN",
+  "alt_text": "Motion-graphics reel on dark green: ₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle."
  },
  {
   "id": "N08",
@@ -3960,45 +3978,52 @@
    "media/N14/reel.mp4"
   ],
   "caption": "Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?\n\nAccounting profit aur repayment ka cash alag cheez hai. Lender depreciation, existing EMI aur debtors ka hisaab laga ke cash dekhta hai. Isliye profit aur eligibility ka number alag aata hai. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#BusinessLoan #CashFlow #ProfitVsCash #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "needs_content",
-  "source": "Content v3 (Claude, 18 Nov 2026): built from audit top performers",
-  "editor_note": "Built from the 15 Oct 'accounting profit' myth carousel (66 shares, 8 follows). Hook frame 1 = 'Profit ₹50 lakh. Bank ne kam kyun maana?'",
+  "status": "needs_voice",
+  "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
+  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
   "cover": "media/N14/cover.jpg",
   "topic": "Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 2.0,
-    "text": "Profit ₹50 lakh. Bank ne kam kyun maana?"
+    "end": 3.0,
+    "text": "Profit ₹50 lakh. Bank ne kam kyun maana?",
+    "say": "Profit पचास लाख। Bank ने कम क्यों माना?"
    },
    {
-    "start": 2.0,
-    "end": 6.5,
-    "text": "Kyunki bank profit nahi, cash dekhta hai."
+    "start": 3.0,
+    "end": 6.6,
+    "text": "Kyunki bank profit nahi, cash dekhta hai.",
+    "say": "क्योंकि bank profit नहीं, cash देखता है।"
    },
    {
-    "start": 6.5,
-    "end": 11.0,
-    "text": "Debtors mein atka paisa cash nahi hai."
+    "start": 6.6,
+    "end": 10.4,
+    "text": "Debtors mein atka paisa cash nahi hai.",
+    "say": "Debtors में अटका पैसा cash नहीं है।"
    },
    {
-    "start": 11.0,
-    "end": 15.5,
-    "text": "Purani EMI pehle hi cash kha rahi hai."
+    "start": 10.4,
+    "end": 14.2,
+    "text": "Purani EMI pehle hi cash kha rahi hai.",
+    "say": "पुरानी EMI पहले ही cash खा रही है।"
    },
    {
-    "start": 15.5,
-    "end": 19.0,
-    "text": "File mein cash ka hisaab saaf rakho."
+    "start": 14.2,
+    "end": 17.4,
+    "text": "File mein cash ka hisaab saaf rakho.",
+    "say": "File में cash का हिसाब साफ़ रखो।"
    },
    {
-    "start": 19.0,
-    "end": 21.0,
-    "text": "Comment CHECKLIST."
+    "start": 17.4,
+    "end": 20.6,
+    "text": "Checklist ke liye comment karo CHECKLIST.",
+    "say": "Checklist के लिए comment करो CHECKLIST."
    }
   ],
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
-  "voice_lang": "hi-IN"
+  "voice_lang": "hi-IN",
+  "alt_text": "Motion-graphics reel on dark green: Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?"
  }
 ]

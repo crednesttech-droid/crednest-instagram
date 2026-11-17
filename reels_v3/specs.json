@@ -1,0 +1,180 @@
+{
+ "N07": {
+  "series": "BUSINESS KA PAISA",
+  "scenes": [
+   {
+    "kind": "hook",
+    "big": "₹80 lakh ki\nmachine.",
+    "big2": "Loan lo ya lease?"
+   },
+   {
+    "kind": "beat",
+    "num": "1",
+    "big": "Machine kitne saal chalegi?",
+    "hi": [
+     "saal"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "2",
+    "big": "Extra kamai kab se?",
+    "hi": [
+     "kamai"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "3",
+    "big": "Maintenance kaun uthayega?",
+    "hi": [
+     "Maintenance"
+    ]
+   },
+   {
+    "kind": "takeaway",
+    "big": "Jawab likho. Phir lender se baat.",
+    "hi": [
+     "likho"
+    ]
+   },
+   {
+    "kind": "end",
+    "big": "Comment CHECKLIST",
+    "sub": "Free credit-pack checklist DM mein"
+   }
+  ]
+ },
+ "N14": {
+  "series": "MYTH YA SACH",
+  "scenes": [
+   {
+    "kind": "hook",
+    "big": "Profit\n₹50 lakh.",
+    "big2": "Bank ne kam\nkyun maana?"
+   },
+   {
+    "kind": "beat",
+    "big": "Bank cash dekhta hai.",
+    "sub": "Profit nahi.",
+    "hi": [
+     "cash"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "1",
+    "big": "Debtors mein atka paisa",
+    "hi": [
+     "atka"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "2",
+    "big": "Purani EMI cash kha rahi hai",
+    "hi": [
+     "EMI"
+    ]
+   },
+   {
+    "kind": "takeaway",
+    "big": "File mein cash ka hisaab saaf.",
+    "hi": [
+     "cash"
+    ]
+   },
+   {
+    "kind": "end",
+    "big": "Comment CHECKLIST",
+    "sub": "Free credit-pack checklist DM mein"
+   }
+  ]
+ },
+ "CD10-red-flags": {
+  "series": "BUSINESS KA PAISA",
+  "scenes": [
+   {
+    "kind": "hook",
+    "big": "Loan se pehle\n₹15,000\n'file charge'?",
+    "big2": "Ruk jao."
+   },
+   {
+    "kind": "beat",
+    "num": "1",
+    "big": "Sanction se pehle fee",
+    "hi": [
+     "fee"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "2",
+    "big": "\"No CIBIL check\" ka promise",
+    "hi": [
+     "promise"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "3",
+    "big": "10 minute approval, bina papers",
+    "hi": [
+     "bina",
+     "papers"
+    ]
+   },
+   {
+    "kind": "beat",
+    "num": "4",
+    "big": "OTP maangna",
+    "sub": "Kabhi mat do.",
+    "hi": [
+     "OTP"
+    ]
+   },
+   {
+    "kind": "end",
+    "big": "WhatsApp \"Hi\"",
+    "sub": "+91 98199 99057"
+   }
+  ]
+ },
+ "N1201-debtor-days": {
+  "series": "BUSINESS KA PAISA",
+  "scenes": [
+   {
+    "kind": "hook",
+    "big": "Customer: 60 din.\nSupplier: 30 din.",
+    "big2": "Paisa kahan se?"
+   },
+   {
+    "kind": "timeline",
+    "big": "30 din ka gap",
+    "hi": [
+     "gap"
+    ]
+   },
+   {
+    "kind": "beat",
+    "big": "Yahi gap = working capital",
+    "hi": [
+     "working",
+     "capital"
+    ]
+   },
+   {
+    "kind": "takeaway",
+    "big": "Pehle collections tight. Phir limit ka size.",
+    "hi": [
+     "collections"
+    ]
+   },
+   {
+    "kind": "end",
+    "big": "WhatsApp \"Hi\"",
+    "sub": "+91 98199 99057"
+   }
+  ]
+ }
+}
