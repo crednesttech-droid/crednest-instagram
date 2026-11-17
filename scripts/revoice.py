@@ -113,7 +113,7 @@ def process(item, a, key, seed):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--speaker", default=os.environ.get("SARVAM_SPEAKER", "aditya"))
+    ap.add_argument("--speaker", default=os.environ.get("SARVAM_SPEAKER", "shubh"))
     ap.add_argument("--model", default=os.environ.get("SARVAM_MODEL", "bulbul:v3"))
     ap.add_argument("--pace", type=float, default=1.0)
     ap.add_argument("--only")

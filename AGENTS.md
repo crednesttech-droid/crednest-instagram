@@ -22,15 +22,19 @@ JPEG only (Instagram API rejects PNG). Each file under 8 MB.
 - CredNest is a debt-capital facilitator, not a lender or NBFC. Never imply approval, guaranteed sanction, specific rates, "lowest EMI", bank tie-ups or lender names.
 - No client names, results or testimonials. Case stories are labelled "Illustrative scenario, not a client case or testimonial."
 - Any market fact needs a source (RBI, CIBIL, SIDBI, CRIF, government circular) recorded in the PR description.
-- Feed/reel captions end with the hashtags, then exactly: "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion." Max 5 hashtags. Use no other disclaimer wording.
+- Feed/reel captions end with the hashtags, then exactly: "CredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion." 3–5 hashtags. Use no other disclaimer wording.
 - WhatsApp contact: +91 98199 99057.
-- One CTA per caption, rotated across the week: either "💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist." or 'WhatsApp "Hi" to +91 98199 99057.' Roughly 60% CHECKLIST, 40% WhatsApp. "Independent advice. Lender-led decisions." on at most one post in four.
+- One CTA per caption, rotated across the week: either "💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge." or 'WhatsApp "Hi" to +91 98199 99057.' Roughly 60% CHECKLIST, 40% WhatsApp. "Independent advice. Lender-led decisions." on at most one post in four.
 
 ## Hooks (applies to every new item)
 - Caption line 1 and the image headline are the hook: a specific pain, question or number the owner recognises ("CC renewal in 60 days? Start here."). Under 70 characters.
 - Banned as headlines: abstract brand lines such as "X is part of the capital conversation", "Numbers tell a business story", "needs a relevant fit". Brand lines go in the body, not the hook.
 - The "Illustrative scenario" tag goes in the caption's second paragraph and small on the image, never as the opening line or first reel frame.
-- 1–2 Hinglish hooks per week in Roman script; finance terms and disclaimer stay in English.
+- Captions are Hinglish in Roman script by default (v3, 18 Nov 2026); finance terms and the disclaimer stay in English. Caption line 1 = the cover hook, word for word.
+- Hashtags: 3–5 niche tags tied to the topic (#CashCredit, #DSCR, #LoanAgainstProperty, #CIBILScore …). No #CredNest, #CapitalDesk or #CreditClarity: brand tags bring no discovery.
+- Format mix: at least 60% of feed slots are reels; the rest mostly carousels; single images only for lead/CTA posts.
+- Carousels are built to be saved: slide 1 hook, one idea per slide (6–8 slides), last slide a checklist summary with "Save karo".
+- CTA rotation: CHECKLIST (the comment → DM keyword handled by scripts/engage.py) and WhatsApp "Hi". "Follow @crednest.io" is not a CTA.
 - Any market fact must be checked against its source the week it posts; record the source in the PR.
 - `scripts/render_hooks.py` renders hook covers and single-image cards in the house layout; add a spec and run it.
 

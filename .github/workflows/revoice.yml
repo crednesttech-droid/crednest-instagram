@@ -9,8 +9,8 @@ on:
         options: [voice, music-only, measure, sample]
         default: voice
       speaker:
-        description: "Sarvam speaker (e.g. aditya, rahul, rohan, priya, neha)"
-        default: "aditya"
+        description: "Sarvam speaker (house voice: shubh)"
+        default: "shubh"
       model:
         description: "Sarvam model (bulbul:v3 or bulbul:v4-flash)"
         default: "bulbul:v3"

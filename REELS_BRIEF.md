@@ -1,5 +1,14 @@
 # Codex brief: faceless reels, target 8.5/10
 
+## v3 changes (18 Nov 2026) — these override anything below
+Audit 13 Oct – 17 Nov: all 10 reels held viewers for only 2–5 s on average. So:
+- **Frame 1 is the hook.** A specific number or pain the owner recognises ("CC limit ₹50 lakh. Phir bhi ₹30 lakh?"), big, on screen from 0.0 s. No logo, series tag animation or B-roll-only opening before it.
+- **15–20 s total.** Hook 2 s, three or four 4–4.5 s beats, 2 s CTA end card. Cut every 2–3 s.
+- **Voice:** Sarvam `shubh`, `bulbul:v3`, `hi-IN`, Hinglish in Roman script. Finance terms in English (CIBIL, EMI, DSCR, LAP). No other speaker.
+- **Never use "Capital Desk"** anywhere (cover, frames, alt text, hashtags).
+- End card: one CTA only, either "Comment CHECKLIST" or "WhatsApp Hi", then the disclaimer.
+- At least 60% of feed slots are reels.
+
 Follow AGENTS.md. No person's face on screen (hands, desks, documents, shop floors are fine).
 Rebuild the 6 reels in `queue.json` (D03-feed, D06-feed, D12-feed, D14-feed, D17-feed, D29-feed) and use this standard for every new reel.
 

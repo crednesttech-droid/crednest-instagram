@@ -1471,67 +1471,56 @@
  {
   "id": "CD10-red-flags",
   "type": "reel",
-  "publish_at": "2026-11-23T19:30:00+05:30",
+  "publish_at": "2026-11-30T19:30:00+05:30",
   "media": [
    "media/CD10-red-flags/reel.mp4"
   ],
   "cover": "media/CD10-red-flags/cover.jpg",
-  "caption": "Loan offer or a scam? Four red flags.\n\nA fee before sanction. \"No CIBIL check, guaranteed.\" Approved in 10 minutes with no papers. A request for your OTP. Walk away from all four and verify the lender first. Share this with someone looking for a loan.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#CredNest #LoanFraud #StaySafe #BusinessLoan #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Loan offer or a scam? Four red flags.",
-  "status": "hold",
-  "source": "Capital Desk series (Claude, 2 Nov 2026)",
+  "caption": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.\n\nChaar red flags: sanction se pehle fee, \"no CIBIL check\" ka promise, bina papers 10 minute approval, aur OTP maangna. Chaaron mein se ek bhi dikhe to lender pehle verify karo. Kisi loan dhoondhne wale ko share karo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanFraud #LoanScam #FraudAlert #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
+  "status": "needs_content",
+  "source": "Content v3 (Claude, 18 Nov 2026): built from audit top performers",
   "alt_text": "Reel cover on paper: Loan offer or a scam?",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.4,
-    "text": "Is that loan offer a scam? Four red flags.",
-    "natural": 2.8
+    "end": 2.0,
+    "text": "Loan se pehle ₹15,000 file charge? Ruk jao."
    },
    {
-    "start": 3.4,
-    "end": 6.2,
-    "text": "One. Pay fees first.",
-    "natural": 2.16
+    "start": 2.0,
+    "end": 6.0,
+    "text": "Red flag ek: sanction se pehle fee."
    },
    {
-    "start": 6.2,
-    "end": 9.3,
-    "text": "Two. No CIBIL check, guaranteed.",
-    "natural": 2.48
+    "start": 6.0,
+    "end": 10.0,
+    "text": "Do: no CIBIL check ka promise."
    },
    {
-    "start": 9.3,
-    "end": 12.7,
-    "text": "Three. Approval in ten minutes.",
-    "natural": 2.8
+    "start": 10.0,
+    "end": 14.0,
+    "text": "Teen: bina papers 10 minute approval."
    },
    {
-    "start": 12.7,
-    "end": 15.3,
-    "text": "Four. Share your OTP.",
-    "natural": 1.68
+    "start": 14.0,
+    "end": 17.5,
+    "text": "Chaar: OTP maangna. Kabhi mat do."
    },
    {
-    "start": 15.3,
-    "end": 17.6,
-    "text": "We never charge advance fees.",
-    "natural": 1.68
-   },
-   {
-    "start": 17.6,
-    "end": 20.9,
-    "text": "Save this, and share it with family.",
-    "natural": 2.64
+    "start": 17.5,
+    "end": 20.0,
+    "text": "Share karo. Lender pehle verify karo."
    }
   ],
   "voice": "sarvam bulbul:v4-flash sunny_en_social",
-  "voice_lang": "en-IN",
-  "voice_model": "bulbul:v4-flash",
-  "voice_speaker": "sunny_en_social",
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice_speaker": "shubh",
   "voice_pace": 1.0,
   "voice_measured": "sarvam bulbul:v4-flash sunny_en_social pace 1.0",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "editor_note": "Rebuild without any 'Capital Desk' text on cover or frames (user banned that series name). Hindi-English voice: Shubh."
  },
  {
   "id": "CR01-lap-emi",
@@ -1697,60 +1686,57 @@
    "media/N1130-rejected/03.jpg",
    "media/N1130-rejected/04.jpg"
   ],
-  "status": "ready",
-  "alt_text": "4-slide carousel on dark: “Good business. Loan still rejected? 5 common reasons”. Slides cover Numbers don't match; Existing EMIs too high; Unclear purpose; Short business vintage; Bureau issues."
+  "status": "hold",
+  "alt_text": "4-slide carousel on dark: “Good business. Loan still rejected? 5 common reasons”. Slides cover Numbers don't match; Existing EMIs too high; Unclear purpose; Short business vintage; Bureau issues.",
+  "editor_note": "Held 18 Nov: same topic as N08 reel (23 Nov). Reuse in Dec with a Hinglish hook."
  },
  {
   "id": "N1201-debtor-days",
   "type": "reel",
   "publish_at": "2026-12-01T19:30:00+05:30",
-  "caption": "Working capital gap? It starts at your debtor days\n\nYour working-capital need starts with debtor days. If customers pay in 60 days and suppliers want 30, that gap needs funding. Tighten collections first, then size the limit.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\nIndependent advice. Lender-led decisions.\n\n#WorkingCapital #CashFlow #SMEIndia #CredNest #CapitalDesk\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "topic": "Working capital gap? It starts at your debtor days",
+  "caption": "Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?\n\nYahi 30 din ka gap working capital hai, aur isi ko fund karna padta hai. Pehle collections tight karo, phir limit ka size tay karo. Days example hain.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#WorkingCapital #DebtorDays #CashFlow #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "topic": "Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "media": [
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "ready",
+  "status": "needs_content",
   "alt_text": "Capital Desk reel: “Working capital gap? It starts at your debtor days” over muted stock footage, ending on a WhatsApp card.",
   "voice_scenes": [
    {
     "start": 0.0,
-    "end": 3.0,
-    "text": "Is your cash always stuck?"
+    "end": 2.0,
+    "text": "Customer 60 din, supplier 30 din?"
    },
    {
-    "start": 3.0,
-    "end": 6.0,
-    "text": "Customers pay in sixty days."
+    "start": 2.0,
+    "end": 6.5,
+    "text": "Beech ke 30 din ka paisa kahan se aayega?"
    },
    {
-    "start": 6.0,
-    "end": 9.0,
-    "text": "Suppliers want payment in thirty."
+    "start": 6.5,
+    "end": 11.0,
+    "text": "Yahi gap aapka working capital hai."
    },
    {
-    "start": 9.0,
-    "end": 13.1,
-    "text": "That thirty-day gap is your working capital need."
+    "start": 11.0,
+    "end": 15.5,
+    "text": "Pehle collections tight karo, phir limit ka size tay karo."
    },
    {
-    "start": 13.1,
-    "end": 16.5,
-    "text": "Shorten collections before you borrow more."
-   },
-   {
-    "start": 16.5,
-    "end": 21.0,
-    "text": "Message the Capital Desk on Whats app."
+    "start": 15.5,
+    "end": 18.0,
+    "text": "WhatsApp karo, Hi bhejo."
    }
   ],
-  "voice_lang": "en-IN",
-  "voice_model": "bulbul:v4-flash",
-  "voice_speaker": "sunny_en_social",
+  "voice_lang": "hi-IN",
+  "voice_model": "bulbul:v3",
+  "voice_speaker": "shubh",
   "voice_pace": 1.0,
   "voice": "sarvam bulbul:v4-flash sunny_en_social",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "editor_note": "Rebuild: current file is branded 'Capital Desk' (banned). Hook frame 1 = 'Customer 60 din. Supplier 30 din.' Hindi-English voice: Shubh."
  },
  {
   "id": "N1202-purpose",
@@ -3587,7 +3573,7 @@
    "media/N03/05.jpg",
    "media/N03/06.jpg"
   ],
-  "caption": "Consolidation ka matlab hai kai loan ko ek loan mein badalna. EMI kam hoti hai kyunki rate kam aur tenure lamba hota hai; total byaaj badh sakta hai. Dono side dekh ke faisla lo. Rate aur tenure example hain, lender ke assessment pe depend karte hain.\n\nIllustrative example, not a client case or testimonial.\n\nFollow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanConsolidation #LAP #EMI #CredNest #MumbaiBusiness",
+  "caption": "5 EMI → 1 EMI. Poora hisaab dekho.\n\nConsolidation = kai loan ko ek loan mein badalna. EMI kam ho sakti hai kyunki rate kam aur tenure lamba hota hai, par total byaaj badh sakta hai. Dono number dekh ke faisla lo. Rate aur tenure example hain; lender ke assessment pe depend karte hain.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#LoanConsolidation #EMI #LoanAgainstProperty #DebtFree\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "5 EMI → 1 EMI. Poora hisaab dekho",
@@ -3600,7 +3586,7 @@
   "media": [
    "media/N04/reel.mp4"
   ],
-  "caption": "Turnover aur income alag cheezein hain. Jab ITR aur bank statement alag kahani batate hain, lender sawaal poochta hai. File dene se pehle farak samjha do. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ITR #BusinessLoan #CredNest #MSME #LoanEligibility",
+  "caption": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?\n\nTurnover aur income alag cheezein hain. Jab ITR aur bank statement alag kahani batate hain, lender sawaal poochta hai. File dene se pehle farak khud samjha do.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#ITR #BusinessLoan #SelfEmployed #LoanEligibility\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "ITR ₹12 lakh. Bank statement ₹40 lakh. Bank kis pe bharosa karega?",
@@ -3650,7 +3636,7 @@
   "media": [
    "media/N05/reel.mp4"
   ],
-  "caption": "CC (cash credit) limit sanction hoti hai, par har mahine ka stock statement tay karta hai ki kitna nikal sakte ho. Isse drawing power kehte hain. Margin har lender ka alag hota hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CashCredit #WorkingCapital #MSME #CredNest #MumbaiBusiness",
+  "caption": "Bank ne CC limit kyun kam ki?\n\nCC (cash credit) limit sanction hoti hai, par har mahine ka stock statement tay karta hai ki kitna nikal sakte ho. Ise drawing power kehte hain. Margin har lender ka alag hota hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#CashCredit #WorkingCapital #DrawingPower #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Bank ne CC limit kyun kam ki?",
@@ -3704,7 +3690,7 @@
    "media/N06/04.jpg",
    "media/N06/05.jpg"
   ],
-  "caption": "EMI aur total cost do alag numbers hain. LAP mein property girvi hoti hai, isliye rate kam aur tenure lamba milta hai. Rates example hain, lender ke assessment pe depend karte hain.\n\nIllustrative example, not a client case or testimonial.\n\nFollow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #PersonalLoan #EMI #CredNest #LoanComparison",
+  "caption": "Same ₹30 lakh. Do loan. EMI ka farak dekho.\n\nEMI aur total cost do alag numbers hain. LAP mein property girvi hoti hai, isliye rate kam aur tenure lamba mil sakta hai. Swipe karke dono compare karo, aur save kar lo. Rates example hain; lender ke assessment pe depend karte hain.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#LoanAgainstProperty #PersonalLoan #EMI #LoanComparison\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Same ₹30 lakh. Do loan. EMI ka farak dekho",
@@ -3712,14 +3698,52 @@
  },
  {
   "id": "N07",
-  "type": "image",
+  "type": "reel",
   "publish_at": "2026-11-22T19:30:00+05:30",
-  "media": [],
-  "caption": "",
+  "media": [
+   "media/N07/reel.mp4"
+  ],
+  "caption": "₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.\n\nMachine ka faisla EMI se nahi, cash flow se hota hai. Machine kitne saal kaam karegi, extra kamai kab se aayegi, aur maintenance kaun uthayega: ye teen jawab pehle likho. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#MachineryLoan #EquipmentFinance #Manufacturing #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "needs_content",
-  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
-  "reserved_for": "Claude",
-  "editor_note": "Claude fills this on Sat 21 Nov from the best performer of N01–N06 (highest shares, then follows). Codex: leave the slot empty."
+  "source": "Content v3 (Claude, 18 Nov 2026): built from audit top performers",
+  "editor_note": "Built from the 24 Oct machinery carousel (86 shares, top organic). Hook frame 1 = '₹80 lakh ki machine. Loan lo ya lease?'",
+  "cover": "media/N07/cover.jpg",
+  "topic": "₹80 lakh ki machine. Loan lo ya lease? 3 sawaal pehle.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "₹80 lakh ki machine. Loan lo ya lease?"
+   },
+   {
+    "start": 2.0,
+    "end": 6.5,
+    "text": "Pehla sawaal: machine kitne saal kaam karegi?"
+   },
+   {
+    "start": 6.5,
+    "end": 11.0,
+    "text": "Doosra: extra kamai kab se shuru hogi?"
+   },
+   {
+    "start": 11.0,
+    "end": 15.5,
+    "text": "Teesra: maintenance aur insurance kaun uthayega?"
+   },
+   {
+    "start": 15.5,
+    "end": 19.0,
+    "text": "Jawab likho, phir lender se baat karo."
+   },
+   {
+    "start": 19.0,
+    "end": 21.0,
+    "text": "Comment CHECKLIST."
+   }
+  ],
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN"
  },
  {
   "id": "N08",
@@ -3728,7 +3752,7 @@
   "media": [
    "media/N08/reel.mp4"
   ],
-  "caption": "Zyada file lender ke paas jaane se pehle hi theek ki ja sakti hain. Sabse bada nuksan chhupaye hue loan se hota hai, kyunki credit report mein sab dikhta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanRejection #CIBIL #BusinessLoan #CredNest #LoanTips",
+  "caption": "Bank file reject kyun karta hai? 5 reasons.\n\nZyada tar galtiyan lender ke paas jaane se pehle theek ho sakti hain. Sabse bada nuksan chhupaye hue loan se hota hai, kyunki credit report mein sab dikhta hai.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanRejection #CIBILScore #BusinessLoan #LoanTips\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Bank file reject kyun karta hai? 5 reasons",
@@ -3788,7 +3812,7 @@
    "media/N09/04.jpg",
    "media/N09/05.jpg"
   ],
-  "caption": "Settlement aur closure alag hain. Settlement ka asar aage ke loan pe pad sakta hai. Faisla lene se pehle apni credit report khud dekho. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #CIBIL #LoanSettlement #CreditScore #CredNest #MythVsFact",
+  "caption": "Settlement kar liya. CIBIL theek? Nahi.\n\nSettlement aur closure alag hain. Settlement ka asar aage ke loan pe pad sakta hai. Koi bhi faisla lene se pehle apni credit report khud dekho. Save karo, kaam aayega.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#CIBILScore #LoanSettlement #CreditReport #CreditScoreIndia\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Settlement kar liya. CIBIL theek? Nahi.",
@@ -3805,7 +3829,7 @@
    "media/N10/04.jpg",
    "media/N10/05.jpg"
   ],
-  "caption": "LAP mein do naap hote hain: property ki value ka hissa (LTV: loan to value) aur EMI bharne ki capacity. Jo chhota, wahi loan. 60% aur 11% example hain; har lender aur property type ka alag hota hai.\n\nIllustrative example, not a client case or testimonial.\n\nFollow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #LoanAgainstProperty #LAP #MumbaiProperty #CredNest #LoanEligibility",
+  "caption": "₹3 Cr ki property. Loan kitna banta hai?\n\nLAP mein do naap hote hain: property value ka hissa (LTV: loan to value) aur EMI bharne ki capacity. Jo chhota, wahi loan. 60% aur 11% example hain; har lender aur property type ka alag hota hai. Swipe karke hisaab dekho, save kar lo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanAgainstProperty #LTV #MumbaiProperty #BusinessFinance\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "₹3 Cr ki property. Loan kitna banta hai?",
@@ -3818,7 +3842,7 @@
   "media": [
    "media/N11/reel.mp4"
   ],
-  "caption": "Is naap ko DSCR kehte hain (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #DSCR #BusinessLoan #MSME #CredNest #TermLoan",
+  "caption": "Profit hai. Phir bhi bank bole capacity kam?\n\nBank DSCR dekhta hai (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#DSCR #TermLoan #MSMELoan #BusinessFinance\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Profit hai. Phir bhi bank bole capacity kam?",
@@ -3868,7 +3892,7 @@
   "media": [
    "media/N12/reel.mp4"
   ],
-  "caption": "DPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye. Follow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #ProjectFinance #CMA #DPR #MSME #CredNest",
+  "caption": "Naya project. CMA ya DPR? Bank pehle kya maangega?\n\nDPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye, warna pehla sawaal wahi aayega.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#ProjectFinance #CMAData #DPR #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Naya project. CMA ya DPR? Bank pehle kya maangega",
@@ -3922,7 +3946,7 @@
    "media/N13/04.jpg",
    "media/N13/05.jpg"
   ],
-  "caption": "Top-up tabhi milta hai jab home loan ka record achha ho aur property ki value mein jagah ho. Rates example hain, lender ke assessment pe depend karte hain.\n\nIllustrative example, not a client case or testimonial.\n\nFollow @crednest.io — bank loan dene se pehle kya dekhta hai, roz 1 simple post.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion. #HomeLoan #TopUpLoan #PersonalLoan #EMI #CredNest",
+  "caption": "Home loan pe top-up ya naya personal loan?\n\nTop-up tabhi milta hai jab home loan ka record achha ho aur property ki value mein jagah ho. Swipe karke dono ka farak dekho, save kar lo. Rates example hain; lender ke assessment pe depend karte hain.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#HomeLoan #TopUpLoan #PersonalLoan #EMI\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Home loan pe top-up ya naya personal loan?",
@@ -3930,13 +3954,51 @@
  },
  {
   "id": "N14",
-  "type": "image",
+  "type": "reel",
   "publish_at": "2026-11-29T19:30:00+05:30",
-  "media": [],
-  "caption": "",
+  "media": [
+   "media/N14/reel.mp4"
+  ],
+  "caption": "Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?\n\nAccounting profit aur repayment ka cash alag cheez hai. Lender depreciation, existing EMI aur debtors ka hisaab laga ke cash dekhta hai. Isliye profit aur eligibility ka number alag aata hai. Amount example hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#BusinessLoan #CashFlow #ProfitVsCash #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "status": "needs_content",
-  "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
-  "reserved_for": "Claude",
-  "editor_note": "Claude fills this on Sat 28 Nov from the best performer of N08–N13. Codex: leave the slot empty."
+  "source": "Content v3 (Claude, 18 Nov 2026): built from audit top performers",
+  "editor_note": "Built from the 15 Oct 'accounting profit' myth carousel (66 shares, 8 follows). Hook frame 1 = 'Profit ₹50 lakh. Bank ne kam kyun maana?'",
+  "cover": "media/N14/cover.jpg",
+  "topic": "Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "Profit ₹50 lakh. Bank ne kam kyun maana?"
+   },
+   {
+    "start": 2.0,
+    "end": 6.5,
+    "text": "Kyunki bank profit nahi, cash dekhta hai."
+   },
+   {
+    "start": 6.5,
+    "end": 11.0,
+    "text": "Debtors mein atka paisa cash nahi hai."
+   },
+   {
+    "start": 11.0,
+    "end": 15.5,
+    "text": "Purani EMI pehle hi cash kha rahi hai."
+   },
+   {
+    "start": 15.5,
+    "end": 19.0,
+    "text": "File mein cash ka hisaab saaf rakho."
+   },
+   {
+    "start": 19.0,
+    "end": 21.0,
+    "text": "Comment CHECKLIST."
+   }
+  ],
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN"
  }
 ]
