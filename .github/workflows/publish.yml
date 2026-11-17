@@ -1,8 +1,13 @@
 name: Instagram autopilot
 
 on:
+  # Primary trigger: an external 15-min ping (Hostinger cron -> repository_dispatch "publish-tick").
+  # GitHub's own cron is only a fallback: on 1-17 Nov it fired ~4 times a day instead of 96,
+  # which is why posts went out 2-7 h late.
+  repository_dispatch:
+    types: [publish-tick]
   schedule:
-    - cron: "7,22,37,52 * * * *"   # every 15 min (UTC); posts go out at or shortly after their IST time
+    - cron: "7,22,37,52 * * * *"   # fallback only (UTC); GitHub may delay or drop these
   workflow_dispatch:
     inputs:
       dry_run:
@@ -19,6 +24,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   publish:
@@ -27,6 +33,7 @@ jobs:
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+      ALERTS_FILE: /tmp/autopilot-alerts.txt
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -58,10 +65,32 @@ jobs:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
         run: |
           if [ -z "$FB_PAGE_TOKEN" ]; then echo "FB_PAGE_TOKEN not set; Facebook skipped."; else python scripts/fb_publish.py; fi
-      - name: Save published state
+      - name: Save published state (retry so a concurrent merge can't lose it -> no double posts)
         if: always()
         run: |
           git config user.name "crednest-autopilot"
           git config user.email "actions@users.noreply.github.com"
-          git add state/*.json
-          git diff --cached --quiet || (git commit -m "Published: $(date -u +%FT%TZ)" && git push)
+          git add state/*.json queue.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Published: $(date -u +%FT%TZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase --quiet origin main && git push && exit 0
+            echo "push attempt $i failed, retrying"; sleep $((i * 5))
+          done
+          echo "STATE NOT SAVED: could not push state after 5 tries" | tee -a "$ALERTS_FILE"; exit 1
+      - name: Alert (GitHub issue -> email) on failure, late, missed or blocked duplicate
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          JOB_STATUS: ${{ job.status }}
+        run: |
+          [ "$JOB_STATUS" != "success" ] && echo "RUN $JOB_STATUS" >> "$ALERTS_FILE"
+          [ -s "$ALERTS_FILE" ] || exit 0
+          body="$(date -u -d '+5 hours 30 minutes' '+%d %b %H:%M IST')"$'\n\n'"$(cat "$ALERTS_FILE")"$'\n\n'"Run: $RUN_URL"
+          n=$(gh issue list --label autopilot-alert --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"
+          else
+            gh label create autopilot-alert --color B60205 2>/dev/null || true
+            gh issue create --title "Autopilot alert" --label autopilot-alert --body "$body"
+          fi

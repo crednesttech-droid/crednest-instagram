@@ -8,7 +8,8 @@ Media are fetched by Instagram from MEDIA_BASE_URL (GitHub Pages of this repo).
   python scripts/publish.py --check            validate queue + files, no network
   python scripts/publish.py --dry-run          show what would publish now
   python scripts/publish.py                    publish due items (needs secrets)
-  python scripts/publish.py --only <id>        publish one item now (ignores time)
+  python scripts/publish.py --only <id>        publish one item now (ignores time; refuses if already live)
+  python scripts/publish.py --only <id> --force  re-publish even if state says it is live
   python scripts/publish.py --refresh-token    print a refreshed long-lived token
 
 Env: IG_USER_ID, IG_ACCESS_TOKEN, MEDIA_BASE_URL, GRAPH_VERSION (default v23.0).
@@ -21,7 +22,11 @@ QUEUE = os.path.join(ROOT, "queue.json")
 STATE = os.path.join(ROOT, "state", "published.json")
 IST = timezone(timedelta(hours=5, minutes=30))
 MAX_PER_RUN = 3          # never flood the account if runs were missed
-MAX_LATE = timedelta(hours=36)  # items later than this are skipped, not dumped together
+MAX_LATE = timedelta(hours=36)  # items later than this are re-slotted (backfill), not dumped together
+LATE_ALERT = timedelta(minutes=45)  # publishing later than this raises an alert
+DUP_WINDOW = timedelta(hours=72)    # caption match on the live profile inside this window = already posted
+SLOTS = ((12, 30), (19, 30))        # IST feed slots used for backfill
+ALERTS = os.environ.get("ALERTS_FILE", os.path.join(ROOT, ".alerts.txt"))
 CAPTION_MAX, HASHTAG_MAX = 2200, 30
 
 
@@ -41,6 +46,22 @@ def save_state(state):
 
 def when(item):
     return datetime.fromisoformat(item["publish_at"])
+
+
+def alert(msg):
+    print("ALERT", msg)
+    with open(ALERTS, "a", encoding="utf-8") as f:
+        f.write(msg + "\n")
+
+
+def save_queue(queue):
+    with open(QUEUE, "w", encoding="utf-8") as f:
+        json.dump(queue, f, indent=1, ensure_ascii=False)
+        f.write("\n")
+
+
+def norm(text):
+    return " ".join((text or "").lower().split())[:120]
 
 
 # ---------- validation ----------
@@ -122,6 +143,32 @@ class API:
     def publish(self, cid):
         return self.call("POST", f"{self.uid}/media_publish", creation_id=cid)["id"]
 
+    def recent(self, limit=25):
+        """Live feed posts/reels: [(media_id, normalised caption, datetime)]."""
+        d = self.call("GET", f"{self.uid}/media", fields="id,caption,timestamp", limit=limit)
+        out = []
+        for m in d.get("data", []):
+            ts = datetime.strptime(m["timestamp"], "%Y-%m-%dT%H:%M:%S%z")
+            out.append((m["id"], norm(m.get("caption")), ts))
+        return out
+
+
+def already_live(api, it, now, cache):
+    """Duplicate guard: same caption already on the profile in the last 72 h."""
+    if it["type"] == "story" or not it.get("caption"):
+        return None
+    if "recent" not in cache:
+        try:
+            cache["recent"] = api.recent()
+        except Exception as e:
+            print(f"WARN duplicate guard could not read profile: {e}")
+            cache["recent"] = []
+    key = norm(it["caption"])
+    for mid, cap, ts in cache["recent"]:
+        if cap == key and now - ts <= DUP_WINDOW:
+            return mid
+    return None
+
 
 def url_for(path):
     base = os.environ.get("MEDIA_BASE_URL", "").rstrip("/")
@@ -178,11 +225,49 @@ def due(queue, state, now):
     return out
 
 
+def missed(queue, state, now):
+    return [it for it in queue
+            if it["id"] not in state and it["status"] == "ready" and now - when(it) > MAX_LATE]
+
+
+def backfill(queue, state, now):
+    """Re-slot missed items instead of silently dropping them.
+
+    Feed items (image/carousel/reel) move to the next free 12:30 / 19:30 IST slot
+    with no other ready feed item. Stories are time-bound, so they are marked
+    skipped (stale). Returns True if queue.json changed.
+    """
+    changed = False
+    taken = {it["publish_at"][:16] for it in queue
+             if it["type"] != "story" and it["status"] == "ready" and it["id"] not in state}
+    for it in sorted(missed(queue, state, now), key=when):
+        old = it["publish_at"]
+        if it["type"] == "story":
+            state[it["id"]] = {"skipped": now.isoformat(), "reason": "stale story (missed > 36 h)"}
+            alert(f"MISSED story {it['id']} (was {old}) marked stale, not posted")
+            continue
+        day = now.date()
+        slot = None
+        while slot is None:
+            for h, m in SLOTS:
+                t = datetime(day.year, day.month, day.day, h, m, tzinfo=IST)
+                if t > now + timedelta(minutes=30) and t.isoformat()[:16] not in taken:
+                    slot = t; break
+            day += timedelta(days=1)
+        taken.discard(old[:16]); taken.add(slot.isoformat()[:16])
+        it.setdefault("backfilled_from", old)
+        it["publish_at"] = slot.isoformat()
+        changed = True
+        alert(f"BACKFILL {it['type']} {it['id']}: {old} -> {it['publish_at']}")
+    return changed
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--only")
+    ap.add_argument("--force", action="store_true", help="with --only: post even if state says live")
     ap.add_argument("--now", help="pretend time (ISO) for dry runs")
     ap.add_argument("--refresh-token", action="store_true")
     a = ap.parse_args()
@@ -203,8 +288,13 @@ def main():
     now = datetime.fromisoformat(a.now) if a.now else datetime.now(IST)
     byid = {it["id"]: it for it in queue}
     if a.only:
+        if a.only in state and not a.force:
+            print(f"REFUSED {a.only}: already in state/published.json ({state[a.only]}). Use --force to re-post.")
+            return
         items = [byid[a.only]]
     else:
+        if not a.dry_run and backfill(queue, state, now):
+            save_queue(queue)
         items = due(queue, state, now)
 
     # a teaser story is dropped if the post it points to is not ready
@@ -222,17 +312,29 @@ def main():
     if a.dry_run:
         for it in items:
             print(f"  would publish {it['type']:8} {it['id']}  ({len(it['media'])} file(s))")
+        for it in missed(queue, state, now):
+            print(f"  would backfill {it['type']:8} {it['id']}  (was {it['publish_at']})")
         return
 
-    api, failed = API(), 0
+    api, failed, cache = API(), 0, {}
     for it in items:
+        dup = None if (a.only and a.force) else already_live(api, it, now, cache)
+        if dup:
+            state[it["id"]] = {"media_id": dup, "published": "recovered-from-profile"}
+            alert(f"DUPLICATE BLOCKED {it['id']}: caption already live as {dup}; state repaired")
+            save_state(state)
+            continue
         try:
             mid = publish_item(api, it)
-            state[it["id"]] = {"media_id": mid, "published": datetime.now(IST).isoformat()}
+            done = datetime.now(IST)
+            state[it["id"]] = {"media_id": mid, "published": done.isoformat()}
             print(f"PUBLISHED {it['id']} -> {mid}")
+            late = done - when(it)
+            if not a.only and late > LATE_ALERT:
+                alert(f"LATE {it['id']}: due {it['publish_at']}, posted {done:%d %b %H:%M} IST ({int(late.total_seconds() // 60)} min late)")
         except Exception as e:
             failed += 1
-            print(f"FAILED {it['id']}: {e}")
+            alert(f"FAILED {it['id']}: {e}")
         save_state(state)
     save_state(state)
     sys.exit(1 if failed else 0)

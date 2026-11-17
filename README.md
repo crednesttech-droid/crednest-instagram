@@ -4,8 +4,10 @@ Posts and stories for @crednest.io publish themselves from this repo. No laptop 
 
 ## How it works
 - `queue.json` holds every post with its IST time and status.
-- **Instagram autopilot** (GitHub Action) runs every 15 minutes and publishes items with status `ready` whose time has passed. Max 3 per run; anything more than 36 hours late is skipped, so missed days never dump together.
-- `state/published.json` records what is live, so nothing posts twice.
+- **Instagram autopilot** (GitHub Action) publishes items with status `ready` whose time has passed. It is triggered every 15 minutes by a Hostinger cron job (`scripts/hostinger_tick.sh` → `repository_dispatch: publish-tick`); GitHub's own cron stays on as a fallback only, because it fired ~4 times a day instead of 96 in Nov 2026. Max 3 per run.
+- **Backfill:** a feed item more than 36 hours late is moved to the next free 12:30 / 19:30 IST slot (`backfilled_from` keeps the old time). Missed stories are marked stale, not posted.
+- **No double posts:** `state/published.json` records what is live; before posting, the run also checks the live profile for the same caption in the last 72 hours; `--only` refuses an item already live unless `--force`; the state commit retries with rebase so a concurrent merge cannot lose it.
+- **Alerts:** a failed run, a post more than 45 min late, a backfill, a stale story or a blocked duplicate adds a comment to the open GitHub issue labelled `autopilot-alert` (GitHub emails the repo owner).
 - Instagram downloads the images and videos from this repo's GitHub Pages site, which is why the repo is public. Tokens stay in GitHub Secrets.
 
 ## Schedule loaded (14 Oct – 27 Nov 2026)
