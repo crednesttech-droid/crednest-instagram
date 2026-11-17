@@ -7,8 +7,8 @@ Runs inside every autopilot run (every 15 min). For comments from the last N day
   anything else             -> one short public thank-you (rotating)
   complaint/abuse words     -> no auto reply; flagged to the Inbox issue for Amrut
   links / own comments      -> skipped
-For DMs: a new inbound message gets the welcome auto-reply (at most once per conversation per
-cooldown), and every new DM is flagged to the Inbox issue so a human answers within the day.
+For DMs: a new inbound message in a NEW chat (we never wrote in it) gets the welcome auto-reply
+(at most once per cooldown); existing chats are only flagged, and every new DM is flagged to the Inbox issue so a human answers within the day.
 
 Instagram rules: one private reply per comment within 7 days; DM replies only inside the
 24-hour window after the person's last message. Handled ids live in state/engaged.json.
@@ -101,7 +101,7 @@ def handle_dms(api, cfg, state, my_id, fill, dry):
     """Welcome auto-reply to new inbound DMs + flag each to the Inbox issue."""
     try:
         convs = api.call("GET", "me/conversations", platform="instagram",
-                         fields="id,updated_time,messages.limit(3){id,from,message,created_time}").get("data", [])
+                         fields="id,updated_time,messages.limit(10){id,from,message,created_time}").get("data", [])
     except Exception as e:
         print(f"WARN DMs skipped (token may lack instagram_business_manage_messages): {str(e)[:200]}")
         return 0
@@ -126,7 +126,10 @@ def handle_dms(api, cfg, state, my_id, fill, dry):
         rec = {"kind": "dm", "username": who, "at": datetime.now(P.IST).isoformat()}
         conv_key = f"conv:{cv['id']}"
         last_auto = state.get(conv_key, {}).get("auto_at")
-        if not last_auto or now - datetime.fromisoformat(last_auto) > cool:
+        we_wrote = any(str((m.get("from") or {}).get("id")) == str(my_id) for m in msgs)
+        if we_wrote and not last_auto:
+            rec["reply"] = "existing chat: no auto-reply"     # never auto-message people we already talk to
+        elif not last_auto or now - datetime.fromisoformat(last_auto) > cool:
             try:
                 api.call("POST", f"{api.uid}/messages", recipient=json.dumps({"id": frm.get("id")}),
                          message=json.dumps({"text": fill(cfg["dm_auto_reply"])}))
