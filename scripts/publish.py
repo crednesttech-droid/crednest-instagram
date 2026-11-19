@@ -141,8 +141,18 @@ class API:
             time.sleep(10)
         raise RuntimeError(f"container {cid}: timed out")
 
-    def publish(self, cid):
-        return self.call("POST", f"{self.uid}/media_publish", creation_id=cid)["id"]
+    def publish(self, cid, tries=6):
+        # Instagram sometimes reports a container FINISHED but still rejects
+        # media_publish with 9007 / 2207027 "Media ID is not available".
+        # That error is a readiness race, so wait and retry instead of failing.
+        for i in range(1, tries + 1):
+            try:
+                return self.call("POST", f"{self.uid}/media_publish", creation_id=cid)["id"]
+            except RuntimeError as e:
+                if ("2207027" not in str(e) and '"code":9007' not in str(e)) or i == tries:
+                    raise
+                print(f"media_publish not ready (attempt {i}/{tries}), retrying in {10 * i}s")
+                time.sleep(10 * i)
 
     def recent(self, limit=25):
         """Live feed posts/reels: [(media_id, normalised caption, datetime)]."""
