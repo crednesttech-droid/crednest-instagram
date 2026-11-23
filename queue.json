@@ -1771,7 +1771,7 @@
   ],
   "caption": "",
   "topic": "Write the purpose first. The amount comes later.",
-  "status": "ready",
+  "status": "hold",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1202-purpose"
  },
@@ -1863,7 +1863,7 @@
   ],
   "caption": "",
   "topic": "You have collateral. Now show the cash flow.",
-  "status": "ready",
+  "status": "hold",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "requires": "N1205-collateral"
  },
@@ -4700,5 +4700,65 @@
   "alt_text": "POV phone reel: three ways to reduce a home loan EMI",
   "voice": "sarvam bulbul:v3 shubh",
   "audio": "voice -14 LUFS + ducked music bed"
+ },
+ {
+  "id": "D02-emi-bounce-teaser",
+  "type": "story",
+  "publish_at": "2026-12-02T19:50:00+05:30",
+  "media": [
+   "media/D02-emi-bounce-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "D02-emi-bounce",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "D03-bg-lc-pov-teaser",
+  "type": "story",
+  "publish_at": "2026-12-03T19:50:00+05:30",
+  "media": [
+   "media/D03-bg-lc-pov-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "D03-bg-lc-pov",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "D05-pl-3checks-teaser",
+  "type": "story",
+  "publish_at": "2026-12-05T19:50:00+05:30",
+  "media": [
+   "media/D05-pl-3checks-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "D05-pl-3checks",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "D07-od-vs-tl-teaser",
+  "type": "story",
+  "publish_at": "2026-12-07T19:50:00+05:30",
+  "media": [
+   "media/D07-od-vs-tl-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "D07-od-vs-tl",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "D08-homeloan-pov-teaser",
+  "type": "story",
+  "publish_at": "2026-12-08T19:50:00+05:30",
+  "media": [
+   "media/D08-homeloan-pov-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "D08-homeloan-pov",
+  "source": "auto teaser (scripts/make_teasers.py)"
  }
 ]
