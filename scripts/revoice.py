@@ -32,9 +32,12 @@ def duration(p):
                                           "-of", "csv=p=0", p]).strip())
 
 
-def tts(text, speaker, model, pace, key, out, lang="en-IN"):
-    body = json.dumps({"text": text, "language_code": lang, "model": model,
-                       "speaker": speaker, "pace": pace, "speech_sample_rate": 44100}).encode()
+def tts(text, speaker, model, pace, key, out, lang="en-IN", temperature=None):
+    payload = {"text": text, "language_code": lang, "model": model,
+               "speaker": speaker, "pace": pace, "speech_sample_rate": 44100}
+    if temperature is not None and model != "bulbul:v2":
+        payload["temperature"] = temperature        # bulbul v3: expressiveness, 0.01-2, default 0.6
+    body = json.dumps(payload).encode()
     req = urllib.request.Request(API, data=body, method="POST",
                                  headers={"api-subscription-key": key, "Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=120) as r:
@@ -54,7 +57,8 @@ def sarvam_voice(item, a, key, vlen, tmp):
     speaker, model, pace = voice_cfg(item, a)
     for n, sc in enumerate(item["voice_scenes"]):
         raw = os.path.join(tmp, f"s{n}.wav")
-        tts(sc.get("say") or sc["text"], speaker, model, pace, key, raw, item.get("voice_lang", "en-IN"))
+        tts(sc.get("say") or sc["text"], speaker, model, pace, key, raw, item.get("voice_lang", "en-IN"),
+            item.get("voice_temperature"))
         slot = max(0.5, min(sc["end"], vlen) - sc["start"] - 0.3)
         speed = min(max(duration(raw) / slot, 1.0), 1.35)
         fit = os.path.join(tmp, f"f{n}.wav")
@@ -64,9 +68,15 @@ def sarvam_voice(item, a, key, vlen, tmp):
         parts.append(fit)
     voice = os.path.join(tmp, "voice.wav")
     inputs = sum([["-i", p] for p in parts], [])
+    fx = VOICE_FX.get(item.get("voice_fx", ""), "")
     run("ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex",
-        f"amix=inputs={len(parts)}:normalize=0,apad", "-t", f"{vlen:.3f}", voice)
+        f"amix=inputs={len(parts)}:normalize=0{fx},apad", "-t", f"{vlen:.3f}", voice)
     return voice
+
+
+# "punchy": cut mud, lift presence, compress, so the voice sounds closer and more energetic on phone speakers
+VOICE_FX = {"punchy": ",highpass=f=90,equalizer=f=220:t=q:w=1:g=-2,equalizer=f=3200:t=q:w=1.2:g=3,"
+                      "equalizer=f=8000:t=q:w=1:g=1.5,acompressor=threshold=-20dB:ratio=3:attack=4:release=80:makeup=2"}
 
 
 def existing_voice(video, vlen, tmp):
@@ -87,11 +97,11 @@ def music_bed(vlen, tmp, seed):
     return bed
 
 
-def finish(video, voice, bed, vlen, tmp):
+def finish(video, voice, bed, vlen, tmp, music_db=-19):
     mix = os.path.join(tmp, "mix.wav")
     fade_out = max(0.0, vlen - 1.5)
     fc = ("[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,asplit=2[v][sc];"
-          f"[1:a]volume=-19dB,afade=t=in:d=1,afade=t=out:st={fade_out:.2f}:d=1.5[m];"
+          f"[1:a]volume={music_db}dB,afade=t=in:d=1,afade=t=out:st={fade_out:.2f}:d=1.5[m];"
           "[m][sc]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[md];"
           "[v][md]amix=inputs=2:normalize=0,alimiter=limit=0.79,loudnorm=I=-14:TP=-2:LRA=11,apad")
     run("ffmpeg", "-y", "-v", "error", "-i", voice, "-i", bed, "-filter_complex", fc,
@@ -108,7 +118,7 @@ def process(item, a, key, seed):
     with tempfile.TemporaryDirectory() as tmp:
         voice = existing_voice(video, vlen, tmp) if a.music_only else sarvam_voice(item, a, key, vlen, tmp)
         bed = music_bed(vlen, tmp, seed)
-        finish(video, voice, bed, vlen, tmp)
+        finish(video, voice, bed, vlen, tmp, float(item.get("music_db", -19)))
 
 
 def main():

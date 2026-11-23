@@ -4035,7 +4035,11 @@
   "voice_lang": "hi-IN",
   "alt_text": "Motion-graphics reel on dark green: Profit ₹50 lakh dikhaya. Bank ne kam kyun maana?",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "id": "CD10-red-flags-teaser",
