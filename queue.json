@@ -4443,7 +4443,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4489,11 +4489,13 @@
     "say": "आपके साथ हुआ है? Comment करो।"
    }
   ],
-  "alt_text": "Fast list reel: three steps after an EMI bounce"
+  "alt_text": "Fast list reel: three steps after an EMI bounce",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4539,11 +4541,13 @@
     "say": "आपको कौनसा चाहिए? Comment करो।"
    }
   ],
-  "alt_text": "POV phone reel: difference between letter of credit and bank guarantee"
+  "alt_text": "POV phone reel: difference between letter of credit and bank guarantee",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4589,11 +4593,13 @@
     "say": "आप कौनसा miss करते हो? Comment करो।"
    }
   ],
-  "alt_text": "Fast list reel: three checks before a personal loan"
+  "alt_text": "Fast list reel: three checks before a personal loan",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4639,11 +4645,13 @@
     "say": "Checklist चाहिए? Comment करो CHECKLIST."
    }
   ],
-  "alt_text": "Motion reel: overdraft versus term loan"
+  "alt_text": "Motion reel: overdraft versus term loan",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4689,6 +4697,8 @@
     "say": "आप कौनसा try करोगे? Comment करो।"
    }
   ],
-  "alt_text": "POV phone reel: three ways to reduce a home loan EMI"
+  "alt_text": "POV phone reel: three ways to reduce a home loan EMI",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  }
 ]
