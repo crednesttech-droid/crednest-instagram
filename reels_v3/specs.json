@@ -176,5 +176,170 @@
     "sub": "+91 98199 99057"
    }
   ]
+ },
+ "T26-dscr-pov": {
+  "series": "BANK KYA DEKHTA HAI",
+  "scenes": [
+   {
+    "kind": "phone",
+    "big": "POV: Profit ₹40 lakh. Phir bhi loan reject?",
+    "hi": [
+     "reject?"
+    ],
+    "bubbles": [
+     {
+      "side": "notif",
+      "title": "Lender update",
+      "text": "Term loan request: not approved. Reason: repayment capacity.",
+      "at": 0
+     }
+    ]
+   },
+   {
+    "kind": "phone",
+    "big": "POV: Profit ₹40 lakh. Phir bhi loan reject?",
+    "hi": [
+     "reject?"
+    ],
+    "bubbles": [
+     {
+      "side": "notif",
+      "title": "Lender update",
+      "text": "Term loan request: not approved. Reason: repayment capacity.",
+      "at": 0
+     },
+     {
+      "side": "out",
+      "text": "Profit toh hai, phir kyun?",
+      "at": 0.1
+     },
+     {
+      "side": "in",
+      "text": "Bank profit nahi, DSCR dekhta hai",
+      "at": 1.3
+     }
+    ]
+   },
+   {
+    "kind": "phone",
+    "big": "POV: Profit ₹40 lakh. Phir bhi loan reject?",
+    "hi": [
+     "reject?"
+    ],
+    "bubbles": [
+     {
+      "side": "notif",
+      "title": "Lender update",
+      "text": "Term loan request: not approved. Reason: repayment capacity.",
+      "at": 0
+     },
+     {
+      "side": "out",
+      "text": "Profit toh hai, phir kyun?",
+      "at": 0
+     },
+     {
+      "side": "in",
+      "text": "Bank profit nahi, DSCR dekhta hai",
+      "at": 0
+     },
+     {
+      "side": "in",
+      "text": "DSCR = saal ka cash ÷ saal ki loan repayment",
+      "at": 0.2
+     }
+    ]
+   },
+   {
+    "kind": "phone",
+    "big": "POV: Profit ₹40 lakh. Phir bhi loan reject?",
+    "hi": [
+     "reject?"
+    ],
+    "bubbles": [
+     {
+      "side": "notif",
+      "title": "Lender update",
+      "text": "Term loan request: not approved. Reason: repayment capacity.",
+      "at": 0
+     },
+     {
+      "side": "out",
+      "text": "Profit toh hai, phir kyun?",
+      "at": 0
+     },
+     {
+      "side": "in",
+      "text": "Bank profit nahi, DSCR dekhta hai",
+      "at": 0
+     },
+     {
+      "side": "in",
+      "text": "DSCR = saal ka cash ÷ saal ki loan repayment",
+      "at": 0
+     },
+     {
+      "side": "in",
+      "text": "Cushion kam = file risky",
+      "at": 0.2
+     }
+    ]
+   },
+   {
+    "kind": "end",
+    "big": "Apna DSCR pata hai?",
+    "sub": "Comment karo: HAAN ya NAHI"
+   }
+  ]
+ },
+ "T27-cibil-list": {
+  "series": "MYTH YA SACH",
+  "scenes": [
+   {
+    "kind": "list",
+    "bg": "ink",
+    "big": "CIBIL 750. Phir bhi reject?",
+    "hi": [
+     "reject?"
+    ],
+    "size": 124
+   },
+   {
+    "kind": "list",
+    "bg": "lime",
+    "num": "1",
+    "big": "Purani EMI zyada",
+    "hi": [
+     "EMI"
+    ]
+   },
+   {
+    "kind": "list",
+    "bg": "forest",
+    "num": "2",
+    "big": "ITR mein income kam",
+    "hi": [
+     "income"
+    ]
+   },
+   {
+    "kind": "list",
+    "bg": "paper",
+    "num": "3",
+    "big": "Baar-baar loan enquiry",
+    "hi": [
+     "enquiry"
+    ]
+   },
+   {
+    "kind": "list",
+    "bg": "ink",
+    "big": "Aapke saath kaunsa hua?",
+    "sub": "Comment karo: 1, 2 ya 3",
+    "hi": [
+     "kaunsa"
+    ]
+   }
+  ]
  }
 }

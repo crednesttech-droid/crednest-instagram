@@ -3862,7 +3862,7 @@
    "media/N11/reel.mp4"
   ],
   "caption": "Profit hai. Phir bhi bank bole capacity kam?\n\nBank DSCR dekhta hai (debt service coverage ratio): saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#DSCR #TermLoan #MSMELoan #BusinessFinance\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "ready",
+  "status": "hold",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Profit hai. Phir bhi bank bole capacity kam?",
   "series": "BANK KYA DEKHTA HAI",
@@ -3902,7 +3902,8 @@
   "voice_lang": "hi-IN",
   "voice_model": "bulbul:v3",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "editor_note": "Held 23 Nov: slot used for the format test. Reuse in December."
  },
  {
   "id": "N12",
@@ -3912,7 +3913,7 @@
    "media/N12/reel.mp4"
   ],
   "caption": "Naya project. CMA ya DPR? Bank pehle kya maangega?\n\nDPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye, warna pehla sawaal wahi aayega.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#ProjectFinance #CMAData #DPR #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "ready",
+  "status": "hold",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Naya project. CMA ya DPR? Bank pehle kya maangega",
   "series": "BUSINESS KA PAISA",
@@ -3952,7 +3953,8 @@
   "voice_lang": "hi-IN",
   "voice_model": "bulbul:v3",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "editor_note": "Held 23 Nov: slot used for the format test. Reuse in December."
  },
  {
   "id": "N13",
@@ -4217,7 +4219,7 @@
    "media/N11-teaser/01.jpg"
   ],
   "caption": "",
-  "status": "ready",
+  "status": "hold",
   "requires": "N11",
   "source": "auto teaser (scripts/make_teasers.py)"
  },
@@ -4229,7 +4231,7 @@
    "media/N12-teaser/01.jpg"
   ],
   "caption": "",
-  "status": "ready",
+  "status": "hold",
   "requires": "N12",
   "source": "auto teaser (scripts/make_teasers.py)"
  },
@@ -4256,5 +4258,105 @@
   "status": "ready",
   "requires": "N14",
   "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "Format test (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "T26-dscr-pov",
+  "publish_at": "2026-11-26T19:30:00+05:30",
+  "media": [
+   "media/T26-dscr-pov/reel.mp4"
+  ],
+  "cover": "media/T26-dscr-pov/cover.jpg",
+  "topic": "POV: Profit ₹40 lakh. Phir bhi loan reject?",
+  "format_test": "A: POV phone",
+  "caption": "POV: Profit ₹40 lakh. Phir bhi loan reject?\n\nBank profit nahi, DSCR (debt service coverage ratio) dekhta hai: saal ka cash, saal ki loan repayment se kitna guna hai. Kitna cushion chahiye, yeh lender aur loan type pe depend karta hai.\n\nIllustrative example, not a client case or testimonial.\n\nApna DSCR pata hai? Comment karo HAAN ya NAHI, free credit-pack checklist DM mein bhejenge.\n\n#DSCR #TermLoan #MSMELoan #BusinessLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Profit chaalis lakh. Phir bhi loan reject?",
+    "say": "Profit चालीस लाख। फिर भी loan reject?"
+   },
+   {
+    "start": 3.0,
+    "end": 6.4,
+    "text": "Kyunki bank profit nahi, DSCR dekhta hai.",
+    "say": "क्योंकि bank profit नहीं, DSCR देखता है।"
+   },
+   {
+    "start": 6.4,
+    "end": 9.6,
+    "text": "Saal ka cash, saal ki EMI se kitna guna?",
+    "say": "साल का cash, साल की EMI से कितना गुना?"
+   },
+   {
+    "start": 9.6,
+    "end": 12.6,
+    "text": "Cushion kam ho, toh file risky lagti hai.",
+    "say": "Cushion कम हो, तो file risky लगती है।"
+   },
+   {
+    "start": 12.6,
+    "end": 16.0,
+    "text": "Apna DSCR pata hai? Comment karo, haan ya nahi.",
+    "say": "अपना DSCR पता है? Comment करो, हाँ या नहीं।"
+   }
+  ],
+  "alt_text": "POV phone reel: loan update notification and chat about DSCR"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "Format test (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "T27-cibil-list",
+  "publish_at": "2026-11-27T19:30:00+05:30",
+  "media": [
+   "media/T27-cibil-list/reel.mp4"
+  ],
+  "cover": "media/T27-cibil-list/cover.jpg",
+  "topic": "CIBIL 750. Phir bhi reject?",
+  "format_test": "B: fast list",
+  "caption": "CIBIL 750. Phir bhi reject? 3 wajah.\n\nAchha score sirf pehla darwaza hai. Lender purani EMI, ITR wali income aur haal ki loan enquiries bhi dekhta hai. 750 sirf example hai.\n\nAapke saath kaunsa hua? Comment karo 1, 2 ya 3, free credit-pack checklist DM mein bhejenge.\n\n#CIBILScore #LoanRejection #CreditScoreIndia #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.6,
+    "text": "CIBIL saat sau pachaas. Phir bhi reject?",
+    "say": "CIBIL सात सौ पचास। फिर भी reject?"
+   },
+   {
+    "start": 2.6,
+    "end": 4.6,
+    "text": "Ek: purani EMI zyada.",
+    "say": "एक: पुरानी EMI ज़्यादा।"
+   },
+   {
+    "start": 4.6,
+    "end": 6.6,
+    "text": "Do: ITR mein income kam.",
+    "say": "दो: ITR में income कम।"
+   },
+   {
+    "start": 6.6,
+    "end": 8.6,
+    "text": "Teen: baar baar loan enquiry.",
+    "say": "तीन: बार-बार loan enquiry."
+   },
+   {
+    "start": 8.6,
+    "end": 11.4,
+    "text": "Aapke saath kaunsa hua? Comment karo.",
+    "say": "आपके साथ कौनसा हुआ? Comment करो।"
+   }
+  ],
+  "alt_text": "Fast list reel: three reasons a good CIBIL score still gets rejected"
  }
 ]

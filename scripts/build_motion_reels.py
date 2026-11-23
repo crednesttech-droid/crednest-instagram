@@ -134,8 +134,64 @@ def footer(d, ink=False):
     d.text((X0, 1430), "crednest.io", font=font("Semibold", 36), fill=C["ink"] if ink else C["white"])
 
 
+def phone(img, d, sc, local):
+    """POV phone: hook line above, phone with notification + chat bubbles that pop in on cue."""
+    f = font("Extrabold", 70)
+    y = draw_lines(d, wrap(sc.get("big", ""), f, W - 2 * X0), f, X0, 430, C["white"], hi=sc.get("hi", ()), hi_fill=C["lime"], lh=1.08)
+    px, py, pw, ph = 160, max(y + 30, 600), 760, 1500 - max(y + 30, 600) + 260
+    d.rounded_rectangle([px, py, px + pw, py + ph], 70, fill=(2, 8, 6), outline=(49, 87, 70), width=6)
+    d.rounded_rectangle([px + 300, py + 22, px + 460, py + 52], 15, fill=(20, 30, 26))      # notch
+    d.rounded_rectangle([px + 24, py + 70, px + pw - 24, py + ph - 24], 48, fill=(16, 26, 22))
+    by = py + 100
+    for b in sc.get("bubbles", []):
+        if local < b.get("at", 0):
+            break
+        a = ease((local - b.get("at", 0)) / 0.25)
+        side, text = b.get("side", "in"), b["text"]
+        fb = font("Bold" if side == "notif" else "Semibold", 40 if side != "notif" else 36)
+        lines = wrap(text, fb, pw - 170)
+        bh = 36 + len(lines) * 50 + (40 if side == "notif" else 0)
+        bw = min(pw - 90, max(fb.getlength(l) for l in lines) + 70)
+        if side == "notif":
+            bx, col, tc = px + 45, (238, 241, 238), C["ink"]
+            bw = pw - 90
+        elif side == "out":
+            bx, col, tc = px + pw - 45 - bw, C["lime"], C["ink"]
+        else:
+            bx, col, tc = px + 45, (40, 62, 52), C["white"]
+        oy = int((1 - a) * -40)
+        d.rounded_rectangle([bx, by + oy, bx + bw, by + bh + oy], 30, fill=col)
+        ty = by + 18 + oy
+        if side == "notif":
+            d.text((bx + 30, ty), b.get("title", "Lender update"), font=font("Extrabold", 30), fill=C["forest"])
+            ty += 42
+        for l in lines:
+            d.text((bx + 34, ty), l, font=fb, fill=tc)
+            ty += 50
+        by += bh + 26
+
+
 def scene_frame(spec, sc, local, t, total):
     kind = sc["kind"]
+    if kind == "list":   # fast colour flips for pattern interrupt
+        mode = sc.get("bg", "ink")
+        img = Image.new("RGB", (W, H), {"ink": C["ink"], "forest": C["forest"], "lime": C["lime"], "paper": C["paper"]}[mode])
+        d = ImageDraw.Draw(img)
+        ink = mode in ("lime", "paper")
+        header(img, d, spec, t, total, ink)
+        sc_ = 0.85 + 0.15 * ease(local / 0.18)
+        size = int(sc.get("size", 120) * sc_)
+        f = font("Extrabold", size)
+        lines = wrap(sc["big"], f, W - 2 * X0)
+        y = 900 - len(lines) * size * 0.55
+        if sc.get("num"):
+            d.text((X0, y - 250), sc["num"], font=font("Extrabold", 220), fill=C["ink"] if ink else C["lime"])
+        draw_lines(d, lines, f, X0, int(y), C["ink"] if ink else C["white"], hi=sc.get("hi", ()),
+                   hi_fill=C["forest"] if ink else C["lime"], lh=1.06)
+        if sc.get("sub"):
+            d.text((X0, 1250), sc["sub"], font=font("Bold", 50), fill=C["ink"] if ink else C["mint"])
+        footer(d, ink)
+        return img
     mode = "paper" if kind == "takeaway" else ("dark" if kind == "end" else "ink")
     ink = mode == "paper"
     img = Image.new("RGB", (W, H))
@@ -145,6 +201,9 @@ def scene_frame(spec, sc, local, t, total):
     a = ease(local / 0.35)                     # entrance progress
     dy = int((1 - a) * 60)
 
+    if kind == "phone":
+        phone(img, d, sc, local)
+        return img
     if kind == "hook":
         size = 118   # shrink until no explicit line has to wrap
         while size > 80 and any(font("Extrabold", size).getlength(l) > W - 2 * X0
