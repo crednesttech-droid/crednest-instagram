@@ -4261,7 +4261,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4307,11 +4307,13 @@
     "say": "अपना DSCR पता है? Comment करो, हाँ या नहीं।"
    }
   ],
-  "alt_text": "POV phone reel: loan update notification and chat about DSCR"
+  "alt_text": "POV phone reel: loan update notification and chat about DSCR",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4357,6 +4359,8 @@
     "say": "आपके साथ कौनसा हुआ? Comment करो।"
    }
   ],
-  "alt_text": "Fast list reel: three reasons a good CIBIL score still gets rejected"
+  "alt_text": "Fast list reel: three reasons a good CIBIL score still gets rejected",
+  "voice": "sarvam bulbul:v3 shubh",
+  "audio": "voice -14 LUFS + ducked music bed"
  }
 ]
