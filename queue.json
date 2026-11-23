@@ -4362,5 +4362,77 @@
   "alt_text": "Fast list reel: three reasons a good CIBIL score still gets rejected",
   "voice": "sarvam bulbul:v3 shubh",
   "audio": "voice -14 LUFS + ducked music bed"
+ },
+ {
+  "id": "N1210-restructure-settle-teaser",
+  "type": "story",
+  "publish_at": "2026-12-10T19:50:00+05:30",
+  "media": [
+   "media/N1210-restructure-settle-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1210-restructure-settle",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1211-sma-teaser",
+  "type": "story",
+  "publish_at": "2026-12-11T12:50:00+05:30",
+  "media": [
+   "media/N1211-sma-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1211-sma",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1213-fixed-float-teaser",
+  "type": "story",
+  "publish_at": "2026-12-13T12:50:00+05:30",
+  "media": [
+   "media/N1213-fixed-float-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1213-fixed-float",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1214-eblr-teaser",
+  "type": "story",
+  "publish_at": "2026-12-14T12:50:00+05:30",
+  "media": [
+   "media/N1214-eblr-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1214-eblr",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "T26-dscr-pov-teaser",
+  "type": "story",
+  "publish_at": "2026-11-26T19:50:00+05:30",
+  "media": [
+   "media/T26-dscr-pov-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "T26-dscr-pov",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "T27-cibil-list-teaser",
+  "type": "story",
+  "publish_at": "2026-11-27T19:50:00+05:30",
+  "media": [
+   "media/T27-cibil-list-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "T27-cibil-list",
+  "source": "auto teaser (scripts/make_teasers.py)"
  }
 ]
