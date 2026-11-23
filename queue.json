@@ -1758,8 +1758,9 @@
   "media": [
    "media/N1202-purpose/01.jpg"
   ],
-  "status": "ready",
-  "alt_text": "Branded card on lime: “Write the purpose first. The amount comes later.” with three points: What will the money do?; When will it come back?; What does it earn the business?."
+  "status": "hold",
+  "alt_text": "Branded card on lime: “Write the purpose first. The amount comes later.” with three points: What will the money do?; When will it come back?; What does it earn the business?.",
+  "editor_note": "Held 23 Nov: December v3 rebuild (reels >=60%, no Capital Desk)."
  },
  {
   "id": "N1202-purpose-story",
@@ -1785,7 +1786,7 @@
    "media/N1203-bg-lc/reel.mp4"
   ],
   "cover": "media/N1203-bg-lc/cover.jpg",
-  "status": "ready",
+  "status": "hold",
   "alt_text": "Capital Desk reel: “Bank guarantee or LC? Which does your deal need?” over muted stock footage, ending on a WhatsApp card.",
   "voice_scenes": [
    {
@@ -1819,13 +1820,14 @@
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
   "voice": "sarvam bulbul:v4-flash sunny_en_social",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "editor_note": "Held 23 Nov: December v3 rebuild (reels >=60%, no Capital Desk)."
  },
  {
   "id": "N1204-rbi-policy",
   "type": "carousel",
-  "publish_at": "2026-12-04T12:30:00+05:30",
-  "caption": "RBI policy today. What it means for your loan EMI\n\nThe RBI monetary policy decision is announced today. If your loan is linked to an external benchmark, any change reaches you on the next reset date. Check your benchmark, reset date and whether the EMI or tenure changes.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#RBIPolicy #RepoRate #HomeLoan #CredNest #EMI\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "publish_at": "2026-12-04T19:30:00+05:30",
+  "caption": "RBI policy aaj. Aapki EMI pe kya asar?\n\nRBI ki December policy aaj announce hoti hai (MPC meeting 2 se 4 December). Loan external benchmark se linked hai, toh koi bhi badlaav agli reset date pe aata hai. Apna benchmark, reset date aur EMI ya tenure mein badlaav check karo.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#RBIPolicy #RepoRate #HomeLoan #EMI\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "RBI policy today. What it means for your loan EMI",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "media": [
@@ -1835,7 +1837,8 @@
    "media/N1204-rbi-policy/04.jpg"
   ],
   "status": "ready",
-  "alt_text": "4-slide carousel on paper: “RBI policy today. What it means for your loan EMI”. Slides cover RBI sets the repo rate; Your loan's benchmark; Reset date; Benchmark on your sanction letter; Next reset date; EMI or tenure."
+  "alt_text": "4-slide carousel on paper: “RBI policy today. What it means for your loan EMI”. Slides cover RBI sets the repo rate; Your loan's benchmark; Reset date; Benchmark on your sanction letter; Next reset date; EMI or tenure.",
+  "source_note": "RBI MPC 2026-27 schedule: https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=62422"
  },
  {
   "id": "N1205-collateral",
@@ -1847,8 +1850,9 @@
   "media": [
    "media/N1205-collateral/01.jpg"
   ],
-  "status": "ready",
-  "alt_text": "Branded card on dark: “You have collateral. Now show the cash flow.” with three points: 12 months of banking; Income or business financials; Existing EMIs on one page."
+  "status": "hold",
+  "alt_text": "Branded card on dark: “You have collateral. Now show the cash flow.” with three points: 12 months of banking; Income or business financials; Existing EMIs on one page.",
+  "editor_note": "Held 23 Nov: December v3 rebuild (reels >=60%, no Capital Desk)."
  },
  {
   "id": "N1205-collateral-story",
@@ -1866,8 +1870,8 @@
  {
   "id": "N1206-lap-res-com",
   "type": "carousel",
-  "publish_at": "2026-12-06T12:30:00+05:30",
-  "caption": "LAP on residential vs commercial property: what changes\n\nLoan against property works differently for residential and commercial property. Title, occupancy, use, tenancy and margin are assessed differently, and each lender has its own policy. Ask before you choose which property to offer.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\nIndependent advice. Lender-led decisions.\n\n#LAP #CommercialProperty #LoanAgainstProperty #CredNest #MumbaiBusiness\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "publish_at": "2026-12-06T19:30:00+05:30",
+  "caption": "Ghar ya dukaan: LAP mein kya badalta hai?\n\nResidential aur commercial property pe LAP alag tareeke se dekha jaata hai: title, use, tenancy aur margin. Har lender ki policy alag hai, isliye property chunne se pehle poochho. Swipe karo, save karo.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#LoanAgainstProperty #LAP #CommercialProperty #MumbaiProperty\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "LAP on residential vs commercial property: what changes",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "media": [
@@ -1892,8 +1896,9 @@
    "media/N1207-credit-pack/03.jpg",
    "media/N1207-credit-pack/04.jpg"
   ],
-  "status": "ready",
-  "alt_text": "4-slide carousel on paper: “Credit pack checklist: 8 papers lenders open first”. Slides cover KYC of business and promoters; 2-3 years' financials; GST returns; 12 months of banking; Existing loan list; Debtor and creditor ageing; Use of funds note; Security papers."
+  "status": "hold",
+  "alt_text": "4-slide carousel on paper: “Credit pack checklist: 8 papers lenders open first”. Slides cover KYC of business and promoters; 2-3 years' financials; GST returns; 12 months of banking; Existing loan list; Debtor and creditor ageing; Use of funds note; Security papers.",
+  "editor_note": "Held 23 Nov: December v3 rebuild (reels >=60%, no Capital Desk)."
  },
  {
   "id": "N1208-od-tl",
@@ -1906,7 +1911,7 @@
    "media/N1208-od-tl/reel.mp4"
   ],
   "cover": "media/N1208-od-tl/cover.jpg",
-  "status": "ready",
+  "status": "hold",
   "alt_text": "Capital Desk reel: “Overdraft or term loan? Match the loan to the need” over muted stock footage, ending on a WhatsApp card.",
   "voice_scenes": [
    {
@@ -1940,7 +1945,8 @@
   "voice_speaker": "sunny_en_social",
   "voice_pace": 1.0,
   "voice": "sarvam bulbul:v4-flash sunny_en_social",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "editor_note": "Held 23 Nov: December v3 rebuild (reels >=60%, no Capital Desk)."
  },
  {
   "id": "N1209-missed-emi",
@@ -4063,14 +4069,14 @@
    "media/N1203-bg-lc-teaser/01.jpg"
   ],
   "caption": "",
-  "status": "ready",
+  "status": "hold",
   "requires": "N1203-bg-lc",
   "source": "auto teaser (scripts/make_teasers.py)"
  },
  {
   "id": "N1204-rbi-policy-teaser",
   "type": "story",
-  "publish_at": "2026-12-04T12:50:00+05:30",
+  "publish_at": "2026-12-04T19:50:00+05:30",
   "media": [
    "media/N1204-rbi-policy-teaser/01.jpg"
   ],
@@ -4082,7 +4088,7 @@
  {
   "id": "N1206-lap-res-com-teaser",
   "type": "story",
-  "publish_at": "2026-12-06T12:50:00+05:30",
+  "publish_at": "2026-12-06T19:50:00+05:30",
   "media": [
    "media/N1206-lap-res-com-teaser/01.jpg"
   ],
@@ -4099,7 +4105,7 @@
    "media/N1207-credit-pack-teaser/01.jpg"
   ],
   "caption": "",
-  "status": "ready",
+  "status": "hold",
   "requires": "N1207-credit-pack",
   "source": "auto teaser (scripts/make_teasers.py)"
  },
@@ -4111,7 +4117,7 @@
    "media/N1208-od-tl-teaser/01.jpg"
   ],
   "caption": "",
-  "status": "ready",
+  "status": "hold",
   "requires": "N1208-od-tl",
   "source": "auto teaser (scripts/make_teasers.py)"
  },
@@ -4434,5 +4440,255 @@
   "status": "ready",
   "requires": "T27-cibil-list",
   "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "December v3 (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "D02-emi-bounce",
+  "publish_at": "2026-12-02T19:30:00+05:30",
+  "media": [
+   "media/D02-emi-bounce/reel.mp4"
+  ],
+  "cover": "media/D02-emi-bounce/cover.jpg",
+  "topic": "EMI bounce ho gayi? Pehle yeh 3 kaam.",
+  "format_test": "B: fast list",
+  "caption": "EMI bounce ho gayi? Pehle yeh 3 kaam.\n\nBounce hone pe charges lag sakte hain aur credit report pe asar pad sakta hai. Jaldi action lene se nuksan kam hota hai. Har lender ke rules alag hain.\n\nAapke saath kabhi hua hai? Comment karo HAAN ya NAHI, free credit-pack checklist DM mein bhejenge.\n\n#EMIBounce #CIBILScore #LoanTips #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.6,
+    "text": "EMI bounce ho gayi? Pehle yeh teen kaam.",
+    "say": "EMI bounce हो गई? पहले यह तीन काम।"
+   },
+   {
+    "start": 2.6,
+    "end": 4.6,
+    "text": "Ek: bank ko turant call karo.",
+    "say": "एक: bank को तुरंत call करो।"
+   },
+   {
+    "start": 4.6,
+    "end": 6.6,
+    "text": "Do: account mein balance bharo.",
+    "say": "दो: account में balance भरो।"
+   },
+   {
+    "start": 6.6,
+    "end": 9.0,
+    "text": "Teen: ECS date badalne ka poochho.",
+    "say": "तीन: ECS date बदलने का पूछो।"
+   },
+   {
+    "start": 9.0,
+    "end": 11.8,
+    "text": "Aapke saath hua hai? Comment karo.",
+    "say": "आपके साथ हुआ है? Comment करो।"
+   }
+  ],
+  "alt_text": "Fast list reel: three steps after an EMI bounce"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "December v3 (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "D03-bg-lc-pov",
+  "publish_at": "2026-12-03T19:30:00+05:30",
+  "media": [
+   "media/D03-bg-lc-pov/reel.mp4"
+  ],
+  "cover": "media/D03-bg-lc-pov/cover.jpg",
+  "topic": "POV: Supplier ko LC chahiye, customer ko BG.",
+  "format_test": "A: POV phone",
+  "caption": "POV: Supplier ko LC chahiye, customer ko BG.\n\nLC (letter of credit) mein documents milne pe bank supplier ko pay karta hai. BG (bank guarantee) mein agar aap kaam ya payment poora na karo, toh bank pay karta hai. Dono ke liye bank limit chahiye, aur terms lender tay karta hai.\n\nIllustrative example, not a client case or testimonial.\n\nAapko kaunsa chahiye? Comment karo LC ya BG, free credit-pack checklist DM mein bhejenge.\n\n#LetterOfCredit #BankGuarantee #TradeFinance #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Supplier ko LC chahiye, customer ko BG.",
+    "say": "Supplier को LC चाहिए, customer को BG."
+   },
+   {
+    "start": 3.0,
+    "end": 6.4,
+    "text": "LC mein, documents milne pe bank supplier ko pay karta hai.",
+    "say": "LC में, documents मिलने पे bank supplier को pay करता है।"
+   },
+   {
+    "start": 6.4,
+    "end": 10.0,
+    "text": "BG mein, aap kaam na karo toh bank pay karta hai.",
+    "say": "BG में, आप काम न करो तो bank pay करता है।"
+   },
+   {
+    "start": 10.0,
+    "end": 12.6,
+    "text": "Dono ke liye bank limit chahiye.",
+    "say": "दोनों के लिए bank limit चाहिए।"
+   },
+   {
+    "start": 12.6,
+    "end": 15.6,
+    "text": "Aapko kaunsa chahiye? Comment karo.",
+    "say": "आपको कौनसा चाहिए? Comment करो।"
+   }
+  ],
+  "alt_text": "POV phone reel: difference between letter of credit and bank guarantee"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "December v3 (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "D05-pl-3checks",
+  "publish_at": "2026-12-05T19:30:00+05:30",
+  "media": [
+   "media/D05-pl-3checks/reel.mp4"
+  ],
+  "cover": "media/D05-pl-3checks/cover.jpg",
+  "topic": "Personal loan se pehle 3 check.",
+  "format_test": "B: fast list",
+  "caption": "Personal loan se pehle 3 check.\n\nEMI ke saath poora kharcha dekho: processing fee, insurance aur prepayment charges. Har lender ka alag hota hai, isliye sanction letter dhyaan se padho.\n\nAap kaunsa check nahi karte? Comment karo 1, 2 ya 3, free credit-pack checklist DM mein bhejenge.\n\n#PersonalLoan #EMI #LoanTips #MoneyTips\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.4,
+    "text": "Personal loan se pehle teen check.",
+    "say": "Personal loan से पहले तीन check."
+   },
+   {
+    "start": 2.4,
+    "end": 4.8,
+    "text": "Ek: total EMI, income ka kitna hissa?",
+    "say": "एक: total EMI, income का कितना हिस्सा?"
+   },
+   {
+    "start": 4.8,
+    "end": 7.2,
+    "text": "Do: fee aur insurance jod ke total cost.",
+    "say": "दो: fee और insurance जोड़ के total cost."
+   },
+   {
+    "start": 7.2,
+    "end": 9.4,
+    "text": "Teen: prepayment charges kitne?",
+    "say": "तीन: prepayment charges कितने?"
+   },
+   {
+    "start": 9.4,
+    "end": 12.2,
+    "text": "Aap kaunsa miss karte ho? Comment karo.",
+    "say": "आप कौनसा miss करते हो? Comment करो।"
+   }
+  ],
+  "alt_text": "Fast list reel: three checks before a personal loan"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "December v3 (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "D07-od-vs-tl",
+  "publish_at": "2026-12-07T19:30:00+05:30",
+  "media": [
+   "media/D07-od-vs-tl/reel.mp4"
+  ],
+  "cover": "media/D07-od-vs-tl/cover.jpg",
+  "topic": "OD ya term loan? Galat chuna toh cash atkega.",
+  "format_test": "C: kinetic",
+  "caption": "OD ya term loan? Galat chuna toh cash atkega.\n\nRoz ke kharche ke liye OD ya CC limit, aur machine ya expansion ke liye term loan. Lambe kaam ko chhoti limit se chalaoge, toh cash har mahine atkega. Product lender ke assessment pe depend karta hai.\n\nIllustrative example, not a client case or testimonial.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#Overdraft #TermLoan #WorkingCapital #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 2.8,
+    "text": "OD ya term loan? Galat chuna toh cash atkega.",
+    "say": "OD या term loan? गलत चुना तो cash अटकेगा।"
+   },
+   {
+    "start": 2.8,
+    "end": 5.8,
+    "text": "Roz ke kharche ke liye OD ya CC.",
+    "say": "रोज़ के खर्चे के लिए OD या CC."
+   },
+   {
+    "start": 5.8,
+    "end": 8.8,
+    "text": "Machine ya expansion ke liye term loan.",
+    "say": "Machine या expansion के लिए term loan."
+   },
+   {
+    "start": 8.8,
+    "end": 11.6,
+    "text": "Pehle kaam dekho, phir product.",
+    "say": "पहले काम देखो, फिर product."
+   },
+   {
+    "start": 11.6,
+    "end": 14.6,
+    "text": "Checklist chahiye? Comment karo CHECKLIST.",
+    "say": "Checklist चाहिए? Comment करो CHECKLIST."
+   }
+  ],
+  "alt_text": "Motion reel: overdraft versus term loan"
+ },
+ {
+  "type": "reel",
+  "status": "needs_voice",
+  "voice_speaker": "shubh",
+  "voice_model": "bulbul:v3",
+  "voice_lang": "hi-IN",
+  "source": "December v3 (Claude, 23 Nov 2026): scripts/build_motion_reels.py",
+  "id": "D08-homeloan-pov",
+  "publish_at": "2026-12-08T19:30:00+05:30",
+  "media": [
+   "media/D08-homeloan-pov/reel.mp4"
+  ],
+  "cover": "media/D08-homeloan-pov/cover.jpg",
+  "topic": "POV: Home loan EMI ₹45,000. Kam ho sakti hai?",
+  "format_test": "A: POV phone",
+  "caption": "POV: Home loan EMI ₹45,000. Kam ho sakti hai?\n\nTeen raaste hain: part-prepayment se principal kam, tenure badha ke EMI kam (par total byaaj zyada), ya balance transfer se rate compare. Har option ka cost alag hai; lender ke terms padh ke faisla lo.\n\nIllustrative example, not a client case or testimonial.\n\nAap kaunsa try karoge? Comment karo 1, 2 ya 3, free credit-pack checklist DM mein bhejenge.\n\n#HomeLoan #EMI #BalanceTransfer #HomeLoanTips\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "voice_scenes": [
+   {
+    "start": 0.0,
+    "end": 3.0,
+    "text": "Home loan EMI paintaalis hazaar? Kam ho sakti hai?",
+    "say": "Home loan EMI पैंतालीस हज़ार? कम हो सकती है?"
+   },
+   {
+    "start": 3.0,
+    "end": 5.8,
+    "text": "Ek: part-prepayment se principal kam.",
+    "say": "एक: part-prepayment से principal कम।"
+   },
+   {
+    "start": 5.8,
+    "end": 8.8,
+    "text": "Do: tenure badhao, par byaaj zyada lagega.",
+    "say": "दो: tenure बढ़ाओ, पर ब्याज ज़्यादा लगेगा।"
+   },
+   {
+    "start": 8.8,
+    "end": 11.6,
+    "text": "Teen: balance transfer, rate compare karo.",
+    "say": "तीन: balance transfer, rate compare करो।"
+   },
+   {
+    "start": 11.6,
+    "end": 14.4,
+    "text": "Aap kaunsa try karoge? Comment karo.",
+    "say": "आप कौनसा try करोगे? Comment करो।"
+   }
+  ],
+  "alt_text": "POV phone reel: three ways to reduce a home loan EMI"
  }
 ]

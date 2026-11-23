@@ -12,7 +12,9 @@
   "nahi",
   "1",
   "2",
-  "3"
+  "3",
+  "lc",
+  "bg"
  ],
  "lookback_days": 7,
  "max_per_run": 25,
