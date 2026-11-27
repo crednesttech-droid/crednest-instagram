@@ -45,7 +45,7 @@
   "?"
  ],
  "question_private_reply": "Hi! Aapka sawaal dekha 🙏 Detail mein baat karne ke liye WhatsApp karo aur \"Hi\" bhejo: {whatsapp_url}\n\nTab tak yeh free credit-pack checklist dekh lo: {checklist_url}\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
- "question_public_reply": "Achha sawaal! DM mein detail bheja hai 📩",
+ "question_public_reply": "Achha sawaal! Detail ke liye WhatsApp karo aur Hi bhejo: wa.me/919819999057",
  "thanks_replies": [
   "Thank you 🙏 Kisi ko kaam aaye to share karo!",
   "Shukriya! 🙌 Free checklist chahiye to CHECKLIST comment karo.",
@@ -64,5 +64,19 @@
   "fake"
  ],
  "dm_auto_reply": "Hi! CredNest yahan 👋 Aapka message mil gaya.\n\nFast reply ke liye WhatsApp karo aur \"Hi\" bhejo: {whatsapp_url}\nFree credit-pack checklist: {checklist_url}\n\nAmrut ya team 1 working day ke andar yahin reply karegi.\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
- "dm_reply_cooldown_hours": 12
+ "dm_reply_cooldown_hours": 12,
+ "native_keyword_automation": true,
+ "native_keywords": [
+  "checklist",
+  "haan",
+  "nahi",
+  "lc",
+  "bg",
+  "1",
+  "2",
+  "3",
+  "details",
+  "info"
+ ],
+ "dm_auto_reply_enabled": false
 }

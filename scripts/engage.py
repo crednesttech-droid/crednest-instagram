@@ -67,12 +67,21 @@ def handle_comments(api, cfg, state, my_name, fill, dry):
             if cid in state or who.lower() == my_name or done >= cfg.get("max_per_run", 25):
                 continue
             kind = classify(text, cfg)
+            if cfg.get("native_keyword_automation") and matches(text, cfg.get("native_keywords", [])) and kind != "human":
+                state[cid] = {"media": m["id"], "kind": "native", "at": datetime.now(P.IST).isoformat()}
+                continue   # Business Suite "Comment to message" already sends the DM and the public reply
             rec = {"media": m["id"], "kind": kind, "at": datetime.now(P.IST).isoformat()}   # no usernames: repo is public
             if dry:
                 print(f"would handle [{kind}] comment {cid} on {m.get('permalink')}")
                 continue
             if kind == "human":
                 inbox(f"Comment needs you (possible complaint) on {m.get('permalink')}")
+            elif kind == "question" and cfg.get("native_keyword_automation"):
+                try:   # no private DM: needs Meta App Review; point to WhatsApp publicly instead
+                    api.call("POST", f"{cid}/replies", message=cfg["question_public_reply"]); rec["reply"] = "sent"
+                except Exception as e:
+                    rec["reply"] = f"failed: {str(e)[:200]}"
+                inbox(f"Question comment (replied with WhatsApp link) on {m.get('permalink')}")
             elif kind in ("keyword", "question"):
                 dm = fill(cfg["private_reply"] if kind == "keyword" else cfg["question_private_reply"])
                 pub = cfg["public_reply"] if kind == "keyword" else cfg["question_public_reply"]
@@ -163,7 +172,7 @@ def main():
     checklist_url = P.url_for(cfg["checklist_path"])
     fill = lambda t: t.format(checklist_url=checklist_url, whatsapp_url=cfg["whatsapp_url"])
     posts, done = handle_comments(api, cfg, state, my_name, fill, a.dry_run)
-    dms = handle_dms(api, cfg, state, my_id, fill, a.dry_run)
+    dms = handle_dms(api, cfg, state, my_id, fill, a.dry_run) if cfg.get("dm_auto_reply_enabled", True) else 0
     if not a.dry_run:
         cutoff = (datetime.now(P.IST) - timedelta(days=90)).isoformat()   # retention per legal/privacy.html
         state = {k: v for k, v in state.items() if (v.get("at") or v.get("auto_at") or cutoff) >= cutoff}
