@@ -9,7 +9,7 @@ to the CredNest Facebook Page, using the same media URLs on GitHub Pages.
   python scripts/fb_publish.py --backfill              every post on the Instagram profile not yet on FB
                                                        (read live from the Instagram API, so manual posts count too)
   python scripts/fb_publish.py --backfill --limit 10   ...at most 10 this run
-  python scripts/fb_publish.py --only D02-feed         one item now
+  python scripts/fb_publish.py --only D02-feed         one item now (comma-separate several; stories too)
 
 Env: IG_ACCESS_TOKEN (backfill only, to list the Instagram posts),
      FB_PAGE_TOKEN (Page access token with pages_manage_posts),
@@ -17,7 +17,7 @@ Env: IG_ACCESS_TOKEN (backfill only, to list the Instagram posts),
      The run stops if the token belongs to any other Page or a personal profile.
      MEDIA_BASE_URL, GRAPH_VERSION (default v23.0).
 
-Stories are not cross-posted. Reels go up as Page videos.
+Stories are not synced automatically; --only <story id> posts one as a Page story. Reels go up as Page videos.
 Instagram-only CTAs ("Comment CHECKLIST ... DM") are swapped for the WhatsApp CTA,
 because comment-to-DM runs on Instagram only.
 """
@@ -107,6 +107,9 @@ class Page:
         if t == "reel":
             return self.call("POST", f"{self.id}/videos", file_url=url_for(it["media"][0]),
                              description=msg, **extra)["id"]
+        if t == "story":   # Page photo story: upload unpublished photo, then publish it as a story
+            pid = self.call("POST", f"{self.id}/photos", url=url_for(it["media"][0]), published="false")["id"]
+            return self.call("POST", f"{self.id}/photo_stories", photo_id=pid).get("post_id") or pid
         raise RuntimeError(f"{it['id']}: type {t} is not cross-posted")
 
 
@@ -143,7 +146,7 @@ def ig_to_item(m):
 def pick(queue, ig, fb, now, backfill, only, done_ig=frozenset()):
     items = {i["id"]: i for i in queue}
     if only:
-        return [items[only]]
+        return [items[o.strip()] for o in only.split(",") if o.strip()]
     out = []
     for iid, rec in sorted(ig.items(), key=lambda kv: kv[1]["published"]):
         it = items.get(iid)
@@ -160,7 +163,7 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--backfill", action="store_true")
     ap.add_argument("--limit", type=int, default=50)
-    ap.add_argument("--only")
+    ap.add_argument("--only", help="comma-separated ids to post now (feed items or stories)")
     a = ap.parse_args()
 
     queue, ig, fb = load(QUEUE, []), load(IG_STATE, {}), load(FB_STATE, {})
