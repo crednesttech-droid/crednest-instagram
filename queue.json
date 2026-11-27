@@ -1478,7 +1478,7 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.\n\nChaar red flags: sanction se pehle fee, \"no CIBIL check\" ka promise, bina papers 10 minute approval, aur OTP maangna. Chaaron mein se ek bhi dikhe to lender pehle verify karo. Kisi loan dhoondhne wale ko share karo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanFraud #LoanScam #FraudAlert #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
-  "status": "ready",
+  "status": "needs_voice",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "alt_text": "Motion-graphics reel on dark green: Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
   "voice_scenes": [
@@ -1523,9 +1523,12 @@
   "voice_lang": "hi-IN",
   "voice_model": "bulbul:v3",
   "voice_speaker": "shubh",
-  "voice_pace": 1.0,
+  "voice_pace": 1.12,
   "audio": "voice -14 LUFS + ducked music bed",
-  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN."
+  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "id": "CR01-lap-emi",
@@ -1706,7 +1709,7 @@
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "ready",
+  "status": "needs_voice",
   "alt_text": "Motion-graphics reel on dark green: Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
   "voice_scenes": [
    {
@@ -1743,10 +1746,13 @@
   "voice_lang": "hi-IN",
   "voice_model": "bulbul:v3",
   "voice_speaker": "shubh",
-  "voice_pace": 1.0,
+  "voice_pace": 1.12,
   "voice": "sarvam bulbul:v3 shubh",
   "audio": "voice -14 LUFS + ducked music bed",
-  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN."
+  "editor_note": "Built by Claude with scripts/build_motion_reels.py + reels_v3/specs.json. Voice: Sarvam shubh bulbul:v3 hi-IN.",
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "id": "N1202-purpose",
@@ -4323,7 +4329,7 @@
  },
  {
   "type": "reel",
-  "status": "ready",
+  "status": "needs_voice",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4371,7 +4377,11 @@
   ],
   "alt_text": "Fast list reel: three reasons a good CIBIL score still gets rejected",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "id": "N1210-restructure-settle-teaser",
@@ -4447,7 +4457,7 @@
  },
  {
   "type": "reel",
-  "status": "ready",
+  "status": "needs_voice",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4495,11 +4505,15 @@
   ],
   "alt_text": "Fast list reel: three steps after an EMI bounce",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "type": "reel",
-  "status": "ready",
+  "status": "needs_voice",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4547,11 +4561,15 @@
   ],
   "alt_text": "POV phone reel: difference between letter of credit and bank guarantee",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "type": "reel",
-  "status": "ready",
+  "status": "needs_voice",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4599,11 +4617,15 @@
   ],
   "alt_text": "Fast list reel: three checks before a personal loan",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "type": "reel",
-  "status": "ready",
+  "status": "needs_voice",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4651,11 +4673,15 @@
   ],
   "alt_text": "Motion reel: overdraft versus term loan",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "type": "reel",
-  "status": "ready",
+  "status": "needs_voice",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4703,7 +4729,11 @@
   ],
   "alt_text": "POV phone reel: three ways to reduce a home loan EMI",
   "voice": "sarvam bulbul:v3 shubh",
-  "audio": "voice -14 LUFS + ducked music bed"
+  "audio": "voice -14 LUFS + ducked music bed",
+  "voice_pace": 1.12,
+  "voice_temperature": 0.85,
+  "voice_fx": "punchy",
+  "music_db": -16
  },
  {
   "id": "D02-emi-bounce-teaser",

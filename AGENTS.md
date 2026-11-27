@@ -39,7 +39,7 @@ JPEG only (Instagram API rejects PNG). Each file under 8 MB.
 - `scripts/render_hooks.py` renders hook covers and single-image cards in the house layout; add a spec and run it.
 
 ## Reels and voice
-Do not use Windows/system text-to-speech. Put the narration lines in `voice_scenes` (`start`, `end`, `text`) and set status `needs_voice`; the "Re-voice reels" workflow adds the Sarvam voice.
+Do not use Windows/system text-to-speech. House voice settings (27 Nov 2026): `voice_pace` 1.12, `voice_temperature` 0.85, `voice_fx` "punchy", `music_db` -16. Put the narration lines in `voice_scenes` (`start`, `end`, `text`) and set status `needs_voice`; the "Re-voice reels" workflow adds the Sarvam voice.
 
 ## queue.json
 Each item: `id`, `type` (image | carousel | reel | story), `publish_at` (ISO, +05:30), `media`, `cover` (reels), `caption` (empty for stories), `status`.
