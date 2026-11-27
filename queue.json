@@ -1684,7 +1684,7 @@
  {
   "id": "N1130-rejected",
   "type": "carousel",
-  "publish_at": "2026-11-28T19:30:00+05:30",
+  "publish_at": "2026-11-27T07:40:00+05:30",
   "caption": "Business achha. Phir bhi loan reject? 5 wajah.\n\nRejection aksar business ki nahi, file ki hoti hai: numbers mismatch, purani EMI zyada, purpose saaf nahi, vintage kam, ya bureau issue. Agli application se pehle yeh paanch theek karo. Swipe karo, save karo.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#LoanRejection #BusinessLoan #MSMELoan #CIBILScore\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Good business. Loan still rejected? 5 common reasons",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
@@ -3920,12 +3920,12 @@
  {
   "id": "N12",
   "type": "reel",
-  "publish_at": "2026-11-27T19:30:00+05:30",
+  "publish_at": "2026-11-28T19:30:00+05:30",
   "media": [
    "media/N12/reel.mp4"
   ],
   "caption": "Naya project. CMA ya DPR? Bank pehle kya maangega?\n\nDPR (detailed project report) project ki kahani hai. CMA (credit monitoring arrangement) data uske numbers hain. Dono mein figures match hone chahiye, warna pehla sawaal wahi aayega.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#ProjectFinance #CMAData #DPR #MSMELoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
-  "status": "hold",
+  "status": "ready",
   "source": "Nov 16–29 final-copy brief; user-confirmed series tags",
   "topic": "Naya project. CMA ya DPR? Bank pehle kya maangega",
   "series": "BUSINESS KA PAISA",
@@ -3966,12 +3966,12 @@
   "voice_model": "bulbul:v3",
   "voice": "sarvam bulbul:v3 shubh",
   "audio": "voice -14 LUFS + ducked music bed",
-  "editor_note": "Held 23 Nov: slot used for the format test. Reuse in December."
+  "editor_note": "Back 27 Nov for the 28 Nov slot (N1130 posted early for the Meta weekly plan)."
  },
  {
   "id": "N13",
   "type": "carousel",
-  "publish_at": "2026-11-27T12:30:00+05:30",
+  "publish_at": "2026-11-27T07:40:00+05:30",
   "media": [
    "media/N13/01.jpg",
    "media/N13/02.jpg",
@@ -4242,19 +4242,19 @@
  {
   "id": "N12-teaser",
   "type": "story",
-  "publish_at": "2026-11-27T19:50:00+05:30",
+  "publish_at": "2026-11-28T19:50:00+05:30",
   "media": [
    "media/N12-teaser/01.jpg"
   ],
   "caption": "",
-  "status": "hold",
+  "status": "ready",
   "requires": "N12",
   "source": "auto teaser (scripts/make_teasers.py)"
  },
  {
   "id": "N13-teaser",
   "type": "story",
-  "publish_at": "2026-11-27T12:50:00+05:30",
+  "publish_at": "2026-11-27T08:05:00+05:30",
   "media": [
    "media/N13-teaser/01.jpg"
   ],
@@ -4798,7 +4798,7 @@
  {
   "id": "N1130-rejected-teaser",
   "type": "story",
-  "publish_at": "2026-11-28T19:50:00+05:30",
+  "publish_at": "2026-11-27T08:05:00+05:30",
   "media": [
    "media/N1130-rejected-teaser/01.jpg"
   ],
