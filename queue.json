@@ -1478,7 +1478,7 @@
   "cover": "media/CD10-red-flags/cover.jpg",
   "caption": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.\n\nChaar red flags: sanction se pehle fee, \"no CIBIL check\" ka promise, bina papers 10 minute approval, aur OTP maangna. Chaaron mein se ek bhi dikhe to lender pehle verify karo. Kisi loan dhoondhne wale ko share karo.\n\nIllustrative example, not a client case or testimonial.\n\nWhatsApp \"Hi\" to +91 98199 99057.\n\n#LoanFraud #LoanScam #FraudAlert #PersonalLoan\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
-  "status": "needs_voice",
+  "status": "ready",
   "source": "Content v3 motion reel (Claude, 18 Nov 2026): scripts/build_motion_reels.py",
   "alt_text": "Motion-graphics reel on dark green: Loan se pehle ₹15,000 'file charge' maanga? Ruk jao.",
   "voice_scenes": [
@@ -1709,7 +1709,7 @@
    "media/N1201-debtor-days/reel.mp4"
   ],
   "cover": "media/N1201-debtor-days/cover.jpg",
-  "status": "needs_voice",
+  "status": "ready",
   "alt_text": "Motion-graphics reel on dark green: Customer 60 din mein deta hai. Supplier 30 din mein maangta hai?",
   "voice_scenes": [
    {
@@ -4329,7 +4329,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4457,7 +4457,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4513,7 +4513,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4569,7 +4569,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4625,7 +4625,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
@@ -4681,7 +4681,7 @@
  },
  {
   "type": "reel",
-  "status": "needs_voice",
+  "status": "ready",
   "voice_speaker": "shubh",
   "voice_model": "bulbul:v3",
   "voice_lang": "hi-IN",
