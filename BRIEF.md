@@ -7,3 +7,7 @@ They go `needs_voice` → "Re-voice reels (Sarvam)" workflow (speaker shubh) →
 New motion reels: add a spec to `reels_v3/specs.json` (one scene per `voice_scenes` line; kinds: hook, beat,
 timeline, takeaway, end), then run `python scripts/build_motion_reels.py --only <id>`. Preview frames first with
 `--frames <id>`.
+
+## Paid boost: parked (27 Nov 2026)
+Amrut's call: no boost plan or boost suggestions until he asks. Monday reviews stay organic-only.
+When he asks: boost only an organic winner (300+ views, saves/shares), check Meta India financial-services ad rules first [VERIFY], no "guaranteed approval"/"lowest rate", keep the facilitator disclaimer.
