@@ -86,7 +86,18 @@
   "2",
   "3",
   "details",
-  "info"
+  "info",
+  "lap",
+  "loan",
+  "emi",
+  "cibil",
+  "cc",
+  "od",
+  "rate",
+  "interested",
+  "kitna",
+  "help"
  ],
- "dm_auto_reply_enabled": false
+ "dm_auto_reply_enabled": false,
+ "_note": "Meta Business Suite automations (27 Nov 2026): 'Checklist DM' and 'Loan words to WhatsApp DM' (Comment to message) + 'Auto reply' (first DM). While the Meta app is in development mode the API cannot read other users' comments, so these native automations do the replying."
 }
