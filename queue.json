@@ -1684,8 +1684,8 @@
  {
   "id": "N1130-rejected",
   "type": "carousel",
-  "publish_at": "2026-11-30T12:30:00+05:30",
-  "caption": "Good business. Loan still rejected? 5 common reasons\n\nA rejection is usually about the file, not the business. Mismatched numbers, high existing EMIs, an unclear purpose, short vintage and bureau issues are the common five. Fix them before the next application.\n\n💬 Comment CHECKLIST and we'll DM you the free credit-pack checklist.\n\n#BusinessLoan #LoanRejected #SMEIndia #CredNest #CreditClarity\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
+  "publish_at": "2026-11-28T19:30:00+05:30",
+  "caption": "Business achha. Phir bhi loan reject? 5 wajah.\n\nRejection aksar business ki nahi, file ki hoti hai: numbers mismatch, purani EMI zyada, purpose saaf nahi, vintage kam, ya bureau issue. Agli application se pehle yeh paanch theek karo. Swipe karo, save karo.\n\n💬 Comment CHECKLIST — free credit-pack checklist DM mein bhejenge.\n\n#LoanRejection #BusinessLoan #MSMELoan #CIBILScore\n\nCredNest is a debt-capital facilitator, not a lender or NBFC. Loan approval and terms are at the lender's sole discretion.",
   "topic": "Good business. Loan still rejected? 5 common reasons",
   "source": "Dec-Jan calendar (Claude, 8 Nov 2026)",
   "media": [
@@ -1694,9 +1694,9 @@
    "media/N1130-rejected/03.jpg",
    "media/N1130-rejected/04.jpg"
   ],
-  "status": "hold",
+  "status": "ready",
   "alt_text": "4-slide carousel on dark: “Good business. Loan still rejected? 5 common reasons”. Slides cover Numbers don't match; Existing EMIs too high; Unclear purpose; Short business vintage; Bureau issues.",
-  "editor_note": "Held 18 Nov: same topic as N08 reel (23 Nov). Reuse in Dec with a Hinglish hook."
+  "editor_note": "Back in 27 Nov: fills 28 Nov after N13 moved to 27 Nov 12:30 (Meta weekly plan: 7 IG posts)."
  },
  {
   "id": "N1201-debtor-days",
@@ -3971,7 +3971,7 @@
  {
   "id": "N13",
   "type": "carousel",
-  "publish_at": "2026-11-28T19:30:00+05:30",
+  "publish_at": "2026-11-27T12:30:00+05:30",
   "media": [
    "media/N13/01.jpg",
    "media/N13/02.jpg",
@@ -4254,7 +4254,7 @@
  {
   "id": "N13-teaser",
   "type": "story",
-  "publish_at": "2026-11-28T19:50:00+05:30",
+  "publish_at": "2026-11-27T12:50:00+05:30",
   "media": [
    "media/N13-teaser/01.jpg"
   ],
@@ -4793,6 +4793,42 @@
   "caption": "",
   "status": "ready",
   "requires": "D08-homeloan-pov",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1130-rejected-teaser",
+  "type": "story",
+  "publish_at": "2026-11-28T19:50:00+05:30",
+  "media": [
+   "media/N1130-rejected-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1130-rejected",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1215-advance-tax-teaser",
+  "type": "story",
+  "publish_at": "2026-12-15T19:50:00+05:30",
+  "media": [
+   "media/N1215-advance-tax-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1215-advance-tax",
+  "source": "auto teaser (scripts/make_teasers.py)"
+ },
+ {
+  "id": "N1217-unsecured-teaser",
+  "type": "story",
+  "publish_at": "2026-12-17T19:50:00+05:30",
+  "media": [
+   "media/N1217-unsecured-teaser/01.jpg"
+  ],
+  "caption": "",
+  "status": "ready",
+  "requires": "N1217-unsecured",
   "source": "auto teaser (scripts/make_teasers.py)"
  }
 ]
