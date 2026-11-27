@@ -76,12 +76,12 @@ def handle_comments(api, cfg, state, my_name, fill, dry):
                 continue
             if kind == "human":
                 inbox(f"Comment needs you (possible complaint) on {m.get('permalink')}")
-            elif kind == "question" and cfg.get("native_keyword_automation"):
+            elif kind in ("question", "keyword") and cfg.get("native_keyword_automation"):
                 try:   # no private DM: needs Meta App Review; point to WhatsApp publicly instead
                     api.call("POST", f"{cid}/replies", message=cfg["question_public_reply"]); rec["reply"] = "sent"
                 except Exception as e:
                     rec["reply"] = f"failed: {str(e)[:200]}"
-                inbox(f"Question comment (replied with WhatsApp link) on {m.get('permalink')}")
+                inbox(f"Lead comment ({kind}, replied with WhatsApp link) on {m.get('permalink')}")
             elif kind in ("keyword", "question"):
                 dm = fill(cfg["private_reply"] if kind == "keyword" else cfg["question_private_reply"])
                 pub = cfg["public_reply"] if kind == "keyword" else cfg["question_public_reply"]

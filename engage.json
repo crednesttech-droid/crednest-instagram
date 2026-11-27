@@ -14,7 +14,17 @@
   "2",
   "3",
   "lc",
-  "bg"
+  "bg",
+  "lap",
+  "cc",
+  "od",
+  "emi",
+  "cibil",
+  "home loan",
+  "business loan",
+  "personal loan",
+  "mortgage",
+  "rate"
  ],
  "lookback_days": 7,
  "max_per_run": 25,
