@@ -46,3 +46,21 @@ jobs:
           print("DMs read (instagram_business_manage_messages):", "OK" if ok_d else f"FAIL {res_d}")
           if ok_d: print("  conversations visible:", len(res_d.get("data", [])))
           PY
+      - name: Comment visibility per recent post (counts only, no names or text)
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.parse
+          tok = os.environ["IG_ACCESS_TOKEN"].strip(); uid = os.environ["IG_USER_ID"].strip()
+          def get(path, **p):
+              p["access_token"] = tok
+              try:
+                  with urllib.request.urlopen(f"https://graph.instagram.com/v23.0/{path}?{urllib.parse.urlencode(p)}", timeout=30) as r:
+                      return json.load(r)
+              except urllib.error.HTTPError as e:
+                  return {"error": e.read().decode()[:200]}
+          media = get(f"{uid}/media", fields="id,timestamp,comments_count,media_type", limit=8).get("data", [])
+          for m in media:
+              c = get(f"{m['id']}/comments", fields="id,timestamp", limit=50)
+              print(m["timestamp"][:16], m["media_type"], "comments_count:", m.get("comments_count"),
+                    "| API comments:", len(c.get("data", [])) if "data" in c else c)
+          PY
